@@ -1,1 +1,1 @@
-{ "timestamp":"2023-08-05T23:32:32Z", "event":"Status", "Flags":153157645, "Flags2":0, "Pips":[2,8,2], "FireGroup":0, "GuiFocus":0, "Fuel":{ "FuelMain":32.000000, "FuelReservoir":0.520000 }, "Cargo":4.000000, "LegalState":"Clean", "Latitude":17.522482, "Longitude":79.778236, "Heading":232, "Altitude":0, "BodyName":"Deciat 6 a", "PlanetRadius":787518.625000, "Balance":745043993, "Destination":{ "System":6681123623626, "Body":25, "Name":"Farseer Inc" } }
+{ "timestamp":"2023-08-06T16:39:46Z", "event":"Status", "Flags":0 }

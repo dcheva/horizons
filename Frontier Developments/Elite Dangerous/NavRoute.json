@@ -1,3 +1,11 @@
-{ "timestamp":"2023-08-05T23:23:50Z", "event":"NavRouteClear", "Route":[ 
-
+{ "timestamp":"2023-08-06T16:29:33Z", "event":"NavRoute", "Route":[ 
+{ "StarSystem":"Wregoe OW-T b4-0", "SystemAddress":676055622697, "StarPos":[392.87500,266.53125,-958.31250], "StarClass":"M" }, 
+{ "StarSystem":"Wregoe EV-Y d4", "SystemAddress":148017039627, "StarPos":[441.84375,229.93750,-982.00000], "StarClass":"N" }, 
+{ "StarSystem":"Outotz AH-C d13-0", "SystemAddress":10578118899, "StarPos":[421.31250,381.18750,-1210.03125], "StarClass":"A" }, 
+{ "StarSystem":"Outotz RB-I c24-0", "SystemAddress":84523946450, "StarPos":[409.12500,379.62500,-1274.37500], "StarClass":"K" }, 
+{ "StarSystem":"Outotz PG-I c24-0", "SystemAddress":84523979218, "StarPos":[378.40625,420.96875,-1303.46875], "StarClass":"K" }, 
+{ "StarSystem":"Outotz JF-K c23-0", "SystemAddress":84524011978, "StarPos":[379.78125,459.21875,-1339.31250], "StarClass":"K" }, 
+{ "StarSystem":"Outotz DE-M c22-0", "SystemAddress":84524044738, "StarPos":[377.93750,495.00000,-1383.28125], "StarClass":"K" }, 
+{ "StarSystem":"Outotz WC-O c21-0", "SystemAddress":84456968634, "StarPos":[348.90625,540.03125,-1421.15625], "StarClass":"TTS" }, 
+{ "StarSystem":"HIP 36601", "SystemAddress":84456968626, "StarPos":[337.81250,562.96875,-1457.84375], "StarClass":"K" }
  ] }

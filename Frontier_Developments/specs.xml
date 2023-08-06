@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>8/5/2023, 21:29:21</Time>
+		<Time>8/6/2023, 17:45:20</Time>
 		<MachineName>DESKTOP-PRK2SPM</MachineName>
 		<MachineId>{AC26E7C5-DAE1-474F-9547-070465F2D311}</MachineId>
 		<OperatingSystem>Windows 10 Корпоративная LTSC 64-bit (10.0, Build 19044) (19041.vb_release.191206-1406)</OperatingSystem>
@@ -13,7 +13,7 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>7583MB used, 12302MB available</PageFile>
+		<PageFile>8508MB used, 11377MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
@@ -1034,7 +1034,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>84211859456</FreeSpace>
+			<FreeSpace>86215561216</FreeSpace>
 			<MaxSpace>500090007552</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -1044,7 +1044,7 @@
 		</LogicalDisk>
 		<LogicalDisk>
 			<DriveLetter>D:</DriveLetter>
-			<FreeSpace>83997712384</FreeSpace>
+			<FreeSpace>88449929216</FreeSpace>
 			<MaxSpace>499447230464</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>TOSHIBA DT01ACA050</Model>
