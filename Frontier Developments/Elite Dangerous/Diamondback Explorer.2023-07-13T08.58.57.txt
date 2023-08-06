@@ -1,0 +1,98 @@
+{
+  "event": "Loadout",
+  "Ship": "diamondbackxl",
+  "ShipID": 4,
+  "ShipIdent": "DE-12D",
+  "Modules": [
+    {
+      "Slot": "ShipCockpit",
+      "Item": "diamondbackxl_cockpit",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "CargoHatch",
+      "Item": "modularcargobaydoor",
+      "On": true,
+      "Priority": 2
+    },
+    {
+      "Slot": "Armour",
+      "Item": "diamondbackxl_armour_grade1",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "PowerPlant",
+      "Item": "int_powerplant_size4_class5",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "MainEngines",
+      "Item": "int_engine_size4_class5",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "FrameShiftDrive",
+      "Item": "int_hyperdrive_size5_class2",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "LifeSupport",
+      "Item": "int_lifesupport_size3_class2",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "PowerDistributor",
+      "Item": "int_powerdistributor_size4_class5",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "Radar",
+      "Item": "int_sensors_size3_class5",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "FuelTank",
+      "Item": "int_fueltank_size5_class3",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Slot01_Size4",
+      "Item": "int_shieldgenerator_size4_class5",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "Slot07_Size1",
+      "Item": "int_supercruiseassist",
+      "On": true,
+      "Priority": 2
+    },
+    {
+      "Slot": "Slot08_Size1",
+      "Item": "int_dockingcomputer_advanced",
+      "On": true,
+      "Priority": 2
+    },
+    {
+      "Slot": "PlanetaryApproachSuite",
+      "Item": "int_planetapproachsuite_advanced",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "VesselVoice",
+      "Item": "voicepack_verity",
+      "On": true,
+      "Priority": 1
+    }
+  ]
+}

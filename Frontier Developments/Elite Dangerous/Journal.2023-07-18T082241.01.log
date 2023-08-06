@@ -1,0 +1,567 @@
+{ "timestamp":"2023-07-18T05:22:34Z", "event":"Fileheader", "part":1, "language":"Russian/RU", "Odyssey":true, "gameversion":"4.0.0.1502", "build":"r294054/r0 " }
+{ "timestamp":"2023-07-18T05:23:21Z", "event":"Commander", "FID":"F5726016", "Name":"DEE.COVAN" }
+{ "timestamp":"2023-07-18T05:23:21Z", "event":"Materials", "Raw":[ { "Name":"sulphur", "Name_Localised":"Сера", "Count":33 }, { "Name":"carbon", "Name_Localised":"Углерод", "Count":24 }, { "Name":"chromium", "Name_Localised":"Хром", "Count":12 }, { "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":27 }, { "Name":"nickel", "Name_Localised":"Никель", "Count":45 }, { "Name":"vanadium", "Name_Localised":"Ванадий", "Count":9 }, { "Name":"niobium", "Name_Localised":"Ниобий", "Count":12 }, { "Name":"iron", "Name_Localised":"Железо", "Count":78 }, { "Name":"cadmium", "Name_Localised":"Кадмий", "Count":18 }, { "Name":"technetium", "Name_Localised":"Технеций", "Count":3 }, { "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }, { "Name":"germanium", "Name_Localised":"Германий", "Count":30 }, { "Name":"selenium", "Name_Localised":"Селен", "Count":9 }, { "Name":"tungsten", "Name_Localised":"Вольфрам", "Count":3 } ], "Manufactured":[ { "Name":"shieldemitters", "Name_Localised":"Щитоизлучатели", "Count":129 }, { "Name":"mechanicalcomponents", "Name_Localised":"Механические компоненты", "Count":3 }, { "Name":"mechanicalequipment", "Name_Localised":"Механическое оборудование", "Count":3 }, { "Name":"highdensitycomposites", "Name_Localised":"Высокоплотностные композиты", "Count":15 }, { "Name":"protoheatradiators", "Name_Localised":"Прототипы теплоизлучателей", "Count":12 }, { "Name":"protolightalloys", "Name_Localised":"Опытные легкие сплавы", "Count":18 }, { "Name":"protoradiolicalloys", "Name_Localised":"Сплавы для изготовления зондов", "Count":3 }, { "Name":"wornshieldemitters", "Name_Localised":"Изношенные щитоизлучатели", "Count":48 }, { "Name":"uncutfocuscrystals", "Name_Localised":"Поврежденные фокусировочные кристаллы", "Count":42 }, { "Name":"phasealloys", "Name_Localised":"Фазовые сплавы", "Count":87 }, { "Name":"galvanisingalloys", "Name_Localised":"Сплавы для гальванизации", "Count":60 }, { "Name":"crystalshards", "Name_Localised":"Осколки кристаллов", "Count":48 }, { "Name":"temperedalloys", "Name_Localised":"Закаленные сплавы", "Count":15 }, { "Name":"compactcomposites", "Name_Localised":"Спрессованные композиты", "Count":24 }, { "Name":"chemicalprocessors", "Name_Localised":"Оборудование для химобработки", "Count":27 }, { "Name":"filamentcomposites", "Name_Localised":"Волокнистые композиты", "Count":18 }, { "Name":"heatresistantceramics", "Name_Localised":"Жаропрочная керамика", "Count":24 }, { "Name":"shieldingsensors", "Name_Localised":"Сенсоры системы экранирования", "Count":93 }, { "Name":"salvagedalloys", "Name_Localised":"Захваченные сплавы", "Count":39 }, { "Name":"compoundshielding", "Name_Localised":"Многоступенчатая защита", "Count":30 }, { "Name":"focuscrystals", "Name_Localised":"Фокусировочные кристаллы", "Count":27 }, { "Name":"precipitatedalloys", "Name_Localised":"Осажденные сплавы", "Count":21 }, { "Name":"chemicaldistillery", "Name_Localised":"Оборудование для перегонки химикатов", "Count":12 }, { "Name":"thermicalloys", "Name_Localised":"Термические сплавы", "Count":3 }, { "Name":"refinedfocuscrystals", "Name_Localised":"Обработанные фокусировочные кристаллы", "Count":6 } ], "Encoded":[ { "Name":"shieldcyclerecordings", "Name_Localised":"Поврежденные цикличные записи щита", "Count":126 }, { "Name":"emissiondata", "Name_Localised":"Неожиданные данные об излучении", "Count":27 }, { "Name":"shielddensityreports", "Name_Localised":"Нетипичные данные сканирования щитов", "Count":69 }, { "Name":"decodedemissiondata", "Name_Localised":"Расшифрованные данные об излучении", "Count":18 }, { "Name":"archivedemissiondata", "Name_Localised":"Нестандартные данные об излучении", "Count":3 }, { "Name":"shieldfrequencydata", "Name_Localised":"Специфические данные о частоте щитов", "Count":18 }, { "Name":"shieldsoakanalysis", "Name_Localised":"Неполный анализ поглощения щита", "Count":51 }, { "Name":"bulkscandata", "Name_Localised":"Аномальный массив данных сканирования", "Count":72 }, { "Name":"scandatabanks", "Name_Localised":"Засекреченные базы данных сканирования", "Count":99 }, { "Name":"encryptioncodes", "Name_Localised":"Меченые шифровальные коды", "Count":39 }, { "Name":"securityfirmware", "Name_Localised":"Обновление для защитной микропрограммы", "Count":48 }, { "Name":"encryptedfiles", "Name_Localised":"Особые зашифрованные файлы", "Count":144 }, { "Name":"encodedscandata", "Name_Localised":"Неформатные данные сканирования", "Count":48 }, { "Name":"industrialfirmware", "Name_Localised":"Взломанные промышленные микропрограммы", "Count":48 }, { "Name":"scanarchives", "Name_Localised":"Неопознанные архивы сканирования", "Count":60 }, { "Name":"classifiedscandata", "Name_Localised":"Засекреченные фрагменты данных сканирования", "Count":51 }, { "Name":"shieldpatternanalysis", "Name_Localised":"Анализ аномального поведения щита", "Count":30 }, { "Name":"embeddedfirmware", "Name_Localised":"Измененные встроенные микропрограммы", "Count":78 }, { "Name":"symmetrickeys", "Name_Localised":"Открытые симметричные ключи", "Count":57 } ] }
+{ "timestamp":"2023-07-18T05:23:21Z", "event":"Rank", "Combat":2, "Trade":4, "Explore":5, "Soldier":0, "Exobiologist":0, "Empire":0, "Federation":1, "CQC":0 }
+{ "timestamp":"2023-07-18T05:23:21Z", "event":"Progress", "Combat":44, "Trade":3, "Explore":11, "Soldier":0, "Exobiologist":0, "Empire":0, "Federation":80, "CQC":0 }
+{ "timestamp":"2023-07-18T05:23:21Z", "event":"Reputation", "Empire":0.870525, "Federation":36.601700, "Independent":0.000000, "Alliance":0.000000 }
+{ "timestamp":"2023-07-18T05:23:21Z", "event":"EngineerProgress", "Engineers":[ { "Engineer":"Felicity Farseer", "EngineerID":300100, "Progress":"Unlocked", "RankProgress":0, "Rank":2 }, { "Engineer":"Eleanor Bresa", "EngineerID":400011, "Progress":"Known" }, { "Engineer":"Hero Ferrari", "EngineerID":400003, "Progress":"Known" }, { "Engineer":"Jude Navarro", "EngineerID":400001, "Progress":"Known" }, { "Engineer":"Liz Ryder", "EngineerID":300080, "Progress":"Known" }, { "Engineer":"Rosa Dayette", "EngineerID":400012, "Progress":"Known" }, { "Engineer":"Baltanos", "EngineerID":400010, "Progress":"Known" }, { "Engineer":"The Dweller", "EngineerID":300180, "Progress":"Unlocked", "RankProgress":0, "Rank":1 }, { "Engineer":"Elvira Martuuk", "EngineerID":300160, "Progress":"Unlocked", "RankProgress":56, "Rank":2 }, { "Engineer":"Tod 'The Blaster' McQuinn", "EngineerID":300260, "Progress":"Unlocked", "RankProgress":0, "Rank":1 }, { "Engineer":"Domino Green", "EngineerID":400002, "Progress":"Known" } ] }
+{ "timestamp":"2023-07-18T05:23:21Z", "event":"LoadGame", "FID":"F5726016", "Commander":"DEE.COVAN", "Horizons":true, "Odyssey":true, "Ship":"DiamondBackXL", "Ship_Localised":"Diamondback Explorer", "ShipID":4, "ShipName":"", "ShipIdent":"", "FuelLevel":31.480000, "FuelCapacity":32.000000, "StartLanded":true, "GameMode":"Solo", "Credits":1042395, "Loan":0, "language":"Russian/RU", "gameversion":"4.0.0.1502", "build":"r294054/r0 " }
+{ "timestamp":"2023-07-18T05:23:23Z", "event":"Statistics", "Bank_Account":{ "Current_Wealth":31183754, "Spent_On_Ships":2289278, "Spent_On_Outfitting":26566407, "Spent_On_Repairs":70445, "Spent_On_Fuel":9772, "Spent_On_Ammo_Consumables":35540, "Insurance_Claims":3, "Spent_On_Insurance":472352, "Owned_Ship_Count":3, "Spent_On_Suits":1050000, "Spent_On_Weapons":2625000, "Spent_On_Suit_Consumables":0, "Suits_Owned":4, "Weapons_Owned":11, "Spent_On_Premium_Stock":2375000, "Premium_Stock_Bought":4 }, "Combat":{ "Bounties_Claimed":85, "Bounty_Hunting_Profit":18102771, "Combat_Bonds":0, "Combat_Bond_Profits":0, "Assassinations":0, "Assassination_Profits":0, "Highest_Single_Reward":660372, "Skimmers_Killed":6, "OnFoot_Combat_Bonds":0, "OnFoot_Combat_Bonds_Profits":0, "OnFoot_Vehicles_Destroyed":0, "OnFoot_Ships_Destroyed":0, "Dropships_Taken":0, "Dropships_Booked":0, "Dropships_Cancelled":0, "ConflictZone_High":0, "ConflictZone_Medium":0, "ConflictZone_Low":0, "ConflictZone_Total":0, "ConflictZone_High_Wins":0, "ConflictZone_Medium_Wins":0, "ConflictZone_Low_Wins":0, "ConflictZone_Total_Wins":0, "Settlement_Defended":0, "Settlement_Conquered":0, "OnFoot_Skimmers_Killed":0, "OnFoot_Scavs_Killed":0 }, "Crime":{ "Notoriety":0, "Fines":4, "Total_Fines":550, "Bounties_Received":8, "Total_Bounties":7300, "Highest_Bounty":5000, "Malware_Uploaded":0, "Settlements_State_Shutdown":0, "Production_Sabotage":0, "Production_Theft":0, "Total_Murders":0, "Citizens_Murdered":0, "Omnipol_Murdered":0, "Guards_Murdered":0, "Data_Stolen":0, "Goods_Stolen":0, "Sample_Stolen":0, "Total_Stolen":0, "Turrets_Destroyed":0, "Turrets_Overloaded":0, "Turrets_Total":0, "Value_Stolen_StateChange":0, "Profiles_Cloned":0 }, "Smuggling":{ "Black_Markets_Traded_With":1, "Black_Markets_Profits":1047, "Resources_Smuggled":2, "Average_Profit":523.5, "Highest_Single_Transaction":930 }, "Trading":{ "Markets_Traded_With":7, "Market_Profits":671718, "Resources_Traded":76, "Average_Profit":30532.636363636, "Highest_Single_Transaction":90192, "Data_Sold":0, "Goods_Sold":0, "Assets_Sold":0 }, "Mining":{ "Mining_Profits":0, "Quantity_Mined":0, "Materials_Collected":2202 }, "Exploration":{ "Systems_Visited":111, "Exploration_Profits":12557699, "Planets_Scanned_To_Level_2":396, "Planets_Scanned_To_Level_3":396, "Efficient_Scans":14, "Highest_Payout":2929303, "Total_Hyperspace_Distance":2164, "Total_Hyperspace_Jumps":129, "Greatest_Distance_From_Start":261.61121298181, "Time_Played":6869460, "OnFoot_Distance_Travelled":265, "Shuttle_Journeys":0, "Shuttle_Distance_Travelled":0, "Spent_On_Shuttles":0, "First_Footfalls":0, "Planet_Footfalls":1, "Settlements_Visited":1 }, "Passengers":{ "Passengers_Missions_Bulk":0, "Passengers_Missions_VIP":0, "Passengers_Missions_Delivered":0, "Passengers_Missions_Ejected":0 }, "Search_And_Rescue":{ "SearchRescue_Traded":27, "SearchRescue_Profit":671666, "SearchRescue_Count":17, "Salvage_Legal_POI":0, "Salvage_Legal_Settlements":0, "Salvage_Illegal_POI":0, "Salvage_Illegal_Settlements":0, "Maglocks_Opened":0, "Panels_Opened":0, "Settlements_State_FireOut":0, "Settlements_State_Reboot":0 }, "Crafting":{ "Count_Of_Used_Engineers":1, "Recipes_Generated":3, "Recipes_Generated_Rank_1":3, "Recipes_Generated_Rank_2":0, "Recipes_Generated_Rank_3":0, "Recipes_Generated_Rank_4":0, "Recipes_Generated_Rank_5":0, "Suit_Mods_Applied":0, "Weapon_Mods_Applied":0, "Suits_Upgraded":0, "Weapons_Upgraded":0, "Suits_Upgraded_Full":0, "Weapons_Upgraded_Full":0, "Suit_Mods_Applied_Full":0, "Weapon_Mods_Applied_Full":0 }, "Crew":{ "NpcCrew_TotalWages":0, "NpcCrew_Hired":0, "NpcCrew_Fired":0, "NpcCrew_Died":0 }, "Multicrew":{ "Multicrew_Time_Total":0, "Multicrew_Gunner_Time_Total":0, "Multicrew_Fighter_Time_Total":0, "Multicrew_Credits_Total":0, "Multicrew_Fines_Total":0 }, "Material_Trader_Stats":{ "Trades_Completed":0, "Materials_Traded":0, "Assets_Traded_In":0, "Assets_Traded_Out":0 }, "Exobiology":{ "Organic_Genus_Encountered":0, "Organic_Species_Encountered":0, "Organic_Variant_Encountered":0, "Organic_Data_Profits":0, "Organic_Data":0, "First_Logged_Profits":0, "First_Logged":0, "Organic_Systems":0, "Organic_Planets":0, "Organic_Genus":0, "Organic_Species":0 } }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"ReceiveText", "From":"", "Message":"$COMMS_entered:#name=Krinda;", "Message_Localised":"Включенный канал: Krinda", "Channel":"npc" }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"FSSSignalDiscovered", "SystemAddress":8329921303242, "SignalName":"Strategic Energy Solutions" }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"FSSSignalDiscovered", "SystemAddress":8329921303242, "SignalName":"Xiaoguan Station", "IsStation":true }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"FSSSignalDiscovered", "SystemAddress":8329921303242, "SignalName":"Regent's Centre" }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"FSSSignalDiscovered", "SystemAddress":8329921303242, "SignalName":"$MULTIPLAYER_SCENARIO42_TITLE;", "SignalName_Localised":"Нав. маяк" }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"FSSSignalDiscovered", "SystemAddress":8329921303242, "SignalName":"Crooked Valley Meadows" }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"Location", "Latitude":53.008949, "Longitude":66.730850, "DistFromStarLS":176.233867, "Docked":false, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "StarPos":[-150.93750,-0.84375,-51.18750], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Industrial;", "SystemEconomy_Localised":"Промышленность", "SystemSecondEconomy":"$economy_Refinery;", "SystemSecondEconomy_Localised":"Переработка", "SystemGovernment":"$government_Cooperative;", "SystemGovernment_Localised":"Кооперация", "SystemSecurity":"$SYSTEM_SECURITY_high;", "SystemSecurity_Localised":"Высок. ур. безопасности", "Population":13699977, "Body":"Krinda B 2", "BodyID":14, "BodyType":"Planet", "Factions":[ { "Name":"Sawahinn Solutions", "FactionState":"None", "Government":"Corporate", "Influence":0.069444, "Allegiance":"Federation", "Happiness":"$Faction_HappinessBand2;", "Happiness_Localised":"Счастье", "MyReputation":0.000000 }, { "Name":"Workers of Krinda Future", "FactionState":"None", "Government":"Democracy", "Influence":0.061508, "Allegiance":"Federation", "Happiness":"$Faction_HappinessBand2;", "Happiness_Localised":"Счастье", "MyReputation":0.000000 }, { "Name":"Krinda Defence Party", "FactionState":"None", "Government":"Dictatorship", "Influence":0.052579, "Allegiance":"Independent", "Happiness":"$Faction_HappinessBand2;", "Happiness_Localised":"Счастье", "MyReputation":0.000000 }, { "Name":"Krinda Purple Public Network", "FactionState":"None", "Government":"Corporate", "Influence":0.036706, "Allegiance":"Independent", "Happiness":"$Faction_HappinessBand2;", "Happiness_Localised":"Счастье", "MyReputation":0.000000 }, { "Name":"Krinda First", "FactionState":"None", "Government":"Dictatorship", "Influence":0.041667, "Allegiance":"Independent", "Happiness":"$Faction_HappinessBand2;", "Happiness_Localised":"Счастье", "MyReputation":0.000000 }, { "Name":"Canonn", "FactionState":"Expansion", "Government":"Cooperative", "Influence":0.710317, "Allegiance":"Independent", "Happiness":"$Faction_HappinessBand2;", "Happiness_Localised":"Счастье", "MyReputation":0.000000, "ActiveStates":[ { "State":"Expansion" } ] }, { "Name":"Krinda Cartel", "FactionState":"None", "Government":"Anarchy", "Influence":0.027778, "Allegiance":"Independent", "Happiness":"$Faction_HappinessBand2;", "Happiness_Localised":"Счастье", "MyReputation":0.000000 } ], "SystemFaction":{ "Name":"Canonn", "FactionState":"Expansion" } }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"Missions", "Active":[  ], "Failed":[  ], "Complete":[  ] }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"SAASignalsFound", "BodyName":"Krinda B 2", "SystemAddress":8329921303242, "BodyID":14, "Signals":[ { "Type":"$SAA_SignalType_Geological;", "Type_Localised":"Геологический", "Count":3 } ], "Genuses":[  ] }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"Loadout", "Ship":"diamondbackxl", "ShipID":4, "ShipName":" ", "ShipIdent":"DE-12D", "HullValue":1894760, "ModulesValue":13879295, "HullHealth":1.000000, "UnladenMass":359.799988, "CargoCapacity":12, "MaxJumpRange":33.762608, "FuelCapacity":{ "Main":32.000000, "Reserve":0.520000 }, "Rebuy":788704, "Modules":[ { "Slot":"LargeHardpoint1", "Item":"hpt_cannon_gimbal_large", "On":true, "Priority":0, "AmmoInClip":5, "AmmoInHopper":100, "Health":1.000000, "Value":1147840 }, { "Slot":"MediumHardpoint1", "Item":"hpt_pulselaserburst_fixed_medium", "On":true, "Priority":0, "Health":1.000000, "Value":23000 }, { "Slot":"MediumHardpoint2", "Item":"hpt_pulselaserburst_fixed_medium", "On":true, "Priority":0, "Health":1.000000, "Value":23000 }, { "Slot":"TinyHardpoint1", "Item":"hpt_plasmapointdefence_turret_tiny", "On":true, "Priority":0, "AmmoInClip":12, "AmmoInHopper":10000, "Health":1.000000, "Value":15765 }, { "Slot":"TinyHardpoint2", "Item":"hpt_chafflauncher_tiny", "On":true, "Priority":0, "AmmoInClip":1, "AmmoInHopper":10, "Health":1.000000, "Value":7225 }, { "Slot":"TinyHardpoint3", "Item":"hpt_shieldbooster_size0_class5", "On":true, "Priority":2, "Health":1.000000, "Value":238850 }, { "Slot":"TinyHardpoint4", "Item":"hpt_shieldbooster_size0_class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850 }, { "Slot":"PaintJob", "Item":"paintjob_diamondbackxl_vibrant_yellow", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Armour", "Item":"diamondbackxl_armour_grade1", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"PowerPlant", "Item":"int_powerplant_size4_class5", "On":true, "Priority":1, "Health":1.000000, "Value":1441233 }, { "Slot":"MainEngines", "Item":"int_engine_size4_class5", "On":false, "Priority":0, "Health":1.000000, "Value":1610080, "Engineering":{ "Engineer":"Felicity Farseer", "EngineerID":300100, "BlueprintID":128673655, "BlueprintName":"Engine_Dirty", "Level":1, "Quality":0.798600, "Modifiers":[ { "Label":"Integrity", "Value":85.360001, "OriginalValue":88.000000, "LessIsGood":0 }, { "Label":"PowerDraw", "Value":5.116800, "OriginalValue":4.920000, "LessIsGood":1 }, { "Label":"EngineOptimalMass", "Value":409.500000, "OriginalValue":420.000000, "LessIsGood":0 }, { "Label":"EngineOptPerformance", "Value":110.590004, "OriginalValue":100.000000, "LessIsGood":0 }, { "Label":"EngineHeatRate", "Value":1.560000, "OriginalValue":1.300000, "LessIsGood":1 } ] } }, { "Slot":"FrameShiftDrive", "Item":"int_hyperdrive_size5_class5", "On":true, "Priority":3, "Health":1.000000, "Value":4338361 }, { "Slot":"LifeSupport", "Item":"int_lifesupport_size3_class2", "On":true, "Priority":0, "Health":1.000000, "Value":10133 }, { "Slot":"PowerDistributor", "Item":"int_powerdistributor_size4_class5", "On":true, "Priority":0, "Health":1.000000, "Value":443328 }, { "Slot":"Radar", "Item":"int_sensors_size3_class2", "On":true, "Priority":0, "Health":1.000000, "Value":8614 }, { "Slot":"FuelTank", "Item":"int_fueltank_size5_class3", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Slot01_Size4", "Item":"int_shieldgenerator_size4_class5", "On":true, "Priority":0, "Health":1.000000, "Value":1610080 }, { "Slot":"Slot02_Size4", "Item":"int_fuelscoop_size4_class5", "On":true, "Priority":4, "Health":1.000000, "Value":2433010 }, { "Slot":"Slot03_Size3", "Item":"int_multidronecontrol_operations_size3_class3", "On":true, "Priority":2, "Health":1.000000, "Value":42500 }, { "Slot":"Slot04_Size3", "Item":"int_cargorack_size3_class1", "On":true, "Priority":1, "Health":1.000000, "Value":10563 }, { "Slot":"Slot05_Size2", "Item":"int_cargorack_size2_class1", "On":true, "Priority":1, "Health":1.000000, "Value":2763 }, { "Slot":"Slot06_Size2", "Item":"int_buggybay_size2_class2", "On":true, "Priority":1, "Health":1.000000, "Value":21600 }, { "Slot":"Slot07_Size1", "Item":"int_detailedsurfacescanner_tiny", "On":true, "Priority":0, "Health":1.000000, "Value":212500 }, { "Slot":"Slot08_Size1", "Item":"int_dockingcomputer_advanced", "On":true, "Priority":2, "Health":1.000000 }, { "Slot":"PlanetaryApproachSuite", "Item":"int_planetapproachsuite_advanced", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble03", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble04", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble07", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble08", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"VesselVoice", "Item":"voicepack_verity", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"ShipCockpit", "Item":"diamondbackxl_cockpit", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"CargoHatch", "Item":"modularcargobaydoor", "On":true, "Priority":4, "Health":1.000000 } ] }
+{ "timestamp":"2023-07-18T05:23:31Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2023-07-18T05:23:34Z", "event":"Cargo", "Vessel":"Ship", "Count":8, "Inventory":[ { "Name":"taaffeite", "Name_Localised":"Тааффеит", "Count":1, "Stolen":0 }, { "Name":"palladium", "Name_Localised":"Палладий", "Count":2, "Stolen":0 }, { "Name":"occupiedcryopod", "Name_Localised":"Спасательная капсула с пассажиром", "Count":1, "Stolen":0 }, { "Name":"drones", "Name_Localised":"Дрон", "Count":4, "Stolen":0 } ] }
+{ "timestamp":"2023-07-18T05:23:44Z", "event":"Liftoff", "PlayerControlled":true, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 2", "BodyID":14, "OnStation":false, "OnPlanet":true, "Latitude":53.008949, "Longitude":66.730850 }
+{ "timestamp":"2023-07-18T05:23:56Z", "event":"Touchdown", "PlayerControlled":true, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 2", "BodyID":14, "OnStation":false, "OnPlanet":true, "Latitude":53.008995, "Longitude":66.730812 }
+{ "timestamp":"2023-07-18T05:24:42Z", "event":"Liftoff", "PlayerControlled":true, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 2", "BodyID":14, "OnStation":false, "OnPlanet":true, "Latitude":53.008995, "Longitude":66.730812 }
+{ "timestamp":"2023-07-18T05:26:26Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2023-07-18T05:28:04Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2023-07-18T05:28:24Z", "event":"StartJump", "JumpType":"Supercruise", "Taxi":false }
+{ "timestamp":"2023-07-18T05:28:29Z", "event":"SupercruiseEntry", "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242 }
+{ "timestamp":"2023-07-18T05:28:29Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T05:28:29Z", "event":"ApproachBody", "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 2", "BodyID":14 }
+{ "timestamp":"2023-07-18T05:28:29Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2023-07-18T05:28:41Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Mike Perkins;", "From_Localised":"Mike Perkins", "Message":"$Pirate_HunterHostileSC_Relevant01;", "Message_Localised":"О, именно этот корабль с огромным грузовым отсеком я и ищу...", "Channel":"npc" }
+{ "timestamp":"2023-07-18T05:29:19Z", "event":"LeaveBody", "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 2", "BodyID":14 }
+{ "timestamp":"2023-07-18T05:29:47Z", "event":"ReceiveText", "From":"$ShipName_PassengerLiner_Cruise;", "From_Localised":"Круизное судно", "Message":"$CruiseLiner_SCPatrol05;", "Message_Localised":"Говорит капитан. Из-за непредвиденных задержек мы прибываем в очередную точку назначения позднее запланированного.", "Channel":"npc" }
+{ "timestamp":"2023-07-18T05:30:03Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Mike Perkins;", "From_Localised":"Mike Perkins", "Message":"$Pirate_StartInterdiction05;", "Message_Localised":"У тебя есть то, что нужно мне.", "Channel":"npc" }
+{ "timestamp":"2023-07-18T05:30:28Z", "event":"EscapeInterdiction", "Interdictor":"Mike Perkins", "IsPlayer":false }
+{ "timestamp":"2023-07-18T05:30:36Z", "event":"ReceiveText", "From":"$ShipName_PassengerLiner_Cruise;", "From_Localised":"Круизное судно", "Message":"$CruiseLiner_SCPatrol03;", "Message_Localised":"В ходе сегодняшнего круиза вы увидите восхитительные пейзажи, а наши стюарды подробно расскажут вам обо всем.", "Channel":"npc" }
+{ "timestamp":"2023-07-18T05:30:44Z", "event":"SAASignalsFound", "BodyName":"Krinda B 1", "SystemAddress":8329921303242, "BodyID":13, "Signals":[ { "Type":"$SAA_SignalType_Geological;", "Type_Localised":"Геологический", "Count":3 } ], "Genuses":[  ] }
+{ "timestamp":"2023-07-18T05:31:56Z", "event":"Music", "MusicTrack":"SystemAndSurfaceScanner" }
+{ "timestamp":"2023-07-18T05:32:35Z", "event":"SAAScanComplete", "BodyName":"Krinda B 3", "SystemAddress":8329921303242, "BodyID":16, "ProbesUsed":4, "EfficiencyTarget":4 }
+{ "timestamp":"2023-07-18T05:32:35Z", "event":"SAASignalsFound", "BodyName":"Krinda B 3", "SystemAddress":8329921303242, "BodyID":16, "Signals":[ { "Type":"$SAA_SignalType_Human;", "Type_Localised":"Люди", "Count":1 } ], "Genuses":[  ] }
+{ "timestamp":"2023-07-18T05:32:35Z", "event":"ScanBaryCentre", "StarSystem":"Krinda", "SystemAddress":8329921303242, "BodyID":1, "SemiMajorAxis":229830056428.909302, "Eccentricity":0.194673, "OrbitalInclination":22.353707, "Periapsis":149.396789, "OrbitalPeriod":134768581.390381, "AscendingNode":-146.024267, "MeanAnomaly":116.320183 }
+{ "timestamp":"2023-07-18T05:32:35Z", "event":"Scan", "ScanType":"Detailed", "BodyName":"Krinda B 3", "BodyID":16, "Parents":[ {"Star":3}, {"Null":1}, {"Null":0} ], "StarSystem":"Krinda", "SystemAddress":8329921303242, "DistanceFromArrivalLS":161.953106, "TidalLock":true, "TerraformState":"", "PlanetClass":"High metal content body", "Atmosphere":"", "AtmosphereType":"None", "Volcanism":"", "MassEM":0.018183, "Radius":1716567.000000, "SurfaceGravity":2.459510, "SurfaceTemperature":741.184937, "SurfacePressure":0.000000, "Landable":true, "Materials":[ { "Name":"iron", "Name_Localised":"Железо", "Percent":23.717037 }, { "Name":"nickel", "Name_Localised":"Никель", "Percent":17.938570 }, { "Name":"sulphur", "Name_Localised":"Сера", "Percent":16.936754 }, { "Name":"carbon", "Name_Localised":"Углерод", "Percent":14.242056 }, { "Name":"phosphorus", "Name_Localised":"Фосфор", "Percent":9.118009 }, { "Name":"zinc", "Name_Localised":"Цинк", "Percent":6.445403 }, { "Name":"germanium", "Name_Localised":"Германий", "Percent":5.013731 }, { "Name":"selenium", "Name_Localised":"Селен", "Percent":2.650745 }, { "Name":"cadmium", "Name_Localised":"Кадмий", "Percent":1.841735 }, { "Name":"antimony", "Name_Localised":"Сурьма", "Percent":1.060275 }, { "Name":"mercury", "Name_Localised":"Ртуть", "Percent":1.035684 } ], "Composition":{ "Ice":0.000000, "Rock":0.670324, "Metal":0.329676 }, "SemiMajorAxis":3761611938.476563, "Eccentricity":0.000109, "OrbitalInclination":-0.038164, "Periapsis":279.874962, "OrbitalPeriod":257747.560740, "AscendingNode":126.467110, "MeanAnomaly":230.736915, "RotationPeriod":257747.685120, "AxialTilt":-0.838702, "WasDiscovered":false, "WasMapped":true }
+{ "timestamp":"2023-07-18T05:32:42Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2023-07-18T05:32:50Z", "event":"Music", "MusicTrack":"SystemAndSurfaceScanner" }
+{ "timestamp":"2023-07-18T05:33:26Z", "event":"SAAScanComplete", "BodyName":"Krinda B 3 a", "SystemAddress":8329921303242, "BodyID":17, "ProbesUsed":2, "EfficiencyTarget":2 }
+{ "timestamp":"2023-07-18T05:33:26Z", "event":"SAASignalsFound", "BodyName":"Krinda B 3 a", "SystemAddress":8329921303242, "BodyID":17, "Signals":[ { "Type":"$SAA_SignalType_Geological;", "Type_Localised":"Геологический", "Count":3 } ], "Genuses":[  ] }
+{ "timestamp":"2023-07-18T05:33:27Z", "event":"Scan", "ScanType":"Detailed", "BodyName":"Krinda B 3 a", "BodyID":17, "Parents":[ {"Planet":16}, {"Star":3}, {"Null":1}, {"Null":0} ], "StarSystem":"Krinda", "SystemAddress":8329921303242, "DistanceFromArrivalLS":161.974360, "TidalLock":true, "TerraformState":"", "PlanetClass":"Rocky body", "Atmosphere":"", "AtmosphereType":"None", "Volcanism":"major silicate vapour geysers volcanism", "MassEM":0.000553, "Radius":571538.687500, "SurfaceGravity":0.674989, "SurfaceTemperature":741.184937, "SurfacePressure":0.000000, "Landable":true, "Materials":[ { "Name":"iron", "Name_Localised":"Железо", "Percent":19.672695 }, { "Name":"sulphur", "Name_Localised":"Сера", "Percent":17.808025 }, { "Name":"carbon", "Name_Localised":"Углерод", "Percent":14.974706 }, { "Name":"nickel", "Name_Localised":"Никель", "Percent":14.879602 }, { "Name":"phosphorus", "Name_Localised":"Фосфор", "Percent":9.587064 }, { "Name":"chromium", "Name_Localised":"Хром", "Percent":8.847465 }, { "Name":"manganese", "Name_Localised":"Марганец", "Percent":8.124622 }, { "Name":"selenium", "Name_Localised":"Селен", "Percent":2.787107 }, { "Name":"molybdenum", "Name_Localised":"Молибден", "Percent":1.284616 }, { "Name":"yttrium", "Name_Localised":"Иттрий", "Percent":1.175027 }, { "Name":"mercury", "Name_Localised":"Ртуть", "Percent":0.859074 } ], "Composition":{ "Ice":0.000000, "Rock":0.863376, "Metal":0.136624 }, "SemiMajorAxis":4321610.987186, "Eccentricity":0.000000, "OrbitalInclination":88.134900, "Periapsis":260.633988, "OrbitalPeriod":20656.207800, "AscendingNode":162.690701, "MeanAnomaly":49.095444, "RotationPeriod":20968.079148, "AxialTilt":0.134204, "WasDiscovered":false, "WasMapped":true }
+{ "timestamp":"2023-07-18T05:33:44Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2023-07-18T05:34:00Z", "event":"ApproachBody", "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17 }
+{ "timestamp":"2023-07-18T05:34:16Z", "event":"SupercruiseExit", "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "BodyType":"Planet" }
+{ "timestamp":"2023-07-18T05:34:16Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T05:34:16Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2023-07-18T05:35:15Z", "event":"StartJump", "JumpType":"Supercruise", "Taxi":false }
+{ "timestamp":"2023-07-18T05:35:20Z", "event":"SupercruiseEntry", "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242 }
+{ "timestamp":"2023-07-18T05:35:20Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T05:35:20Z", "event":"ApproachBody", "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17 }
+{ "timestamp":"2023-07-18T05:35:20Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2023-07-18T05:35:51Z", "event":"SupercruiseExit", "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "BodyType":"Planet" }
+{ "timestamp":"2023-07-18T05:35:51Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T05:35:51Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2023-07-18T05:37:17Z", "event":"ReservoirReplenished", "FuelMain":30.959999, "FuelReservoir":0.520000 }
+{ "timestamp":"2023-07-18T05:37:31Z", "event":"Touchdown", "PlayerControlled":true, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-64.201248, "Longitude":116.630096 }
+{ "timestamp":"2023-07-18T05:38:35Z", "event":"LaunchSRV", "SRVType":"testbuggy", "SRVType_Localised":"ТРП «Скарабей»", "Loadout":"starter", "ID":5, "PlayerControlled":true }
+{ "timestamp":"2023-07-18T05:38:38Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T05:38:41Z", "event":"Cargo", "Vessel":"SRV", "Count":0 }
+{ "timestamp":"2023-07-18T05:39:38Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:39:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T05:39:51Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:39:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T05:39:57Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:39:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T05:40:10Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:40:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T05:40:13Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:40:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Name_Localised":"Селен", "Count":3 }
+{ "timestamp":"2023-07-18T05:41:50Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:41:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T05:46:07Z", "event":"ModuleInfo" }
+{ "timestamp":"2023-07-18T05:46:26Z", "event":"Synthesis", "Name":"Fuel Basic", "Materials":[ { "Name":"sulphur", "Name_Localised":"Сера", "Count":1 }, { "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":1 } ] }
+{ "timestamp":"2023-07-18T05:46:26Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:47:52Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:47:52Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"molybdenum", "Name_Localised":"Молибден", "DiscoveryNumber":15 }
+{ "timestamp":"2023-07-18T05:47:52Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Name_Localised":"Молибден", "Count":3 }
+{ "timestamp":"2023-07-18T05:48:12Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:48:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T05:49:39Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:49:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T05:50:13Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:50:13Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "DiscoveryNumber":16 }
+{ "timestamp":"2023-07-18T05:50:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T05:50:43Z", "event":"Liftoff", "PlayerControlled":false, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-64.202278, "Longitude":116.628952 }
+{ "timestamp":"2023-07-18T05:51:13Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:51:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T05:51:21Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:51:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T05:51:30Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:51:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Name_Localised":"Селен", "Count":3 }
+{ "timestamp":"2023-07-18T05:51:33Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:51:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T05:51:57Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:51:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T05:52:14Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:52:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T05:52:26Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:52:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T05:52:30Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:52:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T05:53:24Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:53:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Name_Localised":"Селен", "Count":3 }
+{ "timestamp":"2023-07-18T05:53:38Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:53:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T05:53:43Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:53:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Name_Localised":"Селен", "Count":3 }
+{ "timestamp":"2023-07-18T05:53:45Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:53:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T05:53:52Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:53:52Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T05:54:41Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:54:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T05:57:05Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:57:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T05:57:17Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:57:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T05:57:22Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:57:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T05:57:28Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:57:28Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T05:57:30Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:57:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T05:59:32Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:59:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T05:59:42Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:59:42Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"yttrium", "Name_Localised":"Иттрий", "DiscoveryNumber":17 }
+{ "timestamp":"2023-07-18T05:59:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Name_Localised":"Иттрий", "Count":3 }
+{ "timestamp":"2023-07-18T05:59:48Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:59:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Name_Localised":"Иттрий", "Count":3 }
+{ "timestamp":"2023-07-18T05:59:54Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T05:59:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Name_Localised":"Иттрий", "Count":3 }
+{ "timestamp":"2023-07-18T06:00:00Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:00:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T06:00:03Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:00:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Name_Localised":"Иттрий", "Count":3 }
+{ "timestamp":"2023-07-18T06:01:01Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:01:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Name_Localised":"Молибден", "Count":3 }
+{ "timestamp":"2023-07-18T06:01:08Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:01:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Name_Localised":"Молибден", "Count":3 }
+{ "timestamp":"2023-07-18T06:01:22Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:01:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Name_Localised":"Иттрий", "Count":3 }
+{ "timestamp":"2023-07-18T06:01:34Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:01:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Name_Localised":"Иттрий", "Count":3 }
+{ "timestamp":"2023-07-18T06:04:27Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:04:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T06:04:33Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:04:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T06:04:37Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:04:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T06:04:47Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:04:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T06:04:53Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:04:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T06:06:51Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:06:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T06:07:16Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:07:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T06:07:27Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:07:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T06:07:35Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:07:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T06:07:41Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:07:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T06:09:57Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:09:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T06:10:04Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:10:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T06:10:14Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:10:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T06:10:16Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:10:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T06:10:24Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:10:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T06:12:54Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:12:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T06:12:57Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:12:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T06:13:02Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:13:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T06:13:11Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:13:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T06:13:18Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:13:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T06:13:21Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:13:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T06:13:31Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:13:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T06:15:54Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:15:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T06:16:01Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:16:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T06:16:11Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:16:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T06:16:28Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:16:28Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T06:16:44Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:16:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T06:16:48Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:16:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T06:16:57Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:16:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T06:17:11Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:17:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T06:17:40Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:17:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T06:19:36Z", "event":"HullDamage", "Health":0.782948, "PlayerPilot":true }
+{ "timestamp":"2023-07-18T06:20:14Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:20:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T06:21:31Z", "event":"SAASignalsFound", "BodyName":"Krinda B 3", "SystemAddress":8329921303242, "BodyID":16, "Signals":[ { "Type":"$SAA_SignalType_Human;", "Type_Localised":"Люди", "Count":1 } ], "Genuses":[  ] }
+{ "timestamp":"2023-07-18T06:21:31Z", "event":"SAASignalsFound", "BodyName":"Krinda B 3 a", "SystemAddress":8329921303242, "BodyID":17, "Signals":[ { "Type":"$SAA_SignalType_Geological;", "Type_Localised":"Геологический", "Count":3 } ], "Genuses":[  ] }
+{ "timestamp":"2023-07-18T06:22:08Z", "event":"Touchdown", "PlayerControlled":false, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-65.197678, "Longitude":116.376793 }
+{ "timestamp":"2023-07-18T06:23:06Z", "event":"DockSRV", "SRVType":"testbuggy", "SRVType_Localised":"ТРП «Скарабей»", "ID":5 }
+{ "timestamp":"2023-07-18T06:23:06Z", "event":"Loadout", "Ship":"diamondbackxl", "ShipID":4, "ShipName":"", "ShipIdent":"DE-12D", "HullValue":1894760, "ModulesValue":13879295, "HullHealth":0.997545, "UnladenMass":359.799988, "CargoCapacity":12, "MaxJumpRange":33.762604, "FuelCapacity":{ "Main":32.000000, "Reserve":0.520000 }, "Rebuy":788704, "Modules":[ { "Slot":"LargeHardpoint1", "Item":"hpt_cannon_gimbal_large", "On":true, "Priority":0, "AmmoInClip":5, "AmmoInHopper":100, "Health":0.985846, "Value":1147840 }, { "Slot":"MediumHardpoint1", "Item":"hpt_pulselaserburst_fixed_medium", "On":true, "Priority":0, "Health":0.995791, "Value":23000 }, { "Slot":"MediumHardpoint2", "Item":"hpt_pulselaserburst_fixed_medium", "On":true, "Priority":0, "Health":0.997319, "Value":23000 }, { "Slot":"TinyHardpoint1", "Item":"hpt_plasmapointdefence_turret_tiny", "On":true, "Priority":0, "AmmoInClip":12, "AmmoInHopper":10000, "Health":0.981976, "Value":15765 }, { "Slot":"TinyHardpoint2", "Item":"hpt_chafflauncher_tiny", "On":true, "Priority":0, "AmmoInClip":1, "AmmoInHopper":10, "Health":0.997616, "Value":7225 }, { "Slot":"TinyHardpoint3", "Item":"hpt_shieldbooster_size0_class5", "On":true, "Priority":2, "Health":0.987897, "Value":238850 }, { "Slot":"TinyHardpoint4", "Item":"hpt_shieldbooster_size0_class5", "On":true, "Priority":0, "Health":0.998953, "Value":238850 }, { "Slot":"PaintJob", "Item":"paintjob_diamondbackxl_vibrant_yellow", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Armour", "Item":"diamondbackxl_armour_grade1", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"PowerPlant", "Item":"int_powerplant_size4_class5", "On":true, "Priority":1, "Health":0.991203, "Value":1441233 }, { "Slot":"MainEngines", "Item":"int_engine_size4_class5", "On":false, "Priority":0, "Health":0.989772, "Value":1610080, "Engineering":{ "Engineer":"Felicity Farseer", "EngineerID":300100, "BlueprintID":128673655, "BlueprintName":"Engine_Dirty", "Level":1, "Quality":0.798600, "Modifiers":[ { "Label":"Integrity", "Value":85.360001, "OriginalValue":88.000000, "LessIsGood":0 }, { "Label":"PowerDraw", "Value":5.116800, "OriginalValue":4.920000, "LessIsGood":1 }, { "Label":"EngineOptimalMass", "Value":409.500000, "OriginalValue":420.000000, "LessIsGood":0 }, { "Label":"EngineOptPerformance", "Value":110.590004, "OriginalValue":100.000000, "LessIsGood":0 }, { "Label":"EngineHeatRate", "Value":1.560000, "OriginalValue":1.300000, "LessIsGood":1 } ] } }, { "Slot":"FrameShiftDrive", "Item":"int_hyperdrive_size5_class5", "On":true, "Priority":3, "Health":0.985867, "Value":4338361 }, { "Slot":"LifeSupport", "Item":"int_lifesupport_size3_class2", "On":true, "Priority":0, "Health":0.992296, "Value":10133 }, { "Slot":"PowerDistributor", "Item":"int_powerdistributor_size4_class5", "On":true, "Priority":0, "Health":0.992500, "Value":443328 }, { "Slot":"Radar", "Item":"int_sensors_size3_class2", "On":true, "Priority":0, "Health":0.986231, "Value":8614 }, { "Slot":"FuelTank", "Item":"int_fueltank_size5_class3", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Slot01_Size4", "Item":"int_shieldgenerator_size4_class5", "On":true, "Priority":0, "Health":0.986885, "Value":1610080 }, { "Slot":"Slot02_Size4", "Item":"int_fuelscoop_size4_class5", "On":true, "Priority":4, "Health":0.994970, "Value":2433010 }, { "Slot":"Slot03_Size3", "Item":"int_multidronecontrol_operations_size3_class3", "On":true, "Priority":2, "Health":0.996523, "Value":42500 }, { "Slot":"Slot04_Size3", "Item":"int_cargorack_size3_class1", "On":true, "Priority":1, "Health":1.000000, "Value":10563 }, { "Slot":"Slot05_Size2", "Item":"int_cargorack_size2_class1", "On":true, "Priority":1, "Health":1.000000, "Value":2763 }, { "Slot":"Slot06_Size2", "Item":"int_buggybay_size2_class2", "On":true, "Priority":1, "Health":0.997479, "Value":21600 }, { "Slot":"Slot07_Size1", "Item":"int_detailedsurfacescanner_tiny", "On":true, "Priority":0, "Health":0.983162, "Value":212500 }, { "Slot":"Slot08_Size1", "Item":"int_dockingcomputer_advanced", "On":true, "Priority":2, "Health":0.982889 }, { "Slot":"PlanetaryApproachSuite", "Item":"int_planetapproachsuite_advanced", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble03", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble04", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble07", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble08", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"VesselVoice", "Item":"voicepack_verity", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"ShipCockpit", "Item":"diamondbackxl_cockpit", "On":true, "Priority":1, "Health":0.991896 }, { "Slot":"CargoHatch", "Item":"modularcargobaydoor", "On":true, "Priority":4, "Health":0.988339 } ] }
+{ "timestamp":"2023-07-18T06:23:09Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T06:23:12Z", "event":"Cargo", "Vessel":"Ship", "Count":8 }
+{ "timestamp":"2023-07-18T06:23:25Z", "event":"Liftoff", "PlayerControlled":true, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-65.198708, "Longitude":116.375595 }
+{ "timestamp":"2023-07-18T06:24:01Z", "event":"StartJump", "JumpType":"Supercruise", "Taxi":false }
+{ "timestamp":"2023-07-18T06:24:06Z", "event":"SupercruiseEntry", "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242 }
+{ "timestamp":"2023-07-18T06:24:06Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T06:24:06Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2023-07-18T06:24:34Z", "event":"SupercruiseExit", "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "BodyType":"Planet" }
+{ "timestamp":"2023-07-18T06:24:34Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T06:24:34Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2023-07-18T06:30:04Z", "event":"Touchdown", "PlayerControlled":true, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-59.445240, "Longitude":98.084984 }
+{ "timestamp":"2023-07-18T06:30:09Z", "event":"LaunchSRV", "SRVType":"testbuggy", "SRVType_Localised":"ТРП «Скарабей»", "Loadout":"starter", "ID":5, "PlayerControlled":true }
+{ "timestamp":"2023-07-18T06:30:11Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T06:30:14Z", "event":"Cargo", "Vessel":"SRV", "Count":0 }
+{ "timestamp":"2023-07-18T06:32:09Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:32:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T06:32:47Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:32:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T06:32:49Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:32:49Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T06:32:57Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:32:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Name_Localised":"Молибден", "Count":3 }
+{ "timestamp":"2023-07-18T06:33:09Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:33:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T06:33:13Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:33:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T06:34:05Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:34:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T06:34:12Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:34:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Name_Localised":"Селен", "Count":3 }
+{ "timestamp":"2023-07-18T06:34:18Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:34:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T06:34:24Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:34:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Name_Localised":"Молибден", "Count":3 }
+{ "timestamp":"2023-07-18T06:34:36Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:34:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T06:34:46Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:34:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T06:36:34Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:36:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T06:37:03Z", "event":"Liftoff", "PlayerControlled":false, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-59.446346, "Longitude":98.084633 }
+{ "timestamp":"2023-07-18T06:37:52Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:37:52Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T06:38:09Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:38:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T06:38:24Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:38:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T06:39:12Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:39:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T06:39:46Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:39:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T06:41:53Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:41:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T06:42:18Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:42:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T06:42:48Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:42:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T06:43:15Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:43:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T06:44:41Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:44:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T06:45:15Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:45:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T06:45:17Z", "event":"HullDamage", "Health":0.789817, "PlayerPilot":true }
+{ "timestamp":"2023-07-18T06:45:40Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:45:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T06:46:12Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:46:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T06:46:55Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:46:55Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T06:47:32Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:47:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T06:48:03Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:48:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T06:48:17Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:48:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T06:48:49Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:48:49Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T06:48:53Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:48:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T06:49:23Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:49:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T06:49:54Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:49:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T06:50:29Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:50:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T06:50:43Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:50:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Name_Localised":"Молибден", "Count":3 }
+{ "timestamp":"2023-07-18T06:51:20Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:51:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T06:51:49Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:51:49Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T06:52:02Z", "event":"SAASignalsFound", "BodyName":"Krinda B 3", "SystemAddress":8329921303242, "BodyID":16, "Signals":[ { "Type":"$SAA_SignalType_Human;", "Type_Localised":"Люди", "Count":1 } ], "Genuses":[  ] }
+{ "timestamp":"2023-07-18T06:52:02Z", "event":"SAASignalsFound", "BodyName":"Krinda B 3 a", "SystemAddress":8329921303242, "BodyID":17, "Signals":[ { "Type":"$SAA_SignalType_Geological;", "Type_Localised":"Геологический", "Count":3 } ], "Genuses":[  ] }
+{ "timestamp":"2023-07-18T06:52:35Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:52:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T06:52:38Z", "event":"Touchdown", "PlayerControlled":false, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-59.512421, "Longitude":98.010628 }
+{ "timestamp":"2023-07-18T06:53:03Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:53:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T06:53:18Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T06:53:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T06:54:03Z", "event":"DockSRV", "SRVType":"testbuggy", "SRVType_Localised":"ТРП «Скарабей»", "ID":5 }
+{ "timestamp":"2023-07-18T06:54:03Z", "event":"Loadout", "Ship":"diamondbackxl", "ShipID":4, "ShipName":"", "ShipIdent":"DE-12D", "HullValue":1894760, "ModulesValue":13879295, "HullHealth":0.997545, "UnladenMass":359.799988, "CargoCapacity":12, "MaxJumpRange":33.762608, "FuelCapacity":{ "Main":32.000000, "Reserve":0.520000 }, "Rebuy":788704, "Modules":[ { "Slot":"LargeHardpoint1", "Item":"hpt_cannon_gimbal_large", "On":true, "Priority":0, "AmmoInClip":5, "AmmoInHopper":100, "Health":0.985846, "Value":1147840 }, { "Slot":"MediumHardpoint1", "Item":"hpt_pulselaserburst_fixed_medium", "On":true, "Priority":0, "Health":0.995791, "Value":23000 }, { "Slot":"MediumHardpoint2", "Item":"hpt_pulselaserburst_fixed_medium", "On":true, "Priority":0, "Health":0.997319, "Value":23000 }, { "Slot":"TinyHardpoint1", "Item":"hpt_plasmapointdefence_turret_tiny", "On":true, "Priority":0, "AmmoInClip":12, "AmmoInHopper":10000, "Health":0.981976, "Value":15765 }, { "Slot":"TinyHardpoint2", "Item":"hpt_chafflauncher_tiny", "On":true, "Priority":0, "AmmoInClip":1, "AmmoInHopper":10, "Health":0.997616, "Value":7225 }, { "Slot":"TinyHardpoint3", "Item":"hpt_shieldbooster_size0_class5", "On":true, "Priority":2, "Health":0.987897, "Value":238850 }, { "Slot":"TinyHardpoint4", "Item":"hpt_shieldbooster_size0_class5", "On":true, "Priority":0, "Health":0.998953, "Value":238850 }, { "Slot":"PaintJob", "Item":"paintjob_diamondbackxl_vibrant_yellow", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Armour", "Item":"diamondbackxl_armour_grade1", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"PowerPlant", "Item":"int_powerplant_size4_class5", "On":true, "Priority":1, "Health":0.991203, "Value":1441233 }, { "Slot":"MainEngines", "Item":"int_engine_size4_class5", "On":false, "Priority":0, "Health":0.989772, "Value":1610080, "Engineering":{ "Engineer":"Felicity Farseer", "EngineerID":300100, "BlueprintID":128673655, "BlueprintName":"Engine_Dirty", "Level":1, "Quality":0.798600, "Modifiers":[ { "Label":"Integrity", "Value":85.360001, "OriginalValue":88.000000, "LessIsGood":0 }, { "Label":"PowerDraw", "Value":5.116800, "OriginalValue":4.920000, "LessIsGood":1 }, { "Label":"EngineOptimalMass", "Value":409.500000, "OriginalValue":420.000000, "LessIsGood":0 }, { "Label":"EngineOptPerformance", "Value":110.590004, "OriginalValue":100.000000, "LessIsGood":0 }, { "Label":"EngineHeatRate", "Value":1.560000, "OriginalValue":1.300000, "LessIsGood":1 } ] } }, { "Slot":"FrameShiftDrive", "Item":"int_hyperdrive_size5_class5", "On":true, "Priority":3, "Health":0.985867, "Value":4338361 }, { "Slot":"LifeSupport", "Item":"int_lifesupport_size3_class2", "On":true, "Priority":0, "Health":0.992296, "Value":10133 }, { "Slot":"PowerDistributor", "Item":"int_powerdistributor_size4_class5", "On":true, "Priority":0, "Health":0.992500, "Value":443328 }, { "Slot":"Radar", "Item":"int_sensors_size3_class2", "On":true, "Priority":0, "Health":0.986231, "Value":8614 }, { "Slot":"FuelTank", "Item":"int_fueltank_size5_class3", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Slot01_Size4", "Item":"int_shieldgenerator_size4_class5", "On":true, "Priority":0, "Health":0.986885, "Value":1610080 }, { "Slot":"Slot02_Size4", "Item":"int_fuelscoop_size4_class5", "On":true, "Priority":4, "Health":0.994970, "Value":2433010 }, { "Slot":"Slot03_Size3", "Item":"int_multidronecontrol_operations_size3_class3", "On":true, "Priority":2, "Health":0.996523, "Value":42500 }, { "Slot":"Slot04_Size3", "Item":"int_cargorack_size3_class1", "On":true, "Priority":1, "Health":1.000000, "Value":10563 }, { "Slot":"Slot05_Size2", "Item":"int_cargorack_size2_class1", "On":true, "Priority":1, "Health":1.000000, "Value":2763 }, { "Slot":"Slot06_Size2", "Item":"int_buggybay_size2_class2", "On":true, "Priority":1, "Health":0.997479, "Value":21600 }, { "Slot":"Slot07_Size1", "Item":"int_detailedsurfacescanner_tiny", "On":true, "Priority":0, "Health":0.983162, "Value":212500 }, { "Slot":"Slot08_Size1", "Item":"int_dockingcomputer_advanced", "On":true, "Priority":2, "Health":0.982889 }, { "Slot":"PlanetaryApproachSuite", "Item":"int_planetapproachsuite_advanced", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble03", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble04", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble07", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble08", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"VesselVoice", "Item":"voicepack_verity", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"ShipCockpit", "Item":"diamondbackxl_cockpit", "On":true, "Priority":1, "Health":0.991896 }, { "Slot":"CargoHatch", "Item":"modularcargobaydoor", "On":true, "Priority":4, "Health":0.988339 } ] }
+{ "timestamp":"2023-07-18T06:54:05Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T06:54:08Z", "event":"Cargo", "Vessel":"Ship", "Count":8 }
+{ "timestamp":"2023-07-18T06:54:09Z", "event":"Liftoff", "PlayerControlled":true, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-59.513531, "Longitude":98.010323 }
+{ "timestamp":"2023-07-18T06:54:35Z", "event":"StartJump", "JumpType":"Supercruise", "Taxi":false }
+{ "timestamp":"2023-07-18T06:54:40Z", "event":"SupercruiseEntry", "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242 }
+{ "timestamp":"2023-07-18T06:54:40Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T06:54:40Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2023-07-18T06:58:55Z", "event":"SupercruiseExit", "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "BodyType":"Planet" }
+{ "timestamp":"2023-07-18T06:58:55Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T06:58:55Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2023-07-18T07:00:31Z", "event":"Touchdown", "PlayerControlled":true, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-13.023650, "Longitude":-6.604264, "NearestDestination":"$POIScene_Wreckage_Probe_Skimmers;", "NearestDestination_Localised":"$POISCENARIO_WATSON_WRECKAGE_PROBE_01_EASY;  " }
+{ "timestamp":"2023-07-18T07:00:35Z", "event":"LaunchSRV", "SRVType":"testbuggy", "SRVType_Localised":"ТРП «Скарабей»", "Loadout":"starter", "ID":5, "PlayerControlled":true }
+{ "timestamp":"2023-07-18T07:00:37Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T07:00:40Z", "event":"Cargo", "Vessel":"SRV", "Count":0 }
+{ "timestamp":"2023-07-18T07:01:36Z", "event":"Music", "MusicTrack":"Combat_SRV" }
+{ "timestamp":"2023-07-18T07:01:36Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2023-07-18T07:01:36Z", "event":"Music", "MusicTrack":"Combat_SRV" }
+{ "timestamp":"2023-07-18T07:01:38Z", "event":"Bounty", "Rewards":[ { "Faction":"Canonn", "Reward":1000 } ], "Target":"skimmerdrone", "Target_Localised":"Оборонный беспилотник с автотурелью", "TotalReward":1000, "VictimFaction":"Canonn" }
+{ "timestamp":"2023-07-18T07:01:38Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2023-07-18T07:02:11Z", "event":"DatalinkScan", "Message":"$DATAPOINT_GAMEPLAY_complete;", "Message_Localised":"Внимание: все каналы телеметрии датчика установлены, сформирован пакет разведданных." }
+{ "timestamp":"2023-07-18T07:02:11Z", "event":"DatalinkVoucher", "Reward":3693, "VictimFaction":"", "PayeeFaction":"Federation" }
+{ "timestamp":"2023-07-18T07:02:45Z", "event":"Disembark", "SRV":true, "Taxi":false, "Multicrew":false, "ID":5, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true }
+{ "timestamp":"2023-07-18T07:02:49Z", "event":"SuitLoadout", "SuitID":1771402099921599, "SuitName":"explorationsuit_class2", "SuitName_Localised":"$ExplorationSuit_Class1_Name;", "SuitMods":[  ], "LoadoutID":4293000000, "LoadoutName":"Artemis 2", "Modules":[ { "SlotName":"PrimaryWeapon1", "SuitModuleID":1771400431397853, "ModuleName":"wpn_m_assaultrifle_laser_fauto", "ModuleName_Localised":"TK Aphelion", "Class":2, "WeaponMods":[  ] }, { "SlotName":"SecondaryWeapon", "SuitModuleID":1771061113477096, "ModuleName":"wpn_s_pistol_kinetic_sauto", "ModuleName_Localised":"Karma P-15", "Class":1, "WeaponMods":[  ] } ] }
+{ "timestamp":"2023-07-18T07:02:49Z", "event":"Backpack", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T07:02:49Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T07:02:49Z", "event":"Music", "MusicTrack":"OnFoot" }
+{ "timestamp":"2023-07-18T07:03:40Z", "event":"Embark", "SRV":true, "Taxi":false, "Multicrew":false, "ID":5, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true }
+{ "timestamp":"2023-07-18T07:03:41Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2023-07-18T07:03:42Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T07:07:20Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:07:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:07:25Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:07:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:07:36Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:07:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:07:43Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:07:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T07:07:45Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:07:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T07:07:59Z", "event":"Liftoff", "PlayerControlled":false, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-13.024033, "Longitude":-6.603182 }
+{ "timestamp":"2023-07-18T07:08:21Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:08:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T07:08:35Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:08:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T07:08:45Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:08:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T07:08:48Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:08:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T07:08:54Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:08:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T07:09:32Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:09:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T07:09:36Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:09:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T07:09:42Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:09:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:09:50Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:09:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:09:51Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:09:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:11:07Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:11:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:11:14Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:11:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T07:11:16Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:11:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T07:11:23Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:11:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T07:12:43Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:12:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Name_Localised":"Молибден", "Count":3 }
+{ "timestamp":"2023-07-18T07:12:51Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:12:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Name_Localised":"Иттрий", "Count":3 }
+{ "timestamp":"2023-07-18T07:12:53Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:12:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T07:13:02Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:13:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:13:27Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:13:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T07:13:31Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:13:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T07:13:38Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:13:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T07:13:46Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:13:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"mercury", "Name_Localised":"Ртуть", "Count":3 }
+{ "timestamp":"2023-07-18T07:13:58Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:13:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Name_Localised":"Селен", "Count":3 }
+{ "timestamp":"2023-07-18T07:14:21Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:14:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Name_Localised":"Молибден", "Count":3 }
+{ "timestamp":"2023-07-18T07:14:35Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:14:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T07:14:42Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:14:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Name_Localised":"Молибден", "Count":3 }
+{ "timestamp":"2023-07-18T07:14:44Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:14:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Name_Localised":"Иттрий", "Count":3 }
+{ "timestamp":"2023-07-18T07:14:49Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:14:49Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:20:42Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:20:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:20:51Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:20:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T07:21:02Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:21:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:21:14Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:21:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T07:21:42Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:21:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:21:54Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:21:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T07:22:03Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:22:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T07:22:07Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:22:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:23:07Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:23:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T07:23:17Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:23:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T07:23:28Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:23:28Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:23:33Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:23:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:26:39Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:26:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T07:26:47Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:26:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T07:26:53Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:26:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:26:56Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:26:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T07:27:24Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:27:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:27:29Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:27:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T07:27:34Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:27:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T07:27:43Z", "event":"HullDamage", "Health":0.797881, "PlayerPilot":true }
+{ "timestamp":"2023-07-18T07:30:45Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:30:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T07:31:09Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:31:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T07:31:19Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:31:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Name_Localised":"Иттрий", "Count":3 }
+{ "timestamp":"2023-07-18T07:31:43Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:31:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Name_Localised":"Фосфор", "Count":3 }
+{ "timestamp":"2023-07-18T07:31:55Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:31:55Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:32:02Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:32:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T07:32:19Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:32:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T07:32:22Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:32:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T07:32:32Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:32:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:32:34Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:32:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:33:24Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:33:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T07:33:33Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:33:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T07:33:37Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:33:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:33:45Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:33:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Name_Localised":"Никель", "Count":3 }
+{ "timestamp":"2023-07-18T07:34:16Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:34:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:34:25Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:34:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Name_Localised":"Углерод", "Count":3 }
+{ "timestamp":"2023-07-18T07:34:34Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:34:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Name_Localised":"Железо", "Count":3 }
+{ "timestamp":"2023-07-18T07:34:38Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:34:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T07:36:12Z", "event":"SAASignalsFound", "BodyName":"Krinda B 3", "SystemAddress":8329921303242, "BodyID":16, "Signals":[ { "Type":"$SAA_SignalType_Human;", "Type_Localised":"Люди", "Count":1 } ], "Genuses":[  ] }
+{ "timestamp":"2023-07-18T07:36:12Z", "event":"SAASignalsFound", "BodyName":"Krinda B 3 a", "SystemAddress":8329921303242, "BodyID":17, "Signals":[ { "Type":"$SAA_SignalType_Geological;", "Type_Localised":"Геологический", "Count":3 } ], "Genuses":[  ] }
+{ "timestamp":"2023-07-18T07:36:49Z", "event":"Touchdown", "PlayerControlled":false, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-12.937067, "Longitude":-6.811195 }
+{ "timestamp":"2023-07-18T07:37:12Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:37:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T07:37:25Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:37:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T07:37:30Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:37:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Name_Localised":"Хром", "Count":3 }
+{ "timestamp":"2023-07-18T07:37:33Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:37:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Name_Localised":"Марганец", "Count":3 }
+{ "timestamp":"2023-07-18T07:37:38Z", "event":"ShipLocker" }
+{ "timestamp":"2023-07-18T07:37:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Name_Localised":"Сера", "Count":3 }
+{ "timestamp":"2023-07-18T07:38:33Z", "event":"HullDamage", "Health":0.589294, "PlayerPilot":true }
+{ "timestamp":"2023-07-18T07:39:07Z", "event":"DockSRV", "SRVType":"testbuggy", "SRVType_Localised":"ТРП «Скарабей»", "ID":5 }
+{ "timestamp":"2023-07-18T07:39:07Z", "event":"Loadout", "Ship":"diamondbackxl", "ShipID":4, "ShipName":"", "ShipIdent":"DE-12D", "HullValue":1894760, "ModulesValue":13879295, "HullHealth":0.997545, "UnladenMass":359.799988, "CargoCapacity":12, "MaxJumpRange":33.762608, "FuelCapacity":{ "Main":32.000000, "Reserve":0.520000 }, "Rebuy":788704, "Modules":[ { "Slot":"LargeHardpoint1", "Item":"hpt_cannon_gimbal_large", "On":true, "Priority":0, "AmmoInClip":5, "AmmoInHopper":100, "Health":0.985846, "Value":1147840 }, { "Slot":"MediumHardpoint1", "Item":"hpt_pulselaserburst_fixed_medium", "On":true, "Priority":0, "Health":0.995791, "Value":23000 }, { "Slot":"MediumHardpoint2", "Item":"hpt_pulselaserburst_fixed_medium", "On":true, "Priority":0, "Health":0.997319, "Value":23000 }, { "Slot":"TinyHardpoint1", "Item":"hpt_plasmapointdefence_turret_tiny", "On":true, "Priority":0, "AmmoInClip":12, "AmmoInHopper":10000, "Health":0.981976, "Value":15765 }, { "Slot":"TinyHardpoint2", "Item":"hpt_chafflauncher_tiny", "On":true, "Priority":0, "AmmoInClip":1, "AmmoInHopper":10, "Health":0.997616, "Value":7225 }, { "Slot":"TinyHardpoint3", "Item":"hpt_shieldbooster_size0_class5", "On":true, "Priority":2, "Health":0.987897, "Value":238850 }, { "Slot":"TinyHardpoint4", "Item":"hpt_shieldbooster_size0_class5", "On":true, "Priority":0, "Health":0.998953, "Value":238850 }, { "Slot":"PaintJob", "Item":"paintjob_diamondbackxl_vibrant_yellow", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Armour", "Item":"diamondbackxl_armour_grade1", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"PowerPlant", "Item":"int_powerplant_size4_class5", "On":true, "Priority":1, "Health":0.991203, "Value":1441233 }, { "Slot":"MainEngines", "Item":"int_engine_size4_class5", "On":false, "Priority":0, "Health":0.989772, "Value":1610080, "Engineering":{ "Engineer":"Felicity Farseer", "EngineerID":300100, "BlueprintID":128673655, "BlueprintName":"Engine_Dirty", "Level":1, "Quality":0.798600, "Modifiers":[ { "Label":"Integrity", "Value":85.360001, "OriginalValue":88.000000, "LessIsGood":0 }, { "Label":"PowerDraw", "Value":5.116800, "OriginalValue":4.920000, "LessIsGood":1 }, { "Label":"EngineOptimalMass", "Value":409.500000, "OriginalValue":420.000000, "LessIsGood":0 }, { "Label":"EngineOptPerformance", "Value":110.590004, "OriginalValue":100.000000, "LessIsGood":0 }, { "Label":"EngineHeatRate", "Value":1.560000, "OriginalValue":1.300000, "LessIsGood":1 } ] } }, { "Slot":"FrameShiftDrive", "Item":"int_hyperdrive_size5_class5", "On":true, "Priority":3, "Health":0.985867, "Value":4338361 }, { "Slot":"LifeSupport", "Item":"int_lifesupport_size3_class2", "On":true, "Priority":0, "Health":0.992296, "Value":10133 }, { "Slot":"PowerDistributor", "Item":"int_powerdistributor_size4_class5", "On":true, "Priority":0, "Health":0.992500, "Value":443328 }, { "Slot":"Radar", "Item":"int_sensors_size3_class2", "On":true, "Priority":0, "Health":0.986231, "Value":8614 }, { "Slot":"FuelTank", "Item":"int_fueltank_size5_class3", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Slot01_Size4", "Item":"int_shieldgenerator_size4_class5", "On":true, "Priority":0, "Health":0.986885, "Value":1610080 }, { "Slot":"Slot02_Size4", "Item":"int_fuelscoop_size4_class5", "On":true, "Priority":4, "Health":0.994970, "Value":2433010 }, { "Slot":"Slot03_Size3", "Item":"int_multidronecontrol_operations_size3_class3", "On":true, "Priority":2, "Health":0.996523, "Value":42500 }, { "Slot":"Slot04_Size3", "Item":"int_cargorack_size3_class1", "On":true, "Priority":1, "Health":1.000000, "Value":10563 }, { "Slot":"Slot05_Size2", "Item":"int_cargorack_size2_class1", "On":true, "Priority":1, "Health":1.000000, "Value":2763 }, { "Slot":"Slot06_Size2", "Item":"int_buggybay_size2_class2", "On":true, "Priority":1, "Health":0.997479, "Value":21600 }, { "Slot":"Slot07_Size1", "Item":"int_detailedsurfacescanner_tiny", "On":true, "Priority":0, "Health":0.983162, "Value":212500 }, { "Slot":"Slot08_Size1", "Item":"int_dockingcomputer_advanced", "On":true, "Priority":2, "Health":0.982889 }, { "Slot":"PlanetaryApproachSuite", "Item":"int_planetapproachsuite_advanced", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble03", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble04", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble07", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"Bobble08", "Item":"bobble_pilotmale", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"VesselVoice", "Item":"voicepack_verity", "On":true, "Priority":1, "Health":1.000000 }, { "Slot":"ShipCockpit", "Item":"diamondbackxl_cockpit", "On":true, "Priority":1, "Health":0.991896 }, { "Slot":"CargoHatch", "Item":"modularcargobaydoor", "On":true, "Priority":4, "Health":0.988339 } ] }
+{ "timestamp":"2023-07-18T07:39:09Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T07:39:12Z", "event":"Cargo", "Vessel":"Ship", "Count":8 }
+{ "timestamp":"2023-07-18T07:39:20Z", "event":"Liftoff", "PlayerControlled":true, "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17, "OnStation":false, "OnPlanet":true, "Latitude":-12.936933, "Longitude":-6.810053, "NearestDestination":"$POIScene_Wreckage_Probe_Skimmers;", "NearestDestination_Localised":"$POISCENARIO_WATSON_WRECKAGE_PROBE_01_EASY;  " }
+{ "timestamp":"2023-07-18T07:39:45Z", "event":"StartJump", "JumpType":"Supercruise", "Taxi":false }
+{ "timestamp":"2023-07-18T07:39:50Z", "event":"SupercruiseEntry", "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242 }
+{ "timestamp":"2023-07-18T07:39:50Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T07:39:50Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2023-07-18T07:40:44Z", "event":"LeaveBody", "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Krinda B 3 a", "BodyID":17 }
+{ "timestamp":"2023-07-18T07:42:34Z", "event":"Music", "MusicTrack":"SystemAndSurfaceScanner" }
+{ "timestamp":"2023-07-18T07:42:45Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2023-07-18T07:42:52Z", "event":"SAAScanComplete", "BodyName":"Krinda B 4", "SystemAddress":8329921303242, "BodyID":18, "ProbesUsed":3, "EfficiencyTarget":4 }
+{ "timestamp":"2023-07-18T07:42:52Z", "event":"SAASignalsFound", "BodyName":"Krinda B 4", "SystemAddress":8329921303242, "BodyID":18, "Signals":[ { "Type":"$SAA_SignalType_Human;", "Type_Localised":"Люди", "Count":3 } ], "Genuses":[  ] }
+{ "timestamp":"2023-07-18T07:42:53Z", "event":"Scan", "ScanType":"Detailed", "BodyName":"Krinda B 4", "BodyID":18, "Parents":[ {"Star":3}, {"Null":1}, {"Null":0} ], "StarSystem":"Krinda", "SystemAddress":8329921303242, "DistanceFromArrivalLS":157.972680, "TidalLock":true, "TerraformState":"", "PlanetClass":"High metal content body", "Atmosphere":"", "AtmosphereType":"None", "Volcanism":"", "MassEM":0.011292, "Radius":1471433.750000, "SurfaceGravity":2.078691, "SurfaceTemperature":684.172058, "SurfacePressure":0.000000, "Landable":true, "Materials":[ { "Name":"iron", "Name_Localised":"Железо", "Percent":21.062063 }, { "Name":"nickel", "Name_Localised":"Никель", "Percent":15.930460 }, { "Name":"sulphur", "Name_Localised":"Сера", "Percent":15.128939 }, { "Name":"carbon", "Name_Localised":"Углерод", "Percent":12.721870 }, { "Name":"chromium", "Name_Localised":"Хром", "Percent":9.472309 }, { "Name":"manganese", "Name_Localised":"Марганец", "Percent":8.698418 }, { "Name":"phosphorus", "Name_Localised":"Фосфор", "Percent":8.144761 }, { "Name":"vanadium", "Name_Localised":"Ванадий", "Percent":5.172110 }, { "Name":"cadmium", "Name_Localised":"Кадмий", "Percent":1.635565 }, { "Name":"niobium", "Name_Localised":"Ниобий", "Percent":1.439480 }, { "Name":"polonium", "Name_Localised":"Полоний", "Percent":0.594023 } ], "Composition":{ "Ice":0.000000, "Rock":0.676024, "Metal":0.323976 }, "SemiMajorAxis":4977272927.761078, "Eccentricity":0.013559, "OrbitalInclination":-0.477376, "Periapsis":303.009427, "OrbitalPeriod":392302.238941, "AscendingNode":102.035335, "MeanAnomaly":228.524670, "RotationPeriod":392302.455507, "AxialTilt":0.334436, "WasDiscovered":false, "WasMapped":true }
+{ "timestamp":"2023-07-18T07:43:50Z", "event":"SupercruiseDestinationDrop", "Type":"Xiaoguan Station", "Threat":0, "MarketID":3226436608 }
+{ "timestamp":"2023-07-18T07:43:53Z", "event":"SupercruiseExit", "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "Body":"Xiaoguan Station", "BodyID":19, "BodyType":"Station" }
+{ "timestamp":"2023-07-18T07:43:53Z", "event":"ShipLocker", "Items":[  ], "Components":[  ], "Consumables":[  ], "Data":[  ] }
+{ "timestamp":"2023-07-18T07:43:53Z", "event":"Music", "MusicTrack":"DestinationFromSupercruise" }
+{ "timestamp":"2023-07-18T07:43:58Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2023-07-18T07:44:03Z", "event":"ReceiveText", "From":"Xiaoguan Station", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"Вы вошли в зону запрета огня", "Channel":"npc" }
+{ "timestamp":"2023-07-18T07:44:06Z", "event":"DockingRequested", "MarketID":3226436608, "StationName":"Xiaoguan Station", "StationType":"Coriolis", "LandingPads":{ "Small":17, "Medium":18, "Large":9 } }
+{ "timestamp":"2023-07-18T07:44:06Z", "event":"ReceiveText", "From":"Xiaoguan Station", "Message":"$DockingChatter_Neutral;", "Message_Localised":"Строго соблюдайте правила поведения в порту, пилот.", "Channel":"npc" }
+{ "timestamp":"2023-07-18T07:44:06Z", "event":"ReceiveText", "From":"Xiaoguan Station", "Message":"$STATION_docking_granted;", "Message_Localised":"Стыковка разрешена", "Channel":"npc" }
+{ "timestamp":"2023-07-18T07:44:06Z", "event":"DockingGranted", "LandingPad":12, "MarketID":3226436608, "StationName":"Xiaoguan Station", "StationType":"Coriolis" }
+{ "timestamp":"2023-07-18T07:44:08Z", "event":"Music", "MusicTrack":"DockingComputer" }
+{ "timestamp":"2023-07-18T07:45:00Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"Корабль властей системы", "Message":"$Police_ThankYouPassedStopAndSearch10;", "Message_Localised":"Все в полном порядке, командир. Приятного вам дня.", "Channel":"npc" }
+{ "timestamp":"2023-07-18T07:45:15Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kristof Hanly;", "From_Localised":"Kristof Hanly", "Message":"$Commuter_AuthorityScan05;", "Message_Localised":"На каких основаниях вы сканируете мой корабль?", "Channel":"npc" }
+{ "timestamp":"2023-07-18T07:45:26Z", "event":"Docked", "StationName":"Xiaoguan Station", "StationType":"Coriolis", "Taxi":false, "Multicrew":false, "StarSystem":"Krinda", "SystemAddress":8329921303242, "MarketID":3226436608, "StationFaction":{ "Name":"Canonn", "FactionState":"Expansion" }, "StationGovernment":"$government_Cooperative;", "StationGovernment_Localised":"Кооперация", "StationServices":[ "dock", "autodock", "blackmarket", "commodities", "contacts", "exploration", "missions", "outfitting", "crewlounge", "rearm", "refuel", "repair", "shipyard", "tuning", "engineer", "missionsgenerated", "flightcontroller", "stationoperations", "powerplay", "searchrescue", "techBroker", "stationMenu", "shop", "livery", "socialspace", "bartender", "vistagenomics", "pioneersupplies", "apexinterstellar", "frontlinesolutions" ], "StationEconomy":"$economy_Industrial;", "StationEconomy_Localised":"Промышленность", "StationEconomies":[ { "Name":"$economy_Industrial;", "Name_Localised":"Промышленность", "Proportion":0.800000 }, { "Name":"$economy_Refinery;", "Name_Localised":"Переработка", "Proportion":0.200000 } ], "DistFromStarLS":157.971781, "LandingPads":{ "Small":17, "Medium":18, "Large":9 } }
+{ "timestamp":"2023-07-18T07:45:26Z", "event":"Music", "MusicTrack":"Starport" }
+{ "timestamp":"2023-07-18T07:46:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Richard Pogson;", "From_Localised":"Richard Pogson", "Message":"$Commuter_AuthorityScan10;", "Message_Localised":"Инспектор, я не создам вам каких-либо проблем.", "Channel":"npc" }
+{ "timestamp":"2023-07-18T07:46:43Z", "event":"RepairAll", "Cost":1803 }
+{ "timestamp":"2023-07-18T07:46:43Z", "event":"RefuelAll", "Cost":79, "Amount":1.545195 }
+{ "timestamp":"2023-07-18T07:46:51Z", "event":"ModuleInfo" }
+{ "timestamp":"2023-07-18T07:47:12Z", "event":"SearchAndRescue", "MarketID":3226436608, "Name":"occupiedcryopod", "Name_Localised":"Спасательная капсула с пассажиром", "Count":1, "Reward":30563 }
+{ "timestamp":"2023-07-18T07:47:14Z", "event":"Cargo", "Vessel":"Ship", "Count":7 }
+{ "timestamp":"2023-07-18T07:47:42Z", "event":"RedeemVoucher", "Type":"settlement", "Amount":3693 }
+{ "timestamp":"2023-07-18T07:47:48Z", "event":"RedeemVoucher", "Type":"bounty", "Amount":10000, "Factions":[ { "Faction":"Canonn", "Amount":10000 } ] }
+{ "timestamp":"2023-07-18T07:49:47Z", "event":"MultiSellExplorationData", "Discovered":[ { "SystemName":"Khun", "NumBodies":1 }, { "SystemName":"Cephei Sector EW-W b1-3", "NumBodies":1 } ], "BaseValue":54887, "Bonus":0, "TotalEarnings":54887 }
+{ "timestamp":"2023-07-18T07:53:32Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2023-07-18T07:53:42Z", "event":"NavRoute" }
+{ "timestamp":"2023-07-18T07:53:42Z", "event":"FSDTarget", "Name":"Allo", "SystemAddress":1732851536586, "StarClass":"K", "RemainingJumpsInRoute":1 }
+{ "timestamp":"2023-07-18T07:53:45Z", "event":"Music", "MusicTrack":"Starport" }
+{ "timestamp":"2023-07-18T07:53:58Z", "event":"Undocked", "StationName":"Xiaoguan Station", "StationType":"Coriolis", "MarketID":3226436608, "Taxi":false, "Multicrew":false }
+{ "timestamp":"2023-07-18T07:53:58Z", "event":"Music", "MusicTrack":"DockingComputer" }
+{ "timestamp":"2023-07-18T07:54:08Z", "event":"Music", "MusicTrack":"Starport" }
+{ "timestamp":"2023-07-18T07:54:11Z", "event":"ShipTargeted", "TargetLocked":true, "Ship":"orca", "ScanStage":0 }
+{ "timestamp":"2023-07-18T07:54:12Z", "event":"ShipTargeted", "TargetLocked":true, "Ship":"orca", "ScanStage":1, "PilotName":"$npc_name_decorate:#name=Christopher Pollard;", "PilotName_Localised":"Christopher Pollard", "PilotRank":"Expert" }
+{ "timestamp":"2023-07-18T07:54:14Z", "event":"ShipTargeted", "TargetLocked":true, "Ship":"orca", "ScanStage":2, "PilotName":"$npc_name_decorate:#name=Christopher Pollard;", "PilotName_Localised":"Christopher Pollard", "PilotRank":"Expert", "ShieldHealth":100.000000, "HullHealth":100.000000 }
+{ "timestamp":"2023-07-18T07:54:18Z", "event":"ShipTargeted", "TargetLocked":true, "Ship":"orca", "ScanStage":3, "PilotName":"$npc_name_decorate:#name=Christopher Pollard;", "PilotName_Localised":"Christopher Pollard", "PilotRank":"Expert", "ShieldHealth":100.000000, "HullHealth":100.000000, "Faction":"Tan'gika Incorporated", "LegalStatus":"Clean" }
+{ "timestamp":"2023-07-18T07:54:26Z", "event":"ShipTargeted", "TargetLocked":false }
+{ "timestamp":"2023-07-18T07:54:28Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2023-07-18T07:55:05Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Fred;", "From_Localised":"Fred", "Message":"$Commuter_AuthorityScan06;", "Message_Localised":"Что происходит, инспектор?", "Channel":"npc" }
+{ "timestamp":"2023-07-18T07:55:10Z", "event":"ReceiveText", "From":"Xiaoguan Station", "Message":"$STATION_NoFireZone_exited;", "Message_Localised":"Вы покинули зону запрета огня.", "Channel":"npc" }
+{ "timestamp":"2023-07-18T07:56:02Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2023-07-18T07:57:31Z", "event":"Shutdown" }

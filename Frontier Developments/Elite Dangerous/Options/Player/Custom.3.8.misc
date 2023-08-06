@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Root PresetName="Custom" MajorVersion="3" MinorVersion="8">
+	<GunsightMode Value="Bindings_TrailingGunsights" />
+	<DashboardGUIBrightness Value="0.72950000" />
+	<ReportCrimesAgainstMe Value="1" />
+	<Language Value="English" />
+	<LanguageOverrideActive Value="0" />
+	<SensorScaleType Value="Logarithmic" />
+	<PilotIsFemale Value="0" />
+	<PreFlightChecksActive Value="0" />
+	<DisableUiCameraLockOn Value="0" />
+	<OrbitLinesEnabled Value="0" />
+	<ClockEnabled Value="1" />
+	<Dethrottle Value="1" />
+	<AutoDockEnabled Value="1" />
+	<AutoLaunchEnabled Value="1" />
+	<PreferredWeaponMode Value="2" />
+	<HidePresence Value="0" />
+	<OutfittingSortingPreference Value="2" />
+	<FirstTimeMultiCrew Value="1" />
+	<FirstTimeMultiCrewFireCon Value="1" />
+	<MultiCrewFighterConEnabled Value="1" />
+	<MultiCrewFireConLimited Value="0" />
+	<DisableIdleHandAnimations Value="0" />
+	<AutoCruisethrottleRelevant Value="0" />
+	<StarNames Value="1" />
+	<RegionNames Value="1" />
+	<TradeRoutes Value="0" />
+	<Constellations Value="0" />
+	<ShowGrid Value="1" />
+	<NavigationMarkers Value="1" />
+	<SystemConnectors Value="0" />
+	<SystemConnectorsDefault Value="2" />
+	<routePlottingVirtualCargoMass Value="54" />
+	<routePlottingRealCargoMass Value="54" />
+	<NebulaNames Value="1" />
+	<RealisticView Value="1" />
+	<ColourVisIndex Value="9" />
+	<SizeVisIndex Value="1" />
+	<FriendMarkers Value="1" />
+	<WingMarkers Value="1" />
+	<MissionMarkers Value="1" />
+	<ShipMarkers Value="1" />
+	<CommunityGoalMarkers Value="1" />
+	<EngineerMarkers Value="1" />
+	<BookmarkMarkers Value="1" />
+	<SquadronBookmarkMarkers Value="1" />
+	<TypeDMarkers Value="1" />
+	<TypeRMarkers Value="1" />
+	<PoliticsMode Value="1" />
+	<NavJetConeBoost Value="0" />
+	<NavigationPreviousRoute Value="1" />
+	<CommodityIndex Value="246311990" />
+	<CommodityPriceMode Value="0" />
+	<TradeCategory Value="3" />
+	<ServicesOption Value="0" />
+	<GalacticZonesPlane Value="1" />
+	<GalacticZoneNames Value="1" />
+	<StarterZoneMarkers Value="0" />
+	<FleetCarrierMarkers Value="1" />
+	<RouteStartSystem Value="44598100828754" />
+	<RouteDestinationSystem Value="0" />
+	<RouteDestinationBody Value="0" />
+	<RouteDestinationMarketID Value="18446744073709551615" />
+	<RouteDestinationIsCluster Value="0" />
+	<VisibilityFlags>
+		<commodities>
+			<GeologicalEquipment Value="0" />
+			<HeatsinkInterlink Value="0" />
+			<TerrainEnrichmentSystems Value="0" />
+			<hnshockmount Value="0" />
+			<consumertechnology Value="0" />
+			<pyrophyllite Value="0" />
+			<tea Value="0" />
+			<Scrap Value="0" />
+			<BioReducingLichen Value="0" />
+			<SyntheticReagents Value="1" />
+			<Titanium Value="0" />
+			<tobacco Value="0" />
+			<AdvancedCatalysers Value="0" />
+			<MilitaryGradeFabrics Value="1" />
+			<beer Value="0" />
+			<indite Value="0" />
+			<thallium Value="0" />
+			<CombatStabilisers Value="0" />
+			<silver Value="0" />
+			<microcontrollers Value="0" />
+			<beryllium Value="0" />
+			<MineralOil Value="1" />
+			<ExhaustManifold Value="0" />
+			<BasicNarcotics Value="0" />
+			<EmergencyPowerCells Value="0" />
+			<cobalt Value="0" />
+			<cmmcomposite Value="1" />
+			<SkimerComponents Value="0" />
+			<MagneticEmitterCoil Value="0" />
+			<computercomponents Value="0" />
+			<SyntheticFabrics Value="1" />
+			<superconductors Value="1" />
+			<Uraninite Value="0" />
+			<Wine Value="0" />
+			<Coltan Value="0" />
+			<indium Value="0" />
+			<robotics Value="0" />
+			<agronomictreatment Value="1" />
+			<AutoFabricators Value="0" />
+			<palladium Value="0" />
+			<Landmines Value="0" />
+			<bertrandite Value="0" />
+			<Leather Value="1" />
+			<Lepidolite Value="0" />
+			<ThermalCoolingUnits Value="0" />
+			<liquidoxygen Value="1" />
+			<ConductiveFabrics Value="1" />
+			<cryolite Value="0" />
+			<nonlethalweapons Value="0" />
+			<BattleWeapons Value="0" />
+			<PowerGridAssembly Value="0" />
+			<StructuralRegulators Value="0" />
+			<gallite Value="0" />
+			<biowaste Value="0" />
+			<ImperialSlaves Value="0" />
+			<performanceenhancers Value="0" />
+			<PowerTransferConduits Value="0" />
+			<syntheticmeat Value="0" />
+			<mutomimager Value="0" />
+			<FoodCartridges Value="0" />
+			<MarineSupplies Value="0" />
+			<medicaldiagnosticequipment Value="0" />
+			<water Value="1" />
+			<waterpurifiers Value="0" />
+			<insulatingmembrane Value="1" />
+			<PowerConverter Value="0" />
+			<Coffee Value="0" />
+			<CropHarvesters Value="0" />
+			<clothing Value="0" />
+			<mineralextractors Value="0" />
+			<animalmonitors Value="0" />
+			<Explosives Value="1" />
+			<polymers Value="1" />
+			<AtmosphericExtractors Value="0" />
+			<powergenerators Value="0" />
+			<SurfaceStabilisers Value="1" />
+			<Bauxite Value="0" />
+			<BuildingFabricators Value="0" />
+			<lithium Value="0" />
+			<thorium Value="0" />
+			<liquor Value="0" />
+			<tritium Value="1" />
+			<Algae Value="0" />
+			<AquaponicSystems Value="0" />
+			<ReinforcedMountingPlate Value="0" />
+			<gold Value="0" />
+			<fruitandvegetables Value="0" />
+			<Goslarite Value="0" />
+			<Aluminium Value="0" />
+			<BasicMedicines Value="0" />
+			<Semiconductors Value="1" />
+			<Gallium Value="0" />
+			<Uranium Value="0" />
+			<HeliostaticFurnaces Value="0" />
+			<NaturalFabrics Value="1" />
+			<DomesticAppliances Value="0" />
+			<CeramicComposites Value="1" />
+			<IonDistributor Value="0" />
+			<AgriculturalMedicines Value="0" />
+			<grain Value="0" />
+			<animalmeat Value="0" />
+			<SurvivalEquipment Value="0" />
+			<personalweapons Value="0" />
+			<reactivearmour Value="0" />
+			<progenitorcells Value="0" />
+			<Bismuth Value="0" />
+			<Pesticides Value="1" />
+			<DiagnosticSensor Value="0" />
+			<hydrogenfuel Value="1" />
+			<Rutile Value="0" />
+			<EvacuationShelter Value="0" />
+			<Copper Value="0" />
+			<ResonatingSeparators Value="0" />
+			<NerveAgents Value="1" />
+			<advancedmedicines Value="0" />
+			<HazardousEnvironmentSuits Value="0" />
+			<tantalum Value="0" />
+			<lanthanum Value="0" />
+			<RockforthFertiliser Value="1" />
+			<RadiationBaffle Value="0" />
+			<Fish Value="0" />
+		</commodities>
+		<minorFactionStatus>
+			<Famine Value="0" />
+			<Incursion Value="0" />
+			<Bust Value="0" />
+			<Election Value="0" />
+			<Terrorism Value="0" />
+			<InfrastructureFailure Value="0" />
+			<Outbreak Value="0" />
+			<affectsRoutePlotting Value="0" />
+			<None Value="0" />
+			<Boom Value="1" />
+			<Expansion Value="0" />
+			<Retreat Value="0" />
+			<Lockdown Value="0" />
+			<Investment Value="0" />
+			<Blight Value="0" />
+			<Drought Value="0" />
+			<NaturalDisaster Value="0" />
+			<CivilLiberty Value="0" />
+			<CivilWar Value="0" />
+			<PublicHoliday Value="0" />
+			<War Value="0" />
+			<CivilUnrest Value="0" />
+		</minorFactionStatus>
+		<exploration>
+			<noData Value="1" />
+			<data Value="1" />
+		</exploration>
+		<categories>
+			<ConsumerItems Value="0" />
+			<Medicines Value="0" />
+			<Technology Value="0" />
+			<Chemicals Value="1" />
+			<Foods Value="0" />
+			<Metals Value="0" />
+			<Textiles Value="1" />
+			<Narcotics Value="0" />
+			<Machinery Value="0" />
+			<Minerals Value="0" />
+			<Weapons Value="0" />
+			<Other Value="0" />
+			<IndustrialMaterials Value="1" />
+		</categories>
+		<tradeData>
+			<noData Value="1" />
+			<dataAvailable Value="1" />
+			<data Value="1" />
+		</tradeData>
+		<faction>
+			<Federation Value="1" />
+			<None Value="1" />
+			<Empire Value="1" />
+			<Alliance Value="1" />
+			<Independent Value="1" />
+			<affectsRoutePlotting Value="0" />
+		</faction>
+		<visited>
+			<visited Value="1" />
+			<notVisited Value="1" />
+			<affectsRoutePlotting Value="0" />
+		</visited>
+		<economy>
+			<Refinery Value="1" />
+			<HighTech Value="1" />
+			<Colony Value="1" />
+			<None Value="1" />
+			<Service Value="1" />
+			<Agri Value="1" />
+			<Industrial Value="1" />
+			<Tourism Value="1" />
+			<affectsRoutePlotting Value="0" />
+			<Military Value="1" />
+			<Extraction Value="1" />
+			<Terraforming Value="1" />
+		</economy>
+		<site>
+			<None Value="1" />
+			<Guardian Value="1" />
+			<affectsRoutePlotting Value="0" />
+			<Human Value="1" />
+			<Thargoid Value="1" />
+		</site>
+		<LocationPanelFilters>
+			<Settlement Value="0" />
+			<station Value="0" />
+			<System Value="0" />
+			<Star Value="0" />
+			<AsteroidCluster Value="0" />
+			<SignalSource Value="0" />
+			<PointOfInterest Value="0" />
+			<PlanetOrMoon Value="0" />
+			<FleetCarrier Value="0" />
+			<LandablePlanetOrMoon Value="0" />
+		</LocationPanelFilters>
+		<government>
+			<Communism Value="1" />
+			<Feudal Value="1" />
+			<PrisonColony Value="1" />
+			<Confederacy Value="1" />
+			<Engineer Value="1" />
+			<Dictatorship Value="1" />
+			<Imperial Value="1" />
+			<Cooperative Value="1" />
+			<Democracy Value="1" />
+			<affectsRoutePlotting Value="0" />
+			<Theocracy Value="1" />
+			<Colony Value="1" />
+			<Anarchy Value="1" />
+			<Carrier Value="0" />
+			<Prison Value="0" />
+			<Patronage Value="1" />
+			<None Value="1" />
+			<Corporate Value="1" />
+		</government>
+		<Security>
+			<Anarchy Value="1" />
+			<LowSecurity Value="1" />
+			<HighSecurity Value="1" />
+			<affectsRoutePlotting Value="0" />
+			<MediumSecurity Value="1" />
+		</Security>
+		<starclass>
+			<T Value="1" />
+			<K Value="1" />
+			<O Value="1" />
+			<B Value="1" />
+			<G Value="1" />
+			<F Value="1" />
+			<N Value="1" />
+			<TTS Value="1" />
+			<A Value="1" />
+			<affectsRoutePlotting Value="0" />
+			<D Value="1" />
+			<L Value="1" />
+			<M Value="1" />
+			<W Value="1" />
+			<Y Value="1" />
+			<C Value="1" />
+		</starclass>
+	</VisibilityFlags>
+	<VisibilityValues>
+		<population>
+			<max Value="99999997952.00000000" />
+			<min Value="0.00000000" />
+		</population>
+	</VisibilityValues>
+	<TextChannelOptions>
+		<VisibleChannels>
+			<CHAT_notifications Value="2" />
+			<COMMS_direct_messages Value="2" />
+			<CHAT_system Value="1" />
+			<CHAT_group_wing_and_multicrew Value="2" />
+			<CHAT_group_local Value="2" />
+		</VisibleChannels>
+	</TextChannelOptions>
+	<VoiceChatPanelLocation Value="TopCentre" />
+	<ImportExportPriceMode Value="GalacticAverage" />
+	<ImportExportSystemAddress Value="0" />
+	<ImportExportMarketID Value="18446744073709551615" />
+	<ImportExportShowImportPrices Value="1" />
+	<HelpPopupViewedFSS Value="1" />
+	<CurrentHUDMode Value="Analysis" />
+	<MarketFilter_inCargo Value="1" />
+	<MarketFilter_requiredForMission Value="1" />
+	<MarketFilter_highDemand Value="1" />
+	<MarketFilter_rareGoods Value="1" />
+	<MarketFilter_commodTypeFlags Value="4294967295" />
+	<MarketPopupExp_Buy Value="1" />
+	<MarketPopupExp_Sell Value="1" />
+	<TutorialFlowStage Value="0" />
+	<TutorialCheckpoint Value="0" />
+</Root>

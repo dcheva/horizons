@@ -1,0 +1,202 @@
+{
+  "event": "Loadout",
+  "Ship": "cobramkiii",
+  "ShipID": 3,
+  "ShipIdent": "DE-11C",
+  "Modules": [
+    {
+      "Slot": "MediumHardpoint1",
+      "Item": "hpt_pulselaserburst_fixed_medium",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "MediumHardpoint2",
+      "Item": "hpt_pulselaserburst_fixed_medium",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "SmallHardpoint1",
+      "Item": "hpt_cannon_gimbal_small",
+      "On": true,
+      "Priority": 0,
+      "AmmoInClip": 2,
+      "AmmoInHopper": 55
+    },
+    {
+      "Slot": "SmallHardpoint2",
+      "Item": "hpt_cannon_gimbal_small",
+      "On": true,
+      "Priority": 0,
+      "AmmoInClip": 5,
+      "AmmoInHopper": 50
+    },
+    {
+      "Slot": "TinyHardpoint1",
+      "Item": "hpt_chafflauncher_tiny",
+      "On": true,
+      "Priority": 0,
+      "AmmoInClip": 1,
+      "AmmoInHopper": 7
+    },
+    {
+      "Slot": "TinyHardpoint2",
+      "Item": "hpt_plasmapointdefence_turret_tiny",
+      "On": true,
+      "Priority": 0,
+      "AmmoInClip": 8,
+      "AmmoInHopper": 9892
+    },
+    {
+      "Slot": "ShipCockpit",
+      "Item": "cobramkiii_cockpit",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "CargoHatch",
+      "Item": "modularcargobaydoor",
+      "On": true,
+      "Priority": 2
+    },
+    {
+      "Slot": "Armour",
+      "Item": "cobramkiii_armour_grade1",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "PowerPlant",
+      "Item": "int_powerplant_size4_class5",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "MainEngines",
+      "Item": "int_engine_size4_class5",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "FrameShiftDrive",
+      "Item": "int_hyperdrive_size4_class5",
+      "On": true,
+      "Priority": 3
+    },
+    {
+      "Slot": "LifeSupport",
+      "Item": "int_lifesupport_size3_class2",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "PowerDistributor",
+      "Item": "int_powerdistributor_size3_class5",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "Radar",
+      "Item": "int_sensors_size3_class5",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "FuelTank",
+      "Item": "int_fueltank_size4_class3",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Slot01_Size4",
+      "Item": "int_shieldgenerator_size4_class5",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "Slot02_Size4",
+      "Item": "int_cargorack_size4_class1",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Slot03_Size4",
+      "Item": "int_hullreinforcement_size4_class2",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Slot04_Size2",
+      "Item": "int_hullreinforcement_size2_class2",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Slot05_Size2",
+      "Item": "int_modulereinforcement_size2_class1",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Slot06_Size2",
+      "Item": "int_dronecontrol_collection_size1_class5",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "Slot07_Size1",
+      "Item": "int_detailedsurfacescanner_tiny",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "Slot08_Size1",
+      "Item": "int_dockingcomputer_advanced",
+      "On": true,
+      "Priority": 4
+    },
+    {
+      "Slot": "Bobble04",
+      "Item": "bobble_pilotmale",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Bobble05",
+      "Item": "bobble_pilotmale",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Bobble06",
+      "Item": "bobble_pilotmale",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Bobble07",
+      "Item": "bobble_pilotmale",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "PaintJob",
+      "Item": "paintjob_cobramkiii_lrpo_azure",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "PlanetaryApproachSuite",
+      "Item": "int_planetapproachsuite_advanced",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "VesselVoice",
+      "Item": "voicepack_verity",
+      "On": true,
+      "Priority": 1
+    }
+  ]
+}
