@@ -12,9 +12,9 @@
 	<ParticleEffectsQuality>2</ParticleEffectsQuality>
 	<GalaxyMapQuality>2</GalaxyMapQuality>
 	<GUIColourQuality>0</GUIColourQuality>
-	<TerrainQuality>4</TerrainQuality>
-	<TerrainLodBlendingQuality>2</TerrainLodBlendingQuality>
-	<SurfaceMaterialQuality>3</SurfaceMaterialQuality>
+	<TerrainQuality>2</TerrainQuality>
+	<TerrainLodBlendingQuality>1</TerrainLodBlendingQuality>
+	<SurfaceMaterialQuality>2</SurfaceMaterialQuality>
 	<JetConeQuality>2</JetConeQuality>
 	<VolumetricsQuality>2</VolumetricsQuality>
 	<DirectionalShadowQuality>3</DirectionalShadowQuality>
@@ -23,7 +23,7 @@
 	<TextureQualityEx>2</TextureQualityEx>
 	<AAMode>0</AAMode>
 	<TextureFilterQuality>3</TextureFilterQuality>
-	<SurfaceSamplerQuality>3</SurfaceSamplerQuality>
+	<SurfaceSamplerQuality>2</SurfaceSamplerQuality>
 	<PerformanceQualitySetting>0</PerformanceQualitySetting>
 	<ResolutionSetting>0</ResolutionSetting>
 	<LODDistanceScale>1.000000</LODDistanceScale>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>9/17/2023, 19:45:58</Time>
+		<Time>9/17/2023, 22:17:27</Time>
 		<MachineName>DESKTOP-O5FJCVG</MachineName>
 		<MachineId>{4571D720-EA28-4E99-A342-50E4EE0FB519}</MachineId>
 		<OperatingSystem>Windows 10 Education 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
@@ -13,7 +13,7 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>7562MB used, 13091MB available</PageFile>
+		<PageFile>6153MB used, 14500MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
@@ -972,7 +972,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>147234983936</FreeSpace>
+			<FreeSpace>146606202880</FreeSpace>
 			<MaxSpace>500090007552</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -982,7 +982,7 @@
 		</LogicalDisk>
 		<LogicalDisk>
 			<DriveLetter>D:</DriveLetter>
-			<FreeSpace>153821212672</FreeSpace>
+			<FreeSpace>153822855168</FreeSpace>
 			<MaxSpace>499447230464</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>TOSHIBA DT01ACA050</Model>
@@ -4287,16 +4287,16 @@
 	</EvrPowerInformation>
 	<Diagnostics>
 		<WindowsErrorReporting>
-			<WER0>Fault bucket 2259873854507749783, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: EliteDangerous64.exeP2: 295.971.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER0>
-			<WER1>Fault bucket 2193271534513390181, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: chrome.exeP2: 117.0.5938.89P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER1>
-			<WER2>Fault bucket 2048118459485459562, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: game.exeP2: 1.11.9.23697P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER2>
-			<WER3>Fault bucket 2154522823258342316, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: PathOfExile.exeP2: 0.0.0.0P3: 65010d9fP4: 8012P5: 134217728P6: P7: P8: P9: P10: </WER3>
-			<WER4>Fault bucket 1161954548991678588, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: PathOfExile.exeP2: 0.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER4>
-			<WER5>Fault bucket 1902583272023448332, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Last Epoch.exeP2: 2019.4.40.50731P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER5>
-			<WER6>Fault bucket 1538440795974981935, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Far.exeP2: 3.0.6000.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER6>
-			<WER7>Fault bucket 2057148016618990219, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: FlightSimulator.exeP2: 1.33.8.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER7>
-			<WER8>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: run.exeP2: 3.3.5.12340P3: 4c2452feP4: 5dd9P5: 134217728P6: P7: P8: P9: P10: </WER8>
-			<WER9>Fault bucket INVALID_REQUEST, type 0Event Name: WindowsServicingFailureInfoResponse: Not availableCab Id: 0Problem signature:P1: 10.0.19041.3385:1P2: 0x800F0984 0x800F0984 Matching binary: wvmbusr.inf missing for component: amd64_dual_wvmbusr.inf_31bf3856ad364e35_10.0.19041.3393_none_67b042bbb5347f14P3: 楆敬›瑳牯汥祡畯⹴灣⡰㘱㠹 ‭潃灭湯湥却潴敲㨺剃睡瑓牯䱥祡畯㩴䠺摹慲整楆敬P4: P5: P6: P7: P8: P9: P10: </WER9>
+			<WER0>Контейнер ошибки 1607125250760240010, тип 5Имя события: RADAR_PRE_LEAK_64Отклик: Not availableИдентификатор CAB: 0Сигнатура проблемы:P1: Warframe.x64.exeP2: 2023.9.12.9P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: Вложенные файлы:\\?\C:\Users\Dmytro\AppData\Local\Temp\RDRFCD5.tmp\empty.txt\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERFCF6.tmp.WERInternalMetadata.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERFCF7.tmp.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERFD0E.tmp.csv\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERFD2E.tmp.txtЭти файлы можно найти здесь:Символ анализа: Повторный поиск решения: 0Идентификатор отчета: 20406c4e-a123-46cf-976f-a76ca121458aСостояние отчета: 268435456Хэшированный контейнер: 7160affb3b938019f64da7e6911feb8aИдентификатор GUID CAB: 0</WER0>
+			<WER1>Контейнер ошибки 2259873854507749783, тип 5Имя события: RADAR_PRE_LEAK_64Отклик: Not availableИдентификатор CAB: 0Сигнатура проблемы:P1: EliteDangerous64.exeP2: 295.971.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: Вложенные файлы:\\?\C:\Users\Dmytro\AppData\Local\Temp\RDR264F.tmp\empty.txt\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2650.tmp.WERInternalMetadata.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2661.tmp.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER267B.tmp.csv\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER268B.tmp.txtЭти файлы можно найти здесь:Символ анализа: Повторный поиск решения: 0Идентификатор отчета: d48f42e0-cdba-4aac-be6d-cfaa1c4786acСостояние отчета: 268435456Хэшированный контейнер: 4ff6887150640ed85f5caf4c1f209197Идентификатор GUID CAB: 0</WER1>
+			<WER2>Контейнер ошибки 2193271534513390181, тип 5Имя события: RADAR_PRE_LEAK_64Отклик: Not availableИдентификатор CAB: 0Сигнатура проблемы:P1: chrome.exeP2: 117.0.5938.89P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: Вложенные файлы:\\?\C:\Users\Dmytro\AppData\Local\Temp\RDR3599.tmp\empty.txt\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER35BA.tmp.WERInternalMetadata.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER35BB.tmp.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER35E8.tmp.csv\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER35F8.tmp.txtЭти файлы можно найти здесь:Символ анализа: Повторный поиск решения: 0Идентификатор отчета: d7d2a3fe-a695-4eb7-81f6-32468994c02fСостояние отчета: 268435456Хэшированный контейнер: 9eb33453fd24afcf8e7010d716a58265Идентификатор GUID CAB: 0</WER2>
+			<WER3>Контейнер ошибки 2048118459485459562, тип 5Имя события: RADAR_PRE_LEAK_64Отклик: Not availableИдентификатор CAB: 0Сигнатура проблемы:P1: game.exeP2: 1.11.9.23697P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: Вложенные файлы:\\?\C:\Users\Dmytro\AppData\Local\Temp\RDR55F5.tmp\empty.txt\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER5606.tmp.WERInternalMetadata.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER5607.tmp.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER5618.tmp.csv\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER5629.tmp.txtЭти файлы можно найти здесь:Символ анализа: Повторный поиск решения: 0Идентификатор отчета: 7a38f5bc-6470-4293-a531-9459d9a87a26Состояние отчета: 268435456Хэшированный контейнер: eebefb5e539fcfa43c6c60e3338d146aИдентификатор GUID CAB: 0</WER3>
+			<WER4>Контейнер ошибки 2154522823258342316, тип 5Имя события: AppHangB1Отклик: Not availableИдентификатор CAB: 0Сигнатура проблемы:P1: PathOfExile.exeP2: 0.0.0.0P3: 65010d9fP4: 8012P5: 134217728P6: P7: P8: P9: P10: Вложенные файлы:\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2181.tmp.WERInternalMetadata.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2192.tmp.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2191.tmp.csv\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER21B1.tmp.txt\\?\C:\Users\Dmytro\AppData\Local\Temp\WER2656.tmp.appcompat.txtЭти файлы можно найти здесь:\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppHang_PathOfExile.exe_71d5f2d999f48fb1199916575e14cd97b3b766_49350114_e55a2c1b-e3b9-4586-b047-e766e6081aa7Символ анализа: Повторный поиск решения: 0Идентификатор отчета: 5da022ec-89bd-491f-b0e3-43a12f7380e0Состояние отчета: 268435456Хэшированный контейнер: 799d102c7838e0948de66717b4c903acИдентификатор GUID CAB: 0</WER4>
+			<WER5>Контейнер ошибки 1161954548991678588, тип 5Имя события: RADAR_PRE_LEAK_64Отклик: Not availableИдентификатор CAB: 0Сигнатура проблемы:P1: PathOfExile.exeP2: 0.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: Вложенные файлы:\\?\C:\Users\Dmytro\AppData\Local\Temp\RDR2582.tmp\empty.txt\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2583.tmp.WERInternalMetadata.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2584.tmp.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2598.tmp.csv\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER25B8.tmp.txtЭти файлы можно найти здесь:Символ анализа: Повторный поиск решения: 0Идентификатор отчета: c3073ced-ceac-467d-828e-5992fd7692f4Состояние отчета: 268435456Хэшированный контейнер: 1b666bb3353173135020178189cc587cИдентификатор GUID CAB: 0</WER5>
+			<WER6>Контейнер ошибки 1902583272023448332, тип 5Имя события: RADAR_PRE_LEAK_64Отклик: Not availableИдентификатор CAB: 0Сигнатура проблемы:P1: Last Epoch.exeP2: 2019.4.40.50731P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: Вложенные файлы:\\?\C:\Users\Dmytro\AppData\Local\Temp\RDR4470.tmp\empty.txt\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER4471.tmp.WERInternalMetadata.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER4482.tmp.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER4489.tmp.csv\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER44A9.tmp.txtЭти файлы можно найти здесь:Символ анализа: Повторный поиск решения: 0Идентификатор отчета: beafaa63-6329-4be8-bd88-087ed1be9d53Состояние отчета: 268435456Хэшированный контейнер: e72d0fa3fde9f3b81a675567d48edb0cИдентификатор GUID CAB: 0</WER6>
+			<WER7>Контейнер ошибки 1538440795974981935, тип 5Имя события: RADAR_PRE_LEAK_64Отклик: Not availableИдентификатор CAB: 0Сигнатура проблемы:P1: Far.exeP2: 3.0.6000.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: Вложенные файлы:\\?\C:\Users\Dmytro\AppData\Local\Temp\RDRB34C.tmp\empty.txt\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB4E3.tmp.WERInternalMetadata.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB6C9.tmp.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERBAEA.tmp.csv\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERBB1A.tmp.txtЭти файлы можно найти здесь:Символ анализа: Повторный поиск решения: 0Идентификатор отчета: 1ed1ae4d-62ec-4071-98fb-29eda177e0a5Состояние отчета: 268435456Хэшированный контейнер: 9cb74feab64e41a1a559a3c0c00ed92fИдентификатор GUID CAB: 0</WER7>
+			<WER8>Контейнер ошибки 2057148016618990219, тип 5Имя события: RADAR_PRE_LEAK_64Отклик: Not availableИдентификатор CAB: 0Сигнатура проблемы:P1: FlightSimulator.exeP2: 1.33.8.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: Вложенные файлы:\\?\C:\Users\Dmytro\AppData\Local\Temp\RDRAA98.tmp\empty.txt\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAAA9.tmp.WERInternalMetadata.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAAAA.tmp.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAAC7.tmp.csv\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERAAD8.tmp.txtЭти файлы можно найти здесь:Символ анализа: Повторный поиск решения: 0Идентификатор отчета: 17bafddc-bf69-4f0f-88c8-217b1c2b8357Состояние отчета: 268435456Хэшированный контейнер: 4c43becef1c06ade1c8c7538ccf96a8bИдентификатор GUID CAB: 0</WER8>
+			<WER9>Контейнер ошибки , тип 0Имя события: AppHangB1Отклик: Not availableИдентификатор CAB: 0Сигнатура проблемы:P1: run.exeP2: 3.3.5.12340P3: 4c2452feP4: 5dd9P5: 134217728P6: P7: P8: P9: P10: Вложенные файлы:\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERE179.tmp.WERInternalMetadata.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERE189.tmp.xml\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERE188.tmp.csv\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERE199.tmp.txt\\?\C:\Users\Dmytro\AppData\Local\Temp\WERE728.tmp.appcompat.txtЭти файлы можно найти здесь:\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppHang_run.exe_f57c5cf18e13ea55f38f8a123655e9c7ee72b9a_c5dcaece_445d1566-3900-4739-bb2d-4ce77eceb7b6Символ анализа: Повторный поиск решения: 0Идентификатор отчета: ce7e50f4-579a-48f8-ae95-5c35cffa1b7dСостояние отчета: 97Хэшированный контейнер: Идентификатор GUID CAB: 0</WER9>
 		</WindowsErrorReporting>
 	</Diagnostics>
 </DxDiag>

@@ -70,8 +70,8 @@
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
 	<RouteStartSystem Value="84456968626" />
-	<RouteDestinationSystem Value="0" />
-	<RouteDestinationBody Value="0" />
+	<RouteDestinationSystem Value="113674078411" />
+	<RouteDestinationBody Value="512" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
 	<RouteDestinationBodysiteID Value="18446744073709551615" />
 	<RouteDestinationIsCluster Value="0" />
@@ -94,36 +94,40 @@
 			<Drought Value="0" />
 			<Blight Value="0" />
 			<PublicHoliday Value="0" />
-			<Thargoid_Controlled Value="0" />
+			<Thargoid_Stronghold Value="0" />
 			<Outbreak Value="0" />
 			<None Value="0" />
 			<CivilUnrest Value="0" />
 			<Thargoid_Recovery Value="0" />
-			<Thargoid_Probing Value="0" />
 			<Bust Value="0" />
 			<NaturalDisaster Value="0" />
 			<CivilWar Value="0" />
 			<Election Value="0" />
 			<Incursion Value="0" />
 			<War Value="0" />
-			<Thargoid_Stronghold Value="0" />
+			<Thargoid_Controlled Value="0" />
 			<Expansion Value="0" />
 			<Boom Value="0" />
 			<Lockdown Value="0" />
 			<Famine Value="1" />
+			<Thargoid_Harvest Value="0" />
 			<affectsRoutePlotting Value="0" />
 			<Investment Value="0" />
 			<InfrastructureFailure Value="0" />
-			<Frontline Value="0" />
+			<Thargoid_Probing Value="0" />
 			<Terrorism Value="0" />
 			<Retreat Value="0" />
+			<Frontline Value="0" />
 			<CivilLiberty Value="0" />
-			<Thargoid_Harvest Value="0" />
 		</minorFactionStatus>
-		<EncodedPanelFilters>
-			<grade_5 Value="1" />
+		<MicroResourcePanelFilters>
 			<grade_4 Value="1" />
-		</EncodedPanelFilters>
+			<grade_5 Value="1" />
+			<raw Value="1" />
+			<pinned Value="0" />
+			<grade_3 Value="0" />
+			<manufactured Value="0" />
+		</MicroResourcePanelFilters>
 		<Security>
 			<HighSecurity Value="1" />
 			<LowSecurity Value="1" />
@@ -131,14 +135,10 @@
 			<Anarchy Value="1" />
 			<MediumSecurity Value="1" />
 		</Security>
-		<MicroResourcePanelFilters>
-			<grade_5 Value="0" />
-			<manufactured Value="1" />
-			<grade_3 Value="0" />
-			<raw Value="0" />
-			<pinned Value="0" />
-			<grade_4 Value="0" />
-		</MicroResourcePanelFilters>
+		<EncodedPanelFilters>
+			<grade_4 Value="1" />
+			<grade_5 Value="1" />
+		</EncodedPanelFilters>
 		<government>
 			<None Value="1" />
 			<Communism Value="1" />
@@ -185,7 +185,7 @@
 		<LocationPanelFilters>
 			<Star Value="0" />
 			<Settlement Value="0" />
-			<LandablePlanetOrMoon Value="1" />
+			<LandablePlanetOrMoon Value="0" />
 			<AsteroidCluster Value="0" />
 			<PlanetOrMoon Value="0" />
 			<PointOfInterest Value="0" />
