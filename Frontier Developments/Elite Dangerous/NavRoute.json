@@ -1,3 +1,11 @@
-{ "timestamp":"2023-08-07T18:08:01Z", "event":"NavRouteClear", "Route":[ 
-
+{ "timestamp":"2023-09-17T21:34:35Z", "event":"NavRoute", "Route":[ 
+{ "StarSystem":"HIP 36601", "SystemAddress":84456968626, "StarPos":[337.81250,562.96875,-1457.84375], "StarClass":"K" }, 
+{ "StarSystem":"Outotz RL-R c19-0", "SystemAddress":84524044714, "StarPos":[381.56250,531.21875,-1491.46875], "StarClass":"G" }, 
+{ "StarSystem":"Outotz PA-T c18-0", "SystemAddress":84524011938, "StarPos":[384.50000,489.96875,-1535.21875], "StarClass":"TTS" }, 
+{ "StarSystem":"Outotz MU-U c17-0", "SystemAddress":84591120794, "StarPos":[418.43750,457.31250,-1579.81250], "StarClass":"G" }, 
+{ "StarSystem":"Outotz GC-L d8-2", "SystemAddress":79297595595, "StarPos":[452.31250,400.78125,-1594.78125], "StarClass":"TTS" }, 
+{ "StarSystem":"Outotz OE-W c16-0", "SystemAddress":84725272978, "StarPos":[500.50000,376.93750,-1620.43750], "StarClass":"G" }, 
+{ "StarSystem":"Outotz SU-V c16-0", "SystemAddress":84725207442, "StarPos":[516.06250,316.68750,-1616.34375], "StarClass":"K" }, 
+{ "StarSystem":"Outotz VP-V c16-0", "SystemAddress":84792283538, "StarPos":[535.87500,257.25000,-1622.50000], "StarClass":"K" }, 
+{ "StarSystem":"Outotz LS-K d8-3", "SystemAddress":113674078411, "StarPos":[526.31250,238.46875,-1613.75000], "StarClass":"G" }
  ] }
