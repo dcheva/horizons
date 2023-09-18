@@ -1,1 +1,1 @@
-{ "timestamp":"2023-09-18T06:14:33Z", "event":"Status", "Flags":150995032, "Flags2":0, "Pips":[4,8,0], "FireGroup":0, "GuiFocus":9, "Fuel":{ "FuelMain":30.349813, "FuelReservoir":0.334790 }, "Cargo":4.000000, "LegalState":"Clean", "Balance":750821942 }
+{ "timestamp":"2023-09-18T06:24:23Z", "event":"Status", "Flags":150995032, "Flags2":0, "Pips":[4,8,0], "FireGroup":0, "GuiFocus":9, "Fuel":{ "FuelMain":30.349813, "FuelReservoir":0.054966 }, "Cargo":4.000000, "LegalState":"Clean", "Balance":750821942 }
