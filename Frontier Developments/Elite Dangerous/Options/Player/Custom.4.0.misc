@@ -234,7 +234,7 @@
 			<COMMS_direct_messages Value="2" />
 			<CHAT_group_squad Value="2" />
 			<CHAT_notifications Value="2" />
-			<CHAT_system Value="2" />
+			<CHAT_system Value="1" />
 			<CHAT_group_local Value="2" />
 		</VisibleChannels>
 	</TextChannelOptions>
