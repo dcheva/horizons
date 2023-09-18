@@ -69,7 +69,7 @@
 	<ShowSystemConnectors Value="1" />
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
-	<RouteStartSystem Value="113674078411" />
+	<RouteStartSystem Value="491631167715" />
 	<RouteDestinationSystem Value="0" />
 	<RouteDestinationBody Value="0" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
@@ -90,44 +90,44 @@
 			<noData Value="1" />
 			<dataAvailable Value="1" />
 		</tradeData>
-		<MicroResourcePanelFilters>
-			<raw Value="1" />
-			<grade_3 Value="0" />
-			<manufactured Value="0" />
-			<grade_4 Value="1" />
-			<grade_5 Value="1" />
-			<pinned Value="0" />
-		</MicroResourcePanelFilters>
 		<minorFactionStatus>
 			<Drought Value="0" />
-			<Thargoid_Harvest Value="0" />
 			<Blight Value="0" />
-			<Thargoid_Stronghold Value="0" />
 			<PublicHoliday Value="0" />
+			<Thargoid_Controlled Value="0" />
 			<Outbreak Value="0" />
-			<Thargoid_Probing Value="0" />
 			<None Value="0" />
 			<CivilUnrest Value="0" />
-			<Frontline Value="0" />
+			<Thargoid_Probing Value="0" />
 			<Bust Value="0" />
 			<NaturalDisaster Value="0" />
 			<CivilWar Value="0" />
 			<Election Value="0" />
 			<Incursion Value="0" />
 			<War Value="0" />
+			<Thargoid_Stronghold Value="0" />
 			<Expansion Value="0" />
-			<Thargoid_Controlled Value="0" />
 			<Boom Value="0" />
 			<Lockdown Value="0" />
 			<Famine Value="1" />
+			<Thargoid_Harvest Value="0" />
 			<affectsRoutePlotting Value="0" />
 			<Investment Value="0" />
 			<InfrastructureFailure Value="0" />
-			<Thargoid_Recovery Value="0" />
+			<Frontline Value="0" />
 			<Terrorism Value="0" />
 			<Retreat Value="0" />
+			<Thargoid_Recovery Value="0" />
 			<CivilLiberty Value="0" />
 		</minorFactionStatus>
+		<MicroResourcePanelFilters>
+			<raw Value="1" />
+			<pinned Value="0" />
+			<grade_4 Value="1" />
+			<manufactured Value="0" />
+			<grade_5 Value="1" />
+			<grade_3 Value="0" />
+		</MicroResourcePanelFilters>
 		<Security>
 			<HighSecurity Value="1" />
 			<LowSecurity Value="1" />
@@ -234,7 +234,7 @@
 			<COMMS_direct_messages Value="2" />
 			<CHAT_group_squad Value="2" />
 			<CHAT_notifications Value="2" />
-			<CHAT_system Value="1" />
+			<CHAT_system Value="2" />
 			<CHAT_group_local Value="2" />
 		</VisibleChannels>
 	</TextChannelOptions>
@@ -246,7 +246,7 @@
 	<HelpPopupViewedFSS Value="1" />
 	<HelpPopupViewedSAA Value="0" />
 	<HelpPopupViewedAXMap Value="1" />
-	<CurrentHUDMode Value="Normal" />
+	<CurrentHUDMode Value="Analysis" />
 	<MarketFilter_inCargo Value="1" />
 	<MarketFilter_requiredForMission Value="1" />
 	<MarketFilter_highDemand Value="1" />
