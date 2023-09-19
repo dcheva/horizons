@@ -1,3 +1,5 @@
-{ "timestamp":"2023-09-18T05:58:59Z", "event":"NavRouteClear", "Route":[ 
-
+{ "timestamp":"2023-09-18T15:50:20Z", "event":"NavRoute", "Route":[ 
+{ "StarSystem":"Wredguia PT-T b44-3", "SystemAddress":7252455073153, "StarPos":[-1164.15625,28.31250,-88.00000], "StarClass":"M" }, 
+{ "StarSystem":"Wredguia BH-O b47-6", "SystemAddress":13848987903385, "StarPos":[-1197.09375,-3.28125,-36.28125], "StarClass":"M" }, 
+{ "StarSystem":"Wredguia ZX-H c23-5", "SystemAddress":1456228799178, "StarPos":[-1201.00000,-11.09375,-34.37500], "StarClass":"G" }
  ] }

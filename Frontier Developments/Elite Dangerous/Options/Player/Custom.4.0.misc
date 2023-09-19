@@ -38,8 +38,8 @@
 	<routePlottingVirtualCargoMass Value="0" />
 	<routePlottingRealCargoMass Value="0" />
 	<NebulaNames Value="1" />
-	<RealisticView Value="0" />
-	<ColourVisIndex Value="6" />
+	<RealisticView Value="1" />
+	<ColourVisIndex Value="5" />
 	<SizeVisIndex Value="0" />
 	<FriendMarkers Value="1" />
 	<WingMarkers Value="1" />
@@ -69,9 +69,9 @@
 	<ShowSystemConnectors Value="1" />
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
-	<RouteStartSystem Value="491631167715" />
-	<RouteDestinationSystem Value="0" />
-	<RouteDestinationBody Value="0" />
+	<RouteStartSystem Value="13848987903385" />
+	<RouteDestinationSystem Value="1456228799178" />
+	<RouteDestinationBody Value="512" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
 	<RouteDestinationBodysiteID Value="18446744073709551615" />
 	<RouteDestinationIsCluster Value="0" />
@@ -94,18 +94,18 @@
 			<Drought Value="0" />
 			<Blight Value="0" />
 			<PublicHoliday Value="0" />
-			<Thargoid_Controlled Value="0" />
+			<Thargoid_Stronghold Value="0" />
 			<Outbreak Value="0" />
 			<None Value="0" />
 			<CivilUnrest Value="0" />
-			<Thargoid_Probing Value="0" />
+			<Frontline Value="0" />
 			<Bust Value="0" />
 			<NaturalDisaster Value="0" />
 			<CivilWar Value="0" />
 			<Election Value="0" />
 			<Incursion Value="0" />
 			<War Value="0" />
-			<Thargoid_Stronghold Value="0" />
+			<Thargoid_Controlled Value="0" />
 			<Expansion Value="0" />
 			<Boom Value="0" />
 			<Lockdown Value="0" />
@@ -114,19 +114,19 @@
 			<affectsRoutePlotting Value="0" />
 			<Investment Value="0" />
 			<InfrastructureFailure Value="0" />
-			<Frontline Value="0" />
+			<Thargoid_Recovery Value="0" />
 			<Terrorism Value="0" />
 			<Retreat Value="0" />
-			<Thargoid_Recovery Value="0" />
+			<Thargoid_Probing Value="0" />
 			<CivilLiberty Value="0" />
 		</minorFactionStatus>
 		<MicroResourcePanelFilters>
-			<raw Value="1" />
-			<pinned Value="0" />
 			<grade_4 Value="1" />
 			<manufactured Value="0" />
-			<grade_5 Value="1" />
+			<raw Value="1" />
 			<grade_3 Value="0" />
+			<pinned Value="0" />
+			<grade_5 Value="1" />
 		</MicroResourcePanelFilters>
 		<Security>
 			<HighSecurity Value="1" />
@@ -184,15 +184,15 @@
 		</economy>
 		<LocationPanelFilters>
 			<Star Value="0" />
-			<Settlement Value="0" />
+			<Settlement Value="1" />
 			<LandablePlanetOrMoon Value="0" />
 			<AsteroidCluster Value="0" />
 			<PlanetOrMoon Value="0" />
-			<PointOfInterest Value="0" />
-			<SignalSource Value="0" />
+			<PointOfInterest Value="1" />
+			<SignalSource Value="1" />
 			<System Value="0" />
-			<station Value="0" />
-			<FleetCarrier Value="0" />
+			<station Value="1" />
+			<FleetCarrier Value="1" />
 		</LocationPanelFilters>
 		<site>
 			<None Value="0" />
@@ -207,7 +207,7 @@
 			<Y Value="0" />
 			<O Value="1" />
 			<G Value="1" />
-			<affectsRoutePlotting Value="1" />
+			<affectsRoutePlotting Value="0" />
 			<W Value="1" />
 			<F Value="1" />
 			<N Value="1" />
