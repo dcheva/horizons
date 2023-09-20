@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>9/18/2023, 16:27:51</Time>
+		<Time>9/20/2023, 10:26:15</Time>
 		<MachineName>DESKTOP-O5FJCVG</MachineName>
 		<MachineId>{4571D720-EA28-4E99-A342-50E4EE0FB519}</MachineId>
 		<OperatingSystem>Windows 10 Education 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
@@ -13,7 +13,7 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>6898MB used, 13755MB available</PageFile>
+		<PageFile>6239MB used, 15438MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
@@ -972,7 +972,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>143584743424</FreeSpace>
+			<FreeSpace>105513947136</FreeSpace>
 			<MaxSpace>500090007552</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -982,7 +982,7 @@
 		</LogicalDisk>
 		<LogicalDisk>
 			<DriveLetter>D:</DriveLetter>
-			<FreeSpace>255709782016</FreeSpace>
+			<FreeSpace>253852852224</FreeSpace>
 			<MaxSpace>499447230464</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>TOSHIBA DT01ACA050</Model>
@@ -1862,7 +1862,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>6/21/2023 14:12:26</Date>
+					<Date>9/1/2023 23:26:43</Date>
 					<Size>10188744</Size>
 				</Driver>
 				<Driver>
@@ -1952,7 +1952,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>6/21/2023 14:12:26</Date>
+					<Date>9/1/2023 23:26:43</Date>
 					<Size>68560</Size>
 				</Driver>
 				<Driver>
@@ -1982,7 +1982,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>6/21/2023 14:12:26</Date>
+					<Date>9/1/2023 23:26:43</Date>
 					<Size>28827</Size>
 				</Driver>
 				<Driver>
@@ -4395,16 +4395,16 @@
 	</EvrPowerInformation>
 	<Diagnostics>
 		<WindowsErrorReporting>
-			<WER0>Fault bucket 2130415749111855339, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: EDDiscovery.exeP2: 16.2.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER0>
-			<WER1>Fault bucket 1473664337826173903, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: ACOdyssey.exeP2: 0.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER1>
-			<WER2>Fault bucket 1902329455292002243, type 5Event Name: BEX64Response: Not availableCab Id: 0Problem signature:P1: ACOdyssey_plus.exeP2: 0.0.0.0P3: 5e585f76P4: StackHash_693cP5: 0.0.0.0P6: 00000000P7: PCH_84_FROM_unknown+0x0000000000000000P8: c0000005P9: 0000000000000008P10: </WER2>
-			<WER3>Fault bucket , type 0Event Name: BEX64Response: Not availableCab Id: 0Problem signature:P1: ACOdyssey_plus.exeP2: 0.0.0.0P3: 5e585f76P4: StackHash_693cP5: 0.0.0.0P6: 00000000P7: PCH_84_FROM_unknown+0x0000000000000000P8: c0000005P9: 0000000000000008P10: </WER3>
-			<WER4>Fault bucket 2014488411728240332, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: paintdotnet.exeP2: 5.9.8621.1636P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER4>
-			<WER5>Fault bucket 1607125250760240010, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Warframe.x64.exeP2: 2023.9.12.9P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER5>
-			<WER6>Fault bucket 2259873854507749783, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: EliteDangerous64.exeP2: 295.971.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER6>
-			<WER7>Fault bucket 2193271534513390181, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: chrome.exeP2: 117.0.5938.89P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER7>
-			<WER8>Fault bucket 2048118459485459562, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: game.exeP2: 1.11.9.23697P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER8>
-			<WER9>Fault bucket 2154522823258342316, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: PathOfExile.exeP2: 0.0.0.0P3: 65010d9fP4: 8012P5: 134217728P6: P7: P8: P9: P10: </WER9>
+			<WER0>No Data</WER0>
+			<WER1>No Data</WER1>
+			<WER2>No Data</WER2>
+			<WER3>No Data</WER3>
+			<WER4>No Data</WER4>
+			<WER5>No Data</WER5>
+			<WER6>No Data</WER6>
+			<WER7>No Data</WER7>
+			<WER8>No Data</WER8>
+			<WER9>No Data</WER9>
 		</WindowsErrorReporting>
 	</Diagnostics>
 </DxDiag>

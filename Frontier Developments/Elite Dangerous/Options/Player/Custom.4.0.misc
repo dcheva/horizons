@@ -69,8 +69,8 @@
 	<ShowSystemConnectors Value="1" />
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
-	<RouteStartSystem Value="13848987903385" />
-	<RouteDestinationSystem Value="1456228799178" />
+	<RouteStartSystem Value="13836371371545" />
+	<RouteDestinationSystem Value="2824511624138" />
 	<RouteDestinationBody Value="512" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
 	<RouteDestinationBodysiteID Value="18446744073709551615" />
@@ -90,12 +90,22 @@
 			<noData Value="1" />
 			<dataAvailable Value="1" />
 		</tradeData>
+		<MicroResourcePanelFilters>
+			<grade_4 Value="1" />
+			<manufactured Value="0" />
+			<pinned Value="0" />
+			<raw Value="1" />
+			<grade_3 Value="0" />
+			<grade_5 Value="1" />
+		</MicroResourcePanelFilters>
 		<minorFactionStatus>
 			<Drought Value="0" />
+			<Thargoid_Harvest Value="0" />
 			<Blight Value="0" />
+			<Thargoid_Controlled Value="0" />
 			<PublicHoliday Value="0" />
-			<Thargoid_Stronghold Value="0" />
 			<Outbreak Value="0" />
+			<Thargoid_Probing Value="0" />
 			<None Value="0" />
 			<CivilUnrest Value="0" />
 			<Frontline Value="0" />
@@ -105,29 +115,19 @@
 			<Election Value="0" />
 			<Incursion Value="0" />
 			<War Value="0" />
-			<Thargoid_Controlled Value="0" />
 			<Expansion Value="0" />
+			<Thargoid_Stronghold Value="0" />
 			<Boom Value="0" />
 			<Lockdown Value="0" />
 			<Famine Value="1" />
-			<Thargoid_Harvest Value="0" />
 			<affectsRoutePlotting Value="0" />
 			<Investment Value="0" />
 			<InfrastructureFailure Value="0" />
 			<Thargoid_Recovery Value="0" />
 			<Terrorism Value="0" />
 			<Retreat Value="0" />
-			<Thargoid_Probing Value="0" />
 			<CivilLiberty Value="0" />
 		</minorFactionStatus>
-		<MicroResourcePanelFilters>
-			<grade_4 Value="1" />
-			<manufactured Value="0" />
-			<raw Value="1" />
-			<grade_3 Value="0" />
-			<pinned Value="0" />
-			<grade_5 Value="1" />
-		</MicroResourcePanelFilters>
 		<Security>
 			<HighSecurity Value="1" />
 			<LowSecurity Value="1" />
@@ -207,13 +207,13 @@
 			<Y Value="0" />
 			<O Value="1" />
 			<G Value="1" />
-			<affectsRoutePlotting Value="0" />
+			<affectsRoutePlotting Value="1" />
 			<W Value="1" />
 			<F Value="1" />
 			<N Value="1" />
 			<L Value="0" />
 			<TTS Value="0" />
-			<M Value="0" />
+			<M Value="1" />
 			<A Value="1" />
 			<D Value="1" />
 			<K Value="1" />
