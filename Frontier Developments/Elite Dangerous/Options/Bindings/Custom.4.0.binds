@@ -1128,7 +1128,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraScrollRight>
 	<ToggleFreeCam>
-		<Primary Device="Keyboard" Key="Key_Numpad_0" />
+		<Primary Device="Keyboard" Key="Key_LeftControl" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleFreeCam>
 	<VanityCameraOne>
@@ -1172,7 +1172,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraTen>
 	<FreeCamToggleHUD>
-		<Primary Device="Keyboard" Key="Key_LeftControl" />
+		<Primary Device="Keyboard" Key="Key_Numpad_0" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FreeCamToggleHUD>
 	<FreeCamSpeedInc>
@@ -1287,7 +1287,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleRotationLock>
 	<FixCameraRelativeToggle>
-		<Primary Device="Keyboard" Key="Key_Numpad_0" />
+		<Primary Device="Keyboard" Key="Key_LeftControl" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FixCameraRelativeToggle>
 	<FixCameraWorldToggle>

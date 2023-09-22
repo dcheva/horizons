@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>9/20/2023, 10:26:15</Time>
+		<Time>9/22/2023, 17:33:23</Time>
 		<MachineName>DESKTOP-O5FJCVG</MachineName>
 		<MachineId>{4571D720-EA28-4E99-A342-50E4EE0FB519}</MachineId>
 		<OperatingSystem>Windows 10 Education 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
@@ -13,7 +13,7 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>6239MB used, 15438MB available</PageFile>
+		<PageFile>5636MB used, 15529MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
@@ -972,7 +972,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>105513947136</FreeSpace>
+			<FreeSpace>94775119872</FreeSpace>
 			<MaxSpace>500090007552</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -982,7 +982,7 @@
 		</LogicalDisk>
 		<LogicalDisk>
 			<DriveLetter>D:</DriveLetter>
-			<FreeSpace>253852852224</FreeSpace>
+			<FreeSpace>252120735744</FreeSpace>
 			<MaxSpace>499447230464</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>TOSHIBA DT01ACA050</Model>
@@ -4395,8 +4395,8 @@
 	</EvrPowerInformation>
 	<Diagnostics>
 		<WindowsErrorReporting>
-			<WER0>No Data</WER0>
-			<WER1>No Data</WER1>
+			<WER0>Fault bucket 1734295816564394550, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: StarcomNexus.exeP2: 2017.4.29.20618P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER0>
+			<WER1>Fault bucket 1750425832857193965, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Dragonheir.exeP2: 2021.3.8.46450P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER1>
 			<WER2>No Data</WER2>
 			<WER3>No Data</WER3>
 			<WER4>No Data</WER4>
