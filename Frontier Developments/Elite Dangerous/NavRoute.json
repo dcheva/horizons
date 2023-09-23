@@ -1,31 +1,3 @@
-{ "timestamp":"2023-09-22T14:37:05Z", "event":"NavRoute", "Route":[ 
-{ "StarSystem":"Sifi HP-R b4-6", "SystemAddress":13834492454441, "StarPos":[-2270.75000,24.59375,318.93750], "StarClass":"M" }, 
-{ "StarSystem":"Sifi HG-Y d83", "SystemAddress":2861849119115, "StarPos":[-2328.40625,26.90625,356.12500], "StarClass":"F" }, 
-{ "StarSystem":"Sifi GG-Y d95", "SystemAddress":3274149202315, "StarPos":[-2393.21875,45.09375,370.81250], "StarClass":"F" }, 
-{ "StarSystem":"Sifi GR-M b7-2", "SystemAddress":5035983644225, "StarPos":[-2457.56250,59.84375,390.90625], "StarClass":"M" }, 
-{ "StarSystem":"Sifi SO-R c4-7", "SystemAddress":2003770086186, "StarPos":[-2519.15625,62.87500,421.50000], "StarClass":"K" }, 
-{ "StarSystem":"Sifi MJ-H b10-0", "SystemAddress":636326520409, "StarPos":[-2584.37500,57.18750,436.93750], "StarClass":"M" }, 
-{ "StarSystem":"Pru Eurk VR-W d1-13", "SystemAddress":456600340883, "StarPos":[-2650.93750,71.25000,446.59375], "StarClass":"K" }, 
-{ "StarSystem":"Pru Eurk VR-F b11-4", "SystemAddress":9430540494433, "StarPos":[-2712.68750,66.00000,474.43750], "StarClass":"M" }, 
-{ "StarSystem":"Pru Eurk YX-U d2-61", "SystemAddress":2105851005339, "StarPos":[-2743.06250,98.90625,459.18750], "StarClass":"N" }, 
-{ "StarSystem":"Pru Eurk XF-X b15-1", "SystemAddress":2829712762505, "StarPos":[-2993.12500,97.25000,574.03125], "StarClass":"M" }, 
-{ "StarSystem":"Pru Eurk ZS-K c8-11", "SystemAddress":3102409331530, "StarPos":[-3057.87500,101.31250,596.40625], "StarClass":"K" }, 
-{ "StarSystem":"Pru Eurk CK-R d4-69", "SystemAddress":2380661803435, "StarPos":[-3046.87500,129.09375,616.71875], "StarClass":"N" }, 
-{ "StarSystem":"Pru Eurk GK-O b20-1", "SystemAddress":2826759972529, "StarPos":[-3209.43750,96.34375,659.15625], "StarClass":"M" }, 
-{ "StarSystem":"Pru Eurk MW-K b22-0", "SystemAddress":627199846081, "StarPos":[-3264.50000,100.34375,696.56250], "StarClass":"M" }, 
-{ "StarSystem":"Pru Eurk BV-P d5-8", "SystemAddress":284667447731, "StarPos":[-3301.50000,135.37500,707.71875], "StarClass":"N" }, 
-{ "StarSystem":"NGC 6910 Sector EL-Y d57", "SystemAddress":1968244279731, "StarPos":[-3572.06250,131.34375,758.40625], "StarClass":"N" }, 
-{ "StarSystem":"Pru Eurk QI-V b30-0", "SystemAddress":619683784457, "StarPos":[-3820.25000,140.87500,879.31250], "StarClass":"M" }, 
-{ "StarSystem":"Pru Eurk EC-M d7-15", "SystemAddress":525068159427, "StarPos":[-3850.71875,127.12500,878.84375], "StarClass":"N" }, 
-{ "StarSystem":"Sifou TN-K d8-17", "SystemAddress":593737320907, "StarPos":[-4107.37500,170.34375,971.15625], "StarClass":"G" }, 
-{ "StarSystem":"Sifou SN-K d8-17", "SystemAddress":593720543691, "StarPos":[-4166.09375,188.90625,998.06250], "StarClass":"F" }, 
-{ "StarSystem":"Sifou GL-J b37-1", "SystemAddress":2813338462017, "StarPos":[-4222.75000,187.00000,1031.15625], "StarClass":"M" }, 
-{ "StarSystem":"Sifou OS-R c18-2", "SystemAddress":626427859874, "StarPos":[-4285.62500,211.18750,1045.75000], "StarClass":"K" }, 
-{ "StarSystem":"Sifou FC-G b39-0", "SystemAddress":612436223825, "StarPos":[-4349.93750,206.31250,1064.71875], "StarClass":"M" }, 
-{ "StarSystem":"Sifou SY-I d9-15", "SystemAddress":524967528915, "StarPos":[-4345.96875,216.56250,1079.56250], "StarClass":"N" }, 
-{ "StarSystem":"Sifou RM-V b44-0", "SystemAddress":609214998401, "StarPos":[-4602.25000,196.37500,1179.09375], "StarClass":"M" }, 
-{ "StarSystem":"NGC 6871 Sector KA-U b5-0", "SystemAddress":608409757577, "StarPos":[-4664.06250,219.56250,1196.68750], "StarClass":"M" }, 
-{ "StarSystem":"NGC 6871 Sector GA-U b5-1", "SystemAddress":2806359271305, "StarPos":[-4729.68750,228.09375,1198.59375], "StarClass":"M" }, 
-{ "StarSystem":"Crescent Sector LC-U b3-1", "SystemAddress":2805553964945, "StarPos":[-4790.71875,225.06250,1229.53125], "StarClass":"M" }, 
-{ "StarSystem":"Crescent Sector GW-W c1-8", "SystemAddress":2274755777482, "StarPos":[-4842.18750,210.81250,1252.21875], "StarClass":"G" }
+{ "timestamp":"2023-09-23T21:42:10Z", "event":"NavRouteClear", "Route":[ 
+
  ] }
