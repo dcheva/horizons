@@ -1,8 +1,8 @@
-{ "timestamp":"2023-09-23T21:01:24Z", "event":"ModuleInfo", "Modules":[ 
+{ "timestamp":"2023-09-24T13:40:58Z", "event":"ModuleInfo", "Modules":[ 
 { "Slot":"MainEngines", "Item":"int_engine_size4_class2", "Power":3.985200, "Priority":0 }, 
 { "Slot":"Slot03_Size3", "Item":"int_shieldgenerator_size3_class5", "Power":2.520000, "Priority":0 }, 
 { "Slot":"Slot02_Size4", "Item":"int_guardianfsdbooster_size4", "Power":1.650000, "Priority":3 }, 
-{ "Slot":"Slot05_Size2", "Item":"int_buggybay_size2_class2", "Power":0.750000, "Priority":2 }, 
+{ "Slot":"Slot04_Size3", "Item":"int_repairer_size3_class3", "Power":1.350000, "Priority":0 }, 
 { "Slot":"Slot06_Size2", "Item":"int_buggybay_size2_class2", "Power":0.750000, "Priority":2 }, 
 { "Slot":"FrameShiftDrive", "Item":"int_hyperdrive_size5_class5", "Power":0.690000, "Priority":0 }, 
 { "Slot":"CargoHatch", "Item":"modularcargobaydoor", "Power":0.600000, "Priority":3 }, 
@@ -17,7 +17,7 @@
 { "Slot":"TinyHardpoint4", "Item":"hpt_heatsinklauncher_turret_tiny", "Power":0.200000, "Priority":0 }, 
 { "Slot":"ShipCockpit", "Item":"diamondbackxl_cockpit", "Power":0.000000 }, 
 { "Slot":"PowerPlant", "Item":"int_powerplant_size4_class2", "Power":0.000000 }, 
-{ "Slot":"Slot04_Size3", "Item":"int_cargorack_size3_class1", "Power":0.000000 }, 
+{ "Slot":"Slot05_Size2", "Item":"int_cargorack_size2_class1", "Power":0.000000 }, 
 { "Slot":"Slot08_Size1", "Item":"int_detailedsurfacescanner_tiny", "Power":0.000000, "Priority":0 }, 
 { "Slot":"PlanetaryApproachSuite", "Item":"int_planetapproachsuite_advanced", "Power":0.000000 }, 
 { "Slot":"DataLinkScanner", "Item":"hpt_shipdatalinkscanner", "Power":0.000000, "Priority":0 }, 
