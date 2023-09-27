@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>9/24/2023, 14:11:36</Time>
+		<Time>9/27/2023, 15:37:46</Time>
 		<MachineName>DESKTOP-O5FJCVG</MachineName>
 		<MachineId>{4571D720-EA28-4E99-A342-50E4EE0FB519}</MachineId>
 		<OperatingSystem>Windows 10 Education 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
@@ -13,7 +13,7 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>6222MB used, 14431MB available</PageFile>
+		<PageFile>8053MB used, 12088MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
@@ -221,7 +221,7 @@
 				<OtherFiles></OtherFiles>
 				<DriverProvider>Microsoft</DriverProvider>
 				<HwAccelLevel>Emulation Only</HwAccelLevel>
-				<DefaultSoundPlayback>0</DefaultSoundPlayback>
+				<DefaultSoundPlayback>1</DefaultSoundPlayback>
 				<DefaultVoicePlayback>1</DefaultVoicePlayback>
 				<VoiceManager>0</VoiceManager>
 				<EAX20Listener>0</EAX20Listener>
@@ -268,7 +268,7 @@
 				<OtherFiles></OtherFiles>
 				<DriverProvider>Microsoft</DriverProvider>
 				<HwAccelLevel>Emulation Only</HwAccelLevel>
-				<DefaultSoundPlayback>1</DefaultSoundPlayback>
+				<DefaultSoundPlayback>0</DefaultSoundPlayback>
 				<DefaultVoicePlayback>0</DefaultVoicePlayback>
 				<VoiceManager>0</VoiceManager>
 				<EAX20Listener>0</EAX20Listener>
@@ -611,7 +611,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>86180605952</FreeSpace>
+			<FreeSpace>92994203648</FreeSpace>
 			<MaxSpace>500090007552</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -621,7 +621,7 @@
 		</LogicalDisk>
 		<LogicalDisk>
 			<DriveLetter>D:</DriveLetter>
-			<FreeSpace>252086317056</FreeSpace>
+			<FreeSpace>195148214272</FreeSpace>
 			<MaxSpace>499447230464</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>TOSHIBA DT01ACA050</Model>
@@ -3930,7 +3930,7 @@
 			<FileVersion>10.00.19041.0746</FileVersion>
 		</Filter>
 		<Filter>
-			<Name>Speakers (High Definition Audio Device)</Name>
+			<Name>Headphones (High Definition Audio Device)</Name>
 			<FilterCatagory>Audio Renderers</FilterCatagory>
 			<Merit>2097152</Merit>
 			<Inputs>1</Inputs>
@@ -3984,7 +3984,7 @@
 			<FileVersion>10.00.19041.0746</FileVersion>
 		</Filter>
 		<Filter>
-			<Name>Headphones (High Definition Audio Device)</Name>
+			<Name>Digital Audio (S/PDIF) (High Definition Audio Device)</Name>
 			<FilterCatagory>Audio Renderers</FilterCatagory>
 			<Merit>2097152</Merit>
 			<Inputs>1</Inputs>
@@ -3993,7 +3993,7 @@
 			<FileVersion>10.00.19041.0746</FileVersion>
 		</Filter>
 		<Filter>
-			<Name>Digital Audio (S/PDIF) (High Definition Audio Device)</Name>
+			<Name>Speakers (High Definition Audio Device)</Name>
 			<FilterCatagory>Audio Renderers</FilterCatagory>
 			<Merit>2097152</Merit>
 			<Inputs>1</Inputs>
@@ -4034,15 +4034,15 @@
 	</EvrPowerInformation>
 	<Diagnostics>
 		<WindowsErrorReporting>
-			<WER0>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: run.exeP2: 3.3.5.12340P3: 4c2452feP4: a350P5: 134217728P6: P7: P8: P9: P10: </WER0>
-			<WER1>Fault bucket 1885917967968785886, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: steamwebhelper.exeP2: 8.33.9.23P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER1>
-			<WER2>Fault bucket 1734295816564394550, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: StarcomNexus.exeP2: 2017.4.29.20618P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER2>
-			<WER3>Fault bucket 1750425832857193965, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Dragonheir.exeP2: 2021.3.8.46450P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER3>
-			<WER4>No Data</WER4>
-			<WER5>No Data</WER5>
-			<WER6>No Data</WER6>
-			<WER7>No Data</WER7>
-			<WER8>No Data</WER8>
+			<WER0>Fault bucket 1744904586616250467, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: FarCryNewDawn.exeP2: 1.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER0>
+			<WER1>Fault bucket 2119559313450719562, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: run.exeP2: 3.3.5.12340P3: 4c2452feP4: 74fcP5: 67246080P6: P7: P8: P9: P10: </WER1>
+			<WER2>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: run.exeP2: 3.3.5.12340P3: 4c2452feP4: 74fcP5: 67246080P6: P7: P8: P9: P10: </WER2>
+			<WER3>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: run.exeP2: 3.3.5.12340P3: 4c2452feP4: 74fcP5: 134217728P6: P7: P8: P9: P10: </WER3>
+			<WER4>Fault bucket 1384414762243074167, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Cyberpunk2077.exeP2: 3.0.74.53121P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER4>
+			<WER5>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: run.exeP2: 3.3.5.12340P3: 4c2452feP4: a350P5: 134217728P6: P7: P8: P9: P10: </WER5>
+			<WER6>Fault bucket 1885917967968785886, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: steamwebhelper.exeP2: 8.33.9.23P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER6>
+			<WER7>Fault bucket 1734295816564394550, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: StarcomNexus.exeP2: 2017.4.29.20618P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER7>
+			<WER8>Fault bucket 1750425832857193965, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Dragonheir.exeP2: 2021.3.8.46450P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER8>
 			<WER9>No Data</WER9>
 		</WindowsErrorReporting>
 	</Diagnostics>
