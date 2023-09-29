@@ -1,15 +1,18 @@
-{ "timestamp":"2023-09-25T23:57:12Z", "event":"ModuleInfo", "Modules":[ 
-{ "Slot":"ShieldGenerator", "Item":"int_shieldgenerator_size0_class3", "Power":0.600000, "Priority":2 }, 
-{ "Slot":"Radar", "Item":"int_sensors_surface_size1_class1", "Power":0.500000, "Priority":2 }, 
-{ "Slot":"Turret", "Item":"vehicle_turretgun", "Power":0.250000, "Priority":2 }, 
-{ "Slot":"SineWaveScanner", "Item":"int_sinewavescanner_size1_class1", "Power":0.150000, "Priority":2 }, 
-{ "Slot":"PowerDistributor", "Item":"int_powerdistributor_size0_class1", "Power":0.125000, "Priority":2 }, 
-{ "Slot":"BuggyCargoHatch", "Item":"buggycargobaydoor", "Power":0.125000, "Priority":2 }, 
-{ "Slot":"DataLinkScanner", "Item":"hpt_datalinkscanner", "Power":0.125000, "Priority":2 }, 
-{ "Slot":"LifeSupport", "Item":"int_lifesupport_size0_class1", "Power":0.125000, "Priority":2 }, 
-{ "Slot":"ShipCockpit", "Item":"testbuggy_cockpit", "Power":0.000000 }, 
-{ "Slot":"PowerPlant", "Item":"int_powerplant_size0_class1", "Power":0.000000 }, 
-{ "Slot":"FuelTank", "Item":"int_fueltank_size0_class3", "Power":0.000000 }, 
+{ "timestamp":"2023-09-27T20:57:22Z", "event":"ModuleInfo", "Modules":[ 
+{ "Slot":"MainEngines", "Item":"int_engine_size5_class2", "Power":4.590000, "Priority":0 }, 
+{ "Slot":"Slot06_Size4", "Item":"int_guardianfsdbooster_size4", "Power":1.650000, "Priority":0 }, 
+{ "Slot":"Slot01_Size6", "Item":"int_fuelscoop_size6_class5", "Power":0.830000, "Priority":0 }, 
+{ "Slot":"FrameShiftDrive", "Item":"int_hyperdrive_size5_class5", "Power":0.690000, "Priority":0 }, 
+{ "Slot":"PowerDistributor", "Item":"int_powerdistributor_size6_class2", "Power":0.610000, "Priority":0 }, 
+{ "Slot":"CargoHatch", "Item":"modularcargobaydoor", "Power":0.600000, "Priority":2 }, 
+{ "Slot":"LifeSupport", "Item":"int_lifesupport_size4_class2", "Power":0.560000, "Priority":0 }, 
+{ "Slot":"Radar", "Item":"int_sensors_size6_class2", "Power":0.450000, "Priority":0 }, 
+{ "Slot":"Slot10_Size1", "Item":"int_dockingcomputer_advanced", "Power":0.450000, "Priority":0 }, 
+{ "Slot":"TinyHardpoint1", "Item":"hpt_heatsinklauncher_turret_tiny", "Power":0.200000, "Priority":0 }, 
+{ "Slot":"ShipCockpit", "Item":"python_cockpit", "Power":0.000000 }, 
+{ "Slot":"PowerPlant", "Item":"int_powerplant_size3_class5", "Power":0.000000 }, 
+{ "Slot":"PlanetaryApproachSuite", "Item":"int_planetapproachsuite_advanced", "Power":0.000000 }, 
+{ "Slot":"DataLinkScanner", "Item":"hpt_shipdatalinkscanner", "Power":0.000000, "Priority":0 }, 
 { "Slot":"CodexScanner", "Item":"int_codexscanner", "Power":0.000000 }, 
-{ "Slot":"Armour", "Item":"scarab_armour_grade1", "Power":0.000000 }
+{ "Slot":"DiscoveryScanner", "Item":"int_stellarbodydiscoveryscanner_standard", "Power":0.000000 }
  ] }

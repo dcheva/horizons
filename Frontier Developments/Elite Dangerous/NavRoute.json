@@ -1,11 +1,3 @@
-{ "timestamp":"2023-09-27T13:47:47Z", "event":"NavRoute", "Route":[ 
-{ "StarSystem":"Sifou BF-L b36-0", "SystemAddress":614046771001, "StarPos":[-4242.50000,180.03125,998.87500], "StarClass":"M" }, 
-{ "StarSystem":"Sifou TI-K d8-30", "SystemAddress":1040380348875, "StarPos":[-4285.28125,131.25000,993.21875], "StarClass":"N" }, 
-{ "StarSystem":"Sifou IE-C b41-1", "SystemAddress":2809043429217, "StarPos":[-4539.28125,159.31250,1107.37500], "StarClass":"TTS" }, 
-{ "StarSystem":"Sifou HP-A b42-0", "SystemAddress":609214932841, "StarPos":[-4601.28125,175.28125,1120.68750], "StarClass":"M" }, 
-{ "StarSystem":"Sifou GA-Z b42-0", "SystemAddress":608409692017, "StarPos":[-4663.87500,199.09375,1136.84375], "StarClass":"M" }, 
-{ "StarSystem":"NGC 6871 Sector HK-V b4-1", "SystemAddress":2806627575681, "StarPos":[-4715.34375,186.09375,1182.28125], "StarClass":"M" }, 
-{ "StarSystem":"Crescent Sector EQ-Y c3", "SystemAddress":900500460482, "StarPos":[-4780.18750,194.93750,1204.43750], "StarClass":"K" }, 
-{ "StarSystem":"Crescent Sector DL-Y d26", "SystemAddress":902823971299, "StarPos":[-4830.53125,205.25000,1244.96875], "StarClass":"G" }, 
-{ "StarSystem":"Crescent Sector GW-W c1-8", "SystemAddress":2274755777482, "StarPos":[-4842.18750,210.81250,1252.21875], "StarClass":"G" }
+{ "timestamp":"2023-09-28T02:30:49Z", "event":"NavRouteClear", "Route":[ 
+
  ] }
