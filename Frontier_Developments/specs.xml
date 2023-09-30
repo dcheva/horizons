@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>9/28/2023, 02:47:21</Time>
+		<Time>9/29/2023, 22:34:29</Time>
 		<MachineName>DESKTOP-O5FJCVG</MachineName>
 		<MachineId>{4571D720-EA28-4E99-A342-50E4EE0FB519}</MachineId>
 		<OperatingSystem>Windows 10 Education 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
@@ -13,7 +13,7 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>8273MB used, 11868MB available</PageFile>
+		<PageFile>6889MB used, 13252MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
@@ -104,9 +104,9 @@
 			<bCheckedMonitorCapabilities>1</bCheckedMonitorCapabilities>
 			<PixelFormat>DISPLAYCONFIG_PIXELFORMAT_32BPP</PixelFormat>
 			<MonitorMaxRes>Unknown</MonitorMaxRes>
-			<DriverName>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvldumdx.dll</DriverName>
+			<DriverName>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvldumdx.dll</DriverName>
 			<DriverFileVersion>Unknown</DriverFileVersion>
-			<DriverVersion>31.0.15.3734</DriverVersion>
+			<DriverVersion>31.0.15.3699</DriverVersion>
 			<DriverLanguage>Unknown</DriverLanguage>
 			<DDIVersion>Unknown</DDIVersion>
 			<FeatureLevels>Unknown</FeatureLevels>
@@ -126,7 +126,7 @@
 			<DeviceID>0x2184</DeviceID>
 			<SubSysID>0x86BE1043</SubSysID>
 			<RevisionID>0x00A1</RevisionID>
-			<DriverNodeStrongName>oem18.inf:0f066de38e81edd2:Section111:31.0.15.3734:pci\ven_10de&amp;dev_2184</DriverNodeStrongName>
+			<DriverNodeStrongName>oem3.inf:0f066de38e81edd2:Section111:31.0.15.3699:pci\ven_10de&amp;dev_2184</DriverNodeStrongName>
 			<RankOfInstalledDriver>00CF2001</RankOfInstalledDriver>
 			<DXVAModes>Unknown</DXVAModes>
 			<DXVA2Modes>Unknown</DXVA2Modes>
@@ -611,7 +611,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>109785526272</FreeSpace>
+			<FreeSpace>93710946304</FreeSpace>
 			<MaxSpace>500090007552</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -621,7 +621,7 @@
 		</LogicalDisk>
 		<LogicalDisk>
 			<DriveLetter>D:</DriveLetter>
-			<FreeSpace>192947216384</FreeSpace>
+			<FreeSpace>89000976384</FreeSpace>
 			<MaxSpace>499447230464</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>TOSHIBA DT01ACA050</Model>
@@ -906,243 +906,243 @@
 			<Drivers>
 				<Driver>
 					<Name>nvPerfProvider.man</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NVWMI\nvPerfProvider.man</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NVWMI\nvPerfProvider.man</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>14175</Size>
 				</Driver>
 				<Driver>
 					<Name>nvWmi.mof</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NVWMI\nvWmi.mof</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NVWMI\nvWmi.mof</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>148921</Size>
 				</Driver>
 				<Driver>
 					<Name>nvWmi64.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NVWMI\nvWmi64.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NVWMI\nvWmi64.exe</Path>
 					<Version>2.36.0000.0000</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:46</Date>
-					<Size>4513416</Size>
+					<Date>8/5/2023 18:17:24</Date>
+					<Size>4512776</Size>
 				</Driver>
 				<Driver>
 					<Name>MessageBus.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\MessageBus.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\MessageBus.dll</Path>
 					<Version>1.22.2758.1620</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:14</Date>
+					<Date>8/5/2023 18:16:36</Date>
 					<Size>7542696</Size>
 				</Driver>
 				<Driver>
 					<Name>NVDisplay.Container.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\NVDisplay.Container.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\NVDisplay.Container.exe</Path>
 					<Version>1.37.3103.4323</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:14</Date>
-					<Size>1015432</Size>
+					<Date>8/5/2023 18:16:36</Date>
+					<Size>1014792</Size>
 				</Driver>
 				<Driver>
 					<Name>NvContainerRecovery.bat</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\NvContainerRecovery.bat</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\NvContainerRecovery.bat</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>1951</Size>
 				</Driver>
 				<Driver>
 					<Name>dlsargs.xml</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\dlsargs.xml</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\dlsargs.xml</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>544</Size>
 				</Driver>
 				<Driver>
 					<Name>dlsnetparams.csv</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\dlsnetparams.csv</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\dlsnetparams.csv</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>341661</Size>
 				</Driver>
 				<Driver>
 					<Name>messagebus_client.conf</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\messagebus_client.conf</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\messagebus_client.conf</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>57</Size>
 				</Driver>
 				<Driver>
 					<Name>nvgwls.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\nvgwls.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\nvgwls.exe</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:16</Date>
-					<Size>3941512</Size>
+					<Date>8/5/2023 18:16:38</Date>
+					<Size>3941408</Size>
 				</Driver>
 				<Driver>
 					<Name>nvtopps.db3</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\nvtopps.db3</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\nvtopps.db3</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>126976</Size>
 				</Driver>
 				<Driver>
 					<Name>NvXDCore.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\LocalSystem\NvXDCore.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\LocalSystem\NvXDCore.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:18</Date>
-					<Size>1872008</Size>
+					<Date>8/5/2023 18:16:42</Date>
+					<Size>1871384</Size>
 				</Driver>
 				<Driver>
 					<Name>NvcDispCorePlugin.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\LocalSystem\NvcDispCorePlugin.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\LocalSystem\NvcDispCorePlugin.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:16</Date>
-					<Size>520312</Size>
+					<Date>8/5/2023 18:16:40</Date>
+					<Size>520728</Size>
 				</Driver>
 				<Driver>
 					<Name>NvcDispWatchdog.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\LocalSystem\NvcDispWatchdog.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\LocalSystem\NvcDispWatchdog.dll</Path>
 					<Version>1.37.3103.4323</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:16</Date>
-					<Size>738952</Size>
+					<Date>8/5/2023 18:16:42</Date>
+					<Size>738424</Size>
 				</Driver>
 				<Driver>
 					<Name>_DisplayDriverRAS.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\LocalSystem\_DisplayDriverRAS.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\LocalSystem\_DisplayDriverRAS.dll</Path>
 					<Version>1.10.0000.0000</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:18</Date>
-					<Size>2710648</Size>
+					<Date>8/5/2023 18:16:44</Date>
+					<Size>2711176</Size>
 				</Driver>
 				<Driver>
 					<Name>_NvMsgBusBroadcast.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\LocalSystem\_NvMsgBusBroadcast.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\LocalSystem\_NvMsgBusBroadcast.dll</Path>
 					<Version>1.34.3030.7627</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:20</Date>
+					<Date>8/5/2023 18:16:46</Date>
 					<Size>3192440</Size>
 				</Driver>
 				<Driver>
 					<Name>messagebus.conf</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\LocalSystem\messagebus.conf</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\LocalSystem\messagebus.conf</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>57</Size>
 				</Driver>
 				<Driver>
 					<Name>wksServicePluginZ.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\LocalSystem\wksServicePluginZ.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\LocalSystem\wksServicePluginZ.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:18</Date>
-					<Size>278152</Size>
+					<Date>8/5/2023 18:16:44</Date>
+					<Size>277624</Size>
 				</Driver>
 				<Driver>
 					<Name>_NvGSTPlugin.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\Session\_NvGSTPlugin.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\Session\_NvGSTPlugin.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:22</Date>
+					<Date>8/5/2023 18:16:52</Date>
 					<Size>2656904</Size>
 				</Driver>
 				<Driver>
 					<Name>_nvtopps.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\Session\_nvtopps.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\Session\_nvtopps.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:22</Date>
+					<Date>8/5/2023 18:16:52</Date>
 					<Size>12333176</Size>
 				</Driver>
 				<Driver>
 					<Name>nvprofileupdaterplugin.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\Session\nvprofileupdaterplugin.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\Session\nvprofileupdaterplugin.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:20</Date>
-					<Size>2228872</Size>
+					<Date>8/5/2023 18:16:48</Date>
+					<Size>2228760</Size>
 				</Driver>
 				<Driver>
 					<Name>nvxdsyncplugin.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\Session\nvxdsyncplugin.dll</Path>
-					<Version>8.17.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\Session\nvxdsyncplugin.dll</Path>
+					<Version>8.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:20</Date>
+					<Date>8/5/2023 18:16:50</Date>
 					<Size>1831032</Size>
 				</Driver>
 				<Driver>
 					<Name>wksServicePlugin.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\Display.NvContainer\plugins\Session\wksServicePlugin.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\Display.NvContainer\plugins\Session\wksServicePlugin.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:22</Date>
-					<Size>309880</Size>
+					<Date>8/5/2023 18:16:50</Date>
+					<Size>310304</Size>
 				</Driver>
 				<Driver>
 					<Name>dbInstaller.exe</Name>
 					<Path>C:\Windows\system32\DRIVERS\NVIDIA Corporation\Drs\dbInstaller.exe</Path>
-					<Version>31.00.0015.3734</Version>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:22</Date>
-					<Size>733296</Size>
+					<Date>8/5/2023 18:09:34</Date>
+					<Size>733720</Size>
 				</Driver>
 				<Driver>
 					<Name>nvdrsdb.bin</Name>
@@ -1151,318 +1151,318 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
-					<Size>1920428</Size>
+					<Date>8/5/2023 07:08:48</Date>
+					<Size>1914936</Size>
 				</Driver>
 				<Driver>
 					<Name>nvcpl.dll</Name>
 					<Path>C:\Windows\system32\nvcpl.dll</Path>
-					<Version>8.17.0015.3734</Version>
+					<Version>8.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:38</Date>
-					<Size>5845640</Size>
+					<Date>8/5/2023 18:09:58</Date>
+					<Size>5845000</Size>
 				</Driver>
 				<Driver>
 					<Name>nv3dappshext.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nv3dappshext.dll</Path>
-					<Version>6.14.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nv3dappshext.dll</Path>
+					<Version>6.14.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:36</Date>
+					<Date>8/5/2023 18:09:54</Date>
 					<Size>1004664</Size>
 				</Driver>
 				<Driver>
 					<Name>nv3dappshextr.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nv3dappshextr.dll</Path>
-					<Version>6.14.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nv3dappshextr.dll</Path>
+					<Version>6.14.0015.3699</Version>
 					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:36</Date>
+					<Date>8/5/2023 18:09:56</Date>
 					<Size>98440</Size>
 				</Driver>
 				<Driver>
 					<Name>nvcoproc.bin</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvcoproc.bin</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvcoproc.bin</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
-					<Size>10423797</Size>
+					<Date>8/5/2023 07:08:48</Date>
+					<Size>10413867</Size>
 				</Driver>
 				<Driver>
 					<Name>nvcpl.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvcpl.dll</Path>
-					<Version>8.17.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvcpl.dll</Path>
+					<Version>8.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:38</Date>
-					<Size>5845640</Size>
+					<Date>8/5/2023 18:09:58</Date>
+					<Size>5845000</Size>
 				</Driver>
 				<Driver>
 					<Name>nvdevtools.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvdevtools.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvdevtools.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:16</Date>
-					<Size>4586104</Size>
+					<Date>8/5/2023 18:10:54</Date>
+					<Size>4586632</Size>
 				</Driver>
 				<Driver>
 					<Name>nvdevtoolsr.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvdevtoolsr.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvdevtoolsr.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:18</Date>
+					<Date>8/5/2023 18:10:56</Date>
 					<Size>245368</Size>
 				</Driver>
 				<Driver>
 					<Name>nvdisps.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvdisps.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvdisps.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:20</Date>
-					<Size>11648648</Size>
+					<Date>8/5/2023 18:11:00</Date>
+					<Size>11647608</Size>
 				</Driver>
 				<Driver>
 					<Name>nvdispsr.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvdispsr.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvdispsr.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:22</Date>
-					<Size>11550840</Size>
+					<Date>8/5/2023 18:11:06</Date>
+					<Size>11551368</Size>
 				</Driver>
 				<Driver>
 					<Name>nvgames.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvgames.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvgames.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:44</Date>
-					<Size>12480648</Size>
+					<Date>8/5/2023 18:11:34</Date>
+					<Size>12481032</Size>
 				</Driver>
 				<Driver>
 					<Name>nvgamesr.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvgamesr.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvgamesr.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:48</Date>
-					<Size>13251704</Size>
+					<Date>8/5/2023 18:11:40</Date>
+					<Size>13252128</Size>
 				</Driver>
 				<Driver>
 					<Name>nvlicensings.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvlicensings.dll</Path>
-					<Version>6.14.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvlicensings.dll</Path>
+					<Version>6.14.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:26</Date>
-					<Size>4573216</Size>
+					<Date>8/5/2023 18:12:42</Date>
+					<Size>4572792</Size>
 				</Driver>
 				<Driver>
 					<Name>nvlicensingsr.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvlicensingsr.dll</Path>
-					<Version>6.14.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvlicensingsr.dll</Path>
+					<Version>6.14.0015.3699</Version>
 					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:30</Date>
-					<Size>363016</Size>
+					<Date>8/5/2023 18:12:44</Date>
+					<Size>363656</Size>
 				</Driver>
 				<Driver>
 					<Name>nvshext.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvshext.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvshext.dll</Path>
 					<Version>1.02.0000.0001</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:42</Date>
-					<Size>133128</Size>
+					<Date>8/5/2023 18:14:54</Date>
+					<Size>133240</Size>
 				</Driver>
 				<Driver>
 					<Name>nvsmartmax.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvsmartmax.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvsmartmax.dll</Path>
 					<Version>6.14.0010.10003</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:44</Date>
-					<Size>198664</Size>
+					<Date>8/5/2023 18:14:56</Date>
+					<Size>199200</Size>
 				</Driver>
 				<Driver>
 					<Name>nvsmartmax64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvsmartmax64.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvsmartmax64.dll</Path>
 					<Version>6.14.0010.10003</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:44</Date>
+					<Date>8/5/2023 18:14:58</Date>
 					<Size>235016</Size>
 				</Driver>
 				<Driver>
 					<Name>nvsmartmaxapp.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvsmartmaxapp.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvsmartmaxapp.exe</Path>
 					<Version>6.14.0010.10003</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:46</Date>
-					<Size>273416</Size>
+					<Date>8/5/2023 18:14:58</Date>
+					<Size>273952</Size>
 				</Driver>
 				<Driver>
 					<Name>nvsmartmaxapp64.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvsmartmaxapp64.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvsmartmaxapp64.exe</Path>
 					<Version>6.14.0010.10003</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:46</Date>
-					<Size>283656</Size>
+					<Date>8/5/2023 18:15:00</Date>
+					<Size>283664</Size>
 				</Driver>
 				<Driver>
 					<Name>nvsvc64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvsvc64.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvsvc64.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:48</Date>
-					<Size>2667552</Size>
+					<Date>8/5/2023 18:15:02</Date>
+					<Size>2667544</Size>
 				</Driver>
 				<Driver>
 					<Name>nvsvcr.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvsvcr.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvsvcr.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:48</Date>
-					<Size>1801224</Size>
+					<Date>8/5/2023 18:15:04</Date>
+					<Size>1801760</Size>
 				</Driver>
 				<Driver>
 					<Name>nvsvs.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvsvs.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvsvs.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:50</Date>
-					<Size>5094920</Size>
+					<Date>8/5/2023 18:15:06</Date>
+					<Size>5095032</Size>
 				</Driver>
 				<Driver>
 					<Name>nvsvsr.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvsvsr.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvsvsr.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:50</Date>
-					<Size>2014240</Size>
+					<Date>8/5/2023 18:15:08</Date>
+					<Size>2014344</Size>
 				</Driver>
 				<Driver>
 					<Name>nvui.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvui.dll</Path>
-					<Version>8.17.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvui.dll</Path>
+					<Version>8.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:54</Date>
+					<Date>8/5/2023 18:15:12</Date>
 					<Size>6644232</Size>
 				</Driver>
 				<Driver>
 					<Name>nvuir.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvuir.dll</Path>
-					<Version>8.17.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvuir.dll</Path>
+					<Version>8.17.0015.3699</Version>
 					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:56</Date>
-					<Size>2649632</Size>
+					<Date>8/5/2023 18:15:14</Date>
+					<Size>2649624</Size>
 				</Driver>
 				<Driver>
 					<Name>nvvitvs.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvvitvs.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvvitvs.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:27:00</Date>
-					<Size>7451272</Size>
+					<Date>8/5/2023 18:15:20</Date>
+					<Size>7450632</Size>
 				</Driver>
 				<Driver>
 					<Name>nvvitvsr.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvvitvsr.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvvitvsr.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:27:00</Date>
-					<Size>4227080</Size>
+					<Date>8/5/2023 18:15:20</Date>
+					<Size>4227720</Size>
 				</Driver>
 				<Driver>
 					<Name>nvwss.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvwss.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvwss.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:27:38</Date>
-					<Size>12261000</Size>
+					<Date>8/5/2023 18:15:58</Date>
+					<Size>12260472</Size>
 				</Driver>
 				<Driver>
 					<Name>nvwssr.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvwssr.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvwssr.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:27:38</Date>
-					<Size>9527408</Size>
+					<Date>8/5/2023 18:16:00</Date>
+					<Size>9527944</Size>
 				</Driver>
 				<Driver>
 					<Name>nvxdapix.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvxdapix.dll</Path>
-					<Version>8.17.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvxdapix.dll</Path>
+					<Version>8.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:27:42</Date>
-					<Size>9328248</Size>
+					<Date>8/5/2023 18:16:08</Date>
+					<Size>9327736</Size>
 				</Driver>
 				<Driver>
 					<Name>nvxdbat.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvxdbat.dll</Path>
-					<Version>8.17.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvxdbat.dll</Path>
+					<Version>8.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:27:44</Date>
-					<Size>1645680</Size>
+					<Date>8/5/2023 18:16:10</Date>
+					<Size>1646216</Size>
 				</Driver>
 				<Driver>
 					<Name>nvxdplcy.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvxdplcy.dll</Path>
-					<Version>8.17.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvxdplcy.dll</Path>
+					<Version>8.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:27:46</Date>
-					<Size>1889904</Size>
+					<Date>8/5/2023 18:16:12</Date>
+					<Size>1889912</Size>
 				</Driver>
 				<Driver>
 					<Name>libcuda.so</Name>
@@ -1471,7 +1471,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>154088</Size>
 				</Driver>
 				<Driver>
@@ -1481,7 +1481,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>154088</Size>
 				</Driver>
 				<Driver>
@@ -1491,7 +1491,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>154088</Size>
 				</Driver>
 				<Driver>
@@ -1501,7 +1501,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>10188744</Size>
 				</Driver>
 				<Driver>
@@ -1511,7 +1511,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>10820792</Size>
 				</Driver>
 				<Driver>
@@ -1521,7 +1521,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>10820792</Size>
 				</Driver>
 				<Driver>
@@ -1531,7 +1531,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>37086552</Size>
 				</Driver>
 				<Driver>
@@ -1541,7 +1541,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>551528</Size>
 				</Driver>
 				<Driver>
@@ -1551,7 +1551,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>551528</Size>
 				</Driver>
 				<Driver>
@@ -1561,8 +1561,8 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
-					<Size>233832</Size>
+					<Date>8/5/2023 07:08:48</Date>
+					<Size>233432</Size>
 				</Driver>
 				<Driver>
 					<Name>libnvidia-opticalflow.so</Name>
@@ -1571,7 +1571,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>362960</Size>
 				</Driver>
 				<Driver>
@@ -1581,7 +1581,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>362960</Size>
 				</Driver>
 				<Driver>
@@ -1591,7 +1591,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>68560</Size>
 				</Driver>
 				<Driver>
@@ -1601,7 +1601,7 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>83261200</Size>
 				</Driver>
 				<Driver>
@@ -1611,8 +1611,8 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
-					<Size>678064</Size>
+					<Date>8/5/2023 07:08:48</Date>
+					<Size>673968</Size>
 				</Driver>
 				<Driver>
 					<Name>license.txt</Name>
@@ -1621,367 +1621,367 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>28827</Size>
 				</Driver>
 				<Driver>
 					<Name>_nvngx.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\_nvngx.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\_nvngx.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:10</Date>
-					<Size>1537656</Size>
+					<Date>8/5/2023 18:16:32</Date>
+					<Size>1528968</Size>
 				</Driver>
 				<Driver>
 					<Name>cudnn_infer64_7.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\cudnn_infer64_7.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\cudnn_infer64_7.dll</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:12</Date>
-					<Size>22774312</Size>
+					<Date>8/5/2023 18:09:28</Date>
+					<Size>22774208</Size>
 				</Driver>
 				<Driver>
 					<Name>nvngx.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvngx.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvngx.dll</Path>
 					<Version>30.00.0014.9516</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:34</Date>
+					<Date>8/5/2023 18:12:48</Date>
 					<Size>488672</Size>
 				</Driver>
 				<Driver>
 					<Name>nvngx_update.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvngx_update.exe</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvngx_update.exe</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:36</Date>
-					<Size>1191560</Size>
+					<Date>8/5/2023 18:12:52</Date>
+					<Size>1191032</Size>
 				</Driver>
 				<Driver>
 					<Name>nvngxdlss.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvngxdlss.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvngxdlss.dll</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:34</Date>
-					<Size>27464</Size>
+					<Date>8/5/2023 18:12:50</Date>
+					<Size>27360</Size>
 				</Driver>
 				<Driver>
 					<Name>FreqTransfer32.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\FreqTransfer32.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\FreqTransfer32.exe</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:28</Date>
-					<Size>3721840</Size>
+					<Date>8/5/2023 18:16:56</Date>
+					<Size>3722264</Size>
 				</Driver>
 				<Driver>
 					<Name>FreqTransfer64.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\FreqTransfer64.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\FreqTransfer64.exe</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:28</Date>
-					<Size>4070000</Size>
+					<Date>8/5/2023 18:16:56</Date>
+					<Size>4070432</Size>
 				</Driver>
 				<Driver>
 					<Name>GreenScreenBG01.jpg</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\GreenScreenBG01.jpg</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\GreenScreenBG01.jpg</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>281528</Size>
 				</Driver>
 				<Driver>
 					<Name>GreenScreenBG02.jpg</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\GreenScreenBG02.jpg</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\GreenScreenBG02.jpg</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>499736</Size>
 				</Driver>
 				<Driver>
 					<Name>HighresBlender32.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\HighresBlender32.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\HighresBlender32.exe</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:28</Date>
-					<Size>3818616</Size>
+					<Date>8/5/2023 18:16:58</Date>
+					<Size>3819144</Size>
 				</Driver>
 				<Driver>
 					<Name>HighresBlender64.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\HighresBlender64.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\HighresBlender64.exe</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:30</Date>
+					<Date>8/5/2023 18:17:00</Date>
 					<Size>4178552</Size>
 				</Driver>
 				<Driver>
 					<Name>NvCamera32.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\NvCamera32.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\NvCamera32.dll</Path>
 					<Version>7.01.0000.0000</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:32</Date>
-					<Size>8140312</Size>
+					<Date>8/5/2023 18:17:04</Date>
+					<Size>8140208</Size>
 				</Driver>
 				<Driver>
 					<Name>NvCamera64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\NvCamera64.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\NvCamera64.dll</Path>
 					<Version>7.01.0000.0000</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:32</Date>
-					<Size>8675936</Size>
+					<Date>8/5/2023 18:17:06</Date>
+					<Size>8675832</Size>
 				</Driver>
 				<Driver>
 					<Name>NvCameraAllowlisting32.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\NvCameraAllowlisting32.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\NvCameraAllowlisting32.dll</Path>
 					<Version>7.01.0000.0000</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:36</Date>
-					<Size>520360</Size>
+					<Date>8/5/2023 18:17:08</Date>
+					<Size>520256</Size>
 				</Driver>
 				<Driver>
 					<Name>NvCameraAllowlisting64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\NvCameraAllowlisting64.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\NvCameraAllowlisting64.dll</Path>
 					<Version>7.01.0000.0000</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:40</Date>
-					<Size>666608</Size>
+					<Date>8/5/2023 18:17:10</Date>
+					<Size>666496</Size>
 				</Driver>
 				<Driver>
 					<Name>NvCameraEnable.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\NvCameraEnable.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\NvCameraEnable.exe</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:42</Date>
-					<Size>375432</Size>
+					<Date>8/5/2023 18:17:12</Date>
+					<Size>374792</Size>
 				</Driver>
 				<Driver>
 					<Name>NvImageConvert32.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\NvImageConvert32.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\NvImageConvert32.exe</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:42</Date>
-					<Size>3721864</Size>
+					<Date>8/5/2023 18:17:14</Date>
+					<Size>3721224</Size>
 				</Driver>
 				<Driver>
 					<Name>NvImageConvert64.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\NvImageConvert64.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\NvImageConvert64.exe</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:42</Date>
-					<Size>4049520</Size>
+					<Date>8/5/2023 18:17:14</Date>
+					<Size>4049952</Size>
 				</Driver>
 				<Driver>
 					<Name>ReShadeFXC32.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\ReShadeFXC32.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\ReShadeFXC32.exe</Path>
 					<Version>2.00.0000.0000</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:44</Date>
-					<Size>776816</Size>
+					<Date>8/5/2023 18:17:16</Date>
+					<Size>777240</Size>
 				</Driver>
 				<Driver>
 					<Name>ReShadeFXC64.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\ReShadeFXC64.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\ReShadeFXC64.exe</Path>
 					<Version>2.00.0000.0000</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:44</Date>
-					<Size>892040</Size>
+					<Date>8/5/2023 18:17:18</Date>
+					<Size>891400</Size>
 				</Driver>
 				<Driver>
 					<Name>ShotWithGeforce518x32.rgba</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\ShotWithGeforce518x32.rgba</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\ShotWithGeforce518x32.rgba</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>66304</Size>
 				</Driver>
 				<Driver>
 					<Name>SphericalEquirect32.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\SphericalEquirect32.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\SphericalEquirect32.exe</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:44</Date>
-					<Size>3677296</Size>
+					<Date>8/5/2023 18:17:20</Date>
+					<Size>3677720</Size>
 				</Driver>
 				<Driver>
 					<Name>SphericalEquirect64.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\SphericalEquirect64.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\SphericalEquirect64.exe</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:46</Date>
-					<Size>3957896</Size>
+					<Date>8/5/2023 18:17:22</Date>
+					<Size>3957256</Size>
 				</Driver>
 				<Driver>
 					<Name>Sticker01.png</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\Sticker01.png</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\Sticker01.png</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>49695</Size>
 				</Driver>
 				<Driver>
 					<Name>Sticker02.png</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\Sticker02.png</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\Sticker02.png</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>474002</Size>
 				</Driver>
 				<Driver>
 					<Name>Sticker03.png</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\Sticker03.png</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\Sticker03.png</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>380006</Size>
 				</Driver>
 				<Driver>
 					<Name>Sticker04.png</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\Sticker04.png</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\Sticker04.png</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>86881</Size>
 				</Driver>
 				<Driver>
 					<Name>Sticker05.png</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\Sticker05.png</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\Sticker05.png</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>59304</Size>
 				</Driver>
 				<Driver>
 					<Name>Sticker06.png</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\Sticker06.png</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\Sticker06.png</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>13547</Size>
 				</Driver>
 				<Driver>
 					<Name>Sticker07.png</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\Sticker07.png</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\Sticker07.png</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>6342</Size>
 				</Driver>
 				<Driver>
 					<Name>Sticker08.png</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\Sticker08.png</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\Sticker08.png</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>96493</Size>
 				</Driver>
 				<Driver>
 					<Name>d3dcompiler_47_32.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\d3dcompiler_47_32.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\d3dcompiler_47_32.dll</Path>
 					<Version>6.03.9600.16384</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:24</Date>
-					<Size>3471496</Size>
+					<Date>8/5/2023 18:16:54</Date>
+					<Size>3470968</Size>
 				</Driver>
 				<Driver>
 					<Name>d3dcompiler_47_64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\d3dcompiler_47_64.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\d3dcompiler_47_64.dll</Path>
 					<Version>6.03.9600.16384</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:24</Date>
+					<Date>8/5/2023 18:16:54</Date>
 					<Size>4178568</Size>
 				</Driver>
 				<Driver>
 					<Name>scratches.jpg</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\scratches.jpg</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\scratches.jpg</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>346354</Size>
 				</Driver>
 				<Driver>
 					<Name>tools_licenses.txt</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\tools_licenses.txt</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\tools_licenses.txt</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>15970</Size>
 				</Driver>
 				<Driver>
 					<Name>ui.tga</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvCamera\ui.tga</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvCamera\ui.tga</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>120236</Size>
 				</Driver>
 				<Driver>
@@ -1991,478 +1991,478 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:34</Date>
-					<Size>853112</Size>
+					<Date>8/5/2023 18:09:52</Date>
+					<Size>853000</Size>
 				</Driver>
 				<Driver>
 					<Name>nvdebugdump.exe</Name>
 					<Path>C:\Windows\system32\nvdebugdump.exe</Path>
-					<Version>6.14.0015.3734</Version>
+					<Version>6.14.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:12</Date>
-					<Size>459272</Size>
+					<Date>8/5/2023 18:10:48</Date>
+					<Size>459384</Size>
 				</Driver>
 				<Driver>
 					<Name>nvidia-smi.exe</Name>
 					<Path>C:\Windows\system32\nvidia-smi.exe</Path>
-					<Version>8.17.0015.3734</Version>
+					<Version>8.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:56</Date>
-					<Size>777336</Size>
+					<Date>8/5/2023 18:11:50</Date>
+					<Size>776216</Size>
 				</Driver>
 				<Driver>
 					<Name>nvopencl32.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvopencl32.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvopencl32.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:25:18</Date>
-					<Size>18482184</Size>
+					<Date>8/5/2023 18:13:32</Date>
+					<Size>18481288</Size>
 				</Driver>
 				<Driver>
 					<Name>nvopencl64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvopencl64.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvopencl64.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:25:34</Date>
-					<Size>10710664</Size>
+					<Date>8/5/2023 18:13:42</Date>
+					<Size>10709128</Size>
 				</Driver>
 				<Driver>
 					<Name>nvlddmkm.sys</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvlddmkm.sys</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvlddmkm.sys</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:14</Date>
-					<Size>59163760</Size>
+					<Date>8/5/2023 18:12:28</Date>
+					<Size>59131512</Size>
 				</Driver>
 				<Driver>
 					<Name>nvvm32.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvvm32.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvvm32.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:27:04</Date>
-					<Size>60394016</Size>
+					<Date>8/5/2023 18:15:28</Date>
+					<Size>60393496</Size>
 				</Driver>
 				<Driver>
 					<Name>nvvm64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvvm64.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvvm64.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:27:20</Date>
-					<Size>68104304</Size>
+					<Date>8/5/2023 18:15:42</Date>
+					<Size>68104312</Size>
 				</Driver>
 				<Driver>
 					<Name>gsp_ga10x.bin</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\gsp_ga10x.bin</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\gsp_ga10x.bin</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
-					<Size>38061600</Size>
+					<Date>8/5/2023 07:08:48</Date>
+					<Size>38016544</Size>
 				</Driver>
 				<Driver>
 					<Name>gsp_tu10x.bin</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\gsp_tu10x.bin</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\gsp_tu10x.bin</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
-					<Size>23755040</Size>
+					<Date>8/5/2023 07:08:48</Date>
+					<Size>23714080</Size>
 				</Driver>
 				<Driver>
 					<Name>libcuda.so.1.1</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libcuda.so.1.1</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libcuda.so.1.1</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
-					<Size>29080400</Size>
+					<Date>8/5/2023 07:08:48</Date>
+					<Size>29072208</Size>
 				</Driver>
 				<Driver>
 					<Name>libcuda_loader.so</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libcuda_loader.so</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libcuda_loader.so</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>154088</Size>
 				</Driver>
 				<Driver>
 					<Name>libcudadebugger.so.1</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libcudadebugger.so.1</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libcudadebugger.so.1</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>10188744</Size>
 				</Driver>
 				<Driver>
 					<Name>libnvcuvid.so.1</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libnvcuvid.so.1</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libnvcuvid.so.1</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>10820792</Size>
 				</Driver>
 				<Driver>
 					<Name>libnvdxdlkernels.so</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libnvdxdlkernels.so</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libnvdxdlkernels.so</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>37086552</Size>
 				</Driver>
 				<Driver>
 					<Name>libnvidia-encode.so.1</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libnvidia-encode.so.1</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libnvidia-encode.so.1</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>551528</Size>
 				</Driver>
 				<Driver>
 					<Name>libnvidia-ml.so.1</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libnvidia-ml.so.1</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libnvidia-ml.so.1</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
-					<Size>1574032</Size>
+					<Date>8/5/2023 07:08:48</Date>
+					<Size>1561744</Size>
 				</Driver>
 				<Driver>
 					<Name>libnvidia-ml_loader.so</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libnvidia-ml_loader.so</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libnvidia-ml_loader.so</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
-					<Size>233832</Size>
+					<Date>8/5/2023 07:08:48</Date>
+					<Size>233432</Size>
 				</Driver>
 				<Driver>
 					<Name>libnvidia-nvvm.so.4</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libnvidia-nvvm.so.4</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libnvidia-nvvm.so.4</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>27672304</Size>
 				</Driver>
 				<Driver>
 					<Name>libnvidia-opticalflow.so.1</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libnvidia-opticalflow.so.1</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libnvidia-opticalflow.so.1</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>362960</Size>
 				</Driver>
 				<Driver>
 					<Name>libnvidia-ptxjitcompiler.so.1</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libnvidia-ptxjitcompiler.so.1</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libnvidia-ptxjitcompiler.so.1</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>23234184</Size>
 				</Driver>
 				<Driver>
 					<Name>libnvoptix_loader.so.1</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libnvoptix_loader.so.1</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libnvoptix_loader.so.1</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>68560</Size>
 				</Driver>
 				<Driver>
 					<Name>libnvwgf2umx.so</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\libnvwgf2umx.so</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\libnvwgf2umx.so</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>83261200</Size>
 				</Driver>
 				<Driver>
 					<Name>nv-vk64.json</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nv-vk64.json</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nv-vk64.json</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>671</Size>
 				</Driver>
 				<Driver>
 					<Name>nvDecMFTMjpeg.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvDecMFTMjpeg.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvDecMFTMjpeg.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:14</Date>
+					<Date>8/5/2023 18:10:50</Date>
 					<Size>503432</Size>
 				</Driver>
 				<Driver>
 					<Name>nvDecMFTMjpegx.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvDecMFTMjpegx.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvDecMFTMjpegx.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:14</Date>
+					<Date>8/5/2023 18:10:52</Date>
 					<Size>653960</Size>
 				</Driver>
 				<Driver>
 					<Name>nvEncMFTH264.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvEncMFTH264.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvEncMFTH264.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:28</Date>
-					<Size>910984</Size>
+					<Date>8/5/2023 18:11:18</Date>
+					<Size>910456</Size>
 				</Driver>
 				<Driver>
 					<Name>nvEncMFTH264x.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvEncMFTH264x.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvEncMFTH264x.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:30</Date>
+					<Date>8/5/2023 18:11:18</Date>
 					<Size>1161352</Size>
 				</Driver>
 				<Driver>
 					<Name>nvEncMFThevc.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvEncMFThevc.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvEncMFThevc.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:30</Date>
-					<Size>915080</Size>
+					<Date>8/5/2023 18:11:22</Date>
+					<Size>914552</Size>
 				</Driver>
 				<Driver>
 					<Name>nvEncMFThevcx.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvEncMFThevcx.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvEncMFThevcx.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:32</Date>
-					<Size>1169008</Size>
+					<Date>8/5/2023 18:11:22</Date>
+					<Size>1169432</Size>
 				</Driver>
 				<Driver>
 					<Name>nvcubins.bin</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvcubins.bin</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvcubins.bin</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>25115656</Size>
 				</Driver>
 				<Driver>
 					<Name>nvcuda32.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvcuda32.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvcuda32.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:40</Date>
-					<Size>22687344</Size>
+					<Date>8/5/2023 18:10:06</Date>
+					<Size>22686344</Size>
 				</Driver>
 				<Driver>
 					<Name>nvcuda64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvcuda64.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvcuda64.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:46</Date>
-					<Size>10025480</Size>
+					<Date>8/5/2023 18:10:16</Date>
+					<Size>10025096</Size>
 				</Driver>
 				<Driver>
 					<Name>nvd3dumx.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvd3dumx.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvd3dumx.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:21:56</Date>
-					<Size>52443488</Size>
+					<Date>8/5/2023 18:09:08</Date>
+					<Size>52443344</Size>
 				</Driver>
 				<Driver>
 					<Name>nvdlistx.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvdlistx.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvdlistx.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:14</Date>
-					<Size>235576</Size>
+					<Date>8/5/2023 18:09:20</Date>
+					<Size>235984</Size>
 				</Driver>
 				<Driver>
 					<Name>nvdxdlkernels.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvdxdlkernels.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvdxdlkernels.dll</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:26</Date>
-					<Size>94588016</Size>
+					<Date>8/5/2023 18:11:12</Date>
+					<Size>94588024</Size>
 				</Driver>
 				<Driver>
 					<Name>nvidia-smi</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvidia-smi</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvidia-smi</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
-					<Size>678064</Size>
+					<Date>8/5/2023 07:08:48</Date>
+					<Size>673968</Size>
 				</Driver>
 				<Driver>
 					<Name>nvldumdx.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvldumdx.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvldumdx.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:18</Date>
-					<Size>773864</Size>
+					<Date>8/5/2023 18:09:26</Date>
+					<Size>774272</Size>
 				</Driver>
 				<Driver>
 					<Name>nvml.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvml.dll</Path>
-					<Version>8.17.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvml.dll</Path>
+					<Version>8.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:32</Date>
-					<Size>1445488</Size>
+					<Date>8/5/2023 18:12:44</Date>
+					<Size>1427064</Size>
 				</Driver>
 				<Driver>
 					<Name>nvoglv64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvoglv64.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvoglv64.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:58</Date>
-					<Size>69101088</Size>
+					<Date>8/5/2023 18:13:14</Date>
+					<Size>69076488</Size>
 				</Driver>
 				<Driver>
 					<Name>nvoptix.bin</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvoptix.bin</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvoptix.bin</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>134586888</Size>
 				</Driver>
 				<Driver>
 					<Name>nvoptix.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvoptix.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvoptix.dll</Path>
 					<Version>8.00.0000.0000</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:25:40</Date>
-					<Size>55099504</Size>
+					<Date>8/5/2023 18:13:50</Date>
+					<Size>55099512</Size>
 				</Driver>
 				<Driver>
 					<Name>nvptxJitCompiler32.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvptxJitCompiler32.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvptxJitCompiler32.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:25:56</Date>
-					<Size>14346376</Size>
+					<Date>8/5/2023 18:14:12</Date>
+					<Size>14345336</Size>
 				</Driver>
 				<Driver>
 					<Name>nvptxJitCompiler64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvptxJitCompiler64.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvptxJitCompiler64.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:02</Date>
+					<Date>8/5/2023 18:14:18</Date>
 					<Size>16645752</Size>
 				</Driver>
 				<Driver>
 					<Name>nvrtum64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvrtum64.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvrtum64.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:08</Date>
-					<Size>108574856</Size>
+					<Date>8/5/2023 18:14:26</Date>
+					<Size>108548728</Size>
 				</Driver>
 				<Driver>
 					<Name>nvwgf2umx.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvwgf2umx.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvwgf2umx.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:42</Date>
-					<Size>100343264</Size>
+					<Date>8/5/2023 18:09:50</Date>
+					<Size>100336048</Size>
 				</Driver>
 				<Driver>
 					<Name>NvFBC64.dll</Name>
 					<Path>C:\Windows\system32\NvFBC64.dll</Path>
-					<Version>6.14.0015.3734</Version>
+					<Version>6.14.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:38</Date>
-					<Size>2168352</Size>
+					<Date>8/5/2023 18:11:32</Date>
+					<Size>2167816</Size>
 				</Driver>
 				<Driver>
 					<Name>NvIFR64.dll</Name>
 					<Path>C:\Windows\system32\NvIFR64.dll</Path>
-					<Version>6.14.0015.3734</Version>
+					<Version>6.14.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:06</Date>
-					<Size>1537656</Size>
+					<Date>8/5/2023 18:12:16</Date>
+					<Size>1538072</Size>
 				</Driver>
 				<Driver>
 					<Name>OpenCL.dll</Name>
@@ -2471,37 +2471,37 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:00</Date>
-					<Size>1488008</Size>
+					<Date>8/5/2023 18:16:22</Date>
+					<Size>1487480</Size>
 				</Driver>
 				<Driver>
 					<Name>nvEncodeAPI64.dll</Name>
 					<Path>C:\Windows\system32\nvEncodeAPI64.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:36</Date>
-					<Size>992376</Size>
+					<Date>8/5/2023 18:11:26</Date>
+					<Size>992264</Size>
 				</Driver>
 				<Driver>
 					<Name>nvapi64.dll</Name>
 					<Path>C:\Windows\system32\nvapi64.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:21:36</Date>
-					<Size>7858128</Size>
+					<Date>8/5/2023 18:08:48</Date>
+					<Size>7858112</Size>
 				</Driver>
 				<Driver>
 					<Name>nvcuda.dll</Name>
 					<Path>C:\Windows\system32\nvcuda.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:56</Date>
+					<Date>8/5/2023 18:10:30</Date>
 					<Size>3483272</Size>
 				</Driver>
 				<Driver>
@@ -2511,18 +2511,18 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:50</Date>
-					<Size>5550624</Size>
+					<Date>8/5/2023 18:10:20</Date>
+					<Size>5550728</Size>
 				</Driver>
 				<Driver>
 					<Name>nvcuvid.dll</Name>
 					<Path>C:\Windows\system32\nvcuvid.dll</Path>
-					<Version>7.17.0015.3734</Version>
+					<Version>7.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:08</Date>
-					<Size>12066424</Size>
+					<Date>8/5/2023 18:10:44</Date>
+					<Size>12066840</Size>
 				</Driver>
 				<Driver>
 					<Name>nvinfo.pb</Name>
@@ -2531,18 +2531,18 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
-					<Size>108122</Size>
+					<Date>8/5/2023 07:08:48</Date>
+					<Size>108142</Size>
 				</Driver>
 				<Driver>
 					<Name>nvml.dll</Name>
 					<Path>C:\Windows\system32\nvml.dll</Path>
-					<Version>8.17.0015.3734</Version>
+					<Version>8.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:32</Date>
-					<Size>939040</Size>
+					<Date>8/5/2023 18:12:46</Date>
+					<Size>920600</Size>
 				</Driver>
 				<Driver>
 					<Name>nvofapi64.dll</Name>
@@ -2551,8 +2551,8 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:38</Date>
-					<Size>669320</Size>
+					<Date>8/5/2023 18:12:56</Date>
+					<Size>668680</Size>
 				</Driver>
 				<Driver>
 					<Name>vulkan-1-999-0-0-0.dll</Name>
@@ -2561,7 +2561,7 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:04</Date>
+					<Date>8/5/2023 18:16:26</Date>
 					<Size>653504</Size>
 				</Driver>
 				<Driver>
@@ -2571,7 +2571,7 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:04</Date>
+					<Date>8/5/2023 18:16:26</Date>
 					<Size>653504</Size>
 				</Driver>
 				<Driver>
@@ -2581,7 +2581,7 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:06</Date>
+					<Date>8/5/2023 18:16:28</Date>
 					<Size>849088</Size>
 				</Driver>
 				<Driver>
@@ -2591,108 +2591,108 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:06</Date>
+					<Date>8/5/2023 18:16:28</Date>
 					<Size>849088</Size>
 				</Driver>
 				<Driver>
 					<Name>nv-vk32.json</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nv-vk32.json</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nv-vk32.json</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>671</Size>
 				</Driver>
 				<Driver>
 					<Name>nvIccAdvancedColorIdentity.icm</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvIccAdvancedColorIdentity.icm</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvIccAdvancedColorIdentity.icm</Path>
 					<Version></Version>
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/1/2023 23:26:43</Date>
+					<Date>8/5/2023 07:08:48</Date>
 					<Size>3288</Size>
 				</Driver>
 				<Driver>
 					<Name>nvd3dum.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvd3dum.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvd3dum.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:21:44</Date>
-					<Size>47930976</Size>
+					<Date>8/5/2023 18:08:54</Date>
+					<Size>47930848</Size>
 				</Driver>
 				<Driver>
 					<Name>nvdispco64.exe</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvdispco64.exe</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvdispco64.exe</Path>
 					<Version>1.00.0016.0000</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:20</Date>
+					<Date>8/5/2023 18:10:58</Date>
 					<Size>1739912</Size>
 				</Driver>
 				<Driver>
 					<Name>nvdlist.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvdlist.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvdlist.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:12</Date>
-					<Size>198624</Size>
+					<Date>8/5/2023 18:09:18</Date>
+					<Size>198496</Size>
 				</Driver>
 				<Driver>
 					<Name>nvldumd.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvldumd.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvldumd.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:16</Date>
-					<Size>618832</Size>
+					<Date>8/5/2023 18:09:24</Date>
+					<Size>619240</Size>
 				</Driver>
 				<Driver>
 					<Name>nvoglv32.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvoglv32.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvoglv32.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:40</Date>
-					<Size>51223584</Size>
+					<Date>8/5/2023 18:13:00</Date>
+					<Size>51203600</Size>
 				</Driver>
 				<Driver>
 					<Name>nvwgf2um.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\nvwgf2um.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\nvwgf2um.dll</Path>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:24</Date>
-					<Size>61514296</Size>
+					<Date>8/5/2023 18:09:32</Date>
+					<Size>61506968</Size>
 				</Driver>
 				<Driver>
 					<Name>NvFBC.dll</Name>
 					<Path>C:\Windows\SysWow64\NvFBC.dll</Path>
-					<Version>6.14.0015.3734</Version>
+					<Version>6.14.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:38</Date>
-					<Size>1621616</Size>
+					<Date>8/5/2023 18:11:28</Date>
+					<Size>1621512</Size>
 				</Driver>
 				<Driver>
 					<Name>NvIFR.dll</Name>
 					<Path>C:\Windows\SysWow64\NvIFR.dll</Path>
-					<Version>6.14.0015.3734</Version>
+					<Version>6.14.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:04</Date>
-					<Size>1195120</Size>
+					<Date>8/5/2023 18:12:10</Date>
+					<Size>1195024</Size>
 				</Driver>
 				<Driver>
 					<Name>OpenCL.dll</Name>
@@ -2701,48 +2701,48 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:00</Date>
-					<Size>1227400</Size>
+					<Date>8/5/2023 18:16:18</Date>
+					<Size>1226872</Size>
 				</Driver>
 				<Driver>
 					<Name>nvEncodeAPI.dll</Name>
 					<Path>C:\Windows\SysWow64\nvEncodeAPI.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:32</Date>
-					<Size>768112</Size>
+					<Date>8/5/2023 18:11:26</Date>
+					<Size>769048</Size>
 				</Driver>
 				<Driver>
 					<Name>nvapi.dll</Name>
 					<Path>C:\Windows\SysWow64\nvapi.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:21:34</Date>
-					<Size>6738040</Size>
+					<Date>8/5/2023 18:08:44</Date>
+					<Size>6738024</Size>
 				</Driver>
 				<Driver>
 					<Name>nvcuda.dll</Name>
 					<Path>C:\Windows\SysWow64\nvcuda.dll</Path>
-					<Version>31.00.0015.3734</Version>
+					<Version>31.00.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:22:54</Date>
-					<Size>6190616</Size>
+					<Date>8/5/2023 18:10:26</Date>
+					<Size>6190728</Size>
 				</Driver>
 				<Driver>
 					<Name>nvcuvid.dll</Name>
 					<Path>C:\Windows\SysWow64\nvcuvid.dll</Path>
-					<Version>7.17.0015.3734</Version>
+					<Version>7.17.0015.3699</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:23:04</Date>
-					<Size>14520328</Size>
+					<Date>8/5/2023 18:10:36</Date>
+					<Size>14520856</Size>
 				</Driver>
 				<Driver>
 					<Name>nvofapi.dll</Name>
@@ -2751,8 +2751,8 @@
 					<Language></Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:24:36</Date>
-					<Size>503920</Size>
+					<Date>8/5/2023 18:12:54</Date>
+					<Size>503928</Size>
 				</Driver>
 				<Driver>
 					<Name>vulkan-1-999-0-0-0.dll</Name>
@@ -2761,8 +2761,8 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:04</Date>
-					<Size>637112</Size>
+					<Date>8/5/2023 18:16:28</Date>
+					<Size>637120</Size>
 				</Driver>
 				<Driver>
 					<Name>vulkan-1.dll</Name>
@@ -2771,8 +2771,8 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:04</Date>
-					<Size>637112</Size>
+					<Date>8/5/2023 18:16:28</Date>
+					<Size>637120</Size>
 				</Driver>
 				<Driver>
 					<Name>vulkaninfo-1-999-0-0-0.exe</Name>
@@ -2781,8 +2781,8 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:08</Date>
-					<Size>713912</Size>
+					<Date>8/5/2023 18:16:30</Date>
+					<Size>713920</Size>
 				</Driver>
 				<Driver>
 					<Name>vulkaninfo.exe</Name>
@@ -2791,17 +2791,17 @@
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:28:08</Date>
-					<Size>713912</Size>
+					<Date>8/5/2023 18:16:30</Date>
+					<Size>713920</Size>
 				</Driver>
 				<Driver>
 					<Name>NvTelemetry64.dll</Name>
-					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_8c8de08a85de4474\NvTelemetry64.dll</Path>
+					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_1ddf203f8d876fdf\NvTelemetry64.dll</Path>
 					<Version>14.03.0060.0000</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>9/3/2023 22:26:52</Date>
+					<Date>8/5/2023 18:15:10</Date>
 					<Size>4466120</Size>
 				</Driver>
 			</Drivers>
@@ -4004,7 +4004,7 @@
 	</DirectShow>
 	<MediaFoundation>
 		<szMFFileVersions>  mfcore.dll, 10.00.19041.3448  mfreadwrite.dll, 10.00.19041.0746  mfcaptureengine.dll, 10.00.19041.0906  mfsensorgroup.dll, 10.00.19041.3155  windows.media.dll, 10.00.19041.2075  frameserver.dll, 10.00.19041.3155  frameserverclient.dll, 10.00.19041.3155</szMFFileVersions>
-		<szMFTs>Video Decoders:  NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpegx.dll, 31.00.0015.3734  Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.19041.3448  DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.19041.0001  Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 10.00.19041.1706  Microsoft H264 Video Decoder MFT, CLSID_CMSH264DecoderMFT, 0x1, msmpeg2vdec.dll, 10.00.19041.3448  WMV Screen decoder MFT, CLSID_CMSSCDecMediaObject, 0x1, wmvsdecd.dll, 10.00.19041.0001  WMVideo Decoder MFT, CLSID_CWMVDecMediaObject, 0x1, wmvdecod.dll, 10.00.19041.2311  MJPEG Decoder MFT, {CB17E772-E1CC-4633-8450-5617AF577905}, 0x1, mfmjpegdec.dll, 10.00.19041.1348  Mpeg43 Decoder MFT, CLSID_CMpeg43DecMediaObject, 0x1, mp43decd.dll, 10.00.19041.1165  Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.19041.1165  WebpImageExtension  VP9VideoExtensionDecoder  HEIFImageExtensionVideo Encoders:  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264x.dll, 31.00.0015.3734  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevcx.dll, 31.00.0015.3734  H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.19041.1806  WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.19041.0867  H263 Encoder MFT, {BC47FCFE-98A0-4F27-BB07-698AF24F2B38}, 0x1, mfh263enc.dll, 10.00.19041.0001  WMVideo9 Encoder MFT, CLSID_CWMV9EncMediaObject, 0x1, wmvencod.dll, 10.00.19041.0001  Microsoft MPEG-2 Video Encoder MFT, {E6335F02-80B7-4DC4-ADFA-DFE7210D20D5}, 0x2, msmpeg2enc.dll, 10.00.19041.2546  VP9VideoExtensionEncoder  HEIFImageExtensionVideo Effects:  Frame Rate Converter, CLSID_CFrameRateConvertDmo, 0x1, mfvdsp.dll, 10.00.19041.0746  Resizer MFT, CLSID_CResizerDMO, 0x1, vidreszr.dll, 10.00.19041.2604  VideoStabilization MFT, {51571744-7FE4-4FF2-A498-2DC34FF74F1B}, 0x1, MSVideoDSP.dll, 10.00.19041.0746  Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 10.00.19041.0746  Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 10.00.19041.2604Video Processor:  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.19041.1949Audio Decoders:  Microsoft Dolby Digital Plus Decoder MFT, {177C0AFE-900B-48D4-9E4C-57ADD250B3D4}, 0x1, DolbyDecMFT.dll, 10.00.19041.3393  MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.19041.0001  WMAudio Decoder MFT, CLSID_CWMADecMediaObject, 0x1, WMADMOD.DLL, 10.00.19041.1288  Microsoft AAC Audio Decoder MFT, CLSID_CMSAACDecMFT, 0x1, MSAudDecMFT.dll, 10.00.19041.3393  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.19041.3448  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.19041.3448  WMAPro over S/PDIF MFT, CLSID_CWMAudioSpdTxDMO, 0x1, WMADMOD.DLL, 10.00.19041.1288  Microsoft Opus Audio Decoder MFT, {63E17C10-2D43-4C42-8FE3-8D8B63E46A6A}, 0x1, MSOpusDecoder.dll, 10.00.19041.0746  Microsoft FLAC Audio Decoder MFT, {6B0B3E6B-A2C5-4514-8055-AFE8A95242D9}, 0x1, MSFlacDecoder.dll, 10.00.19041.1566  Microsoft MPEG Audio Decoder MFT, {70707B39-B2CA-4015-ABEA-F8447D22D88B}, 0x1, MSAudDecMFT.dll, 10.00.19041.3393  WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject, 0x1, WMSPDMOD.DLL, 10.00.19041.0001  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.19041.3448  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.19041.3448  MP3 Decoder MFT, CLSID_CMP3DecMediaObject, 0x1, mp3dmod.dll, 10.00.19041.0001  Microsoft ALAC Audio Decoder MFT, {C0CD7D12-31FC-4BBC-B363-7322EE3E1879}, 0x1, MSAlacDecoder.dll, 10.00.19041.0746  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.19041.3448  Dolby TrueHD IEC-61937 converter MFT, {CF5EEEDF-0E92-4B3B-A161-BD0FFE545E4B}, 0x1, mfaudiocnv.dll, 10.00.19041.0746  DTS IEC-61937 converter MFT, {D035E24C-C877-42D7-A795-2A8A339B472F}, 0x1, mfaudiocnv.dll, 10.00.19041.0746Audio Encoders:  LPCM DVD-Audio MFT, {068A8476-9229-4CC0-9D49-2FC699DCD30A}, 0x1, mfaudiocnv.dll, 10.00.19041.0746  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.19041.3448  Microsoft FLAC Audio Encoder MFT, {128509E9-C44E-45DC-95E9-C255B8F466A6}, 0x1, MSFlacEncoder.dll, 10.00.19041.0746  WM Speech Encoder DMO, CLSID_CWMSPEncMediaObject2, 0x1, WMSPDMOE.DLL, 10.00.19041.0508  MS AMRNB Encoder MFT, {2FAE8AFE-04A3-423A-A814-85DB454712B0}, 0x1, MSAMRNBEncoder.dll, 10.00.19041.0001  Microsoft MPEG-2 Audio Encoder MFT, {46A4DD5C-73F8-4304-94DF-308F760974F4}, 0x1, msmpeg2enc.dll, 10.00.19041.2546  WMAudio Encoder MFT, CLSID_CWMAEncMediaObject, 0x1, WMADMOE.DLL, 10.00.19041.0508  Microsoft AAC Audio Encoder MFT, {93AF0C51-2275-45D2-A35B-F2BA21CAED00}, 0x1, mfAACEnc.dll, 10.00.19041.0001  Microsoft ALAC Audio Encoder MFT, {9AB6A28C-748E-4B6A-BFFF-CC443B8E8FB4}, 0x1, MSAlacEncoder.dll, 10.00.19041.0746  Microsoft Dolby Digital Encoder MFT, {AC3315C9-F481-45D7-826C-0B406C1F64B8}, 0x1, msac3enc.dll, 10.00.19041.0001Audio Effects:  AEC, CLSID_CWMAudioAEC, 0x1, mfwmaaec.dll, 10.00.19041.0001  Resampler MFT, CLSID_CResamplerMediaObject, 0x1, resampledmo.dll, 10.00.19041.0001Multiplexers:  Microsoft MPEG2 Multiplexer MFT, {AB300F71-01AB-46D2-AB6C-64906CB03258}, 0x2, mfmpeg2srcsnk.dll, 10.00.19041.3393Others:  Microsoft H264 Video Remux (MPEG2TSToMP4) MFT, {05A47EBB-8BF0-4CBF-AD2F-3B71D75866F5}, 0x1, msmpeg2vdec.dll, 10.00.19041.3448</szMFTs>
+		<szMFTs>Video Decoders:  NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpegx.dll, 31.00.0015.3699  Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.19041.3448  DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.19041.0001  Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 10.00.19041.1706  Microsoft H264 Video Decoder MFT, CLSID_CMSH264DecoderMFT, 0x1, msmpeg2vdec.dll, 10.00.19041.3448  WMV Screen decoder MFT, CLSID_CMSSCDecMediaObject, 0x1, wmvsdecd.dll, 10.00.19041.0001  WMVideo Decoder MFT, CLSID_CWMVDecMediaObject, 0x1, wmvdecod.dll, 10.00.19041.2311  MJPEG Decoder MFT, {CB17E772-E1CC-4633-8450-5617AF577905}, 0x1, mfmjpegdec.dll, 10.00.19041.1348  Mpeg43 Decoder MFT, CLSID_CMpeg43DecMediaObject, 0x1, mp43decd.dll, 10.00.19041.1165  Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.19041.1165  WebpImageExtension  VP9VideoExtensionDecoder  HEIFImageExtensionVideo Encoders:  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264x.dll, 31.00.0015.3699  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevcx.dll, 31.00.0015.3699  H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.19041.1806  WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.19041.0867  H263 Encoder MFT, {BC47FCFE-98A0-4F27-BB07-698AF24F2B38}, 0x1, mfh263enc.dll, 10.00.19041.0001  WMVideo9 Encoder MFT, CLSID_CWMV9EncMediaObject, 0x1, wmvencod.dll, 10.00.19041.0001  Microsoft MPEG-2 Video Encoder MFT, {E6335F02-80B7-4DC4-ADFA-DFE7210D20D5}, 0x2, msmpeg2enc.dll, 10.00.19041.2546  VP9VideoExtensionEncoder  HEIFImageExtensionVideo Effects:  Frame Rate Converter, CLSID_CFrameRateConvertDmo, 0x1, mfvdsp.dll, 10.00.19041.0746  Resizer MFT, CLSID_CResizerDMO, 0x1, vidreszr.dll, 10.00.19041.2604  VideoStabilization MFT, {51571744-7FE4-4FF2-A498-2DC34FF74F1B}, 0x1, MSVideoDSP.dll, 10.00.19041.0746  Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 10.00.19041.0746  Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 10.00.19041.2604Video Processor:  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.19041.1949Audio Decoders:  Microsoft Dolby Digital Plus Decoder MFT, {177C0AFE-900B-48D4-9E4C-57ADD250B3D4}, 0x1, DolbyDecMFT.dll, 10.00.19041.3393  MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.19041.0001  WMAudio Decoder MFT, CLSID_CWMADecMediaObject, 0x1, WMADMOD.DLL, 10.00.19041.1288  Microsoft AAC Audio Decoder MFT, CLSID_CMSAACDecMFT, 0x1, MSAudDecMFT.dll, 10.00.19041.3393  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.19041.3448  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.19041.3448  WMAPro over S/PDIF MFT, CLSID_CWMAudioSpdTxDMO, 0x1, WMADMOD.DLL, 10.00.19041.1288  Microsoft Opus Audio Decoder MFT, {63E17C10-2D43-4C42-8FE3-8D8B63E46A6A}, 0x1, MSOpusDecoder.dll, 10.00.19041.0746  Microsoft FLAC Audio Decoder MFT, {6B0B3E6B-A2C5-4514-8055-AFE8A95242D9}, 0x1, MSFlacDecoder.dll, 10.00.19041.1566  Microsoft MPEG Audio Decoder MFT, {70707B39-B2CA-4015-ABEA-F8447D22D88B}, 0x1, MSAudDecMFT.dll, 10.00.19041.3393  WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject, 0x1, WMSPDMOD.DLL, 10.00.19041.0001  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.19041.3448  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.19041.3448  MP3 Decoder MFT, CLSID_CMP3DecMediaObject, 0x1, mp3dmod.dll, 10.00.19041.0001  Microsoft ALAC Audio Decoder MFT, {C0CD7D12-31FC-4BBC-B363-7322EE3E1879}, 0x1, MSAlacDecoder.dll, 10.00.19041.0746  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.19041.3448  Dolby TrueHD IEC-61937 converter MFT, {CF5EEEDF-0E92-4B3B-A161-BD0FFE545E4B}, 0x1, mfaudiocnv.dll, 10.00.19041.0746  DTS IEC-61937 converter MFT, {D035E24C-C877-42D7-A795-2A8A339B472F}, 0x1, mfaudiocnv.dll, 10.00.19041.0746Audio Encoders:  LPCM DVD-Audio MFT, {068A8476-9229-4CC0-9D49-2FC699DCD30A}, 0x1, mfaudiocnv.dll, 10.00.19041.0746  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.19041.3448  Microsoft FLAC Audio Encoder MFT, {128509E9-C44E-45DC-95E9-C255B8F466A6}, 0x1, MSFlacEncoder.dll, 10.00.19041.0746  WM Speech Encoder DMO, CLSID_CWMSPEncMediaObject2, 0x1, WMSPDMOE.DLL, 10.00.19041.0508  MS AMRNB Encoder MFT, {2FAE8AFE-04A3-423A-A814-85DB454712B0}, 0x1, MSAMRNBEncoder.dll, 10.00.19041.0001  Microsoft MPEG-2 Audio Encoder MFT, {46A4DD5C-73F8-4304-94DF-308F760974F4}, 0x1, msmpeg2enc.dll, 10.00.19041.2546  WMAudio Encoder MFT, CLSID_CWMAEncMediaObject, 0x1, WMADMOE.DLL, 10.00.19041.0508  Microsoft AAC Audio Encoder MFT, {93AF0C51-2275-45D2-A35B-F2BA21CAED00}, 0x1, mfAACEnc.dll, 10.00.19041.0001  Microsoft ALAC Audio Encoder MFT, {9AB6A28C-748E-4B6A-BFFF-CC443B8E8FB4}, 0x1, MSAlacEncoder.dll, 10.00.19041.0746  Microsoft Dolby Digital Encoder MFT, {AC3315C9-F481-45D7-826C-0B406C1F64B8}, 0x1, msac3enc.dll, 10.00.19041.0001Audio Effects:  AEC, CLSID_CWMAudioAEC, 0x1, mfwmaaec.dll, 10.00.19041.0001  Resampler MFT, CLSID_CResamplerMediaObject, 0x1, resampledmo.dll, 10.00.19041.0001Multiplexers:  Microsoft MPEG2 Multiplexer MFT, {AB300F71-01AB-46D2-AB6C-64906CB03258}, 0x2, mfmpeg2srcsnk.dll, 10.00.19041.3393Others:  Microsoft H264 Video Remux (MPEG2TSToMP4) MFT, {05A47EBB-8BF0-4CBF-AD2F-3B71D75866F5}, 0x1, msmpeg2vdec.dll, 10.00.19041.3448</szMFTs>
 		<szEnabledHardwareMFTs>EnableDecoders = 1EnableEncoders = 1</szEnabledHardwareMFTs>
 		<szByteStreamHandlers>.3g2, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.3gp, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.3gp2, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.3gpp, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.aac, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferred.ac3, {46031BA1-083F-47D9-8369-23C92BDAB2FF}, AC-3 Byte Stream Handler, Preferred.adt, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferred.adts, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferred.am?, {EFE6208A-0A2C-49FA-8A01-3768B559B6DA}, MF AMRNB Media Source ByteStreamHandler.amr, {EFE6208A-0A2C-49FA-8A01-3768B559B6DA}, MF AMRNB Media Source ByteStreamHandler, Preferred.asf, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferred.avi, {7AFA253E-F823-42F6-A5D9-714BDE467412}, AVI Byte Stream Handler, Preferred.dvr-ms, {A8721937-E2FB-4D7A-A9EE-4EB08C890B6E}, MF SBE Source ByteStreamHandler.dvr-ms, {65964407-A5D8-4060-85B0-1CCD63F768E2}, dvr-ms Byte Stream Handler, Preferred.ec3, {46031BA1-083F-47D9-8369-23C92BDAB2FF}, AC-3 Byte Stream Handler, Preferred.flac, {0E41CFB8-0506-40F4-A516-77CC23642D91}, MF FLAC Media Source ByteStreamHandler, Preferred.m2t, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.m2ts, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.m4a, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.m4v, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.mk3d, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferred.mka, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferred.mks, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferred.mkv, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferred.mod, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.mov, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.mp2v, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.mp3, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferred.mp4, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.mp4v, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.mpa, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferred.mpeg, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.mpg, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.mts, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.nsc, {B084785C-DDE0-4D30-8CA8-05A373E185BE}, NSC Byte Stream Handler, Preferred.sami, {7A56C4CB-D678-4188-85A8-BA2EF68FA10D}, SAMI Byte Stream Handler, Preferred.smi, {7A56C4CB-D678-4188-85A8-BA2EF68FA10D}, SAMI Byte Stream Handler, Preferred.tod, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.ts, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.tts, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.uvu, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.vob, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.wav, {42C9B9F5-16FC-47EF-AF22-DA05F7C842E3}, WAV Byte Stream Handler, Preferred.weba, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, WEBM Byte Stream Handler, Preferred.webm, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, WEBM Byte Stream Handler, Preferred.wm, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferred.wma, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferred.wmv, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferred.wtv, {65964407-A5D8-4060-85B0-1CCD63F768E2}, WTV Byte Stream Handler, Preferredaudio/3gpp, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredaudio/3gpp2, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredaudio/aac, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferredaudio/aacp, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferredaudio/eac3, {46031BA1-083F-47D9-8369-23C92BDAB2FF}, AC-3 Byte Stream Handler, Preferredaudio/flac, {0E41CFB8-0506-40F4-A516-77CC23642D91}, MF FLAC Media Source ByteStreamHandler, Preferredaudio/L16, {3FFB3B8C-EB99-472B-8902-E1C1B05F07CF}, LPCM Byte Stream Handler, Preferredaudio/mp3, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/mp4, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredaudio/MP4A-LATM, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredaudio/mpa, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/mpeg, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/mpeg3, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/vnd.dlna.adts, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferredaudio/vnd.dolby.dd-raw, {46031BA1-083F-47D9-8369-23C92BDAB2FF}, AC-3 Byte Stream Handler, Preferredaudio/wav, {42C9B9F5-16FC-47EF-AF22-DA05F7C842E3}, WAV Byte Stream Handler, Preferredaudio/webm, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, WEBM Byte Stream Handler, Preferredaudio/x-aac, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferredaudio/x-flac, {0E41CFB8-0506-40F4-A516-77CC23642D91}, MF FLAC Media Source ByteStreamHandler, Preferredaudio/x-m4a, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredaudio/x-matroska, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferredaudio/x-mp3, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/x-mpeg, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/x-ms-wma, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferredaudio/x-wav, {42C9B9F5-16FC-47EF-AF22-DA05F7C842E3}, WAV Byte Stream Handler, Preferredvideo/3gpp, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredvideo/3gpp2, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredvideo/avi, {7AFA253E-F823-42F6-A5D9-714BDE467412}, AVI Byte Stream Handler, Preferredvideo/mp4, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredvideo/mpeg, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferredvideo/msvideo, {7AFA253E-F823-42F6-A5D9-714BDE467412}, AVI Byte Stream Handler, Preferredvideo/vnd.dece.mp4, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredvideo/vnd.dlna.mpeg-tts, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferredvideo/webm, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, WEBM Byte Stream Handler, Preferredvideo/x-m4v, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredvideo/x-matroska, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferredvideo/x-ms-asf, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferredvideo/x-ms-wm, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferredvideo/x-ms-wmv, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferredvideo/x-msvideo, {7AFA253E-F823-42F6-A5D9-714BDE467412}, AVI Byte Stream Handler, Preferred</szByteStreamHandlers>
 		<szSchemeHandlers>file:, {477EC299-1421-4BDD-971F-7CCB933F21AD}, File Scheme Handler, Preferredhttp:, {44CB442B-9DA9-49DF-B3FD-023777B16E50}, Http Scheme Handlerhttp:, {9EC4B4F9-3029-45AD-947B-344DE2A249E2}, Urlmon Scheme Handlerhttp:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredhttpd:, {44CB442B-9DA9-49DF-B3FD-023777B16E50}, Http Scheme Handler, Preferredhttps:, {37A61C8B-7F8E-4D08-B12B-248D73E9AB4F}, Secure Http Scheme Handler, Preferredhttpsd:, {37A61C8B-7F8E-4D08-B12B-248D73E9AB4F}, Secure Http Scheme Handler, Preferredhttpt:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredhttpu:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredmcast:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredmcrecv:, {FA6D33D4-9405-4BA5-9983-12604AC8E77A}, Miracast Sink Scheme Handler, Preferredmms:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredms-appdata:, {CFC81939-3886-4ACF-9692-DA58037AE716}, MsAppData Scheme Handler, Preferredms-appx-web:, {8DB0224B-3D65-4F6F-8E12-BEB4B78B8974}, MsAppxWeb Scheme Handler, Preferredms-appx:, {8DB0224B-3D65-4F6F-8E12-BEB4B78B8974}, MsAppx Scheme Handler, Preferredms-winsoundevent:, {F79A6BF9-7415-4CF3-AE10-4559509ABC3C}, Sound Event Scheme Handler, Preferredrtsp:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredrtsps:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredrtspt:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredrtspu:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredsdp:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferred</szSchemeHandlers>
@@ -4034,15 +4034,15 @@
 	</EvrPowerInformation>
 	<Diagnostics>
 		<WindowsErrorReporting>
-			<WER0>Fault bucket 1744904586616250467, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: FarCryNewDawn.exeP2: 1.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER0>
-			<WER1>Fault bucket 2119559313450719562, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: run.exeP2: 3.3.5.12340P3: 4c2452feP4: 74fcP5: 67246080P6: P7: P8: P9: P10: </WER1>
-			<WER2>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: run.exeP2: 3.3.5.12340P3: 4c2452feP4: 74fcP5: 67246080P6: P7: P8: P9: P10: </WER2>
-			<WER3>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: run.exeP2: 3.3.5.12340P3: 4c2452feP4: 74fcP5: 134217728P6: P7: P8: P9: P10: </WER3>
-			<WER4>Fault bucket 1384414762243074167, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Cyberpunk2077.exeP2: 3.0.74.53121P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER4>
-			<WER5>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: run.exeP2: 3.3.5.12340P3: 4c2452feP4: a350P5: 134217728P6: P7: P8: P9: P10: </WER5>
-			<WER6>Fault bucket 1885917967968785886, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: steamwebhelper.exeP2: 8.33.9.23P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER6>
-			<WER7>Fault bucket 1734295816564394550, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: StarcomNexus.exeP2: 2017.4.29.20618P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER7>
-			<WER8>Fault bucket 1750425832857193965, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Dragonheir.exeP2: 2021.3.8.46450P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER8>
+			<WER0>No Data</WER0>
+			<WER1>No Data</WER1>
+			<WER2>No Data</WER2>
+			<WER3>No Data</WER3>
+			<WER4>No Data</WER4>
+			<WER5>No Data</WER5>
+			<WER6>No Data</WER6>
+			<WER7>No Data</WER7>
+			<WER8>No Data</WER8>
 			<WER9>No Data</WER9>
 		</WindowsErrorReporting>
 	</Diagnostics>
