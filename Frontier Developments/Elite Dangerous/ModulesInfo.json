@@ -1,7 +1,5 @@
-{ "timestamp":"2023-09-27T20:57:22Z", "event":"ModuleInfo", "Modules":[ 
+{ "timestamp":"2023-10-09T18:25:06Z", "event":"ModuleInfo", "Modules":[ 
 { "Slot":"MainEngines", "Item":"int_engine_size5_class2", "Power":4.590000, "Priority":0 }, 
-{ "Slot":"Slot06_Size4", "Item":"int_guardianfsdbooster_size4", "Power":1.650000, "Priority":0 }, 
-{ "Slot":"Slot01_Size6", "Item":"int_fuelscoop_size6_class5", "Power":0.830000, "Priority":0 }, 
 { "Slot":"FrameShiftDrive", "Item":"int_hyperdrive_size5_class5", "Power":0.690000, "Priority":0 }, 
 { "Slot":"PowerDistributor", "Item":"int_powerdistributor_size6_class2", "Power":0.610000, "Priority":0 }, 
 { "Slot":"CargoHatch", "Item":"modularcargobaydoor", "Power":0.600000, "Priority":2 }, 
