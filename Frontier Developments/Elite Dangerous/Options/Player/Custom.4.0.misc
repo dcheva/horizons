@@ -89,12 +89,12 @@
 			<profanity Value="0" />
 		</VisibleChannels>
 		<MicroResourcePanelFilters>
-			<grade_5 Value="1" />
-			<pinned Value="0" />
-			<manufactured Value="0" />
-			<grade_3 Value="0" />
 			<grade_4 Value="1" />
 			<raw Value="1" />
+			<manufactured Value="0" />
+			<pinned Value="0" />
+			<grade_3 Value="0" />
+			<grade_5 Value="1" />
 		</MicroResourcePanelFilters>
 		<tradeData>
 			<data Value="1" />
@@ -104,20 +104,20 @@
 		<minorFactionStatus>
 			<Drought Value="0" />
 			<Blight Value="0" />
-			<Thargoid_Probing Value="0" />
+			<Thargoid_Harvest Value="0" />
 			<PublicHoliday Value="0" />
 			<Outbreak Value="0" />
 			<None Value="0" />
 			<CivilUnrest Value="0" />
 			<Thargoid_Stronghold Value="0" />
-			<Frontline Value="0" />
+			<Thargoid_Controlled Value="0" />
 			<Bust Value="0" />
 			<NaturalDisaster Value="0" />
 			<CivilWar Value="0" />
 			<Election Value="0" />
 			<Incursion Value="0" />
 			<War Value="0" />
-			<Thargoid_Harvest Value="0" />
+			<Thargoid_Probing Value="0" />
 			<Expansion Value="0" />
 			<Boom Value="0" />
 			<Lockdown Value="0" />
@@ -125,15 +125,15 @@
 			<affectsRoutePlotting Value="0" />
 			<Investment Value="0" />
 			<InfrastructureFailure Value="0" />
-			<Thargoid_Recovery Value="0" />
+			<Frontline Value="0" />
 			<Terrorism Value="0" />
 			<Retreat Value="0" />
-			<Thargoid_Controlled Value="0" />
+			<Thargoid_Recovery Value="0" />
 			<CivilLiberty Value="0" />
 		</minorFactionStatus>
 		<EncodedPanelFilters>
-			<grade_5 Value="1" />
 			<grade_4 Value="1" />
+			<grade_5 Value="1" />
 		</EncodedPanelFilters>
 		<Security>
 			<HighSecurity Value="1" />
