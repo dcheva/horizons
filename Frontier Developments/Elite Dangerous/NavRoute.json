@@ -1,5 +1,3 @@
-{ "timestamp":"2023-10-09T19:25:49Z", "event":"NavRoute", "Route":[ 
-{ "StarSystem":"Robigo", "SystemAddress":9463020987689, "StarPos":[-303.40625,7.31250,-314.15625], "StarClass":"M" }, 
-{ "StarSystem":"Wredguia TH-U c16-18", "SystemAddress":5031117984402, "StarPos":[-327.37500,5.06250,-332.31250], "StarClass":"TTS" }, 
-{ "StarSystem":"Sothis", "SystemAddress":3137146456387, "StarPos":[-352.78125,10.50000,-346.34375], "StarClass":"F" }
+{ "timestamp":"2023-10-13T03:03:33Z", "event":"NavRouteClear", "Route":[ 
+
  ] }

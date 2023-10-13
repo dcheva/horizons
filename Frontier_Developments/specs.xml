@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>10/9/2023, 20:37:12</Time>
+		<Time>10/13/2023, 05:47:31</Time>
 		<MachineName>DESKTOP-O5FJCVG</MachineName>
 		<MachineId>{4571D720-EA28-4E99-A342-50E4EE0FB519}</MachineId>
 		<OperatingSystem>Windows 10 Education 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
@@ -13,14 +13,14 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>6797MB used, 11936MB available</PageFile>
+		<PageFile>7866MB used, 10867MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
 		<UserDPISettings>96 DPI (100 percent)</UserDPISettings>
 		<SystemDPISettings>96 DPI (100 percent)</SystemDPISettings>
 		<DWMDPIScaling>Disabled</DWMDPIScaling>
-		<DxDiagVersion>10.00.19041.2075</DxDiagVersion>
+		<DxDiagVersion>10.00.19041.3570</DxDiagVersion>
 		<DxDiagUnicode>1</DxDiagUnicode>
 		<DxDiag64Bit>1</DxDiag64Bit>
 		<Miracast>Available, no HDCP</Miracast>
@@ -361,12 +361,12 @@
 					<Driver>
 						<Name>USBHUB3.SYS</Name>
 						<Path>C:\Windows\system32\DRIVERS\USBHUB3.SYS</Path>
-						<Version>10.00.19041.3208</Version>
+						<Version>10.00.19041.3570</Version>
 						<Language>English</Language>
 						<Beta>0</Beta>
 						<Debug>0</Debug>
-						<Date>7/29/2023 00:50:59</Date>
-						<Size>648560</Size>
+						<Date>10/11/2023 07:37:17</Date>
+						<Size>648680</Size>
 					</Driver>
 				</Drivers>
 				<InputRelatedDevice>
@@ -385,31 +385,31 @@
 						<Driver>
 							<Name>hidusb.sys</Name>
 							<Path>C:\Windows\system32\DRIVERS\hidusb.sys</Path>
-							<Version>10.00.19041.3031</Version>
+							<Version>10.00.19041.3570</Version>
 							<Language>English</Language>
 							<Beta>0</Beta>
 							<Debug>0</Debug>
-							<Date>7/29/2023 00:50:59</Date>
+							<Date>10/11/2023 07:37:17</Date>
 							<Size>44032</Size>
 						</Driver>
 						<Driver>
 							<Name>hidclass.sys</Name>
 							<Path>C:\Windows\system32\DRIVERS\hidclass.sys</Path>
-							<Version>10.00.19041.3031</Version>
+							<Version>10.00.19041.3570</Version>
 							<Language>English</Language>
 							<Beta>0</Beta>
 							<Debug>0</Debug>
-							<Date>7/29/2023 00:50:59</Date>
+							<Date>10/11/2023 07:37:17</Date>
 							<Size>233472</Size>
 						</Driver>
 						<Driver>
 							<Name>hidparse.sys</Name>
 							<Path>C:\Windows\system32\DRIVERS\hidparse.sys</Path>
-							<Version>10.00.19041.3031</Version>
+							<Version>10.00.19041.3570</Version>
 							<Language>English</Language>
 							<Beta>0</Beta>
 							<Debug>0</Debug>
-							<Date>7/29/2023 00:50:59</Date>
+							<Date>10/11/2023 07:37:17</Date>
 							<Size>46080</Size>
 						</Driver>
 					</Drivers>
@@ -465,12 +465,12 @@
 						<Driver>
 							<Name>usbccgp.sys</Name>
 							<Path>C:\Windows\system32\DRIVERS\usbccgp.sys</Path>
-							<Version>10.00.19041.2546</Version>
+							<Version>10.00.19041.3570</Version>
 							<Language>English</Language>
 							<Beta>0</Beta>
 							<Debug>0</Debug>
-							<Date>7/29/2023 00:50:59</Date>
-							<Size>190336</Size>
+							<Date>10/11/2023 07:37:17</Date>
+							<Size>190320</Size>
 						</Driver>
 					</Drivers>
 					<InputRelatedDevice>
@@ -489,31 +489,31 @@
 							<Driver>
 								<Name>hidusb.sys</Name>
 								<Path>C:\Windows\system32\DRIVERS\hidusb.sys</Path>
-								<Version>10.00.19041.3031</Version>
+								<Version>10.00.19041.3570</Version>
 								<Language>English</Language>
 								<Beta>0</Beta>
 								<Debug>0</Debug>
-								<Date>7/29/2023 00:50:59</Date>
+								<Date>10/11/2023 07:37:17</Date>
 								<Size>44032</Size>
 							</Driver>
 							<Driver>
 								<Name>hidclass.sys</Name>
 								<Path>C:\Windows\system32\DRIVERS\hidclass.sys</Path>
-								<Version>10.00.19041.3031</Version>
+								<Version>10.00.19041.3570</Version>
 								<Language>English</Language>
 								<Beta>0</Beta>
 								<Debug>0</Debug>
-								<Date>7/29/2023 00:50:59</Date>
+								<Date>10/11/2023 07:37:17</Date>
 								<Size>233472</Size>
 							</Driver>
 							<Driver>
 								<Name>hidparse.sys</Name>
 								<Path>C:\Windows\system32\DRIVERS\hidparse.sys</Path>
-								<Version>10.00.19041.3031</Version>
+								<Version>10.00.19041.3570</Version>
 								<Language>English</Language>
 								<Beta>0</Beta>
 								<Debug>0</Debug>
-								<Date>7/29/2023 00:50:59</Date>
+								<Date>10/11/2023 07:37:17</Date>
 								<Size>46080</Size>
 							</Driver>
 						</Drivers>
@@ -563,7 +563,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>81767690240</FreeSpace>
+			<FreeSpace>66707763200</FreeSpace>
 			<MaxSpace>500090007552</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -573,7 +573,7 @@
 		</LogicalDisk>
 		<LogicalDisk>
 			<DriveLetter>D:</DriveLetter>
-			<FreeSpace>84633497600</FreeSpace>
+			<FreeSpace>54258872320</FreeSpace>
 			<MaxSpace>499447230464</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>TOSHIBA DT01ACA050</Model>
@@ -590,12 +590,12 @@
 				<Driver>
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
-					<Version>10.00.19041.3271</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:58</Date>
-					<Size>478552</Size>
+					<Date>10/11/2023 07:37:16</Date>
+					<Size>478696</Size>
 				</Driver>
 			</Drivers>
 		</SystemDevice>
@@ -606,12 +606,12 @@
 				<Driver>
 					<Name>msisadrv.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\msisadrv.sys</Path>
-					<Version>10.00.19041.1202</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:58</Date>
-					<Size>20280</Size>
+					<Date>10/11/2023 07:37:16</Date>
+					<Size>21480</Size>
 				</Driver>
 			</Drivers>
 		</SystemDevice>
@@ -638,31 +638,31 @@
 				<Driver>
 					<Name>hdaudbus.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\hdaudbus.sys</Path>
-					<Version>10.00.19041.3271</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:56</Date>
+					<Date>10/11/2023 07:37:14</Date>
 					<Size>138240</Size>
 				</Driver>
 				<Driver>
 					<Name>drmk.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\drmk.sys</Path>
-					<Version>10.00.19041.0746</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:56</Date>
+					<Date>10/11/2023 07:37:14</Date>
 					<Size>97792</Size>
 				</Driver>
 				<Driver>
 					<Name>portcls.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\portcls.sys</Path>
-					<Version>10.00.19041.0746</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:56</Date>
+					<Date>10/11/2023 07:37:14</Date>
 					<Size>388608</Size>
 				</Driver>
 			</Drivers>
@@ -674,22 +674,22 @@
 				<Driver>
 					<Name>USBXHCI.SYS</Name>
 					<Path>C:\Windows\system32\DRIVERS\USBXHCI.SYS</Path>
-					<Version>10.00.19041.3031</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:59</Date>
-					<Size>620352</Size>
+					<Date>10/11/2023 07:37:17</Date>
+					<Size>625640</Size>
 				</Driver>
 				<Driver>
 					<Name>UsbXhciCompanion.dll</Name>
 					<Path>C:\Windows\system32\DRIVERS\UMDF\UsbXhciCompanion.dll</Path>
-					<Version>10.00.19041.3031</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:59</Date>
-					<Size>138968</Size>
+					<Date>10/11/2023 07:37:17</Date>
+					<Size>143144</Size>
 				</Driver>
 			</Drivers>
 		</SystemDevice>
@@ -700,12 +700,12 @@
 				<Driver>
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
-					<Version>10.00.19041.3271</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:58</Date>
-					<Size>478552</Size>
+					<Date>10/11/2023 07:37:16</Date>
+					<Size>478696</Size>
 				</Driver>
 			</Drivers>
 		</SystemDevice>
@@ -716,12 +716,12 @@
 				<Driver>
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
-					<Version>10.00.19041.3271</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:58</Date>
-					<Size>478552</Size>
+					<Date>10/11/2023 07:37:16</Date>
+					<Size>478696</Size>
 				</Driver>
 			</Drivers>
 		</SystemDevice>
@@ -732,12 +732,12 @@
 				<Driver>
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
-					<Version>10.00.19041.3271</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:58</Date>
-					<Size>478552</Size>
+					<Date>10/11/2023 07:37:16</Date>
+					<Size>478696</Size>
 				</Driver>
 			</Drivers>
 		</SystemDevice>
@@ -748,12 +748,12 @@
 				<Driver>
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
-					<Version>10.00.19041.3271</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:58</Date>
-					<Size>478552</Size>
+					<Date>10/11/2023 07:37:16</Date>
+					<Size>478696</Size>
 				</Driver>
 			</Drivers>
 		</SystemDevice>
@@ -795,12 +795,12 @@
 				<Driver>
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
-					<Version>10.00.19041.3271</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:58</Date>
-					<Size>478552</Size>
+					<Date>10/11/2023 07:37:16</Date>
+					<Size>478696</Size>
 				</Driver>
 			</Drivers>
 		</SystemDevice>
@@ -843,12 +843,12 @@
 				<Driver>
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
-					<Version>10.00.19041.3271</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:58</Date>
-					<Size>478552</Size>
+					<Date>10/11/2023 07:37:16</Date>
+					<Size>478696</Size>
 				</Driver>
 			</Drivers>
 		</SystemDevice>
@@ -2780,31 +2780,31 @@
 				<Driver>
 					<Name>hdaudbus.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\hdaudbus.sys</Path>
-					<Version>10.00.19041.3271</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:56</Date>
+					<Date>10/11/2023 07:37:14</Date>
 					<Size>138240</Size>
 				</Driver>
 				<Driver>
 					<Name>drmk.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\drmk.sys</Path>
-					<Version>10.00.19041.0746</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:56</Date>
+					<Date>10/11/2023 07:37:14</Date>
 					<Size>97792</Size>
 				</Driver>
 				<Driver>
 					<Name>portcls.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\portcls.sys</Path>
-					<Version>10.00.19041.0746</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:56</Date>
+					<Date>10/11/2023 07:37:14</Date>
 					<Size>388608</Size>
 				</Driver>
 			</Drivers>
@@ -2816,22 +2816,22 @@
 				<Driver>
 					<Name>USBXHCI.SYS</Name>
 					<Path>C:\Windows\system32\DRIVERS\USBXHCI.SYS</Path>
-					<Version>10.00.19041.3031</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:59</Date>
-					<Size>620352</Size>
+					<Date>10/11/2023 07:37:17</Date>
+					<Size>625640</Size>
 				</Driver>
 				<Driver>
 					<Name>UsbXhciCompanion.dll</Name>
 					<Path>C:\Windows\system32\DRIVERS\UMDF\UsbXhciCompanion.dll</Path>
-					<Version>10.00.19041.3031</Version>
+					<Version>10.00.19041.3570</Version>
 					<Language>English</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
-					<Date>7/29/2023 00:50:59</Date>
-					<Size>138968</Size>
+					<Date>10/11/2023 07:37:17</Date>
+					<Size>143144</Size>
 				</Driver>
 			</Drivers>
 		</SystemDevice>
@@ -2845,7 +2845,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>WMADMOD.DLL</File>
-			<FileVersion>10.00.19041.1288</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>WMAPro over S/PDIF DMO</Name>
@@ -2854,7 +2854,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>WMADMOD.DLL</File>
-			<FileVersion>10.00.19041.1288</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>WMSpeech Decoder DMO</Name>
@@ -2881,7 +2881,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>mp4sdecd.dll</File>
-			<FileVersion>10.00.19041.1706</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>WMV Screen decoder DMO</Name>
@@ -2899,7 +2899,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>wmvdecod.dll</File>
-			<FileVersion>10.00.19041.2311</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Mpeg43 Decoder DMO</Name>
@@ -2908,7 +2908,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>mp43decd.dll</File>
-			<FileVersion>10.00.19041.1165</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Mpeg4 Decoder DMO</Name>
@@ -2917,7 +2917,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>mpg4decd.dll</File>
-			<FileVersion>10.00.19041.1165</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>DV Muxer</Name>
@@ -2935,7 +2935,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>LAV Splitter</Name>
@@ -2962,7 +2962,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>VGA 16 Color Ditherer</Name>
@@ -2971,7 +2971,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>SBE2MediaTypeProfile</Name>
@@ -2989,7 +2989,7 @@
 			<Inputs>2</Inputs>
 			<Outputs>4</Outputs>
 			<File>msmpeg2vdec.dll</File>
-			<FileVersion>10.00.19041.3448</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>AC3 Parser Filter</Name>
@@ -2998,7 +2998,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>mpg2splt.ax</File>
-			<FileVersion>10.00.19041.0329</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>StreamBufferSink</Name>
@@ -3016,7 +3016,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>MPEG-I Stream Splitter</Name>
@@ -3025,7 +3025,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>2</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>SAMI (CC) Parser</Name>
@@ -3034,7 +3034,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>VBI Codec</Name>
@@ -3043,7 +3043,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>4</Outputs>
 			<File>VBICodec.ax</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>MPEG-2 Splitter</Name>
@@ -3052,7 +3052,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>mpg2splt.ax</File>
-			<FileVersion>10.00.19041.0329</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Closed Captions Analysis Filter</Name>
@@ -3079,7 +3079,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>msmpeg2enc.dll</File>
-			<FileVersion>10.00.19041.2546</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Internal Script Command Renderer</Name>
@@ -3088,7 +3088,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>MPEG Audio Decoder</Name>
@@ -3097,7 +3097,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>DV Splitter</Name>
@@ -3115,7 +3115,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Microsoft MPEG-2 Encoder</Name>
@@ -3124,7 +3124,7 @@
 			<Inputs>2</Inputs>
 			<Outputs>1</Outputs>
 			<File>msmpeg2enc.dll</File>
-			<FileVersion>10.00.19041.2546</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>ACM Wrapper</Name>
@@ -3133,7 +3133,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Video Renderer</Name>
@@ -3142,7 +3142,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>MPEG-2 Video Stream Analyzer</Name>
@@ -3169,7 +3169,7 @@
 			<Inputs>2</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Video Renderer</Name>
@@ -3178,7 +3178,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>MPC Video Renderer</Name>
@@ -3259,7 +3259,7 @@
 			<Inputs>0</Inputs>
 			<Outputs>3</Outputs>
 			<File>qdvd.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Overlay Mixer2</Name>
@@ -3286,7 +3286,7 @@
 			<Inputs>9</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Microsoft MPEG-2 Audio Encoder</Name>
@@ -3295,7 +3295,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>msmpeg2enc.dll</File>
-			<FileVersion>10.00.19041.2546</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>WST Pager</Name>
@@ -3313,7 +3313,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>mpg2splt.ax</File>
-			<FileVersion>10.00.19041.0329</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>DV Video Decoder</Name>
@@ -3340,7 +3340,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>qedit.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Null Renderer</Name>
@@ -3349,7 +3349,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>qedit.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>MPEG-2 Sections and Tables</Name>
@@ -3403,7 +3403,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>AVI/WAV File Source</Name>
@@ -3412,7 +3412,7 @@
 			<Inputs>0</Inputs>
 			<Outputs>2</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Wave Parser</Name>
@@ -3421,7 +3421,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>MIDI Parser</Name>
@@ -3430,7 +3430,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Multi-file Parser</Name>
@@ -3439,7 +3439,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>File stream renderer</Name>
@@ -3448,7 +3448,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>madVR</Name>
@@ -3466,7 +3466,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>msmpeg2adec.dll</File>
-			<FileVersion>10.00.19041.0001</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>StreamBufferSink2</Name>
@@ -3493,7 +3493,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>File Source (Async.)</Name>
@@ -3502,7 +3502,7 @@
 			<Inputs>0</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>File Source (URL)</Name>
@@ -3511,7 +3511,7 @@
 			<Inputs>0</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>LAV Audio Decoder</Name>
@@ -3547,7 +3547,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>evr.dll</File>
-			<FileVersion>10.00.19041.0546</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>BDA MPEG2 Transport Information Filter</Name>
@@ -3565,7 +3565,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Tee/Sink-to-Sink Converter</Name>
@@ -3574,7 +3574,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>ksproxy.ax</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>WMVideo8 Encoder DMO</Name>
@@ -3583,7 +3583,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>wmvxencd.dll</File>
-			<FileVersion>10.00.19041.0867</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>WMVideo9 Encoder DMO</Name>
@@ -3619,7 +3619,7 @@
 			<Inputs>0</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>WM Speech Encoder DMO</Name>
@@ -3628,7 +3628,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>WMSPDMOE.DLL</File>
-			<FileVersion>10.00.19041.0508</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>WMAudio Encoder DMO</Name>
@@ -3637,7 +3637,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>WMADMOE.DLL</File>
-			<FileVersion>10.00.19041.0508</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>IMA ADPCM</Name>
@@ -3646,7 +3646,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>PCM</Name>
@@ -3655,7 +3655,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Microsoft ADPCM</Name>
@@ -3664,7 +3664,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>GSM 6.10</Name>
@@ -3673,7 +3673,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>AC-3 ACM Extensible</Name>
@@ -3682,7 +3682,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>CCITT A-Law</Name>
@@ -3691,7 +3691,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>CCITT u-Law</Name>
@@ -3700,7 +3700,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>AC-3 ACM Codec</Name>
@@ -3709,7 +3709,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>MPEG Layer-3</Name>
@@ -3718,7 +3718,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Microphone (Realtek High Definition Audio)</Name>
@@ -3736,7 +3736,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>CPFilters.dll</File>
-			<FileVersion>10.00.19041.3031</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>PBDA ETFilter</Name>
@@ -3745,7 +3745,7 @@
 			<Inputs>0</Inputs>
 			<Outputs>0</Outputs>
 			<File>CPFilters.dll</File>
-			<FileVersion>10.00.19041.3031</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>PBDA PTFilter</Name>
@@ -3754,7 +3754,7 @@
 			<Inputs>0</Inputs>
 			<Outputs>0</Outputs>
 			<File>CPFilters.dll</File>
-			<FileVersion>10.00.19041.3031</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Default MidiOut Device</Name>
@@ -3763,7 +3763,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Microsoft GS Wavetable Synth</Name>
@@ -3772,7 +3772,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Realtek HD Audio Line input</Name>
@@ -3781,7 +3781,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>ksproxy.ax</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Realtek HD Audio Mic input</Name>
@@ -3790,7 +3790,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>ksproxy.ax</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Realtek HD Audio Stereo input</Name>
@@ -3799,7 +3799,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>ksproxy.ax</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Realtek HDA SPDIF Out</Name>
@@ -3808,7 +3808,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>ksproxy.ax</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Realtek HD Audio output</Name>
@@ -3817,7 +3817,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>ksproxy.ax</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Microsoft ATSC Network Provider</Name>
@@ -3871,7 +3871,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>4</Outputs>
 			<File>VBICodec.ax</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>BDA MPEG2 Transport Information Filter</Name>
@@ -3898,7 +3898,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>1</Outputs>
 			<File>ksproxy.ax</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Speakers (Realtek High Definition Audio)</Name>
@@ -3907,7 +3907,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Default DirectSound Device</Name>
@@ -3916,7 +3916,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Default WaveOut Device</Name>
@@ -3925,7 +3925,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>DirectSound: Speakers (Realtek High Definition Audio)</Name>
@@ -3934,7 +3934,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>DirectSound: Realtek Digital Output (Realtek High Definition Audio)</Name>
@@ -3943,7 +3943,7 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 		<Filter>
 			<Name>Realtek Digital Output (Realtek High Definition Audio)</Name>
@@ -3952,12 +3952,12 @@
 			<Inputs>1</Inputs>
 			<Outputs>0</Outputs>
 			<File>quartz.dll</File>
-			<FileVersion>10.00.19041.0746</FileVersion>
+			<FileVersion>10.00.19041.3570</FileVersion>
 		</Filter>
 	</DirectShow>
 	<MediaFoundation>
-		<szMFFileVersions>  mfcore.dll, 10.00.19041.3448  mfreadwrite.dll, 10.00.19041.0746  mfcaptureengine.dll, 10.00.19041.0906  mfsensorgroup.dll, 10.00.19041.3155  windows.media.dll, 10.00.19041.2075  frameserver.dll, 10.00.19041.3155  frameserverclient.dll, 10.00.19041.3155</szMFFileVersions>
-		<szMFTs>Video Decoders:  NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpegx.dll, 31.00.0015.3699  Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.19041.3448  DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.19041.0001  Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 10.00.19041.1706  Microsoft H264 Video Decoder MFT, CLSID_CMSH264DecoderMFT, 0x1, msmpeg2vdec.dll, 10.00.19041.3448  WMV Screen decoder MFT, CLSID_CMSSCDecMediaObject, 0x1, wmvsdecd.dll, 10.00.19041.0001  WMVideo Decoder MFT, CLSID_CWMVDecMediaObject, 0x1, wmvdecod.dll, 10.00.19041.2311  MJPEG Decoder MFT, {CB17E772-E1CC-4633-8450-5617AF577905}, 0x1, mfmjpegdec.dll, 10.00.19041.1348  Mpeg43 Decoder MFT, CLSID_CMpeg43DecMediaObject, 0x1, mp43decd.dll, 10.00.19041.1165  Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.19041.1165  VP9VideoExtensionDecoder  HEIFImageExtension  WebpImageExtensionVideo Encoders:  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264x.dll, 31.00.0015.3699  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevcx.dll, 31.00.0015.3699  H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.19041.1806  WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.19041.0867  H263 Encoder MFT, {BC47FCFE-98A0-4F27-BB07-698AF24F2B38}, 0x1, mfh263enc.dll, 10.00.19041.0001  WMVideo9 Encoder MFT, CLSID_CWMV9EncMediaObject, 0x1, wmvencod.dll, 10.00.19041.0001  Microsoft MPEG-2 Video Encoder MFT, {E6335F02-80B7-4DC4-ADFA-DFE7210D20D5}, 0x2, msmpeg2enc.dll, 10.00.19041.2546  VP9VideoExtensionEncoder  HEIFImageExtensionVideo Effects:  Frame Rate Converter, CLSID_CFrameRateConvertDmo, 0x1, mfvdsp.dll, 10.00.19041.0746  Resizer MFT, CLSID_CResizerDMO, 0x1, vidreszr.dll, 10.00.19041.2604  VideoStabilization MFT, {51571744-7FE4-4FF2-A498-2DC34FF74F1B}, 0x1, MSVideoDSP.dll, 10.00.19041.0746  Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 10.00.19041.0746  Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 10.00.19041.2604Video Processor:  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.19041.1949Audio Decoders:  Microsoft Dolby Digital Plus Decoder MFT, {177C0AFE-900B-48D4-9E4C-57ADD250B3D4}, 0x1, DolbyDecMFT.dll, 10.00.19041.3393  MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.19041.0001  WMAudio Decoder MFT, CLSID_CWMADecMediaObject, 0x1, WMADMOD.DLL, 10.00.19041.1288  Microsoft AAC Audio Decoder MFT, CLSID_CMSAACDecMFT, 0x1, MSAudDecMFT.dll, 10.00.19041.3393  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.19041.3448  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.19041.3448  WMAPro over S/PDIF MFT, CLSID_CWMAudioSpdTxDMO, 0x1, WMADMOD.DLL, 10.00.19041.1288  Microsoft Opus Audio Decoder MFT, {63E17C10-2D43-4C42-8FE3-8D8B63E46A6A}, 0x1, MSOpusDecoder.dll, 10.00.19041.0746  Microsoft FLAC Audio Decoder MFT, {6B0B3E6B-A2C5-4514-8055-AFE8A95242D9}, 0x1, MSFlacDecoder.dll, 10.00.19041.1566  Microsoft MPEG Audio Decoder MFT, {70707B39-B2CA-4015-ABEA-F8447D22D88B}, 0x1, MSAudDecMFT.dll, 10.00.19041.3393  WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject, 0x1, WMSPDMOD.DLL, 10.00.19041.0001  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.19041.3448  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.19041.3448  MP3 Decoder MFT, CLSID_CMP3DecMediaObject, 0x1, mp3dmod.dll, 10.00.19041.0001  Microsoft ALAC Audio Decoder MFT, {C0CD7D12-31FC-4BBC-B363-7322EE3E1879}, 0x1, MSAlacDecoder.dll, 10.00.19041.0746  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.19041.3448  Dolby TrueHD IEC-61937 converter MFT, {CF5EEEDF-0E92-4B3B-A161-BD0FFE545E4B}, 0x1, mfaudiocnv.dll, 10.00.19041.0746  DTS IEC-61937 converter MFT, {D035E24C-C877-42D7-A795-2A8A339B472F}, 0x1, mfaudiocnv.dll, 10.00.19041.0746Audio Encoders:  LPCM DVD-Audio MFT, {068A8476-9229-4CC0-9D49-2FC699DCD30A}, 0x1, mfaudiocnv.dll, 10.00.19041.0746  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.19041.3448  Microsoft FLAC Audio Encoder MFT, {128509E9-C44E-45DC-95E9-C255B8F466A6}, 0x1, MSFlacEncoder.dll, 10.00.19041.0746  WM Speech Encoder DMO, CLSID_CWMSPEncMediaObject2, 0x1, WMSPDMOE.DLL, 10.00.19041.0508  MS AMRNB Encoder MFT, {2FAE8AFE-04A3-423A-A814-85DB454712B0}, 0x1, MSAMRNBEncoder.dll, 10.00.19041.0001  Microsoft MPEG-2 Audio Encoder MFT, {46A4DD5C-73F8-4304-94DF-308F760974F4}, 0x1, msmpeg2enc.dll, 10.00.19041.2546  WMAudio Encoder MFT, CLSID_CWMAEncMediaObject, 0x1, WMADMOE.DLL, 10.00.19041.0508  Microsoft AAC Audio Encoder MFT, {93AF0C51-2275-45D2-A35B-F2BA21CAED00}, 0x1, mfAACEnc.dll, 10.00.19041.0001  Microsoft ALAC Audio Encoder MFT, {9AB6A28C-748E-4B6A-BFFF-CC443B8E8FB4}, 0x1, MSAlacEncoder.dll, 10.00.19041.0746  Microsoft Dolby Digital Encoder MFT, {AC3315C9-F481-45D7-826C-0B406C1F64B8}, 0x1, msac3enc.dll, 10.00.19041.0001Audio Effects:  AEC, CLSID_CWMAudioAEC, 0x1, mfwmaaec.dll, 10.00.19041.0001  Resampler MFT, CLSID_CResamplerMediaObject, 0x1, resampledmo.dll, 10.00.19041.0001Multiplexers:  Microsoft MPEG2 Multiplexer MFT, {AB300F71-01AB-46D2-AB6C-64906CB03258}, 0x2, mfmpeg2srcsnk.dll, 10.00.19041.3393Others:  Microsoft H264 Video Remux (MPEG2TSToMP4) MFT, {05A47EBB-8BF0-4CBF-AD2F-3B71D75866F5}, 0x1, msmpeg2vdec.dll, 10.00.19041.3448</szMFTs>
+		<szMFFileVersions>  mfcore.dll, 10.00.19041.3570  mfreadwrite.dll, 10.00.19041.3570  mfcaptureengine.dll, 10.00.19041.3570  mfsensorgroup.dll, 10.00.19041.3570  windows.media.dll, 10.00.19041.3570  frameserver.dll, 10.00.19041.3570  frameserverclient.dll, 10.00.19041.3570</szMFFileVersions>
+		<szMFTs>Video Decoders:  NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpegx.dll, 31.00.0015.3699  Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.19041.3570  DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.19041.0001  Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 10.00.19041.3570  Microsoft H264 Video Decoder MFT, CLSID_CMSH264DecoderMFT, 0x1, msmpeg2vdec.dll, 10.00.19041.3570  WMV Screen decoder MFT, CLSID_CMSSCDecMediaObject, 0x1, wmvsdecd.dll, 10.00.19041.0001  WMVideo Decoder MFT, CLSID_CWMVDecMediaObject, 0x1, wmvdecod.dll, 10.00.19041.3570  MJPEG Decoder MFT, {CB17E772-E1CC-4633-8450-5617AF577905}, 0x1, mfmjpegdec.dll, 10.00.19041.3570  Mpeg43 Decoder MFT, CLSID_CMpeg43DecMediaObject, 0x1, mp43decd.dll, 10.00.19041.3570  Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.19041.3570  VP9VideoExtensionDecoder  HEIFImageExtension  WebpImageExtensionVideo Encoders:  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264x.dll, 31.00.0015.3699  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevcx.dll, 31.00.0015.3699  H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.19041.3570  WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.19041.3570  H263 Encoder MFT, {BC47FCFE-98A0-4F27-BB07-698AF24F2B38}, 0x1, mfh263enc.dll, 10.00.19041.0001  WMVideo9 Encoder MFT, CLSID_CWMV9EncMediaObject, 0x1, wmvencod.dll, 10.00.19041.0001  Microsoft MPEG-2 Video Encoder MFT, {E6335F02-80B7-4DC4-ADFA-DFE7210D20D5}, 0x2, msmpeg2enc.dll, 10.00.19041.3570  VP9VideoExtensionEncoder  HEIFImageExtensionVideo Effects:  Frame Rate Converter, CLSID_CFrameRateConvertDmo, 0x1, mfvdsp.dll, 10.00.19041.3570  Resizer MFT, CLSID_CResizerDMO, 0x1, vidreszr.dll, 10.00.19041.3570  VideoStabilization MFT, {51571744-7FE4-4FF2-A498-2DC34FF74F1B}, 0x1, MSVideoDSP.dll, 10.00.19041.3570  Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 10.00.19041.3570  Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 10.00.19041.3570Video Processor:  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.19041.3570Audio Decoders:  Microsoft Dolby Digital Plus Decoder MFT, {177C0AFE-900B-48D4-9E4C-57ADD250B3D4}, 0x1, DolbyDecMFT.dll, 10.00.19041.3570  MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.19041.0001  WMAudio Decoder MFT, CLSID_CWMADecMediaObject, 0x1, WMADMOD.DLL, 10.00.19041.3570  Microsoft AAC Audio Decoder MFT, CLSID_CMSAACDecMFT, 0x1, MSAudDecMFT.dll, 10.00.19041.3570  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.19041.3570  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.19041.3570  WMAPro over S/PDIF MFT, CLSID_CWMAudioSpdTxDMO, 0x1, WMADMOD.DLL, 10.00.19041.3570  Microsoft Opus Audio Decoder MFT, {63E17C10-2D43-4C42-8FE3-8D8B63E46A6A}, 0x1, MSOpusDecoder.dll, 10.00.19041.3570  Microsoft FLAC Audio Decoder MFT, {6B0B3E6B-A2C5-4514-8055-AFE8A95242D9}, 0x1, MSFlacDecoder.dll, 10.00.19041.3570  Microsoft MPEG Audio Decoder MFT, {70707B39-B2CA-4015-ABEA-F8447D22D88B}, 0x1, MSAudDecMFT.dll, 10.00.19041.3570  WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject, 0x1, WMSPDMOD.DLL, 10.00.19041.0001  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.19041.3570  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.19041.3570  MP3 Decoder MFT, CLSID_CMP3DecMediaObject, 0x1, mp3dmod.dll, 10.00.19041.0001  Microsoft ALAC Audio Decoder MFT, {C0CD7D12-31FC-4BBC-B363-7322EE3E1879}, 0x1, MSAlacDecoder.dll, 10.00.19041.3570  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.19041.3570  Dolby TrueHD IEC-61937 converter MFT, {CF5EEEDF-0E92-4B3B-A161-BD0FFE545E4B}, 0x1, mfaudiocnv.dll, 10.00.19041.3570  DTS IEC-61937 converter MFT, {D035E24C-C877-42D7-A795-2A8A339B472F}, 0x1, mfaudiocnv.dll, 10.00.19041.3570Audio Encoders:  LPCM DVD-Audio MFT, {068A8476-9229-4CC0-9D49-2FC699DCD30A}, 0x1, mfaudiocnv.dll, 10.00.19041.3570  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.19041.3570  Microsoft FLAC Audio Encoder MFT, {128509E9-C44E-45DC-95E9-C255B8F466A6}, 0x1, MSFlacEncoder.dll, 10.00.19041.3570  WM Speech Encoder DMO, CLSID_CWMSPEncMediaObject2, 0x1, WMSPDMOE.DLL, 10.00.19041.3570  MS AMRNB Encoder MFT, {2FAE8AFE-04A3-423A-A814-85DB454712B0}, 0x1, MSAMRNBEncoder.dll, 10.00.19041.0001  Microsoft MPEG-2 Audio Encoder MFT, {46A4DD5C-73F8-4304-94DF-308F760974F4}, 0x1, msmpeg2enc.dll, 10.00.19041.3570  WMAudio Encoder MFT, CLSID_CWMAEncMediaObject, 0x1, WMADMOE.DLL, 10.00.19041.3570  Microsoft AAC Audio Encoder MFT, {93AF0C51-2275-45D2-A35B-F2BA21CAED00}, 0x1, mfAACEnc.dll, 10.00.19041.0001  Microsoft ALAC Audio Encoder MFT, {9AB6A28C-748E-4B6A-BFFF-CC443B8E8FB4}, 0x1, MSAlacEncoder.dll, 10.00.19041.3570  Microsoft Dolby Digital Encoder MFT, {AC3315C9-F481-45D7-826C-0B406C1F64B8}, 0x1, msac3enc.dll, 10.00.19041.0001Audio Effects:  AEC, CLSID_CWMAudioAEC, 0x1, mfwmaaec.dll, 10.00.19041.0001  Resampler MFT, CLSID_CResamplerMediaObject, 0x1, resampledmo.dll, 10.00.19041.0001Multiplexers:  Microsoft MPEG2 Multiplexer MFT, {AB300F71-01AB-46D2-AB6C-64906CB03258}, 0x2, mfmpeg2srcsnk.dll, 10.00.19041.3570Others:  Microsoft H264 Video Remux (MPEG2TSToMP4) MFT, {05A47EBB-8BF0-4CBF-AD2F-3B71D75866F5}, 0x1, msmpeg2vdec.dll, 10.00.19041.3570</szMFTs>
 		<szEnabledHardwareMFTs>EnableDecoders = 1EnableEncoders = 1</szEnabledHardwareMFTs>
 		<szByteStreamHandlers>.3g2, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.3gp, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.3gp2, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.3gpp, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.aac, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferred.ac3, {46031BA1-083F-47D9-8369-23C92BDAB2FF}, AC-3 Byte Stream Handler, Preferred.adt, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferred.adts, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferred.am?, {EFE6208A-0A2C-49FA-8A01-3768B559B6DA}, MF AMRNB Media Source ByteStreamHandler.amr, {EFE6208A-0A2C-49FA-8A01-3768B559B6DA}, MF AMRNB Media Source ByteStreamHandler, Preferred.asf, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferred.avi, {7AFA253E-F823-42F6-A5D9-714BDE467412}, AVI Byte Stream Handler, Preferred.dvr-ms, {A8721937-E2FB-4D7A-A9EE-4EB08C890B6E}, MF SBE Source ByteStreamHandler.dvr-ms, {65964407-A5D8-4060-85B0-1CCD63F768E2}, dvr-ms Byte Stream Handler, Preferred.ec3, {46031BA1-083F-47D9-8369-23C92BDAB2FF}, AC-3 Byte Stream Handler, Preferred.flac, {0E41CFB8-0506-40F4-A516-77CC23642D91}, MF FLAC Media Source ByteStreamHandler, Preferred.m2t, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.m2ts, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.m4a, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.m4v, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.mk3d, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferred.mka, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferred.mks, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferred.mkv, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferred.mod, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.mov, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.mp2v, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.mp3, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferred.mp4, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.mp4v, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.mpa, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferred.mpeg, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.mpg, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.mts, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.nsc, {B084785C-DDE0-4D30-8CA8-05A373E185BE}, NSC Byte Stream Handler, Preferred.sami, {7A56C4CB-D678-4188-85A8-BA2EF68FA10D}, SAMI Byte Stream Handler, Preferred.smi, {7A56C4CB-D678-4188-85A8-BA2EF68FA10D}, SAMI Byte Stream Handler, Preferred.tod, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.ts, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.tts, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.uvu, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferred.vob, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferred.wav, {42C9B9F5-16FC-47EF-AF22-DA05F7C842E3}, WAV Byte Stream Handler, Preferred.weba, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, WEBM Byte Stream Handler, Preferred.webm, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, WEBM Byte Stream Handler, Preferred.wm, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferred.wma, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferred.wmv, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferred.wtv, {65964407-A5D8-4060-85B0-1CCD63F768E2}, WTV Byte Stream Handler, Preferredaudio/3gpp, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredaudio/3gpp2, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredaudio/aac, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferredaudio/aacp, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferredaudio/eac3, {46031BA1-083F-47D9-8369-23C92BDAB2FF}, AC-3 Byte Stream Handler, Preferredaudio/flac, {0E41CFB8-0506-40F4-A516-77CC23642D91}, MF FLAC Media Source ByteStreamHandler, Preferredaudio/L16, {3FFB3B8C-EB99-472B-8902-E1C1B05F07CF}, LPCM Byte Stream Handler, Preferredaudio/mp3, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/mp4, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredaudio/MP4A-LATM, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredaudio/mpa, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/mpeg, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/mpeg3, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/vnd.dlna.adts, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferredaudio/vnd.dolby.dd-raw, {46031BA1-083F-47D9-8369-23C92BDAB2FF}, AC-3 Byte Stream Handler, Preferredaudio/wav, {42C9B9F5-16FC-47EF-AF22-DA05F7C842E3}, WAV Byte Stream Handler, Preferredaudio/webm, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, WEBM Byte Stream Handler, Preferredaudio/x-aac, {926F41F7-003E-4382-9E84-9E953BE10562}, ADTS Byte Stream Handler, Preferredaudio/x-flac, {0E41CFB8-0506-40F4-A516-77CC23642D91}, MF FLAC Media Source ByteStreamHandler, Preferredaudio/x-m4a, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredaudio/x-matroska, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferredaudio/x-mp3, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/x-mpeg, {A82E50BA-8E92-41EB-9DF2-433F50EC2993}, MP3 Byte Stream Handler, Preferredaudio/x-ms-wma, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferredaudio/x-wav, {42C9B9F5-16FC-47EF-AF22-DA05F7C842E3}, WAV Byte Stream Handler, Preferredvideo/3gpp, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredvideo/3gpp2, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredvideo/avi, {7AFA253E-F823-42F6-A5D9-714BDE467412}, AVI Byte Stream Handler, Preferredvideo/mp4, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredvideo/mpeg, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferredvideo/msvideo, {7AFA253E-F823-42F6-A5D9-714BDE467412}, AVI Byte Stream Handler, Preferredvideo/vnd.dece.mp4, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredvideo/vnd.dlna.mpeg-tts, {40871C59-AB40-471F-8DC3-1F259D862479}, MPEG2 Byte Stream Handler, Preferredvideo/webm, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, WEBM Byte Stream Handler, Preferredvideo/x-m4v, {271C3902-6095-4C45-A22F-20091816EE9E}, MPEG4 Byte Stream Handler, Preferredvideo/x-matroska, {1F9A2C18-D89E-463E-B4F4-BB90152ACC64}, MKV Byte Stream Handler, Preferredvideo/x-ms-asf, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferredvideo/x-ms-wm, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferredvideo/x-ms-wmv, {41457294-644C-4298-A28A-BD69F2C0CF3B}, ASF Byte Stream Handler, Preferredvideo/x-msvideo, {7AFA253E-F823-42F6-A5D9-714BDE467412}, AVI Byte Stream Handler, Preferred</szByteStreamHandlers>
 		<szSchemeHandlers>file:, {477EC299-1421-4BDD-971F-7CCB933F21AD}, File Scheme Handler, Preferredhttp:, {44CB442B-9DA9-49DF-B3FD-023777B16E50}, Http Scheme Handlerhttp:, {9EC4B4F9-3029-45AD-947B-344DE2A249E2}, Urlmon Scheme Handlerhttp:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredhttpd:, {44CB442B-9DA9-49DF-B3FD-023777B16E50}, Http Scheme Handler, Preferredhttps:, {37A61C8B-7F8E-4D08-B12B-248D73E9AB4F}, Secure Http Scheme Handler, Preferredhttpsd:, {37A61C8B-7F8E-4D08-B12B-248D73E9AB4F}, Secure Http Scheme Handler, Preferredhttpt:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredhttpu:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredmcast:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredmcrecv:, {FA6D33D4-9405-4BA5-9983-12604AC8E77A}, Miracast Sink Scheme Handler, Preferredmms:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredms-appdata:, {CFC81939-3886-4ACF-9692-DA58037AE716}, MsAppData Scheme Handler, Preferredms-appx-web:, {8DB0224B-3D65-4F6F-8E12-BEB4B78B8974}, MsAppxWeb Scheme Handler, Preferredms-appx:, {8DB0224B-3D65-4F6F-8E12-BEB4B78B8974}, MsAppx Scheme Handler, Preferredms-winsoundevent:, {F79A6BF9-7415-4CF3-AE10-4559509ABC3C}, Sound Event Scheme Handler, Preferredrtsp:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredrtsps:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredrtspt:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredrtspu:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferredsdp:, {E9F4EBAB-D97B-463E-A2B1-C54EE3F9414D}, Net Scheme Handler, Preferred</szSchemeHandlers>
@@ -3987,16 +3987,16 @@
 	</EvrPowerInformation>
 	<Diagnostics>
 		<WindowsErrorReporting>
-			<WER0>No Data</WER0>
-			<WER1>No Data</WER1>
-			<WER2>No Data</WER2>
-			<WER3>No Data</WER3>
-			<WER4>No Data</WER4>
-			<WER5>No Data</WER5>
-			<WER6>No Data</WER6>
-			<WER7>No Data</WER7>
-			<WER8>No Data</WER8>
-			<WER9>No Data</WER9>
+			<WER0>Fault bucket 2217968470171443721, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: SengokuDynasty-Win64-Shipping.exeP2: 5.1.1.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER0>
+			<WER1>Fault bucket 2270382936479417057, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: acs.exeP2: 0.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER1>
+			<WER2>Fault bucket 1158567251600655561, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Mars First Logistics.exeP2: 2022.3.6.59111P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER2>
+			<WER3>Fault bucket 2211556199798438109, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: game.exeP2: 1.11.10.24158P3: 6508fe94P4: d618P5: 67246080P6: P7: P8: P9: P10: </WER3>
+			<WER4>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: game.exeP2: 1.11.10.24158P3: 6508fe94P4: d618P5: 67246080P6: P7: P8: P9: P10: </WER4>
+			<WER5>Fault bucket 1401321755571373739, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: AC2-Win64-Shipping.exeP2: 4.26.2.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER5>
+			<WER6>Fault bucket INVALID_REQUEST, type 0Event Name: WindowsServicingFailureInfoResponse: Not availableCab Id: 0Problem signature:P1: 10.0.19041.3562:1P2: 0x800F0984 0x800F0984 Matching binary: wvmbusr.inf missing for component: amd64_dual_wvmbusr.inf_31bf3856ad364e35_10.0.19041.3570_none_6798e6a7b5463765P3: 楆敬›瑳牯汥祡畯⹴灣⡰㘱㠹 ‭潃灭湯湥却潴敲㨺剃睡瑓牯䱥祡畯㩴䠺摹慲整楆敬P4: P5: P6: P7: P8: P9: P10: </WER6>
+			<WER7>Fault bucket 2258455740996791355, type 5Event Name: BEX64Response: Not availableCab Id: 0Problem signature:P1: wuauclt.exeP2: 10.0.19041.3031P3: 35946a52P4: KERNELBASE.dllP5: 10.0.19041.3393P6: 6b4de7c9P7: 000000000012d9b2P8: c0000409P9: 0000000000000007P10: </WER7>
+			<WER8>Fault bucket , type 0Event Name: WindowsServicingFailureInfoResponse: Not availableCab Id: 0Problem signature:P1: 10.0.19041.3562:1P2: 0x800F0984 0x800F0984 Matching binary: wvmbusr.inf missing for component: amd64_dual_wvmbusr.inf_31bf3856ad364e35_10.0.19041.3570_none_6798e6a7b5463765P3: 楆敬›瑳牯汥祡畯⹴灣⡰㘱㠹 ‭潃灭湯湥却潴敲㨺剃睡瑓牯䱥祡畯㩴䠺摹慲整楆敬P4: P5: P6: P7: P8: P9: P10: </WER8>
+			<WER9>Fault bucket , type 0Event Name: WindowsServicingFailureInfoResponse: Not availableCab Id: 0Problem signature:P1: 10.0.19041.3562:1P2: 0x800F0984 0x800F0984 Matching binary: wvmbusr.inf missing for component: amd64_dual_wvmbusr.inf_31bf3856ad364e35_10.0.19041.3570_none_6798e6a7b5463765P3: 楆敬›瑳牯汥祡畯⹴灣⡰㘱㠹 ‭潃灭湯湥却潴敲㨺剃睡瑓牯䱥祡畯㩴䠺摹慲整楆敬P4: P5: P6: P7: P8: P9: P10: </WER9>
 		</WindowsErrorReporting>
 	</Diagnostics>
 </DxDiag>
