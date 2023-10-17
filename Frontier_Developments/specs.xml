@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>10/13/2023, 13:57:42</Time>
+		<Time>10/16/2023, 20:45:34</Time>
 		<MachineName>DESKTOP-O5FJCVG</MachineName>
 		<MachineId>{4571D720-EA28-4E99-A342-50E4EE0FB519}</MachineId>
 		<OperatingSystem>Windows 10 Education 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
@@ -13,7 +13,7 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>7854MB used, 10879MB available</PageFile>
+		<PageFile>12852MB used, 5881MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
@@ -563,7 +563,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>65724112896</FreeSpace>
+			<FreeSpace>129442635776</FreeSpace>
 			<MaxSpace>500090007552</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -573,7 +573,7 @@
 		</LogicalDisk>
 		<LogicalDisk>
 			<DriveLetter>D:</DriveLetter>
-			<FreeSpace>59965374464</FreeSpace>
+			<FreeSpace>62671720448</FreeSpace>
 			<MaxSpace>499447230464</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>TOSHIBA DT01ACA050</Model>
@@ -3987,16 +3987,16 @@
 	</EvrPowerInformation>
 	<Diagnostics>
 		<WindowsErrorReporting>
-			<WER0>Fault bucket 1694251137554212096, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: game.exeP2: 1.11.10.24158P3: 6508fe94P4: 108dP5: 67246080P6: P7: P8: P9: P10: </WER0>
-			<WER1>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: game.exeP2: 1.11.10.24158P3: 6508fe94P4: 108dP5: 67246080P6: P7: P8: P9: P10: </WER1>
-			<WER2>Fault bucket 2217968470171443721, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: SengokuDynasty-Win64-Shipping.exeP2: 5.1.1.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER2>
-			<WER3>Fault bucket 2270382936479417057, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: acs.exeP2: 0.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER3>
-			<WER4>Fault bucket 1158567251600655561, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Mars First Logistics.exeP2: 2022.3.6.59111P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER4>
-			<WER5>Fault bucket 2211556199798438109, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: game.exeP2: 1.11.10.24158P3: 6508fe94P4: d618P5: 67246080P6: P7: P8: P9: P10: </WER5>
-			<WER6>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: game.exeP2: 1.11.10.24158P3: 6508fe94P4: d618P5: 67246080P6: P7: P8: P9: P10: </WER6>
-			<WER7>Fault bucket 1401321755571373739, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: AC2-Win64-Shipping.exeP2: 4.26.2.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER7>
-			<WER8>Fault bucket INVALID_REQUEST, type 0Event Name: WindowsServicingFailureInfoResponse: Not availableCab Id: 0Problem signature:P1: 10.0.19041.3562:1P2: 0x800F0984 0x800F0984 Matching binary: wvmbusr.inf missing for component: amd64_dual_wvmbusr.inf_31bf3856ad364e35_10.0.19041.3570_none_6798e6a7b5463765P3: 楆敬›瑳牯汥祡畯⹴灣⡰㘱㠹 ‭潃灭湯湥却潴敲㨺剃睡瑓牯䱥祡畯㩴䠺摹慲整楆敬P4: P5: P6: P7: P8: P9: P10: </WER8>
-			<WER9>Fault bucket 2258455740996791355, type 5Event Name: BEX64Response: Not availableCab Id: 0Problem signature:P1: wuauclt.exeP2: 10.0.19041.3031P3: 35946a52P4: KERNELBASE.dllP5: 10.0.19041.3393P6: 6b4de7c9P7: 000000000012d9b2P8: c0000409P9: 0000000000000007P10: </WER9>
+			<WER0>Fault bucket 1775396430107270456, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Crossout.exeP2: 2.10.0.62829P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER0>
+			<WER1>Fault bucket 2067075593624712891, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: git.exeP2: 2.38.1.1P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER1>
+			<WER2>Fault bucket 2263272961305332073, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: swtor.exeP2: 1.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER2>
+			<WER3>No Data</WER3>
+			<WER4>No Data</WER4>
+			<WER5>No Data</WER5>
+			<WER6>No Data</WER6>
+			<WER7>No Data</WER7>
+			<WER8>No Data</WER8>
+			<WER9>No Data</WER9>
 		</WindowsErrorReporting>
 	</Diagnostics>
 </DxDiag>
