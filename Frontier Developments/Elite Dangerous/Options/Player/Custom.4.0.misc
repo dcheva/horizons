@@ -39,7 +39,7 @@
 	<routePlottingRealCargoMass Value="0" />
 	<NebulaNames Value="1" />
 	<RealisticView Value="0" />
-	<ColourVisIndex Value="11" />
+	<ColourVisIndex Value="9" />
 	<SizeVisIndex Value="0" />
 	<FriendMarkers Value="1" />
 	<WingMarkers Value="1" />
@@ -69,7 +69,7 @@
 	<ShowSystemConnectors Value="1" />
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
-	<RouteStartSystem Value="9463020987689" />
+	<RouteStartSystem Value="5070342595977" />
 	<RouteDestinationSystem Value="0" />
 	<RouteDestinationBody Value="0" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
@@ -77,14 +77,6 @@
 	<RouteDestinationIsCluster Value="0" />
 	<RouteDestinationIsSurfaceSettlement Value="0" />
 	<VisibilityFlags>
-		<MicroResourcePanelFilters>
-			<manufactured Value="0" />
-			<raw Value="1" />
-			<grade_3 Value="0" />
-			<pinned Value="0" />
-			<grade_5 Value="1" />
-			<grade_4 Value="1" />
-		</MicroResourcePanelFilters>
 		<faction>
 			<Independent Value="1" />
 			<affectsRoutePlotting Value="0" />
@@ -107,10 +99,6 @@
 			<Industrial Value="1" />
 			<HighTech Value="1" />
 		</economy>
-		<EncodedPanelFilters>
-			<grade_5 Value="1" />
-			<grade_4 Value="1" />
-		</EncodedPanelFilters>
 		<starclass>
 			<Y Value="0" />
 			<M Value="1" />
@@ -129,6 +117,10 @@
 			<O Value="1" />
 			<D Value="1" />
 		</starclass>
+		<EncodedPanelFilters>
+			<grade_4 Value="1" />
+			<grade_5 Value="1" />
+		</EncodedPanelFilters>
 		<exploration>
 			<data Value="1" />
 			<noData Value="1" />
@@ -136,20 +128,28 @@
 		<LocationPanelFilters>
 			<Settlement Value="0" />
 			<System Value="0" />
-			<station Value="1" />
+			<station Value="0" />
 			<Star Value="0" />
 			<AsteroidCluster Value="0" />
 			<FleetCarrier Value="0" />
 			<LandablePlanetOrMoon Value="0" />
 			<PlanetOrMoon Value="0" />
-			<PointOfInterest Value="1" />
-			<SignalSource Value="1" />
+			<PointOfInterest Value="0" />
+			<SignalSource Value="0" />
 		</LocationPanelFilters>
 		<tradeData>
 			<data Value="1" />
 			<noData Value="1" />
 			<dataAvailable Value="1" />
 		</tradeData>
+		<MicroResourcePanelFilters>
+			<grade_4 Value="1" />
+			<manufactured Value="0" />
+			<grade_3 Value="0" />
+			<raw Value="1" />
+			<pinned Value="0" />
+			<grade_5 Value="1" />
+		</MicroResourcePanelFilters>
 		<VisibleChannels>
 			<profanity Value="0" />
 		</VisibleChannels>
@@ -189,8 +189,9 @@
 			<PublicHoliday Value="0" />
 			<Thargoid_Stronghold Value="0" />
 			<CivilUnrest Value="0" />
-			<Thargoid_Probing Value="0" />
+			<Thargoid_Controlled Value="0" />
 			<Retreat Value="0" />
+			<Thargoid_Harvest Value="0" />
 			<Outbreak Value="0" />
 			<affectsRoutePlotting Value="0" />
 			<Blight Value="0" />
@@ -202,13 +203,12 @@
 			<Drought Value="0" />
 			<InfrastructureFailure Value="0" />
 			<Boom Value="0" />
-			<Thargoid_Controlled Value="0" />
+			<Thargoid_Probing Value="0" />
 			<Lockdown Value="0" />
 			<Frontline Value="0" />
-			<Incursion Value="0" />
 			<Thargoid_Recovery Value="0" />
+			<Incursion Value="0" />
 			<NaturalDisaster Value="0" />
-			<Thargoid_Harvest Value="0" />
 			<Expansion Value="0" />
 			<Election Value="0" />
 			<Bust Value="0" />
@@ -249,7 +249,7 @@
 	<HelpPopupViewedFSS Value="1" />
 	<HelpPopupViewedSAA Value="0" />
 	<HelpPopupViewedAXMap Value="1" />
-	<CurrentHUDMode Value="Analysis" />
+	<CurrentHUDMode Value="Normal" />
 	<MarketFilter_inCargo Value="1" />
 	<MarketFilter_requiredForMission Value="1" />
 	<MarketFilter_highDemand Value="1" />
