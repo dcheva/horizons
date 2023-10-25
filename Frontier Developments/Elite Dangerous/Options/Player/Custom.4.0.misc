@@ -88,6 +88,7 @@
 		<economy>
 			<affectsRoutePlotting Value="0" />
 			<Agri Value="1" />
+			<Industrial Value="1" />
 			<Extraction Value="1" />
 			<Terraforming Value="1" />
 			<Military Value="1" />
@@ -96,7 +97,6 @@
 			<Colony Value="1" />
 			<None Value="1" />
 			<Refinery Value="1" />
-			<Industrial Value="1" />
 			<HighTech Value="1" />
 		</economy>
 		<starclass>
@@ -128,7 +128,7 @@
 		<LocationPanelFilters>
 			<Settlement Value="0" />
 			<System Value="0" />
-			<station Value="0" />
+			<station Value="1" />
 			<Star Value="0" />
 			<AsteroidCluster Value="0" />
 			<FleetCarrier Value="0" />
@@ -150,6 +150,13 @@
 			<pinned Value="0" />
 			<grade_5 Value="1" />
 		</MicroResourcePanelFilters>
+		<Security>
+			<affectsRoutePlotting Value="0" />
+			<MediumSecurity Value="1" />
+			<LowSecurity Value="1" />
+			<HighSecurity Value="1" />
+			<Anarchy Value="1" />
+		</Security>
 		<VisibleChannels>
 			<profanity Value="0" />
 		</VisibleChannels>
@@ -178,20 +185,13 @@
 			<notVisited Value="1" />
 			<visited Value="0" />
 		</visited>
-		<Security>
-			<affectsRoutePlotting Value="0" />
-			<MediumSecurity Value="1" />
-			<LowSecurity Value="1" />
-			<HighSecurity Value="1" />
-			<Anarchy Value="1" />
-		</Security>
 		<minorFactionStatus>
 			<PublicHoliday Value="0" />
 			<Thargoid_Stronghold Value="0" />
 			<CivilUnrest Value="0" />
-			<Thargoid_Controlled Value="0" />
-			<Retreat Value="0" />
 			<Thargoid_Harvest Value="0" />
+			<Retreat Value="0" />
+			<Thargoid_Recovery Value="0" />
 			<Outbreak Value="0" />
 			<affectsRoutePlotting Value="0" />
 			<Blight Value="0" />
@@ -203,10 +203,10 @@
 			<Drought Value="0" />
 			<InfrastructureFailure Value="0" />
 			<Boom Value="0" />
-			<Thargoid_Probing Value="0" />
+			<Thargoid_Controlled Value="0" />
 			<Lockdown Value="0" />
+			<Thargoid_Probing Value="0" />
 			<Frontline Value="0" />
-			<Thargoid_Recovery Value="0" />
 			<Incursion Value="0" />
 			<NaturalDisaster Value="0" />
 			<Expansion Value="0" />

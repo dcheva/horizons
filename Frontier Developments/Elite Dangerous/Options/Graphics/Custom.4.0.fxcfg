@@ -7,14 +7,14 @@
 	<BloomQuality>2</BloomQuality>
 	<EnvmapQuality>1</EnvmapQuality>
 	<MaterialQuality>2</MaterialQuality>
-	<EnvironmentQuality>2</EnvironmentQuality>
+	<EnvironmentQuality>1</EnvironmentQuality>
 	<FXQuality>3</FXQuality>
-	<ParticleEffectsQuality>2</ParticleEffectsQuality>
+	<ParticleEffectsQuality>1</ParticleEffectsQuality>
 	<GalaxyMapQuality>2</GalaxyMapQuality>
 	<GUIColourQuality>0</GUIColourQuality>
-	<TerrainQuality>2</TerrainQuality>
+	<TerrainQuality>1</TerrainQuality>
 	<TerrainLodBlendingQuality>1</TerrainLodBlendingQuality>
-	<SurfaceMaterialQuality>2</SurfaceMaterialQuality>
+	<SurfaceMaterialQuality>1</SurfaceMaterialQuality>
 	<JetConeQuality>2</JetConeQuality>
 	<VolumetricsQuality>2</VolumetricsQuality>
 	<DirectionalShadowQuality>3</DirectionalShadowQuality>
@@ -23,12 +23,12 @@
 	<TextureQualityEx>2</TextureQualityEx>
 	<AAMode>0</AAMode>
 	<TextureFilterQuality>3</TextureFilterQuality>
-	<SurfaceSamplerQuality>2</SurfaceSamplerQuality>
+	<SurfaceSamplerQuality>1</SurfaceSamplerQuality>
 	<PerformanceQualitySetting>0</PerformanceQualitySetting>
 	<ResolutionSetting>0</ResolutionSetting>
 	<LODDistanceScale>1.000000</LODDistanceScale>
 	<HMDRenderTargetMultiplier>1.000000</HMDRenderTargetMultiplier>
 	<SSAAMultiplier>1.000000</SSAAMultiplier>
-	<GpuSchedulerMultiplier>1.000000</GpuSchedulerMultiplier>
+	<GpuSchedulerMultiplier>0.500750</GpuSchedulerMultiplier>
 	<FFXCASIntensity>0.500000</FFXCASIntensity>
 </Root>
