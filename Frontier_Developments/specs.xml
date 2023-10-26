@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>10/26/2023, 01:27:05</Time>
+		<Time>10/26/2023, 12:47:47</Time>
 		<MachineName>DESKTOP-O5FJCVG</MachineName>
 		<MachineId>{4571D720-EA28-4E99-A342-50E4EE0FB519}</MachineId>
 		<OperatingSystem>Windows 10 Education 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
@@ -13,7 +13,7 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>8744MB used, 11525MB available</PageFile>
+		<PageFile>9925MB used, 10344MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
@@ -373,7 +373,7 @@
 					<Description>USB Input Device</Description>
 					<VendorID>1133</VendorID>
 					<ProductID>49271</ProductID>
-					<Location>Port_#0003.Hub_#0002</Location>
+					<Location>Port_#0003.Hub_#0001</Location>
 					<MatchingDeviceID>USB\Class_03&amp;SubClass_01</MatchingDeviceID>
 					<UpperFilters></UpperFilters>
 					<LowerFilters></LowerFilters>
@@ -453,7 +453,7 @@
 					<Description>USB Composite Device</Description>
 					<VendorID>1133</VendorID>
 					<ProductID>49948</ProductID>
-					<Location>Port_#0004.Hub_#0002</Location>
+					<Location>Port_#0004.Hub_#0001</Location>
 					<MatchingDeviceID>USB\COMPOSITE</MatchingDeviceID>
 					<UpperFilters></UpperFilters>
 					<LowerFilters></LowerFilters>
@@ -563,7 +563,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>71411765248</FreeSpace>
+			<FreeSpace>69563346944</FreeSpace>
 			<MaxSpace>500090007552</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -573,7 +573,7 @@
 		</LogicalDisk>
 		<LogicalDisk>
 			<DriveLetter>D:</DriveLetter>
-			<FreeSpace>111387504640</FreeSpace>
+			<FreeSpace>111821262848</FreeSpace>
 			<MaxSpace>499447230464</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>TOSHIBA DT01ACA050</Model>
@@ -3996,16 +3996,16 @@
 	</EvrPowerInformation>
 	<Diagnostics>
 		<WindowsErrorReporting>
-			<WER0>Fault bucket 2053885171567508852, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: EliteDangerous64.exeP2: 297.330.0.0P3: 6524b776P4: 880aP5: 67246080P6: P7: P8: P9: P10: </WER0>
-			<WER1>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: EliteDangerous64.exeP2: 297.330.0.0P3: 6524b776P4: 880aP5: 67246080P6: P7: P8: P9: P10: </WER1>
-			<WER2>Fault bucket 2121964551889114370, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: obs64.exeP2: 29.1.3.0P3: 894f06bfP4: 0122P5: 134234112P6: P7: P8: P9: P10: </WER2>
-			<WER3>Fault bucket , type 0Event Name: LiveKernelEventResponse: Not availableCab Id: 0Problem signature:P1: 117P2: ffffb984c6b94460P3: fffff800333d2050P4: 0P5: 440P6: 10_0_19045P7: 0_0P8: 256_1P9: P10: </WER3>
-			<WER4>Fault bucket , type 0Event Name: LiveKernelEventResponse: Not availableCab Id: 0Problem signature:P1: 117P2: ffffb984c6b94460P3: fffff800333d2050P4: 0P5: 440P6: 10_0_19045P7: 0_0P8: 256_1P9: P10: </WER4>
-			<WER5>Fault bucket 1714722712545941311, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Cyberpunk2077.exeP2: 3.0.74.63017P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER5>
-			<WER6>Fault bucket 1970975414183760485, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: steamwebhelper.exeP2: 8.38.22.54P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER6>
-			<WER7>Fault bucket 125730739576, type 5Event Name: PerfWatsonVS12DataResponse: Not availableCab Id: 0Problem signature:P1: PerfWatsonTcdbP2: 0P3: 0P4: 0P5: 0P6: P7: P8: P9: P10: </WER7>
-			<WER8>Fault bucket 1631553850113984944, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: cl.exeP2: 19.36.32542.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER8>
-			<WER9>Fault bucket 1968094714431840929, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: EliteDangerous64.exeP2: 297.330.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER9>
+			<WER0>Fault bucket 125730739576, type 5Event Name: PerfWatsonVS12DataResponse: Not availableCab Id: 0Problem signature:P1: PerfWatsonTcdbP2: 0P3: 0P4: 0P5: 0P6: P7: P8: P9: P10: </WER0>
+			<WER1>Fault bucket , type 0Event Name: PerfWatsonVS12DataResponse: Not availableCab Id: 0Problem signature:P1: PerfWatsonTcdbP2: 0P3: 0P4: 0P5: 0P6: P7: P8: P9: P10: </WER1>
+			<WER2>Fault bucket , type 0Event Name: PerfWatsonVS12DataResponse: Not availableCab Id: 0Problem signature:P1: PerfWatsonTcdbP2: 0P3: 0P4: 0P5: 0P6: P7: P8: P9: P10: </WER2>
+			<WER3>Fault bucket 2053885171567508852, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: EliteDangerous64.exeP2: 297.330.0.0P3: 6524b776P4: 880aP5: 67246080P6: P7: P8: P9: P10: </WER3>
+			<WER4>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: EliteDangerous64.exeP2: 297.330.0.0P3: 6524b776P4: 880aP5: 67246080P6: P7: P8: P9: P10: </WER4>
+			<WER5>Fault bucket 2121964551889114370, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: obs64.exeP2: 29.1.3.0P3: 894f06bfP4: 0122P5: 134234112P6: P7: P8: P9: P10: </WER5>
+			<WER6>Fault bucket , type 0Event Name: LiveKernelEventResponse: Not availableCab Id: 0Problem signature:P1: 117P2: ffffb984c6b94460P3: fffff800333d2050P4: 0P5: 440P6: 10_0_19045P7: 0_0P8: 256_1P9: P10: </WER6>
+			<WER7>Fault bucket , type 0Event Name: LiveKernelEventResponse: Not availableCab Id: 0Problem signature:P1: 117P2: ffffb984c6b94460P3: fffff800333d2050P4: 0P5: 440P6: 10_0_19045P7: 0_0P8: 256_1P9: P10: </WER7>
+			<WER8>Fault bucket 1714722712545941311, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Cyberpunk2077.exeP2: 3.0.74.63017P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER8>
+			<WER9>Fault bucket 1970975414183760485, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: steamwebhelper.exeP2: 8.38.22.54P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER9>
 		</WindowsErrorReporting>
 	</Diagnostics>
 </DxDiag>

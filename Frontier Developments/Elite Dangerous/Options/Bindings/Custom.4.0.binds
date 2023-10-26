@@ -180,11 +180,11 @@
 		</Secondary>
 	</SetSpeedMinus75>
 	<SetSpeedMinus50>
-		<Primary Device="Keyboard" Key="Key_7" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus50>
 	<SetSpeedMinus25>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_7" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus25>
 	<SetSpeedZero>
@@ -192,11 +192,11 @@
 		<Secondary Device="Keyboard" Key="Key_Numpad_Enter" />
 	</SetSpeedZero>
 	<SetSpeed25>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_8" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed25>
 	<SetSpeed50>
-		<Primary Device="Keyboard" Key="Key_8" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed50>
 	<SetSpeed75>
