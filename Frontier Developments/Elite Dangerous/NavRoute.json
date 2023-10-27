@@ -1,4 +1,3 @@
-{ "timestamp":"2023-10-26T10:29:00Z", "event":"NavRoute", "Route":[ 
-{ "StarSystem":"Varlawoth", "SystemAddress":5070342595977, "StarPos":[102.18750,-182.09375,-84.53125], "StarClass":"M" }, 
-{ "StarSystem":"Col 285 Sector PB-E b12-3", "SystemAddress":7269634286977, "StarPos":[118.37500,-183.12500,-97.43750], "StarClass":"M" }
+{ "timestamp":"2023-10-26T23:45:01Z", "event":"NavRouteClear", "Route":[ 
+
  ] }
