@@ -189,9 +189,9 @@
 			<PublicHoliday Value="0" />
 			<Thargoid_Stronghold Value="0" />
 			<CivilUnrest Value="0" />
-			<Thargoid_Probing Value="0" />
+			<Frontline Value="0" />
 			<Retreat Value="0" />
-			<Thargoid_Controlled Value="0" />
+			<Thargoid_Probing Value="0" />
 			<Outbreak Value="0" />
 			<affectsRoutePlotting Value="0" />
 			<Blight Value="0" />
@@ -203,10 +203,10 @@
 			<Drought Value="0" />
 			<InfrastructureFailure Value="0" />
 			<Boom Value="0" />
-			<Frontline Value="0" />
-			<Lockdown Value="0" />
 			<Thargoid_Recovery Value="0" />
+			<Lockdown Value="0" />
 			<Thargoid_Harvest Value="0" />
+			<Thargoid_Controlled Value="0" />
 			<Incursion Value="0" />
 			<NaturalDisaster Value="0" />
 			<Expansion Value="0" />
