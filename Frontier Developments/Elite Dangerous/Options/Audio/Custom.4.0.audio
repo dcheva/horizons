@@ -147,7 +147,7 @@
 	<SuitVoiceMyVesselDestroyedEnabled Enabled="1" />
 	<DynamicRange Type="NightTime" />
 	<StreamerMode Type="NotStreaming" />
-	<hp3d_override Type="0" />
+	<hp3d_override Type="1" />
 	<hp3d Type="Disabled" />
 	<CallSign Type="CMDR_Name" />
 	<GalnetAudioLanguage Type="0" />

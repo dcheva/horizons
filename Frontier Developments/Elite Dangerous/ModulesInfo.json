@@ -1,4 +1,4 @@
-{ "timestamp":"2023-10-27T22:50:20Z", "event":"ModuleInfo", "Modules":[ 
+{ "timestamp":"2023-10-28T17:46:27Z", "event":"ModuleInfo", "Modules":[ 
 { "Slot":"MainEngines", "Item":"int_engine_size6_class5", "Power":8.164801, "Priority":0 }, 
 { "Slot":"LargeHardpoint1", "Item":"hpt_atdumbfiremissile_fixed_large_v2", "Power":1.720000, "Priority":0 }, 
 { "Slot":"LargeHardpoint2", "Item":"hpt_atdumbfiremissile_fixed_large_v2", "Power":1.720000, "Priority":0 }, 
