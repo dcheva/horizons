@@ -1,3 +1,12 @@
-{ "timestamp":"2023-10-31T20:23:23Z", "event":"NavRouteClear", "Route":[ 
-
+{ "timestamp":"2023-10-31T20:53:11Z", "event":"NavRoute", "Route":[ 
+{ "StarSystem":"Sirius", "SystemAddress":121569805492, "StarPos":[6.25000,-1.28125,-5.75000], "StarClass":"A" }, 
+{ "StarSystem":"Puppis Sector BW-N a6-0", "SystemAddress":5369245879112, "StarPos":[20.53125,-25.81250,-13.34375], "StarClass":"Y" }, 
+{ "StarSystem":"LHS 184", "SystemAddress":13865362269601, "StarPos":[34.37500,-48.78125,-20.50000], "StarClass":"M" }, 
+{ "StarSystem":"Shui Wei Sector VJ-Z b5", "SystemAddress":11666607383961, "StarPos":[44.78125,-75.87500,-26.90625], "StarClass":"M" }, 
+{ "StarSystem":"Shui Wei Sector XE-Z b2", "SystemAddress":5069537551769, "StarPos":[54.84375,-95.15625,-44.65625], "StarClass":"TTS" }, 
+{ "StarSystem":"Shui Wei Sector WT-A b4", "SystemAddress":9467852432785, "StarPos":[68.40625,-119.28125,-48.15625], "StarClass":"M" }, 
+{ "StarSystem":"Col 285 Sector TS-A b14-2", "SystemAddress":5070074226065, "StarPos":[83.03125,-145.31250,-50.40625], "StarClass":"M" }, 
+{ "StarSystem":"Col 285 Sector US-A b14-0", "SystemAddress":672296150417, "StarPos":[100.25000,-162.03125,-60.12500], "StarClass":"TTS" }, 
+{ "StarSystem":"Col 285 Sector SH-C b13-1", "SystemAddress":2871319340425, "StarPos":[98.56250,-183.09375,-79.96875], "StarClass":"M" }, 
+{ "StarSystem":"Varlawoth", "SystemAddress":5070342595977, "StarPos":[102.18750,-182.09375,-84.53125], "StarClass":"M" }
  ] }
