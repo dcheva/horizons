@@ -69,7 +69,7 @@
 	<ShowSystemConnectors Value="1" />
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
-	<RouteStartSystem Value="5070074291593" />
+	<RouteStartSystem Value="3382588641994" />
 	<RouteDestinationSystem Value="0" />
 	<RouteDestinationBody Value="0" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
