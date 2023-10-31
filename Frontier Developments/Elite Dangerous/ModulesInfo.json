@@ -1,4 +1,4 @@
-{ "timestamp":"2023-10-31T20:53:36Z", "event":"ModuleInfo", "Modules":[ 
+{ "timestamp":"2023-10-31T23:23:29Z", "event":"ModuleInfo", "Modules":[ 
 { "Slot":"MainEngines", "Item":"int_engine_size7_class2", "Power":7.250400, "Priority":0 }, 
 { "Slot":"Slot04_Size5", "Item":"int_guardianfsdbooster_size5", "Power":2.140000, "Priority":2 }, 
 { "Slot":"FrameShiftDrive", "Item":"int_hyperdrive_size6_class5", "Power":0.862500, "Priority":0 }, 
