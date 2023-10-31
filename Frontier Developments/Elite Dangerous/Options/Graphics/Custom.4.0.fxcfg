@@ -2,28 +2,28 @@
 <Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
 	<BlurEnabled>true</BlurEnabled>
 	<TerrainCheckerboardRenderingEnabled>false</TerrainCheckerboardRenderingEnabled>
-	<AOQuality>3</AOQuality>
+	<AOQuality>2</AOQuality>
 	<DOFEnabled>2</DOFEnabled>
-	<BloomQuality>2</BloomQuality>
+	<BloomQuality>1</BloomQuality>
 	<EnvmapQuality>1</EnvmapQuality>
-	<MaterialQuality>2</MaterialQuality>
+	<MaterialQuality>1</MaterialQuality>
 	<EnvironmentQuality>1</EnvironmentQuality>
-	<FXQuality>3</FXQuality>
+	<FXQuality>2</FXQuality>
 	<ParticleEffectsQuality>1</ParticleEffectsQuality>
 	<GalaxyMapQuality>2</GalaxyMapQuality>
 	<GUIColourQuality>0</GUIColourQuality>
 	<TerrainQuality>1</TerrainQuality>
 	<TerrainLodBlendingQuality>1</TerrainLodBlendingQuality>
-	<SurfaceMaterialQuality>2</SurfaceMaterialQuality>
-	<JetConeQuality>2</JetConeQuality>
-	<VolumetricsQuality>2</VolumetricsQuality>
-	<DirectionalShadowQuality>3</DirectionalShadowQuality>
-	<SpotShadowQuality>3</SpotShadowQuality>
+	<SurfaceMaterialQuality>1</SurfaceMaterialQuality>
+	<JetConeQuality>1</JetConeQuality>
+	<VolumetricsQuality>1</VolumetricsQuality>
+	<DirectionalShadowQuality>2</DirectionalShadowQuality>
+	<SpotShadowQuality>2</SpotShadowQuality>
 	<UpscalingQuality>0</UpscalingQuality>
 	<TextureQualityEx>2</TextureQualityEx>
 	<AAMode>0</AAMode>
 	<TextureFilterQuality>3</TextureFilterQuality>
-	<SurfaceSamplerQuality>2</SurfaceSamplerQuality>
+	<SurfaceSamplerQuality>1</SurfaceSamplerQuality>
 	<PerformanceQualitySetting>0</PerformanceQualitySetting>
 	<ResolutionSetting>0</ResolutionSetting>
 	<LODDistanceScale>1.000000</LODDistanceScale>

@@ -1,6 +1,16 @@
-{ "timestamp":"2023-10-30T09:01:41Z", "event":"Shipyard", "MarketID":3705841664, "StationName":"G0F-37G", "StarSystem":"Varlawoth", "Horizons":true, "AllowCobraMkIV":false, "PriceList":[ 
+{ "timestamp":"2023-10-31T11:15:30Z", "event":"Shipyard", "MarketID":3227035648, "StationName":"Burstein Port", "StarSystem":"Evnike", "Horizons":true, "AllowCobraMkIV":false, "PriceList":[ 
+{ "id":128049249, "ShipType":"sidewinder", "ShipPrice":32000 }, 
+{ "id":128049255, "ShipType":"eagle", "ShipPrice":44800 }, 
+{ "id":128049261, "ShipType":"hauler", "ShipPrice":52720 }, 
+{ "id":128049267, "ShipType":"adder", "ShipPrice":87808 }, 
+{ "id":128049273, "ShipType":"viper", "ShipType_Localised":"Viper Mk III", "ShipPrice":142931 }, 
+{ "id":128049279, "ShipType":"cobramkiii", "ShipType_Localised":"Cobra Mk III", "ShipPrice":349718 }, 
+{ "id":128672255, "ShipType":"viper_mkiv", "ShipType_Localised":"Viper Mk IV", "ShipPrice":437931 }, 
 { "id":128671217, "ShipType":"diamondback", "ShipType_Localised":"Diamondback Scout", "ShipPrice":564329 }, 
+{ "id":128049285, "ShipType":"type6", "ShipType_Localised":"Type-6 Transporter", "ShipPrice":1045945 }, 
 { "id":128671831, "ShipType":"diamondbackxl", "ShipType_Localised":"Diamondback Explorer", "ShipPrice":1894760 }, 
+{ "id":128672269, "ShipType":"independant_trader", "ShipType_Localised":"Keelback", "ShipPrice":3126154 }, 
 { "id":128672276, "ShipType":"asp_scout", "ShipType_Localised":"Asp Scout", "ShipPrice":3961154 }, 
-{ "id":128049303, "ShipType":"asp", "ShipType_Localised":"Asp Explorer", "ShipPrice":6661154 }
+{ "id":128049297, "ShipType":"type7", "ShipType_Localised":"Type-7 Transporter", "ShipPrice":17472252 }, 
+{ "id":128049333, "ShipType":"type9", "ShipType_Localised":"Type-9 Heavy", "ShipPrice":76555842 }
  ] }
