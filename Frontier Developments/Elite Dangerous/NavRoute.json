@@ -1,3 +1,11 @@
-{ "timestamp":"2023-10-31T23:51:54Z", "event":"NavRouteClear", "Route":[ 
-
+{ "timestamp":"2023-11-01T00:02:27Z", "event":"NavRoute", "Route":[ 
+{ "StarSystem":"Chacocels", "SystemAddress":3382588641994, "StarPos":[99.90625,-143.68750,-51.15625], "StarClass":"G" }, 
+{ "StarSystem":"f Eridani", "SystemAddress":177404372148, "StarPos":[87.43750,-125.62500,-50.68750], "StarClass":"A" }, 
+{ "StarSystem":"Shui Wei Sector AA-Z b2", "SystemAddress":5069805921689, "StarPos":[74.65625,-108.53125,-39.53125], "StarClass":"M" }, 
+{ "StarSystem":"Njokujil", "SystemAddress":5031789007562, "StarPos":[55.75000,-93.03125,-36.21875], "StarClass":"K" }, 
+{ "StarSystem":"Shui Wei Sector ZU-Y c17", "SystemAddress":4756843991762, "StarPos":[51.31250,-71.96875,-24.34375], "StarClass":"K" }, 
+{ "StarSystem":"Theotokos", "SystemAddress":2832698675922, "StarPos":[50.12500,-49.34375,-20.03125], "StarClass":"K" }, 
+{ "StarSystem":"Puppis Sector YP-P a5-2", "SystemAddress":40554691709760, "StarPos":[32.75000,-33.65625,-18.46875], "StarClass":"T" }, 
+{ "StarSystem":"LHS 203", "SystemAddress":671222867361, "StarPos":[16.46875,-15.18750,-20.34375], "StarClass":"M" }, 
+{ "StarSystem":"Luyten's Star", "SystemAddress":7268024264097, "StarPos":[6.56250,2.34375,-10.25000], "StarClass":"M" }
  ] }

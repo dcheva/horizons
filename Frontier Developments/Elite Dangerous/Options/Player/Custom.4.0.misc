@@ -70,8 +70,8 @@
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
 	<RouteStartSystem Value="3382588641994" />
-	<RouteDestinationSystem Value="0" />
-	<RouteDestinationBody Value="0" />
+	<RouteDestinationSystem Value="7268024264097" />
+	<RouteDestinationBody Value="512" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
 	<RouteDestinationBodysiteID Value="18446744073709551615" />
 	<RouteDestinationIsCluster Value="0" />
@@ -127,10 +127,10 @@
 		<LocationPanelFilters>
 			<Settlement Value="0" />
 			<System Value="0" />
-			<station Value="1" />
+			<station Value="0" />
 			<Star Value="0" />
 			<AsteroidCluster Value="0" />
-			<FleetCarrier Value="1" />
+			<FleetCarrier Value="0" />
 			<LandablePlanetOrMoon Value="0" />
 			<PlanetOrMoon Value="0" />
 			<PointOfInterest Value="0" />
