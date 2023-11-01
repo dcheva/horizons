@@ -1,0 +1,7 @@
+Material                             Available S      Available FC   Available Total    Required        Need
+
+Tellurium                                     71                 0                71          26           0
+Datamined Wake Exceptions                      0                 0                 0          18          18
+Chemical Processors                           75                 0                75          28           0
+Electrochemical Arrays                        68                 0                68          26           0
+
