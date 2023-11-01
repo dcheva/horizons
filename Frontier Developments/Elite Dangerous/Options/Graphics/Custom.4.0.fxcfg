@@ -6,7 +6,7 @@
 	<DOFEnabled>1</DOFEnabled>
 	<BloomQuality>1</BloomQuality>
 	<EnvmapQuality>1</EnvmapQuality>
-	<MaterialQuality>1</MaterialQuality>
+	<MaterialQuality>2</MaterialQuality>
 	<EnvironmentQuality>2</EnvironmentQuality>
 	<FXQuality>3</FXQuality>
 	<ParticleEffectsQuality>1</ParticleEffectsQuality>

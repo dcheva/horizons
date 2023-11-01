@@ -1,4 +1,4 @@
-{ "timestamp":"2023-11-01T00:36:48Z", "event":"Outfitting", "MarketID":128975207, "StationName":"Spirit of Laelaps", "StarSystem":"Luyten's Star", "Horizons":true, "Items":[ 
+{ "timestamp":"2023-11-01T10:29:22Z", "event":"Outfitting", "MarketID":128975207, "StationName":"Spirit of Laelaps", "StarSystem":"Luyten's Star", "Horizons":true, "Items":[ 
 { "id":128049494, "Name":"hpt_basicmissilerack_fixed_large", "BuyPrice":1471030 }, 
 { "id":128049511, "Name":"hpt_advancedtorppylon_fixed_large", "BuyPrice":157960 }, 
 { "id":128891602, "Name":"hpt_dumbfiremissilerack_fixed_large", "BuyPrice":1021500 }, 
