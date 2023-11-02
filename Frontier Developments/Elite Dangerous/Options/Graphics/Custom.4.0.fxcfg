@@ -2,15 +2,15 @@
 <Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
 	<BlurEnabled>true</BlurEnabled>
 	<TerrainCheckerboardRenderingEnabled>false</TerrainCheckerboardRenderingEnabled>
-	<AOQuality>3</AOQuality>
+	<AOQuality>2</AOQuality>
 	<DOFEnabled>1</DOFEnabled>
-	<BloomQuality>1</BloomQuality>
+	<BloomQuality>2</BloomQuality>
 	<EnvmapQuality>1</EnvmapQuality>
-	<MaterialQuality>2</MaterialQuality>
+	<MaterialQuality>1</MaterialQuality>
 	<EnvironmentQuality>2</EnvironmentQuality>
-	<FXQuality>3</FXQuality>
-	<ParticleEffectsQuality>1</ParticleEffectsQuality>
-	<GalaxyMapQuality>1</GalaxyMapQuality>
+	<FXQuality>2</FXQuality>
+	<ParticleEffectsQuality>2</ParticleEffectsQuality>
+	<GalaxyMapQuality>2</GalaxyMapQuality>
 	<GUIColourQuality>0</GUIColourQuality>
 	<TerrainQuality>2</TerrainQuality>
 	<TerrainLodBlendingQuality>1</TerrainLodBlendingQuality>
@@ -26,7 +26,7 @@
 	<SurfaceSamplerQuality>2</SurfaceSamplerQuality>
 	<PerformanceQualitySetting>0</PerformanceQualitySetting>
 	<ResolutionSetting>0</ResolutionSetting>
-	<LODDistanceScale>1.000000</LODDistanceScale>
+	<LODDistanceScale>0.900000</LODDistanceScale>
 	<HMDRenderTargetMultiplier>1.000000</HMDRenderTargetMultiplier>
 	<SSAAMultiplier>1.000000</SSAAMultiplier>
 	<GpuSchedulerMultiplier>0.000000</GpuSchedulerMultiplier>
