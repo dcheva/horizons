@@ -1,4 +1,4 @@
-{ "timestamp":"2023-11-02T20:51:53Z", "event":"NavRoute", "Route":[ 
+{ "timestamp":"2023-11-03T15:03:33Z", "event":"NavRoute", "Route":[ 
 { "StarSystem":"HIP 18870", "SystemAddress":1487962868067, "StarPos":[91.46875,-140.71875,-92.09375], "StarClass":"F" }, 
 { "StarSystem":"Col 285 Sector IG-O c6-18", "SystemAddress":5031856050882, "StarPos":[105.37500,-154.00000,-101.03125], "StarClass":"K" }, 
 { "StarSystem":"Col 285 Sector IG-O c6-11", "SystemAddress":3107710702274, "StarPos":[112.71875,-168.68750,-100.28125], "StarClass":"K" }, 
