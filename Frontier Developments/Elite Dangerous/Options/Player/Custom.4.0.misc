@@ -69,9 +69,9 @@
 	<ShowSystemConnectors Value="1" />
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
-	<RouteStartSystem Value="1487962868067" />
-	<RouteDestinationSystem Value="7269634286977" />
-	<RouteDestinationBody Value="512" />
+	<RouteStartSystem Value="7269634286977" />
+	<RouteDestinationSystem Value="0" />
+	<RouteDestinationBody Value="0" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
 	<RouteDestinationBodysiteID Value="18446744073709551615" />
 	<RouteDestinationIsCluster Value="0" />
@@ -132,8 +132,8 @@
 			<AsteroidCluster Value="0" />
 			<FleetCarrier Value="0" />
 			<LandablePlanetOrMoon Value="0" />
-			<SignalSource Value="0" />
-			<PointOfInterest Value="0" />
+			<SignalSource Value="1" />
+			<PointOfInterest Value="1" />
 			<PlanetOrMoon Value="0" />
 		</LocationPanelFilters>
 		<tradeData>
@@ -141,14 +141,6 @@
 			<noData Value="1" />
 			<dataAvailable Value="1" />
 		</tradeData>
-		<MicroResourcePanelFilters>
-			<grade_3 Value="0" />
-			<raw Value="1" />
-			<pinned Value="0" />
-			<grade_5 Value="1" />
-			<grade_4 Value="1" />
-			<manufactured Value="0" />
-		</MicroResourcePanelFilters>
 		<VisibleChannels>
 			<profanity Value="0" />
 		</VisibleChannels>
@@ -188,6 +180,14 @@
 			<grade_5 Value="1" />
 			<grade_4 Value="1" />
 		</EncodedPanelFilters>
+		<MicroResourcePanelFilters>
+			<manufactured Value="0" />
+			<raw Value="1" />
+			<grade_3 Value="0" />
+			<grade_5 Value="1" />
+			<pinned Value="0" />
+			<grade_4 Value="1" />
+		</MicroResourcePanelFilters>
 		<site>
 			<affectsRoutePlotting Value="0" />
 			<Thargoid Value="1" />
@@ -200,23 +200,23 @@
 			<CivilUnrest Value="0" />
 			<Frontline Value="0" />
 			<Retreat Value="0" />
-			<Thargoid_Probing Value="0" />
+			<Thargoid_Stronghold Value="0" />
 			<Outbreak Value="0" />
 			<affectsRoutePlotting Value="0" />
 			<Blight Value="0" />
 			<Famine Value="0" />
 			<Investment Value="0" />
 			<War Value="1" />
-			<Thargoid_Controlled Value="0" />
+			<Thargoid_Harvest Value="0" />
 			<None Value="0" />
 			<CivilLiberty Value="0" />
 			<Drought Value="0" />
 			<InfrastructureFailure Value="0" />
 			<Boom Value="0" />
-			<Thargoid_Stronghold Value="0" />
-			<Lockdown Value="0" />
 			<Thargoid_Recovery Value="0" />
-			<Thargoid_Harvest Value="0" />
+			<Lockdown Value="0" />
+			<Thargoid_Probing Value="0" />
+			<Thargoid_Controlled Value="0" />
 			<Incursion Value="0" />
 			<NaturalDisaster Value="0" />
 			<Expansion Value="0" />
@@ -252,7 +252,7 @@
 	<HelpPopupViewedFSS Value="1" />
 	<HelpPopupViewedSAA Value="0" />
 	<HelpPopupViewedAXMap Value="1" />
-	<CurrentHUDMode Value="Normal" />
+	<CurrentHUDMode Value="Analysis" />
 	<MarketFilter_inCargo Value="1" />
 	<MarketFilter_requiredForMission Value="1" />
 	<MarketFilter_highDemand Value="1" />
