@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
 	<BlurEnabled>true</BlurEnabled>
-	<TerrainCheckerboardRenderingEnabled>false</TerrainCheckerboardRenderingEnabled>
-	<AOQuality>2</AOQuality>
-	<DOFEnabled>1</DOFEnabled>
-	<BloomQuality>2</BloomQuality>
+	<TerrainCheckerboardRenderingEnabled>true</TerrainCheckerboardRenderingEnabled>
+	<AOQuality>1</AOQuality>
+	<DOFEnabled>0</DOFEnabled>
+	<BloomQuality>1</BloomQuality>
 	<EnvmapQuality>1</EnvmapQuality>
 	<MaterialQuality>1</MaterialQuality>
-	<EnvironmentQuality>2</EnvironmentQuality>
-	<FXQuality>2</FXQuality>
-	<ParticleEffectsQuality>2</ParticleEffectsQuality>
-	<GalaxyMapQuality>2</GalaxyMapQuality>
+	<EnvironmentQuality>1</EnvironmentQuality>
+	<FXQuality>1</FXQuality>
+	<ParticleEffectsQuality>1</ParticleEffectsQuality>
+	<GalaxyMapQuality>0</GalaxyMapQuality>
 	<GUIColourQuality>0</GUIColourQuality>
-	<TerrainQuality>2</TerrainQuality>
+	<TerrainQuality>1</TerrainQuality>
 	<TerrainLodBlendingQuality>1</TerrainLodBlendingQuality>
-	<SurfaceMaterialQuality>2</SurfaceMaterialQuality>
+	<SurfaceMaterialQuality>1</SurfaceMaterialQuality>
 	<JetConeQuality>2</JetConeQuality>
-	<VolumetricsQuality>2</VolumetricsQuality>
-	<DirectionalShadowQuality>3</DirectionalShadowQuality>
-	<SpotShadowQuality>3</SpotShadowQuality>
+	<VolumetricsQuality>1</VolumetricsQuality>
+	<DirectionalShadowQuality>2</DirectionalShadowQuality>
+	<SpotShadowQuality>2</SpotShadowQuality>
 	<UpscalingQuality>0</UpscalingQuality>
-	<TextureQualityEx>2</TextureQualityEx>
+	<TextureQualityEx>1</TextureQualityEx>
 	<AAMode>0</AAMode>
-	<TextureFilterQuality>3</TextureFilterQuality>
-	<SurfaceSamplerQuality>2</SurfaceSamplerQuality>
+	<TextureFilterQuality>2</TextureFilterQuality>
+	<SurfaceSamplerQuality>1</SurfaceSamplerQuality>
 	<PerformanceQualitySetting>0</PerformanceQualitySetting>
 	<ResolutionSetting>0</ResolutionSetting>
-	<LODDistanceScale>0.900000</LODDistanceScale>
+	<LODDistanceScale>0.700000</LODDistanceScale>
 	<HMDRenderTargetMultiplier>1.000000</HMDRenderTargetMultiplier>
 	<SSAAMultiplier>1.000000</SSAAMultiplier>
 	<GpuSchedulerMultiplier>0.000000</GpuSchedulerMultiplier>
