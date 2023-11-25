@@ -1,1 +1,1 @@
-{ "timestamp":"2023-09-17T22:21:59Z", "event":"Status", "Flags":337649736, "Flags2":0, "Pips":[4,1,7], "FireGroup":0, "GuiFocus":0, "Fuel":{ "FuelMain":0.000000, "FuelReservoir":0.271154 }, "Cargo":0.000000, "LegalState":"Clean", "Latitude":6.804665, "Longitude":-23.817741, "Heading":278, "Altitude":0, "BodyName":"HIP 36601 C 5 a", "PlanetRadius":562393.625000, "Balance":750821942 }
+{ "timestamp":"2023-11-06T12:43:43Z", "event":"Status", "Flags":0 }

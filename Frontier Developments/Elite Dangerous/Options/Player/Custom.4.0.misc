@@ -15,10 +15,10 @@
 	<AutoDockEnabled Value="1" />
 	<AutoLaunchEnabled Value="1" />
 	<AutoLandEnabled Value="1" />
-	<PreferredWeaponMode Value="0" />
+	<PreferredWeaponMode Value="3" />
 	<HidePresence Value="0" />
 	<OutfittingSortingPreference Value="2" />
-	<FirstTimeMultiCrew Value="1" />
+	<FirstTimeMultiCrew Value="0" />
 	<FirstTimeMultiCrewFireCon Value="1" />
 	<MultiCrewFighterConEnabled Value="1" />
 	<MultiCrewFireConLimited Value="0" />
@@ -39,7 +39,7 @@
 	<routePlottingRealCargoMass Value="0" />
 	<NebulaNames Value="1" />
 	<RealisticView Value="0" />
-	<ColourVisIndex Value="6" />
+	<ColourVisIndex Value="3" />
 	<SizeVisIndex Value="0" />
 	<FriendMarkers Value="1" />
 	<WingMarkers Value="1" />
@@ -54,7 +54,7 @@
 	<TypeUMarkers Value="1" />
 	<TypeAMarkers Value="0" />
 	<PoliticsMode Value="0" />
-	<NavJetConeBoost Value="1" />
+	<NavJetConeBoost Value="0" />
 	<NavigationPreviousRoute Value="1" />
 	<CommodityIndex Value="671333304" />
 	<CommodityPriceMode Value="0" />
@@ -69,173 +69,179 @@
 	<ShowSystemConnectors Value="1" />
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
-	<RouteStartSystem Value="84456968626" />
-	<RouteDestinationSystem Value="113674078411" />
-	<RouteDestinationBody Value="512" />
+	<RouteStartSystem Value="5070342595977" />
+	<RouteDestinationSystem Value="0" />
+	<RouteDestinationBody Value="0" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
 	<RouteDestinationBodysiteID Value="18446744073709551615" />
 	<RouteDestinationIsCluster Value="0" />
 	<RouteDestinationIsSurfaceSettlement Value="0" />
 	<VisibilityFlags>
 		<faction>
-			<None Value="1" />
-			<Empire Value="1" />
-			<affectsRoutePlotting Value="0" />
-			<Alliance Value="1" />
-			<Federation Value="1" />
 			<Independent Value="1" />
+			<affectsRoutePlotting Value="0" />
+			<Empire Value="1" />
+			<None Value="0" />
+			<Federation Value="1" />
+			<Alliance Value="1" />
 		</faction>
+		<economy>
+			<affectsRoutePlotting Value="0" />
+			<Agri Value="1" />
+			<Extraction Value="1" />
+			<Terraforming Value="1" />
+			<Military Value="1" />
+			<Service Value="1" />
+			<Tourism Value="1" />
+			<Colony Value="1" />
+			<None Value="0" />
+			<Refinery Value="1" />
+			<Industrial Value="1" />
+			<HighTech Value="1" />
+		</economy>
+		<starclass>
+			<K Value="1" />
+			<M Value="1" />
+			<Y Value="0" />
+			<C Value="1" />
+			<affectsRoutePlotting Value="1" />
+			<B Value="1" />
+			<G Value="1" />
+			<T Value="0" />
+			<TTS Value="0" />
+			<N Value="1" />
+			<W Value="1" />
+			<F Value="1" />
+			<A Value="1" />
+			<L Value="0" />
+			<D Value="1" />
+			<O Value="1" />
+		</starclass>
+		<autoVoice>
+			<wing Value="0" />
+		</autoVoice>
+		<exploration>
+			<data Value="1" />
+			<noData Value="1" />
+		</exploration>
+		<LocationPanelFilters>
+			<Settlement Value="0" />
+			<System Value="0" />
+			<station Value="0" />
+			<Star Value="0" />
+			<AsteroidCluster Value="0" />
+			<FleetCarrier Value="0" />
+			<LandablePlanetOrMoon Value="0" />
+			<SignalSource Value="0" />
+			<PointOfInterest Value="1" />
+			<PlanetOrMoon Value="0" />
+		</LocationPanelFilters>
 		<tradeData>
 			<data Value="1" />
 			<noData Value="1" />
 			<dataAvailable Value="1" />
 		</tradeData>
-		<minorFactionStatus>
-			<Drought Value="0" />
-			<Blight Value="0" />
-			<PublicHoliday Value="0" />
-			<Thargoid_Stronghold Value="0" />
-			<Outbreak Value="0" />
-			<None Value="0" />
-			<CivilUnrest Value="0" />
-			<Thargoid_Recovery Value="0" />
-			<Bust Value="0" />
-			<NaturalDisaster Value="0" />
-			<CivilWar Value="0" />
-			<Election Value="0" />
-			<Incursion Value="0" />
-			<War Value="0" />
-			<Thargoid_Controlled Value="0" />
-			<Expansion Value="0" />
-			<Boom Value="0" />
-			<Lockdown Value="0" />
-			<Famine Value="1" />
-			<Thargoid_Harvest Value="0" />
-			<affectsRoutePlotting Value="0" />
-			<Investment Value="0" />
-			<InfrastructureFailure Value="0" />
-			<Thargoid_Probing Value="0" />
-			<Terrorism Value="0" />
-			<Retreat Value="0" />
-			<Frontline Value="0" />
-			<CivilLiberty Value="0" />
-		</minorFactionStatus>
 		<MicroResourcePanelFilters>
-			<grade_4 Value="1" />
-			<grade_5 Value="1" />
-			<raw Value="1" />
-			<pinned Value="0" />
-			<grade_3 Value="0" />
 			<manufactured Value="0" />
-		</MicroResourcePanelFilters>
-		<Security>
-			<HighSecurity Value="1" />
-			<LowSecurity Value="1" />
-			<affectsRoutePlotting Value="0" />
-			<Anarchy Value="1" />
-			<MediumSecurity Value="1" />
-		</Security>
-		<EncodedPanelFilters>
-			<grade_4 Value="1" />
+			<grade_3 Value="0" />
+			<raw Value="1" />
 			<grade_5 Value="1" />
-		</EncodedPanelFilters>
+			<grade_4 Value="1" />
+			<pinned Value="0" />
+		</MicroResourcePanelFilters>
+		<VisibleChannels>
+			<profanity Value="0" />
+		</VisibleChannels>
 		<government>
-			<None Value="1" />
-			<Communism Value="1" />
-			<PrisonColony Value="1" />
 			<Carrier Value="0" />
-			<Anarchy Value="1" />
-			<Theocracy Value="1" />
-			<Feudal Value="1" />
-			<Cooperative Value="1" />
+			<Feudal Value="0" />
+			<Cooperative Value="0" />
 			<affectsRoutePlotting Value="0" />
-			<Imperial Value="1" />
-			<Confederacy Value="1" />
-			<Engineer Value="1" />
-			<Democracy Value="1" />
-			<Dictatorship Value="1" />
+			<Theocracy Value="0" />
+			<Anarchy Value="1" />
+			<PrisonColony Value="0" />
+			<Patronage Value="0" />
+			<Engineer Value="0" />
+			<Colony Value="0" />
+			<Communism Value="0" />
+			<Democracy Value="0" />
 			<Prison Value="0" />
-			<Colony Value="1" />
-			<Patronage Value="1" />
-			<Corporate Value="1" />
+			<Dictatorship Value="0" />
+			<Corporate Value="0" />
+			<Confederacy Value="0" />
+			<None Value="0" />
+			<Imperial Value="0" />
 		</government>
 		<visited>
-			<notVisited Value="1" />
 			<affectsRoutePlotting Value="1" />
+			<notVisited Value="1" />
 			<visited Value="0" />
 		</visited>
-		<exploration>
-			<data Value="1" />
-			<noData Value="1" />
-		</exploration>
-		<economy>
-			<Extraction Value="1" />
-			<None Value="1" />
-			<Military Value="1" />
-			<Industrial Value="1" />
-			<Tourism Value="1" />
-			<Service Value="1" />
-			<Agri Value="1" />
-			<Refinery Value="1" />
+		<Security>
 			<affectsRoutePlotting Value="0" />
-			<Colony Value="1" />
-			<Terraforming Value="1" />
-			<HighTech Value="1" />
-		</economy>
-		<LocationPanelFilters>
-			<Star Value="0" />
-			<Settlement Value="0" />
-			<LandablePlanetOrMoon Value="0" />
-			<AsteroidCluster Value="0" />
-			<PlanetOrMoon Value="0" />
-			<PointOfInterest Value="0" />
-			<SignalSource Value="0" />
-			<System Value="0" />
-			<station Value="0" />
-			<FleetCarrier Value="0" />
-		</LocationPanelFilters>
+			<MediumSecurity Value="1" />
+			<LowSecurity Value="1" />
+			<HighSecurity Value="1" />
+			<Anarchy Value="1" />
+		</Security>
+		<EncodedPanelFilters>
+			<grade_5 Value="1" />
+			<grade_4 Value="1" />
+		</EncodedPanelFilters>
 		<site>
-			<None Value="0" />
-			<Thargoid Value="1" />
-			<Human Value="1" />
 			<affectsRoutePlotting Value="0" />
+			<Thargoid Value="1" />
+			<None Value="0" />
 			<Guardian Value="1" />
+			<Human Value="1" />
 		</site>
-		<starclass>
-			<C Value="1" />
-			<B Value="1" />
-			<Y Value="0" />
-			<O Value="1" />
-			<G Value="1" />
-			<affectsRoutePlotting Value="1" />
-			<W Value="1" />
-			<F Value="1" />
-			<N Value="1" />
-			<L Value="0" />
-			<TTS Value="0" />
-			<M Value="0" />
-			<A Value="1" />
-			<D Value="1" />
-			<K Value="1" />
-			<T Value="0" />
-		</starclass>
+		<minorFactionStatus>
+			<PublicHoliday Value="0" />
+			<CivilUnrest Value="0" />
+			<Frontline Value="0" />
+			<Retreat Value="0" />
+			<Thargoid_Stronghold Value="0" />
+			<Outbreak Value="0" />
+			<affectsRoutePlotting Value="0" />
+			<Blight Value="0" />
+			<Famine Value="0" />
+			<Investment Value="0" />
+			<War Value="1" />
+			<Thargoid_Controlled Value="0" />
+			<None Value="0" />
+			<CivilLiberty Value="0" />
+			<Drought Value="0" />
+			<InfrastructureFailure Value="0" />
+			<Boom Value="0" />
+			<Thargoid_Recovery Value="0" />
+			<Lockdown Value="0" />
+			<Thargoid_Probing Value="0" />
+			<Thargoid_Harvest Value="0" />
+			<Incursion Value="0" />
+			<NaturalDisaster Value="0" />
+			<Expansion Value="0" />
+			<Election Value="0" />
+			<CivilWar Value="1" />
+			<Terrorism Value="0" />
+			<Bust Value="0" />
+		</minorFactionStatus>
 	</VisibilityFlags>
 	<VisibilityValues>
 		<population>
-			<max Value="99999997952.00000000" />
 			<min Value="0.00000000" />
+			<max Value="99999997952.00000000" />
 		</population>
 	</VisibilityValues>
 	<TextChannelOptions>
 		<VisibleChannels>
-			<CHAT_group_squad_ldr Value="2" />
 			<COMMS_voice_messages Value="2" />
-			<CHAT_group_wing_and_multicrew Value="2" />
-			<COMMS_direct_messages Value="2" />
+			<CHAT_system Value="2" />
 			<CHAT_group_squad Value="2" />
-			<CHAT_notifications Value="2" />
-			<CHAT_system Value="1" />
+			<CHAT_group_squad_ldr Value="2" />
+			<CHAT_group_wing_and_multicrew Value="2" />
 			<CHAT_group_local Value="2" />
+			<CHAT_notifications Value="2" />
+			<COMMS_direct_messages Value="2" />
 		</VisibleChannels>
 	</TextChannelOptions>
 	<VoiceChatPanelLocation Value="TopCentre" />

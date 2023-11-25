@@ -1,3 +1,6 @@
-{ "timestamp":"2023-08-07T18:18:58Z", "event":"Shipyard", "MarketID":3707128064, "StationName":"V3V-92Q", "StarSystem":"HIP 36601", "Horizons":true, "AllowCobraMkIV":false, "PriceList":[ 
-
+{ "timestamp":"2023-11-06T12:16:03Z", "event":"Shipyard", "MarketID":3705841664, "StationName":"G0F-37G", "StarSystem":"Varlawoth", "Horizons":true, "AllowCobraMkIV":false, "PriceList":[ 
+{ "id":128671217, "ShipType":"diamondback", "ShipType_Localised":"Diamondback Scout", "ShipPrice":564329 }, 
+{ "id":128671831, "ShipType":"diamondbackxl", "ShipType_Localised":"Diamondback Explorer", "ShipPrice":1894760 }, 
+{ "id":128672276, "ShipType":"asp_scout", "ShipType_Localised":"Asp Scout", "ShipPrice":3961154 }, 
+{ "id":128049303, "ShipType":"asp", "ShipType_Localised":"Asp Explorer", "ShipPrice":6661154 }
  ] }

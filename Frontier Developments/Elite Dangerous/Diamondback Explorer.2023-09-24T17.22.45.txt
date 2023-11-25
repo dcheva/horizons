@@ -1,0 +1,440 @@
+{
+  "event": "Loadout",
+  "Ship": "diamondbackxl",
+  "ShipID": 4,
+  "ShipIdent": "DE-12D",
+  "Modules": [
+    {
+      "Slot": "TinyHardpoint1",
+      "Item": "hpt_heatsinklauncher_turret_tiny",
+      "On": true,
+      "Priority": 0,
+      "AmmoInClip": 1,
+      "AmmoInHopper": 2
+    },
+    {
+      "Slot": "TinyHardpoint2",
+      "Item": "hpt_heatsinklauncher_turret_tiny",
+      "On": true,
+      "Priority": 0,
+      "AmmoInClip": 1,
+      "AmmoInHopper": 2
+    },
+    {
+      "Slot": "TinyHardpoint3",
+      "Item": "hpt_heatsinklauncher_turret_tiny",
+      "On": true,
+      "Priority": 0,
+      "AmmoInClip": 1,
+      "AmmoInHopper": 2
+    },
+    {
+      "Slot": "TinyHardpoint4",
+      "Item": "hpt_heatsinklauncher_turret_tiny",
+      "On": true,
+      "Priority": 0,
+      "AmmoInClip": 1,
+      "AmmoInHopper": 1
+    },
+    {
+      "Slot": "ShipCockpit",
+      "Item": "diamondbackxl_cockpit",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "CargoHatch",
+      "Item": "modularcargobaydoor",
+      "On": true,
+      "Priority": 3
+    },
+    {
+      "Slot": "Armour",
+      "Item": "diamondbackxl_armour_grade1",
+      "On": true,
+      "Priority": 1,
+      "Engineering": {
+        "Engineer": "Selene Jean",
+        "EngineerID": 300210,
+        "BlueprintID": 128673643,
+        "BlueprintName": "Armour_HeavyDuty",
+        "Level": 4,
+        "Quality": 1.0,
+        "ExperimentalEffect": "special_armour_chunky",
+        "ExperimentalEffect_Localised": "Утолщенная броня",
+        "Modifiers": [
+          {
+            "Label": "DefenceModifierHealthMultiplier",
+            "Value": 146.888016,
+            "OriginalValue": 79.999992,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "KineticResistance",
+            "Value": -18.656004,
+            "OriginalValue": -20.000004,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "ThermicResistance",
+            "Value": 1.120007,
+            "OriginalValue": 0.0,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "ExplosiveResistance",
+            "Value": -38.431992,
+            "OriginalValue": -39.999996,
+            "LessIsGood": 0
+          }
+        ]
+      }
+    },
+    {
+      "Slot": "PowerPlant",
+      "Item": "int_powerplant_size4_class2",
+      "On": true,
+      "Priority": 1,
+      "Engineering": {
+        "Engineer": "Felicity Farseer",
+        "EngineerID": 300100,
+        "BlueprintID": 128673765,
+        "BlueprintName": "PowerPlant_Boosted",
+        "Level": 1,
+        "Quality": 1.0,
+        "Modifiers": [
+          {
+            "Label": "Integrity",
+            "Value": 60.799999,
+            "OriginalValue": 64.0,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "PowerCapacity",
+            "Value": 13.104,
+            "OriginalValue": 11.7,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "HeatEfficiency",
+            "Value": 0.7875,
+            "OriginalValue": 0.75,
+            "LessIsGood": 1
+          }
+        ]
+      }
+    },
+    {
+      "Slot": "MainEngines",
+      "Item": "int_engine_size4_class2",
+      "On": false,
+      "Priority": 0,
+      "Engineering": {
+        "Engineer": "Felicity Farseer",
+        "EngineerID": 300100,
+        "BlueprintID": 128673657,
+        "BlueprintName": "Engine_Dirty",
+        "Level": 3,
+        "Quality": 0.9586,
+        "ExperimentalEffect": "special_engine_overloaded",
+        "ExperimentalEffect_Localised": "Ускорители",
+        "Modifiers": [
+          {
+            "Label": "Integrity",
+            "Value": 58.239998,
+            "OriginalValue": 64.0,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "PowerDraw",
+            "Value": 3.9852,
+            "OriginalValue": 3.69,
+            "LessIsGood": 1
+          },
+          {
+            "Label": "EngineOptimalMass",
+            "Value": 291.375,
+            "OriginalValue": 315.0,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "EngineOptPerformance",
+            "Value": 130.738388,
+            "OriginalValue": 100.0,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "EngineHeatRate",
+            "Value": 2.002,
+            "OriginalValue": 1.3,
+            "LessIsGood": 1
+          }
+        ]
+      }
+    },
+    {
+      "Slot": "FrameShiftDrive",
+      "Item": "int_hyperdrive_size5_class5",
+      "On": true,
+      "Priority": 0,
+      "Engineering": {
+        "Engineer": "Felicity Farseer",
+        "EngineerID": 300100,
+        "BlueprintID": 128673694,
+        "BlueprintName": "FSD_LongRange",
+        "Level": 5,
+        "Quality": 1.0,
+        "ExperimentalEffect": "special_fsd_heavy",
+        "ExperimentalEffect_Localised": "Распределитель гравитации",
+        "Modifiers": [
+          {
+            "Label": "Mass",
+            "Value": 26.0,
+            "OriginalValue": 20.0,
+            "LessIsGood": 1
+          },
+          {
+            "Label": "Integrity",
+            "Value": 77.279999,
+            "OriginalValue": 120.0,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "PowerDraw",
+            "Value": 0.69,
+            "OriginalValue": 0.6,
+            "LessIsGood": 1
+          },
+          {
+            "Label": "BootTime",
+            "Value": 2.0,
+            "OriginalValue": 10.0,
+            "LessIsGood": 1
+          },
+          {
+            "Label": "FSDOptimalMass",
+            "Value": 1856.399902,
+            "OriginalValue": 1050.0,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "FSDHeatRate",
+            "Value": 32.400002,
+            "OriginalValue": 27.0,
+            "LessIsGood": 1
+          }
+        ]
+      }
+    },
+    {
+      "Slot": "LifeSupport",
+      "Item": "int_lifesupport_size3_class2",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "PowerDistributor",
+      "Item": "int_powerdistributor_size4_class2",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "Radar",
+      "Item": "int_sensors_size3_class2",
+      "On": true,
+      "Priority": 0,
+      "Engineering": {
+        "Engineer": "Felicity Farseer",
+        "EngineerID": 300100,
+        "BlueprintID": 128740132,
+        "BlueprintName": "Sensor_LongRange",
+        "Level": 1,
+        "Quality": 0.9867,
+        "Modifiers": [
+          {
+            "Label": "Mass",
+            "Value": 2.4,
+            "OriginalValue": 2.0,
+            "LessIsGood": 1
+          },
+          {
+            "Label": "SensorTargetScanAngle",
+            "Value": 27.0,
+            "OriginalValue": 30.0,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "Range",
+            "Value": 5579.279785,
+            "OriginalValue": 4860.0,
+            "LessIsGood": 0
+          }
+        ]
+      }
+    },
+    {
+      "Slot": "FuelTank",
+      "Item": "int_fueltank_size5_class3",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Slot01_Size4",
+      "Item": "int_fuelscoop_size4_class5",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "Slot02_Size4",
+      "Item": "int_guardianfsdbooster_size4",
+      "On": true,
+      "Priority": 3
+    },
+    {
+      "Slot": "Slot03_Size3",
+      "Item": "int_shieldgenerator_size3_class5",
+      "On": true,
+      "Priority": 0,
+      "Engineering": {
+        "Engineer": "Lei Cheung",
+        "EngineerID": 300120,
+        "BlueprintID": 128673839,
+        "BlueprintName": "ShieldGenerator_Reinforced",
+        "Level": 5,
+        "Quality": 0.8933,
+        "Modifiers": [
+          {
+            "Label": "ShieldGenStrength",
+            "Value": 164.904007,
+            "OriginalValue": 120.000008,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "BrokenRegenRate",
+            "Value": 1.683,
+            "OriginalValue": 1.87,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "EnergyPerRegen",
+            "Value": 0.672,
+            "OriginalValue": 0.6,
+            "LessIsGood": 1
+          },
+          {
+            "Label": "KineticResistance",
+            "Value": 49.707996,
+            "OriginalValue": 39.999996,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "ThermicResistance",
+            "Value": -0.584006,
+            "OriginalValue": -20.000004,
+            "LessIsGood": 0
+          },
+          {
+            "Label": "ExplosiveResistance",
+            "Value": 58.09,
+            "OriginalValue": 50.0,
+            "LessIsGood": 0
+          }
+        ]
+      }
+    },
+    {
+      "Slot": "Slot04_Size3",
+      "Item": "int_repairer_size3_class3",
+      "On": false,
+      "Priority": 0
+    },
+    {
+      "Slot": "Slot05_Size2",
+      "Item": "int_cargorack_size2_class1",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Slot06_Size2",
+      "Item": "int_buggybay_size2_class2",
+      "On": false,
+      "Priority": 2
+    },
+    {
+      "Slot": "Slot07_Size1",
+      "Item": "int_dronecontrol_collection_size1_class5",
+      "On": true,
+      "Priority": 0
+    },
+    {
+      "Slot": "Slot08_Size1",
+      "Item": "int_detailedsurfacescanner_tiny",
+      "On": true,
+      "Priority": 0,
+      "Engineering": {
+        "Engineer": "Lei Cheung",
+        "EngineerID": 300120,
+        "BlueprintID": 128740150,
+        "BlueprintName": "Sensor_Expanded",
+        "Level": 4,
+        "Quality": 0.485,
+        "Modifiers": [
+          {
+            "Label": "PowerDraw",
+            "Value": 0.0,
+            "OriginalValue": 0.0,
+            "LessIsGood": 1
+          },
+          {
+            "Label": "DSS_PatchRadius",
+            "Value": 26.970001,
+            "OriginalValue": 20.0,
+            "LessIsGood": 0
+          }
+        ]
+      }
+    },
+    {
+      "Slot": "Bobble03",
+      "Item": "bobble_pilotmale",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Bobble04",
+      "Item": "bobble_pilotmale",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Bobble07",
+      "Item": "bobble_pilotmale",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "Bobble08",
+      "Item": "bobble_pilotmale",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "PaintJob",
+      "Item": "paintjob_diamondbackxl_vibrant_yellow",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "PlanetaryApproachSuite",
+      "Item": "int_planetapproachsuite_advanced",
+      "On": true,
+      "Priority": 1
+    },
+    {
+      "Slot": "VesselVoice",
+      "Item": "voicepack_verity",
+      "On": true,
+      "Priority": 1
+    }
+  ]
+}
