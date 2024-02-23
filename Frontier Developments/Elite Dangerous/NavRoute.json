@@ -1,3 +1,5 @@
-{ "timestamp":"2024-01-24T06:44:45Z", "event":"NavRouteClear", "Route":[ 
-
+{ "timestamp":"2024-02-23T22:49:02Z", "event":"NavRoute", "Route":[ 
+{ "StarSystem":"Wolf 359", "SystemAddress":24860210308521, "StarPos":[3.87500,6.46875,-1.90625], "StarClass":"M" }, 
+{ "StarSystem":"Tascheter Sector IX-K a8-0", "SystemAddress":5368172137280, "StarPos":[6.25000,-34.93750,-23.15625], "StarClass":"L" }, 
+{ "StarSystem":"FT Ceti", "SystemAddress":358730404554, "StarPos":[-4.43750,-64.21875,-45.31250], "StarClass":"K" }
  ] }

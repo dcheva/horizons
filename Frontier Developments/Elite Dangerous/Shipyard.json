@@ -1,8 +1,3 @@
-{ "timestamp":"2024-01-24T07:10:22Z", "event":"Shipyard", "MarketID":3228747776, "StationName":"Hardwick Station", "StarSystem":"Procyon", "Horizons":true, "AllowCobraMkIV":false, "PriceList":[ 
-{ "id":128049249, "ShipType":"sidewinder", "ShipPrice":32000 }, 
-{ "id":128049255, "ShipType":"eagle", "ShipPrice":44800 }, 
-{ "id":128049261, "ShipType":"hauler", "ShipPrice":52720 }, 
-{ "id":128049267, "ShipType":"adder", "ShipPrice":87808 }, 
-{ "id":128049273, "ShipType":"viper", "ShipType_Localised":"Viper Mk III", "ShipPrice":142931 }, 
-{ "id":128049321, "ShipType":"federation_dropship", "ShipType_Localised":"Federal Dropship", "ShipPrice":14314205 }
+{ "timestamp":"2024-02-23T21:53:44Z", "event":"Shipyard", "MarketID":3705841664, "StationName":"G0F-37G", "StarSystem":"Duamta", "Horizons":true, "AllowCobraMkIV":false, "PriceList":[ 
+
  ] }
