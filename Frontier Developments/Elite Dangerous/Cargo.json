@@ -1,3 +1,3 @@
-{ "timestamp":"2024-02-23T21:57:33Z", "event":"Cargo", "Vessel":"Ship", "Count":18, "Inventory":[ 
-{ "Name":"drones", "Name_Localised":"Дрон", "Count":18, "Stolen":0 }
+{ "timestamp":"2024-02-24T17:16:50Z", "event":"Cargo", "Vessel":"Ship", "Count":24, "Inventory":[ 
+{ "Name":"drones", "Name_Localised":"Дрон", "Count":24, "Stolen":0 }
  ] }
