@@ -1,7 +1,4 @@
-{ "timestamp":"2024-02-24T22:04:29Z", "event":"Cargo", "Vessel":"Ship", "Count":25, "Inventory":[ 
-{ "Name":"hydrogenfuel", "Name_Localised":"Водородное топливо", "Count":1, "Stolen":0 }, 
-{ "Name":"scrap", "Name_Localised":"Утильсырье", "Count":1, "Stolen":0 }, 
-{ "Name":"algae", "Name_Localised":"Водоросли", "Count":1, "Stolen":0 }, 
-{ "Name":"water", "Name_Localised":"Вода", "Count":1, "Stolen":0 }, 
-{ "Name":"drones", "Name_Localised":"Дрон", "Count":21, "Stolen":0 }
+{ "timestamp":"2024-02-25T17:02:57Z", "event":"Cargo", "Vessel":"Ship", "Count":54, "Inventory":[ 
+{ "Name":"aislingmediamaterials", "Name_Localised":"Агитационные материалы Айслинг", "Count":50, "Stolen":0 }, 
+{ "Name":"drones", "Name_Localised":"Дрон", "Count":4, "Stolen":0 }
  ] }

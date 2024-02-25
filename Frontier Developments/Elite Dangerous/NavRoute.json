@@ -1,4 +1,3 @@
-{ "timestamp":"2024-02-24T22:14:21Z", "event":"NavRoute", "Route":[ 
-{ "StarSystem":"Decima", "SystemAddress":2282942862026, "StarPos":[35.93750,-34.43750,-30.43750], "StarClass":"K" }, 
-{ "StarSystem":"Eurybia", "SystemAddress":1458309141194, "StarPos":[51.40625,-54.40625,-30.50000], "StarClass":"K" }
+{ "timestamp":"2024-02-25T16:57:19Z", "event":"NavRouteClear", "Route":[ 
+
  ] }

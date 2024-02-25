@@ -1,1 +1,1 @@
-{"traderoutes":[{"FromStarID":2346956343651,"ToStarID":13865630705041,"name":"powergenerators","playeramount":"0.000008"},{"FromStarID":11666607449489,"ToStarID":13865630705041,"name":"conductivefabrics","playeramount":"0.000014"}],"credits":1045463682,"debt":0,"timestamp":1708791353,"systemaddress":13865630705041,"version":4}
+{"traderoutes":[{"FromStarID":11666607449489,"ToStarID":13865630705041,"name":"conductivefabrics","playeramount":"0.000004"}],"credits":1038673622,"debt":0,"timestamp":1708878207,"systemaddress":13865630705041,"version":4}

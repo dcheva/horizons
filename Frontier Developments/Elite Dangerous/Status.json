@@ -1,1 +1,1 @@
-{ "timestamp":"2024-02-24T22:16:19Z", "event":"Status", "Flags":1224867848, "Flags2":524288, "Pips":[4,8,0], "FireGroup":1, "GuiFocus":0, "Fuel":{ "FuelMain":14.944304, "FuelReservoir":0.240241 }, "Cargo":25.000000, "LegalState":"Clean", "Balance":1044310981, "Destination":{ "System":1458309141194, "Body":0, "Name":"Eurybia" } }
+{ "timestamp":"2024-02-25T17:03:14Z", "event":"Status", "Flags":0 }
