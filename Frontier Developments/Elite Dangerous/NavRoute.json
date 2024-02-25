@@ -1,3 +1,7 @@
-{ "timestamp":"2024-02-25T19:33:16Z", "event":"NavRouteClear", "Route":[ 
-
+{ "timestamp":"2024-02-25T21:55:54Z", "event":"NavRoute", "Route":[ 
+{ "StarSystem":"Cubeo", "SystemAddress":2415692581235, "StarPos":[128.28125,-155.62500,84.21875], "StarClass":"F" }, 
+{ "StarSystem":"Shui Wei Sector XO-R b4-2", "SystemAddress":5070611097017, "StarPos":[132.40625,-146.31250,44.87500], "StarClass":"M" }, 
+{ "StarSystem":"ICZ EQ-Y c7", "SystemAddress":2008199107282, "StarPos":[115.18750,-127.00000,13.53125], "StarClass":"TTS" }, 
+{ "StarSystem":"Shui Wei Sector HG-X b1-1", "SystemAddress":2871587972513, "StarPos":[124.34375,-120.78125,-25.00000], "StarClass":"K" }, 
+{ "StarSystem":"Murare", "SystemAddress":5070611228057, "StarPos":[121.68750,-111.75000,-32.71875], "StarClass":"M" }
  ] }
