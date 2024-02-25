@@ -1,1 +1,1 @@
-{ "timestamp":"2024-02-25T17:03:14Z", "event":"Status", "Flags":0 }
+{ "timestamp":"2024-02-25T19:41:53Z", "event":"Status", "Flags":151060493, "Flags2":0, "Pips":[4,8,0], "FireGroup":1, "GuiFocus":5, "Fuel":{ "FuelMain":16.000000, "FuelReservoir":0.390000 }, "Cargo":4.000000, "LegalState":"Clean", "Balance":1037209447, "Destination":{ "System":5070611228057, "Body":44, "Name":"Schmidt Orbital" } }
