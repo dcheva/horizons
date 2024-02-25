@@ -1,3 +1,7 @@
-{ "timestamp":"2024-02-24T17:16:50Z", "event":"Cargo", "Vessel":"Ship", "Count":24, "Inventory":[ 
-{ "Name":"drones", "Name_Localised":"Дрон", "Count":24, "Stolen":0 }
+{ "timestamp":"2024-02-24T22:04:29Z", "event":"Cargo", "Vessel":"Ship", "Count":25, "Inventory":[ 
+{ "Name":"hydrogenfuel", "Name_Localised":"Водородное топливо", "Count":1, "Stolen":0 }, 
+{ "Name":"scrap", "Name_Localised":"Утильсырье", "Count":1, "Stolen":0 }, 
+{ "Name":"algae", "Name_Localised":"Водоросли", "Count":1, "Stolen":0 }, 
+{ "Name":"water", "Name_Localised":"Вода", "Count":1, "Stolen":0 }, 
+{ "Name":"drones", "Name_Localised":"Дрон", "Count":21, "Stolen":0 }
  ] }
