@@ -1,1 +1,1 @@
-{ "timestamp":"2023-11-06T12:43:43Z", "event":"Status", "Flags":0 }
+{ "timestamp":"2024-02-25T22:07:03Z", "event":"Status", "Flags":150994968, "Flags2":0, "Pips":[4,8,0], "FireGroup":0, "GuiFocus":0, "Fuel":{ "FuelMain":12.966415, "FuelReservoir":0.174855 }, "Cargo":63.000000, "LegalState":"Clean", "Balance":1039167295, "Destination":{ "System":2871587972513, "Body":0, "Name":"Shui Wei Sector HG-X b1-1" } }
