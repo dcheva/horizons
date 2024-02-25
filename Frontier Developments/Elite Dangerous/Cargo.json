@@ -1,3 +1,4 @@
-{ "timestamp":"2023-11-06T12:43:37Z", "event":"Cargo", "Vessel":"Ship", "Count":16, "Inventory":[ 
-{ "Name":"drones", "Name_Localised":"Дрон", "Count":16, "Stolen":0 }
+{ "timestamp":"2024-02-25T21:56:45Z", "event":"Cargo", "Vessel":"Ship", "Count":63, "Inventory":[ 
+{ "Name":"aislingmediamaterials", "Name_Localised":"Агитационные материалы Айслинг", "Count":60, "Stolen":0 }, 
+{ "Name":"drones", "Name_Localised":"Дрон", "Count":3, "Stolen":0 }
  ] }

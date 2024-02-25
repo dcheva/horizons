@@ -9,7 +9,7 @@
 	<HumanoidFOV>54.320000</HumanoidFOV>
 	<HighResScreenCapAntiAlias>3</HighResScreenCapAntiAlias>
 	<HighResScreenCapScale>4</HighResScreenCapScale>
-	<GammaOffset>0.000000</GammaOffset>
+	<GammaOffset>0.302400</GammaOffset>
 	<DisableGuiEffects>true</DisableGuiEffects>
 	<StereoFocalDistance>17.930988</StereoFocalDistance>
 	<StencilDump>false</StencilDump>
