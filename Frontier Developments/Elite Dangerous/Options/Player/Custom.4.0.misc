@@ -38,7 +38,7 @@
 	<routePlottingVirtualCargoMass Value="0" />
 	<routePlottingRealCargoMass Value="0" />
 	<NebulaNames Value="1" />
-	<RealisticView Value="2" />
+	<RealisticView Value="0" />
 	<ColourVisIndex Value="4" />
 	<SizeVisIndex Value="0" />
 	<FriendMarkers Value="1" />
@@ -69,9 +69,9 @@
 	<ShowSystemConnectors Value="1" />
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
-	<RouteStartSystem Value="2008199107282" />
-	<RouteDestinationSystem Value="5070611228057" />
-	<RouteDestinationBody Value="512" />
+	<RouteStartSystem Value="3068494072163" />
+	<RouteDestinationSystem Value="0" />
+	<RouteDestinationBody Value="0" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
 	<RouteDestinationBodysiteID Value="18446744073709551615" />
 	<RouteDestinationIsCluster Value="0" />

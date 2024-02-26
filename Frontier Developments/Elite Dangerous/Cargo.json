@@ -1,4 +1,4 @@
-{ "timestamp":"2024-02-25T21:56:45Z", "event":"Cargo", "Vessel":"Ship", "Count":63, "Inventory":[ 
-{ "Name":"aislingmediamaterials", "Name_Localised":"Агитационные материалы Айслинг", "Count":60, "Stolen":0 }, 
-{ "Name":"drones", "Name_Localised":"Дрон", "Count":3, "Stolen":0 }
+{ "timestamp":"2024-02-26T01:39:09Z", "event":"Cargo", "Vessel":"Ship", "Count":39, "Inventory":[ 
+{ "Name":"fujintea", "Name_Localised":"Фудзинский чай", "Count":35, "Stolen":0 }, 
+{ "Name":"drones", "Name_Localised":"Дрон", "Count":4, "Stolen":0 }
  ] }
