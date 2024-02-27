@@ -1,4 +1,4 @@
-{ "timestamp":"2024-02-26T23:11:09Z", "event":"ModuleInfo", "Modules":[ 
+{ "timestamp":"2024-02-27T07:07:04Z", "event":"ModuleInfo", "Modules":[ 
 { "Slot":"MainEngines", "Item":"int_engine_size4_class2", "Power":3.985200, "Priority":0 }, 
 { "Slot":"TinyHardpoint1", "Item":"hpt_cloudscanner_size0_class5", "Power":3.200000, "Priority":0 }, 
 { "Slot":"Slot02_Size5", "Item":"int_guardianfsdbooster_size5", "Power":2.140000, "Priority":0 }, 
