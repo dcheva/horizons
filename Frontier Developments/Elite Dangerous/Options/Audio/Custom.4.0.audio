@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
-	<SoundEffectsVolume Value="25.00000000" Muted="0" />
-	<MusicVolume Value="15.00000095" Muted="0" />
+	<SoundEffectsVolume Value="10.00000000" Muted="0" />
+	<MusicVolume Value="10.00000095" Muted="1" />
 	<WaveScannerVolume Value="100.00000000" Muted="0" />
 	<ShipVoiceVolume Value="99.97190857" Muted="0" />
 	<SuitVoiceVolume Value="75.00000000" Muted="0" />
 	<NpcVoiceCommsVolume Value="75.00000000" Muted="0" />
 	<PlayerVoiceCommsVolume Value="75.00000000" Muted="0" />
 	<PlaylistVolume Value="75.00000000" Muted="0" />
-	<VoiceVolume Value="25.00000000" Muted="0" />
+	<VoiceVolume Value="9.99999905" Muted="0" />
 	<CombatMusicEnabled Enabled="1" />
 	<SuperCruiseMusicEnabled Enabled="1" />
 	<ExplorationMusicEnabled Enabled="1" />
