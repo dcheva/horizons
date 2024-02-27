@@ -39,7 +39,7 @@
 	<routePlottingRealCargoMass Value="0" />
 	<NebulaNames Value="1" />
 	<RealisticView Value="0" />
-	<ColourVisIndex Value="4" />
+	<ColourVisIndex Value="9" />
 	<SizeVisIndex Value="0" />
 	<FriendMarkers Value="1" />
 	<WingMarkers Value="1" />
@@ -69,9 +69,9 @@
 	<ShowSystemConnectors Value="1" />
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
-	<RouteStartSystem Value="2869977163201" />
-	<RouteDestinationSystem Value="0" />
-	<RouteDestinationBody Value="0" />
+	<RouteStartSystem Value="13865630705041" />
+	<RouteDestinationSystem Value="40554691578672" />
+	<RouteDestinationBody Value="512" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
 	<RouteDestinationBodysiteID Value="18446744073709551615" />
 	<RouteDestinationIsCluster Value="0" />
@@ -97,11 +97,11 @@
 		</starclass>
 		<MicroResourcePanelFilters>
 			<pinned Value="0" />
-			<grade_5 Value="1" />
-			<grade_3 Value="0" />
-			<manufactured Value="0" />
 			<grade_4 Value="1" />
+			<manufactured Value="0" />
 			<raw Value="1" />
+			<grade_3 Value="0" />
+			<grade_5 Value="1" />
 		</MicroResourcePanelFilters>
 		<site>
 			<Thargoid Value="1" />
@@ -110,6 +110,9 @@
 			<Guardian Value="1" />
 			<Human Value="1" />
 		</site>
+		<autoVoice>
+			<wing Value="0" />
+		</autoVoice>
 		<government>
 			<Communism Value="0" />
 			<Carrier Value="0" />
@@ -154,10 +157,6 @@
 			<Anarchy Value="1" />
 			<HighSecurity Value="1" />
 		</Security>
-		<EncodedPanelFilters>
-			<grade_5 Value="1" />
-			<grade_4 Value="1" />
-		</EncodedPanelFilters>
 		<exploration>
 			<noData Value="1" />
 			<data Value="1" />
@@ -169,8 +168,7 @@
 		</visited>
 		<minorFactionStatus>
 			<affectsRoutePlotting Value="0" />
-			<Frontline Value="0" />
-			<Thargoid_Stronghold Value="0" />
+			<Thargoid_Recovery Value="0" />
 			<Thargoid_Harvest Value="0" />
 			<Terrorism Value="0" />
 			<Drought Value="0" />
@@ -180,16 +178,17 @@
 			<Famine Value="0" />
 			<CivilWar Value="1" />
 			<None Value="0" />
+			<Frontline Value="0" />
 			<PublicHoliday Value="0" />
 			<Investment Value="0" />
 			<CivilLiberty Value="0" />
 			<Incursion Value="0" />
 			<Boom Value="0" />
-			<Thargoid_Controlled Value="0" />
 			<Lockdown Value="0" />
 			<Outbreak Value="0" />
 			<Expansion Value="0" />
-			<Thargoid_Recovery Value="0" />
+			<Thargoid_Stronghold Value="0" />
+			<Thargoid_Controlled Value="0" />
 			<Retreat Value="0" />
 			<Bust Value="0" />
 			<CivilUnrest Value="0" />
@@ -222,9 +221,10 @@
 			<Industrial Value="1" />
 			<Extraction Value="0" />
 		</economy>
-		<autoVoice>
-			<wing Value="0" />
-		</autoVoice>
+		<EncodedPanelFilters>
+			<grade_4 Value="1" />
+			<grade_5 Value="1" />
+		</EncodedPanelFilters>
 	</VisibilityFlags>
 	<VisibilityValues>
 		<population>
@@ -252,7 +252,7 @@
 	<HelpPopupViewedFSS Value="1" />
 	<HelpPopupViewedSAA Value="0" />
 	<HelpPopupViewedAXMap Value="1" />
-	<CurrentHUDMode Value="Analysis" />
+	<CurrentHUDMode Value="Normal" />
 	<MarketFilter_inCargo Value="1" />
 	<MarketFilter_requiredForMission Value="1" />
 	<MarketFilter_highDemand Value="1" />

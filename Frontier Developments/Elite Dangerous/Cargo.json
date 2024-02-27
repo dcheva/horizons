@@ -1,3 +1,6 @@
-{ "timestamp":"2024-02-27T06:56:57Z", "event":"Cargo", "Vessel":"Ship", "Count":24, "Inventory":[ 
-{ "Name":"lavianbrandy", "Name_Localised":"Лавианский бренди", "Count":24, "Stolen":0 }
+{ "timestamp":"2024-02-27T13:33:46Z", "event":"Cargo", "Vessel":"Ship", "Count":49, "Inventory":[ 
+{ "Name":"algae", "Name_Localised":"Водоросли", "Count":1, "Stolen":0 }, 
+{ "Name":"polymers", "Name_Localised":"Полимеры", "Count":1, "Stolen":0 }, 
+{ "Name":"lavianbrandy", "Name_Localised":"Лавианский бренди", "Count":24, "Stolen":0 }, 
+{ "Name":"drones", "Name_Localised":"Дрон", "Count":23, "Stolen":0 }
  ] }
