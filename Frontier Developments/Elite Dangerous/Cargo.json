@@ -1,4 +1,3 @@
-{ "timestamp":"2024-02-26T16:41:05Z", "event":"Cargo", "Vessel":"Ship", "Count":37, "Inventory":[ 
-{ "Name":"fujintea", "Name_Localised":"Фудзинский чай", "Count":35, "Stolen":0 }, 
-{ "Name":"drones", "Name_Localised":"Дрон", "Count":2, "Stolen":0 }
+{ "timestamp":"2024-02-27T00:16:27Z", "event":"Cargo", "Vessel":"Ship", "Count":24, "Inventory":[ 
+{ "Name":"lavianbrandy", "Name_Localised":"Лавианский бренди", "Count":24, "Stolen":0 }
  ] }
