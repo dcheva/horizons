@@ -1,4 +1,3 @@
-{ "timestamp":"2024-02-27T13:35:25Z", "event":"NavRoute", "Route":[ 
-{ "StarSystem":"Buzhang Ku", "SystemAddress":13865630705041, "StarPos":[44.03125,-52.43750,-45.93750], "StarClass":"M" }, 
-{ "StarSystem":"Hayimstae", "SystemAddress":40554691578672, "StarPos":[32.87500,-38.46875,-44.75000], "StarClass":"L" }
+{ "timestamp":"2024-02-28T12:08:02Z", "event":"NavRouteClear", "Route":[ 
+
  ] }
