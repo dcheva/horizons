@@ -69,7 +69,7 @@
 	<ShowSystemConnectors Value="1" />
 	<RescueMegashipMarkers Value="1" />
 	<ThargoidFrontlineMarkers Value="1" />
-	<RouteStartSystem Value="13866167838161" />
+	<RouteStartSystem Value="633742594786" />
 	<RouteDestinationSystem Value="0" />
 	<RouteDestinationBody Value="0" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
@@ -97,11 +97,11 @@
 		</starclass>
 		<MicroResourcePanelFilters>
 			<pinned Value="0" />
-			<raw Value="1" />
-			<grade_4 Value="1" />
-			<grade_3 Value="0" />
 			<grade_5 Value="1" />
+			<grade_3 Value="0" />
 			<manufactured Value="0" />
+			<grade_4 Value="1" />
+			<raw Value="1" />
 		</MicroResourcePanelFilters>
 		<site>
 			<Thargoid Value="1" />
@@ -110,9 +110,6 @@
 			<Guardian Value="1" />
 			<Human Value="1" />
 		</site>
-		<autoVoice>
-			<wing Value="0" />
-		</autoVoice>
 		<government>
 			<Communism Value="0" />
 			<Carrier Value="0" />
@@ -168,7 +165,8 @@
 		</visited>
 		<minorFactionStatus>
 			<affectsRoutePlotting Value="0" />
-			<Thargoid_Stronghold Value="0" />
+			<Thargoid_Controlled Value="0" />
+			<Thargoid_Recovery Value="0" />
 			<Frontline Value="0" />
 			<Terrorism Value="0" />
 			<Drought Value="0" />
@@ -178,7 +176,6 @@
 			<Famine Value="0" />
 			<CivilWar Value="1" />
 			<None Value="0" />
-			<Thargoid_Probing Value="0" />
 			<PublicHoliday Value="0" />
 			<Investment Value="0" />
 			<CivilLiberty Value="0" />
@@ -187,8 +184,8 @@
 			<Lockdown Value="0" />
 			<Outbreak Value="0" />
 			<Expansion Value="0" />
-			<Thargoid_Controlled Value="0" />
-			<Thargoid_Recovery Value="0" />
+			<Thargoid_Probing Value="0" />
+			<Thargoid_Stronghold Value="0" />
 			<Retreat Value="0" />
 			<Bust Value="0" />
 			<CivilUnrest Value="0" />
@@ -222,9 +219,12 @@
 			<Extraction Value="0" />
 		</economy>
 		<EncodedPanelFilters>
-			<grade_4 Value="1" />
 			<grade_5 Value="1" />
+			<grade_4 Value="1" />
 		</EncodedPanelFilters>
+		<autoVoice>
+			<wing Value="0" />
+		</autoVoice>
 	</VisibilityFlags>
 	<VisibilityValues>
 		<population>
