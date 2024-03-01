@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>2/26/2024, 22:30:22</Time>
+		<Time>2/29/2024, 21:41:33</Time>
 		<MachineName>DESKTOP-O5FJCVG</MachineName>
 		<MachineId>{4571D720-EA28-4E99-A342-50E4EE0FB519}</MachineId>
 		<OperatingSystem>Windows 10 Education 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
@@ -13,7 +13,7 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>8915MB used, 13530MB available</PageFile>
+		<PageFile>10769MB used, 11932MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
@@ -599,7 +599,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>86620770304</FreeSpace>
+			<FreeSpace>39420768256</FreeSpace>
 			<MaxSpace>465724788736</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -609,7 +609,7 @@
 		</LogicalDisk>
 		<LogicalDisk>
 			<DriveLetter>D:</DriveLetter>
-			<FreeSpace>128870924288</FreeSpace>
+			<FreeSpace>84753899520</FreeSpace>
 			<MaxSpace>499447230464</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>TOSHIBA DT01ACA050</Model>
@@ -4081,16 +4081,16 @@
 	</EvrPowerInformation>
 	<Diagnostics>
 		<WindowsErrorReporting>
-			<WER0>Fault bucket 1300844125023863823, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Mashinky.exeP2: 0.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER0>
-			<WER1>Fault bucket 1594525845238862614, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: EDDiscovery.exeP2: 17.0.4.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER1>
-			<WER2>Fault bucket , type 0Event Name: AppHangTransientResponse: Not availableCab Id: 0Problem signature:P1: am745.exeP2: 0.0.0.0P3: 5805612cP4: unknownP5: unknownP6: unknownP7: unknownP8: P9: P10: </WER2>
-			<WER3>Fault bucket 1891299927700612219, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Warframe.x64.exeP2: 2024.2.21.13P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER3>
-			<WER4>Fault bucket 1605012796208111882, type 5Event Name: StoreAgentScanForUpdatesFailure0Response: Not availableCab Id: 0Problem signature:P1: Update;P2: 80072ee2P3: 19045P4: 4046P5: Windows.DesktopP6: P7: P8: P9: P10: </WER4>
-			<WER5>Fault bucket 1605012796208111882, type 5Event Name: StoreAgentScanForUpdatesFailure0Response: Not availableCab Id: 0Problem signature:P1: Update;P2: 80072ee2P3: 19045P4: 4046P5: Windows.DesktopP6: P7: P8: P9: P10: </WER5>
-			<WER6>Fault bucket 1605012796208111882, type 5Event Name: StoreAgentScanForUpdatesFailure0Response: Not availableCab Id: 0Problem signature:P1: Update;P2: 80072ee2P3: 19045P4: 4046P5: Windows.DesktopP6: P7: P8: P9: P10: </WER6>
-			<WER7>Fault bucket , type 0Event Name: StoreAgentScanForUpdatesFailure0Response: Not availableCab Id: 0Problem signature:P1: Update;P2: 80072ee2P3: 19045P4: 4046P5: Windows.DesktopP6: P7: P8: P9: P10: </WER7>
-			<WER8>Fault bucket , type 0Event Name: StoreAgentScanForUpdatesFailure0Response: Not availableCab Id: 0Problem signature:P1: Update;P2: 80072ee2P3: 19045P4: 4046P5: Windows.DesktopP6: P7: P8: P9: P10: </WER8>
-			<WER9>Fault bucket , type 0Event Name: StoreAgentScanForUpdatesFailure0Response: Not availableCab Id: 0Problem signature:P1: Update;P2: 80072ee2P3: 19045P4: 4046P5: Windows.DesktopP6: P7: P8: P9: P10: </WER9>
+			<WER0>Fault bucket 2055051797106241762, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Car Mechanic Simulator 2021.exeP2: 2020.3.41.6620P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER0>
+			<WER1>Fault bucket 1774584156684527497, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Palworld-Win64-Shipping.exeP2: 5.1.1.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER1>
+			<WER2>Fault bucket 1902583272023448332, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Last Epoch.exeP2: 2019.4.40.50731P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER2>
+			<WER3>Fault bucket 1947279129974204952, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Far.exeP2: 3.0.6226.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER3>
+			<WER4>Fault bucket 1583869490661074995, type 4Event Name: APPCRASHResponse: Not availableCab Id: 0Problem signature:P1: bad_module_infoP2: 0.0.0.0P3: 00000000P4: StackHash_0000P5: 0.0.0.0P6: 00000000P7: 00000000P8: PCH_84P9: P10: </WER4>
+			<WER5>Fault bucket 1431190568527793121, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: BNSR.exeP2: 0.6.10402.3P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER5>
+			<WER6>Fault bucket 1384941786842506298, type 5Event Name: CLR20r3Response: Not availableCab Id: 0Problem signature:P1: EDLaunch.exeP2: 1.7.6926.10P3: ad94cdf7P4: PresentationFrameworkP5: 4.8.9220.0P6: 657cfb8dP7: 2b6P8: 1fP9: System.IO.FileNotFoundExceptionP10: </WER6>
+			<WER7>Fault bucket 1300844125023863823, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Mashinky.exeP2: 0.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER7>
+			<WER8>Fault bucket 1594525845238862614, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: EDDiscovery.exeP2: 17.0.4.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER8>
+			<WER9>Fault bucket , type 0Event Name: AppHangTransientResponse: Not availableCab Id: 0Problem signature:P1: am745.exeP2: 0.0.0.0P3: 5805612cP4: unknownP5: unknownP6: unknownP7: unknownP8: P9: P10: </WER9>
 		</WindowsErrorReporting>
 	</Diagnostics>
 </DxDiag>

@@ -1,3 +1,3 @@
-{ "timestamp":"2024-02-29T11:07:53Z", "event":"Cargo", "Vessel":"Ship", "Count":24, "Inventory":[ 
-{ "Name":"lavianbrandy", "Name_Localised":"Лавианский бренди", "Count":24, "Stolen":0 }
+{ "timestamp":"2024-03-01T02:57:40Z", "event":"Cargo", "Vessel":"Ship", "Count":50, "Inventory":[ 
+{ "Name":"lavianbrandy", "Name_Localised":"Лавианский бренди", "Count":50, "Stolen":0 }
  ] }
