@@ -1,6 +1,3 @@
-{ "timestamp":"2024-03-02T01:55:21Z", "event":"NavRoute", "Route":[ 
-{ "StarSystem":"Kuwemaki", "SystemAddress":1733321102034, "StarPos":[134.65625,-226.90625,-7.81250], "StarClass":"K" }, 
-{ "StarSystem":"Loveri", "SystemAddress":672027518369, "StarPos":[88.34375,-212.62500,-5.28125], "StarClass":"M" }, 
-{ "StarSystem":"ICZ KR-W b1-2", "SystemAddress":5069537224105, "StarPos":[44.15625,-191.78125,0.68750], "StarClass":"L" }, 
-{ "StarSystem":"Muang", "SystemAddress":4481966019282, "StarPos":[17.03125,-172.78125,-3.46875], "StarClass":"K" }
+{ "timestamp":"2024-03-02T19:38:31Z", "event":"NavRouteClear", "Route":[ 
+
  ] }

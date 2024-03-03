@@ -1,3 +1,22 @@
-{ "timestamp":"2024-03-02T01:04:33Z", "event":"Outfitting", "MarketID":3705841664, "StationName":"G0F-37G", "StarSystem":"Kamitra", "Horizons":true, "Items":[ 
-
+{ "timestamp":"2024-03-02T19:05:39Z", "event":"Outfitting", "MarketID":128674695, "StationName":"Broo's Legacy", "StarSystem":"Muang", "Horizons":true, "Items":[ 
+{ "id":128049428, "Name":"hpt_beamlaser_fixed_small", "BuyPrice":37430 }, 
+{ "id":128049429, "Name":"hpt_beamlaser_fixed_medium", "BuyPrice":299520 }, 
+{ "id":128049430, "Name":"hpt_beamlaser_fixed_large", "BuyPrice":1177600 }, 
+{ "id":128049432, "Name":"hpt_beamlaser_gimbal_small", "BuyPrice":74650 }, 
+{ "id":128049433, "Name":"hpt_beamlaser_gimbal_medium", "BuyPrice":500600 }, 
+{ "id":128049435, "Name":"hpt_beamlaser_turret_small", "BuyPrice":500000 }, 
+{ "id":128049436, "Name":"hpt_beamlaser_turret_medium", "BuyPrice":2099900 }, 
+{ "id":128049400, "Name":"hpt_pulselaserburst_fixed_small", "BuyPrice":4400 }, 
+{ "id":128049381, "Name":"hpt_pulselaser_fixed_small", "BuyPrice":2200 }, 
+{ "id":128049382, "Name":"hpt_pulselaser_fixed_medium", "BuyPrice":17600 }, 
+{ "id":128049383, "Name":"hpt_pulselaser_fixed_large", "BuyPrice":70400 }, 
+{ "id":128049385, "Name":"hpt_pulselaser_gimbal_small", "BuyPrice":6600 }, 
+{ "id":128049386, "Name":"hpt_pulselaser_gimbal_medium", "BuyPrice":35400 }, 
+{ "id":128049388, "Name":"hpt_pulselaser_turret_small", "BuyPrice":26000 }, 
+{ "id":128049401, "Name":"hpt_pulselaserburst_fixed_medium", "BuyPrice":23000 }, 
+{ "id":128049402, "Name":"hpt_pulselaserburst_fixed_large", "BuyPrice":140400 }, 
+{ "id":128049405, "Name":"hpt_pulselaserburst_gimbal_medium", "BuyPrice":48500 }, 
+{ "id":128049406, "Name":"hpt_pulselaserburst_gimbal_large", "BuyPrice":281600 }, 
+{ "id":128049407, "Name":"hpt_pulselaserburst_turret_small", "BuyPrice":52800 }, 
+{ "id":128049408, "Name":"hpt_pulselaserburst_turret_medium", "BuyPrice":162800 }
  ] }
