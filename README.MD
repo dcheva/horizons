@@ -13,8 +13,8 @@ Author: dmytro.cheva © MIT 2019-2024
 
 
 ### @TODO
---- now Begin collect Encoded Rare 64 drones Hloca 5 JUP-110 Lowell-class Researcher
---- than Chloe Sedesi
---- than go recollect raw
---- than go recollect prom
---- than continue engineers
+- now Begin collect Encoded Rare 64 drones Hloca 5 JUP-110 Lowell-class Researcher
+- than Chloe Sedesi
+- than go recollect raw
+- than go recollect prom
+- than continue engineers
