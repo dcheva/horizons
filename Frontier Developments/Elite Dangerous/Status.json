@@ -1,1 +1,1 @@
-{ "timestamp":"2024-03-07T22:44:35Z", "event":"Status", "Flags":151060552, "Flags2":0, "Pips":[4,8,0], "FireGroup":1, "GuiFocus":0, "Fuel":{ "FuelMain":15.610000, "FuelReservoir":0.194859 }, "Cargo":47.000000, "LegalState":"Wanted", "Balance":1060313515 }
+{ "timestamp":"2024-03-08T00:39:17Z", "event":"Status", "Flags":0 }

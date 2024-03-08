@@ -1,3 +1,7 @@
-{ "timestamp":"2024-03-07T22:44:18Z", "event":"Cargo", "Vessel":"Ship", "Count":47, "Inventory":[ 
-{ "Name":"drones", "Name_Localised":"Дрон", "Count":47, "Stolen":0 }
+{ "timestamp":"2024-03-08T00:37:23Z", "event":"Cargo", "Vessel":"Ship", "Count":34, "Inventory":[ 
+{ "Name":"basicmedicines", "Name_Localised":"Основные лекарства", "MissionID":956927521, "Count":6, "Stolen":0 }, 
+{ "Name":"scrap", "Name_Localised":"Утильсырье", "MissionID":956927549, "Count":8, "Stolen":0 }, 
+{ "Name":"survivalequipment", "Name_Localised":"Снаряжение для выживания", "MissionID":956927564, "Count":6, "Stolen":0 }, 
+{ "Name":"personalweapons", "Name_Localised":"Личное оружие", "MissionID":956927582, "Count":6, "Stolen":0 }, 
+{ "Name":"domesticappliances", "Name_Localised":"Бытовая техника", "MissionID":956927616, "Count":8, "Stolen":0 }
  ] }
