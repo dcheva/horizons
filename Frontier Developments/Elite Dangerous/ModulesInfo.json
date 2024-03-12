@@ -1,5 +1,5 @@
-{ "timestamp":"2024-03-08T01:22:06Z", "event":"ModuleInfo", "Modules":[ 
-{ "Slot":"MainEngines", "Item":"int_engine_size4_class2", "Power":3.985200, "Priority":0 }, 
+{ "timestamp":"2024-03-10T19:06:04Z", "event":"ModuleInfo", "Modules":[ 
+{ "Slot":"MainEngines", "Item":"int_engine_size4_class2", "Power":4.132800, "Priority":0 }, 
 { "Slot":"TinyHardpoint1", "Item":"hpt_cloudscanner_size0_class5", "Power":3.200000, "Priority":4 }, 
 { "Slot":"Slot03_Size4", "Item":"int_guardianfsdbooster_size4", "Power":1.650000, "Priority":3 }, 
 { "Slot":"Slot05_Size3", "Item":"int_shieldgenerator_size3_class2", "Power":1.440000, "Priority":0 }, 

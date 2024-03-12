@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>3/8/2024, 03:29:31</Time>
+		<Time>3/10/2024, 20:14:21</Time>
 		<MachineName>DESKTOP-O5FJCVG</MachineName>
 		<MachineId>{4571D720-EA28-4E99-A342-50E4EE0FB519}</MachineId>
 		<OperatingSystem>Windows 10 Education 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
@@ -13,7 +13,7 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>10744MB used, 11957MB available</PageFile>
+		<PageFile>8272MB used, 13917MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
@@ -599,7 +599,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>136847671296</FreeSpace>
+			<FreeSpace>116633083904</FreeSpace>
 			<MaxSpace>465724788736</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -609,7 +609,7 @@
 		</LogicalDisk>
 		<LogicalDisk>
 			<DriveLetter>D:</DriveLetter>
-			<FreeSpace>163805130752</FreeSpace>
+			<FreeSpace>199438319616</FreeSpace>
 			<MaxSpace>499447230464</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>TOSHIBA DT01ACA050</Model>
@@ -4081,16 +4081,16 @@
 	</EvrPowerInformation>
 	<Diagnostics>
 		<WindowsErrorReporting>
-			<WER0>Fault bucket 1639005482261809841, type 4Event Name: APPCRASHResponse: Not availableCab Id: 0Problem signature:P1: TaleWorlds.MountAndBlade.Launcher.exeP2: 1.0.0.0P3: 6582febbP4: TaleWorlds.Native.dllP5: 0.0.0.0P6: 6582feb7P7: c0000005P8: 0000000000239fe4P9: P10: </WER0>
-			<WER1>Fault bucket 1555025342357209600, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: factorio.exeP2: 1.1.104.62119P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER1>
-			<WER2>Fault bucket 1455060905904633286, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: TaleWorlds.MountAndBlade.Launcher.exeP2: 1.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER2>
-			<WER3>Fault bucket 1639005482261809841, type 4Event Name: APPCRASHResponse: Not availableCab Id: 0Problem signature:P1: TaleWorlds.MountAndBlade.Launcher.exeP2: 1.0.0.0P3: 6582febbP4: TaleWorlds.Native.dllP5: 0.0.0.0P6: 6582feb7P7: c0000005P8: 0000000000239fe4P9: P10: </WER3>
-			<WER4>Fault bucket 1763759845452804548, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Expeditions.exeP2: 1.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER4>
-			<WER5>Fault bucket 1639005482261809841, type 4Event Name: APPCRASHResponse: Not availableCab Id: 0Problem signature:P1: TaleWorlds.MountAndBlade.Launcher.exeP2: 1.0.0.0P3: 6582febbP4: TaleWorlds.Native.dllP5: 0.0.0.0P6: 6582feb7P7: c0000005P8: 0000000000239fe4P9: P10: </WER5>
-			<WER6>Fault bucket 2055051797106241762, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Car Mechanic Simulator 2021.exeP2: 2020.3.41.6620P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER6>
-			<WER7>Fault bucket 1774584156684527497, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Palworld-Win64-Shipping.exeP2: 5.1.1.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER7>
-			<WER8>Fault bucket 1902583272023448332, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Last Epoch.exeP2: 2019.4.40.50731P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER8>
-			<WER9>Fault bucket 1947279129974204952, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: Far.exeP2: 3.0.6226.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER9>
+			<WER0>Fault bucket 1451207670274497984, type 5Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: GenshinImpact.exeP2: 2017.4.30.0P3: 65a0e7d3P4: 0000P5: 67246080P6: P7: P8: P9: P10: </WER0>
+			<WER1>Fault bucket , type 0Event Name: AppHangB1Response: Not availableCab Id: 0Problem signature:P1: GenshinImpact.exeP2: 2017.4.30.0P3: 65a0e7d3P4: 0000P5: 67246080P6: P7: P8: P9: P10: </WER1>
+			<WER2>Fault bucket , type 0Event Name: AppHangTransientResponse: Not availableCab Id: 0Problem signature:P1: GenshinImpact.exeP2: 2017.4.30.0P3: 65a0e7d3P4: unknownP5: unknownP6: unknownP7: unknownP8: P9: P10: </WER2>
+			<WER3>Fault bucket 1911494470568217149, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: GenshinImpact.exeP2: 2017.4.30.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER3>
+			<WER4>Fault bucket 1206358810164852877, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: FNA-Win64-Shipping.exeP2: 1.8.1151.18467P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER4>
+			<WER5>Fault bucket 2074373428209589615, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: TaxiLife-Win64-Shipping.exeP2: 4.27.2.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER5>
+			<WER6>Fault bucket 1639005482261809841, type 4Event Name: APPCRASHResponse: Not availableCab Id: 0Problem signature:P1: TaleWorlds.MountAndBlade.Launcher.exeP2: 1.0.0.0P3: 6582febbP4: TaleWorlds.Native.dllP5: 0.0.0.0P6: 6582feb7P7: c0000005P8: 0000000000239fe4P9: P10: </WER6>
+			<WER7>Fault bucket 1555025342357209600, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: factorio.exeP2: 1.1.104.62119P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER7>
+			<WER8>Fault bucket 1455060905904633286, type 5Event Name: RADAR_PRE_LEAK_64Response: Not availableCab Id: 0Problem signature:P1: TaleWorlds.MountAndBlade.Launcher.exeP2: 1.0.0.0P3: 10.0.19045.2.0.0P4: P5: P6: P7: P8: P9: P10: </WER8>
+			<WER9>Fault bucket 1639005482261809841, type 4Event Name: APPCRASHResponse: Not availableCab Id: 0Problem signature:P1: TaleWorlds.MountAndBlade.Launcher.exeP2: 1.0.0.0P3: 6582febbP4: TaleWorlds.Native.dllP5: 0.0.0.0P6: 6582feb7P7: c0000005P8: 0000000000239fe4P9: P10: </WER9>
 		</WindowsErrorReporting>
 	</Diagnostics>
 </DxDiag>
