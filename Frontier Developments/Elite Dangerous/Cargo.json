@@ -1,4 +1,3 @@
-{ "timestamp":"2024-03-10T19:22:25Z", "event":"Cargo", "Vessel":"Ship", "Count":2, "Inventory":[ 
-{ "Name":"damagedescapepod", "Name_Localised":"Поврежденная спасательная капсула", "Count":1, "Stolen":0 }, 
-{ "Name":"occupiedcryopod", "Name_Localised":"Спасательная капсула с пассажиром", "Count":1, "Stolen":0 }
+{ "timestamp":"2024-03-12T06:52:17Z", "event":"Cargo", "Vessel":"Ship", "Count":0, "Inventory":[ 
+
  ] }
