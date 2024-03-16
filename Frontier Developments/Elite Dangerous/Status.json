@@ -1,1 +1,1 @@
-{ "timestamp":"2024-03-07T21:51:59Z", "event":"Status", "Flags":419496008, "Flags2":0, "Pips":[4,8,0], "FireGroup":1, "GuiFocus":0, "Fuel":{ "FuelMain":16.000000, "FuelReservoir":0.114832 }, "Cargo":63.000000, "LegalState":"Wanted", "Balance":1060313515, "Destination":{ "System":5069268854185, "Body":15, "Name":"JUP-110 Lowell-class Researcher" } }
+{ "timestamp":"2024-03-16T23:55:16Z", "event":"Status", "Flags":0 }
