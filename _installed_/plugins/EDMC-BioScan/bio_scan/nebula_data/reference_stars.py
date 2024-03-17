@@ -4,7 +4,7 @@ coordinates: dict[str, tuple[float, float, float]] = {
     'Boewnst CV-P d5-912': (-5784.8125, -1115.8125, 16111),
     'Byaa Ain XK-R c7-65': (-4257.84375, 1142.53125, 15908.625),
     'Byua Aim KT-F d12-381': (-2937.40625, 1163.65625, 16664.15625),
-    'Byua Aim NU-Q b34-79': (-3156.78125, 397.96875, 16325.96875),
+    'Byua Aim JC-L d8-141': (-3145.25, 379.125, 16324.125),
     'Dryaa Pruae BG-X d1-1087': (-2516.53125, -966.15625, 20884.71875),
     'Dryaa Pruae GG-Y e5180': (-2197.53125, -1186.40625, 20979.34375),
     'Dryi Aoc CH-C d13-218': (3187.53125, 392.34375, 19299.8125),
@@ -5635,15 +5635,17 @@ planetary_coordinates: dict[str, tuple[float, float, float]] = {
 # Byoomuia PR-H c24-0
 
 
-def nebulae_sort(current_coordinates: tuple[float, float, float]) -> list[tuple[str, tuple[float, float, float]]]:
-    final_coordinates = coordinates | planetary_coordinates
+def nebulae_sort(current_coordinates: tuple[float, float, float],
+                 all_nebulae: bool) -> list[tuple[str, tuple[float, float, float]]]:
+    final_coordinates = (coordinates | planetary_coordinates) if all_nebulae else coordinates
     sorted_coordinates: list[tuple[str, tuple[float, float, float]]] = sorted(
         final_coordinates.items(), key=lambda item: sum((a - b) ** 2 for a, b in zip(current_coordinates, item[1]))
     )
     return sorted_coordinates
 
 
-def get_nearest_nebula(current_coordinates: tuple[float, float, float]) -> dict[str, tuple[float, float, float]]:
-    result: list[tuple[str, tuple[float, float, float]]] = nebulae_sort(current_coordinates)
+def get_nearest_nebula(current_coordinates: tuple[float, float, float],
+                       all_nebulae: bool) -> dict[str, tuple[float, float, float]]:
+    result: list[tuple[str, tuple[float, float, float]]] = nebulae_sort(current_coordinates, all_nebulae)
     return {result[0][0]: result[0][1]}
     

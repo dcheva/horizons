@@ -14,7 +14,8 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'min_temperature': 200.0,
                     'volcanism': ['metallic', 'silicate', 'rocky', 'water'],
                     'body_type': ['Rocky body'],
-                    'main_star': [('B', 'IV'), ('B', 'V')]
+                    'star': [('B', 'IV'), ('B', 'V')],
+                    'regions': ['anemone-a']
                 }
             ],
         },
@@ -30,7 +31,8 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'min_temperature': 200.0,
                     'volcanism': ['silicate', 'rocky', 'metallic'],
                     'body_type': ['Rocky body'],
-                    'main_star': [('B', 'V'), ('B', 'VI'), ('A', 'III')]
+                    'star': [('B', 'V'), ('B', 'VI'), ('A', 'III')],
+                    'regions': ['anemone-a']
                 }
             ],
         },
@@ -46,7 +48,8 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'min_temperature': 65.0,
                     'volcanism': 'None',
                     'body_type': ['Icy body', 'Rocky ice body'],
-                    'special': ['O', 'WC']
+                    'star': ['O'],
+                    'regions': ['anemone-a']
                 },
                 {
                     'atmosphere': ['None'],
@@ -56,7 +59,8 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'min_temperature': 65.0,
                     'volcanism': ['carbon dioxide geysers'],
                     'body_type': ['Icy body', 'Rocky ice body'],
-                    'special': ['O', 'WC']
+                    'star': ['O'],
+                    'regions': ['anemone-a']
                 }
             ],
         },
@@ -72,7 +76,8 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'min_temperature': 200.0,
                     'volcanism': ['silicate', 'rocky', 'metallic'],
                     'body_type': ['Rocky body'],
-                    'special': [('B', 'I'), ('B', 'II'), ('B', 'III'), ('B', 'IV')]
+                    'main_star': [('B', 'I'), ('B', 'II'), ('B', 'III'), ('B', 'IV')],
+                    'regions': ['anemone-a']
                 }
             ],
         },
@@ -88,7 +93,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'max_temperature': 1800.0,
                     'volcanism': 'Any',
                     'body_type': ['Metal rich body', 'High metal content body'],
-                    'main_star': [('B', 'VI'), 'A', ('F', 'I'), ('F', 'II'), 'N', 'H', 'O']
+                    'star': [('B', 'VI'), ['A', 'I'], ['A', 'II'], ['A', 'III'], 'N']
                 }
             ],
         },
@@ -103,7 +108,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'max_temperature': 3050.0,
                     'volcanism': ['carbon dioxide'],
                     'body_type': ['Metal rich body', 'Rocky body', 'High metal content body'],
-                    'main_star': ['O', ('B', 'IV'), ('B', 'V'), 'WC', 'WO', 'AeBe']
+                    'main_star': ['O', 'AeBe']
                 },
                 {
                     'atmosphere': ['None'],
@@ -112,7 +117,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'max_temperature': 3050.0,
                     'volcanism': 'None',
                     'body_type': ['Metal rich body', 'Rocky body', 'High metal content body'],
-                    'main_star': ['O', ('B', 'IV'), ('B', 'V'), 'WC', 'WO', 'AeBe']
+                    'main_star': ['O', 'AeBe']
                 }
             ],
         },
@@ -127,7 +132,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'min_temperature': 400.0,
                     'volcanism': 'Any',
                     'body_type': ['Metal rich body', 'High metal content body'],
-                    'special': ['B', ('A', 'II'), ('A', 'I'), 'H']
+                    'star': [('B', 'I'), ('B', 'II'), ('B', 'III')]
                 }
             ],
         },
@@ -140,7 +145,8 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'min_temperature': 220.0,
                     'volcanism': 'Any',
                     'body_type': ['Metal rich body', 'High metal content body'],
-                    'main_star': [('B', 'IV'), ('B', 'V'), 'H', 'N', 'O', ('K', 'III'), ('K', 'IV')]
+                    'star': [('B', 'IV'), ('B', 'V')],
+                    'regions': ['anemone-a']
                 }
             ],
         },

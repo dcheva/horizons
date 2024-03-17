@@ -48,7 +48,7 @@ class This:
         self.parsing_journals: bool = False
         self.journal_stop: bool = False
         self.journal_event: Optional[threading.Event] = None
-        self.journal_progress: float = 0.0
+        self.journal_progress: tuple[int, int] = (0, 0)
         self.journal_error: bool = False
 
         self.journal_processing_callbacks: dict[str, tk.Frame] = {}
@@ -69,7 +69,7 @@ class JournalParse:
         self._cmdr: Optional[Commander] = None
         self._system: Optional[System] = None
 
-    def parse_journal(self, journal: Path, event: Event) -> bool:
+    def parse_journal(self, journal: Path, event: Event) -> int:
         """
         Function used to kick on a full journal import.
 
@@ -80,21 +80,24 @@ class JournalParse:
         if event.is_set():
             return True
         found = self._session.scalar(select(JournalLog).where(JournalLog.journal == journal.name))
+        failures = 0
         if not found:
             log: BinaryIO = open(journal, 'rb', 0)
             for line in log:
                 retry = 2
                 while True:
                     result = self.parse_entry(line)
-                    if (not result and retry == 0) or event.is_set():
-                        return False
+                    if not result:
+                        failures += 1
+                    if (failures >= 3 and retry == 0) or event.is_set():
+                        return 1
                     elif result:
                         break
                     retry -= 1
                     sleep(.1)
         else:
             self._session.expunge(found)
-            return True
+            return 2
 
         journal = JournalLog(journal=journal.name)
         try:
@@ -102,7 +105,7 @@ class JournalParse:
             self._session.commit()
         except (IntegrityError, AlcIntegrityError):
             self._session.expunge(journal)
-        return True
+        return 0
 
     def parse_entry(self, line: bytes) -> bool:
         """
@@ -318,9 +321,15 @@ class JournalParse:
         star_data = StarData.from_journal(self._system, body_short_name, entry['BodyID'], self._session)
 
         star_data.set_distance(float(entry['DistanceFromArrivalLS'])).set_type(entry['StarType']) \
-            .set_mass(entry['StellarMass']).set_subclass(entry['Subclass']).set_luminosity(entry['Luminosity'])
+            .set_mass(entry['StellarMass']).set_subclass(entry['Subclass']).set_luminosity(entry['Luminosity']) \
+            .set_rotation(entry['RotationPeriod']).set_orbital_period(entry.get('OrbitalPeriod', 0))
         if self._cmdr:
             star_data.set_discovered(True, self._cmdr.id).set_was_discovered(was_discovered, self._cmdr.id)
+
+        if 'Rings' in entry:
+            for ring in entry['Rings']:
+                ring_name = ring['Name'][len(entry['BodyName'])+1:]
+                star_data.add_ring(ring_name, ring['RingClass'])
 
     def add_planet(self, entry: Mapping[str, Any]) -> None:
         """
@@ -330,17 +339,19 @@ class JournalParse:
         """
 
         was_discovered = entry['ScanType'] == 'NavBeaconDetail' or entry['WasDiscovered']
+        scan_type = get_scan_type(entry['ScanType'])
         body_short_name = self.get_body_name(entry['BodyName'])
         body_data = PlanetData.from_journal(self._system, body_short_name, entry['BodyID'], self._session)
         body_data.set_distance(float(entry['DistanceFromArrivalLS'])).set_type(entry['PlanetClass']) \
             .set_mass(entry['MassEM']).set_gravity(entry['SurfaceGravity']) \
             .set_temp(entry.get('SurfaceTemperature', None)).set_pressure(entry.get('SurfacePressure', None)) \
             .set_radius(entry['Radius']).set_volcanism(entry.get('Volcanism', None)) \
-            .set_terraform_state(entry.get('TerraformState', ''))
+            .set_rotation(entry['RotationPeriod']).set_orbital_period(entry.get('OrbitalPeriod', 0)) \
+            .set_landable(entry.get('Landable', False)).set_terraform_state(entry.get('TerraformState', ''))
 
         if self._cmdr:
             body_data.set_discovered(True, self._cmdr.id).set_was_discovered(was_discovered, self._cmdr.id) \
-                .set_was_mapped(entry['WasMapped'], self._cmdr.id)
+                .set_was_mapped(entry['WasMapped'], self._cmdr.id).set_scan_state(scan_type, self._cmdr.id)
 
         star_search = re.search('^([A-Z]+) .+$', body_short_name)
         if star_search:
@@ -359,6 +370,11 @@ class JournalParse:
         if 'AtmosphereComposition' in entry:
             for gas in entry['AtmosphereComposition']:
                 body_data.add_gas(gas['Name'], gas['Percent'])
+
+        if 'Rings' in entry:
+            for ring in entry['Rings']:
+                ring_name = ring['Name'][len(entry['BodyName'])+1:]
+                body_data.add_ring(ring_name, ring['RingClass'])
 
     def add_signals(self, entry: Mapping[str, Any]) -> None:
         """
@@ -417,7 +433,19 @@ class JournalParse:
             target_body.set_flora_color(entry['Genus'], color)
 
 
-def parse_journal(journal: Path, event: Event) -> bool:
+def get_scan_type(scan: str) -> int:
+    match scan:
+        case 'AutoScan':
+            return 1
+        case 'Detailed' | 'NavBeaconDetail':
+            return 3
+        case 'Basic':
+            return 2
+        case _:
+            return 0
+
+
+def parse_journal(journal: Path, event: Event) -> int:
     """
     Kickoff function for importing a journal file. Builds a new JournalParse object and begins parsing.
 
@@ -480,7 +508,7 @@ def journal_worker() -> None:
 
     this.parsing_journals = True
     this.journal_error = False
-    this.journal_progress = 0.0
+    this.journal_progress = (0, 0)
     fire_start_event()
 
     try:
@@ -494,17 +522,20 @@ def journal_worker() -> None:
             with concurrent.futures.ThreadPoolExecutor(max_workers=min([cpu_count(), 4])) as executor:
                 future_journal: dict[Future, Path] = {executor.submit(parse_journal, journal, this.journal_event):
                                                       journal for journal in journal_files}
+                skipped = 0
                 for future in concurrent.futures.as_completed(future_journal):
                     count += 1
-                    this.journal_progress = count / len(journal_files)
                     fire_progress_event()
-                    if not future.result() or this.journal_stop:
+                    if future.result() == 1 or this.journal_stop:
                         if not this.journal_stop:
                             this.journal_error = True
                         this.parsing_journals = False
                         this.journal_event.set()
                         executor.shutdown(wait=True, cancel_futures=True)
                         break
+                    elif future.result() == 2:
+                        skipped += 1
+                    this.journal_progress = (count - skipped, len(journal_files) - skipped)
 
     except Exception as ex:
         logger.error('Journal parsing failed', exc_info=ex)
@@ -609,7 +640,7 @@ def has_error() -> bool:
     return this.journal_error
 
 
-def get_progress() -> float:
+def get_progress() -> tuple[int, int]:
     """
     Helper function to access local data about the journal import progress.
     """

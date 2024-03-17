@@ -19,7 +19,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'atmosphere': ['CarbonDioxide'],
                     'body_type': ['Rocky body', 'High metal content body'],
                     'min_gravity': 0.04,
-                    'max_gravity': 0.275,
+                    'max_gravity': 0.276,
                     'min_temperature': 180.0,
                     'max_temperature': 196.0,
                     'min_pressure': 0.025,
@@ -40,9 +40,6 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'body_type': ['Rocky body', 'High metal content body'],
                     'min_gravity': 0.04,
                     'max_gravity': 0.65,
-                    'min_temperature': 392.0,
-                    'max_temperature': 452.0,
-                    'min_pressure': 0.05,
                     'volcanism': 'None'
                 },
                 {
@@ -50,9 +47,6 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'body_type': ['Rocky body', 'High metal content body'],
                     'min_gravity': 0.04,
                     'max_gravity': 0.65,
-                    'min_temperature': 392.0,
-                    'max_temperature': 452.0,
-                    'min_pressure': 0.05,
                     'volcanism': ['water']
                 }
             ],
@@ -65,7 +59,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'atmosphere': ['Ammonia'],
                     'body_type': ['Rocky body', 'High metal content body'],
                     'min_gravity': 0.04,
-                    'max_gravity': 0.275,
+                    'max_gravity': 0.276,
                     'min_temperature': 152.0,
                     'max_temperature': 177.0,
                     'max_pressure': 0.0135
@@ -80,7 +74,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'atmosphere': ['CarbonDioxide'],
                     'body_type': ['Rocky body', 'High metal content body'],
                     'min_gravity': 0.04,
-                    'max_gravity': 0.275,
+                    'max_gravity': 0.276,
                     'min_temperature': 150.0,
                     'max_temperature': 200.0,
                     'min_pressure': 0.002,
@@ -96,7 +90,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'atmosphere': ['Nitrogen'],
                     'body_type': ['Rocky body', 'High metal content body'],
                     'min_gravity': 0.04,
-                    'max_gravity': 0.275,
+                    'max_gravity': 0.276,
                     'min_temperature': 42.0,
                     'max_temperature': 51.0,
                     'max_pressure': 0.0046,

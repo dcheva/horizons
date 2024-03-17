@@ -5,7 +5,7 @@
 
 # Core imports
 from copy import deepcopy
-from typing import Mapping, MutableMapping, Optional
+from typing import Mapping, MutableMapping
 from urllib.parse import quote
 import sys
 import threading
@@ -16,10 +16,12 @@ import math
 
 # TKinter imports
 import tkinter as tk
+from tkinter import colorchooser as tkColorChooser  # type: ignore # noqa: N812
 from tkinter import ttk
 
 # Local imports
 import bio_scan.const
+import bio_scan.overlay as overlay
 from bio_scan.nebula_data.reference_stars import get_nearest_nebula
 from bio_scan.nebula_data.sectors import data as nebula_sectors
 from bio_scan.status_flags import StatusFlags2, StatusFlags
@@ -65,36 +67,47 @@ class This:
         self.NAME = bio_scan.const.name
 
         # Settings vars
-        self.focus_setting: Optional[tk.StringVar] = None
-        self.signal_setting: Optional[tk.StringVar] = None
-        self.focus_breakdown: Optional[tk.BooleanVar] = None
-        self.scan_display_mode: Optional[tk.StringVar] = None
-        self.waypoints_enabled: Optional[tk.BooleanVar] = None
-        self.debug_logging_enabled: Optional[tk.BooleanVar] = None
-        self.focus_distance: Optional[tk.IntVar] = None
+        self.focus_setting: tk.StringVar | None = None
+        self.signal_setting: tk.StringVar | None = None
+        self.focus_breakdown: tk.BooleanVar | None = None
+        self.scan_display_mode: tk.StringVar | None = None
+        self.waypoints_enabled: tk.BooleanVar | None = None
+        self.debug_logging_enabled: tk.BooleanVar | None = None
+        self.focus_distance: tk.IntVar | None = None
+        self.use_overlay: tk.BooleanVar | None = None
+        self.overlay_color: tk.StringVar | None = None
+        self.overlay_anchor_x: tk.IntVar | None = None
+        self.overlay_anchor_y: tk.IntVar | None = None
+        self.overlay_summary_x: tk.IntVar | None = None
+        self.overlay_summary_y: tk.IntVar | None = None
+        self.overlay_detail_scroll: tk.BooleanVar | None = None
+        self.overlay_detail_length: tk.IntVar | None = None
+        self.overlay_detail_delay: tk.DoubleVar | None = None
 
         # GUI Objects
-        self.frame: Optional[tk.Frame] = None
-        self.scroll_canvas: Optional[tk.Canvas] = None
-        self.scrollbar: Optional[ttk.Scrollbar] = None
-        self.scrollable_frame: Optional[ttk.Frame] = None
-        self.label: Optional[tk.Label] = None
-        self.values_label: Optional[tk.Label] = None
-        self.total_label: Optional[tk.Label] = None
-        self.edsm_button: Optional[tk.Label] = None
-        self.edsm_failed: Optional[tk.Label] = None
-        self.update_button: Optional[HyperlinkLabel] = None
-        self.journal_label: Optional[tk.Label] = None
+        self.parent: tk.Frame | None = None
+        self.frame: tk.Frame | None = None
+        self.scroll_canvas: tk.Canvas | None = None
+        self.scrollbar: ttk.Scrollbar | None = None
+        self.scrollable_frame: ttk.Frame | None = None
+        self.label: tk.Label | None = None
+        self.values_label: tk.Label | None = None
+        self.total_label: tk.Label | None = None
+        self.edsm_button: tk.Label | None = None
+        self.edsm_failed: tk.Label | None = None
+        self.update_button: HyperlinkLabel | None = None
+        self.journal_label: tk.Label | None = None
+        self.overlay: overlay.Overlay = overlay.Overlay()
 
         # Plugin state data
-        self.commander: Optional[Commander] = None
+        self.commander: Commander | None = None
         self.planets: dict[str, PlanetData] = {}
         self.stars: dict[str, StarData] = {}
         self.planet_cache: dict[
             str, dict[str, tuple[bool, tuple[str, int, int, list[tuple[str, list[str], int]]]]]] = {}
         self.migration_failed: bool = False
         self.db_mismatch: bool = False
-        self.sql_session: Optional[Session] = None
+        self.sql_session: Session | None = None
 
         # self.odyssey: bool = False
         # self.game_version: semantic_version.Version = semantic_version.Version.coerce('0.0.0.0')
@@ -104,18 +117,18 @@ class This:
         self.location_id: str = ''
         self.location_state: str = ''
         self.planet_radius: float = 0.0
-        self.planet_latitude: Optional[float] = None
-        self.planet_longitude: Optional[float] = None
+        self.planet_latitude: float | None = None
+        self.planet_longitude: float | None = None
         self.planet_altitude: float = 10000.0
-        self.planet_heading: Optional[int] = None
-        self.current_scan: str = ''
-        self.system: Optional[System] = None
+        self.planet_heading: int | None = None
+        self.current_scan: tuple[str, str] = ('', '')
+        self.system: System | None = None
         self.edd_replay: bool = False
 
         # EDSM vars
-        self.edsm_thread: Optional[threading.Thread] = None
-        self.edsm_session: Optional[str] = None
-        self.edsm_bodies: Optional[Mapping] = None
+        self.edsm_thread: threading.Thread | None = None
+        self.edsm_session: str | None = None
+        self.edsm_bodies: Mapping | None = None
         self.fetched_edsm = False
 
 
@@ -140,7 +153,8 @@ def plugin_start3(plugin_dir: str) -> str:
             this.db_mismatch = True
 
         if not this.db_mismatch:
-            register_event_callbacks({'Scan', 'FSSBodySignals', 'SAASignalsFound', 'ScanOrganic', 'CodexEntry'}, process_data_event)
+            register_event_callbacks({'Scan', 'FSSBodySignals', 'SAASignalsFound', 'ScanOrganic', 'CodexEntry'},
+                                     process_data_event)
     return this.NAME
 
 
@@ -153,6 +167,7 @@ def plugin_app(parent: tk.Frame) -> tk.Frame:
     :return: Plugin's main TKinter frame
     """
 
+    this.parent = parent
     this.frame = tk.Frame(parent)
     this.frame.grid_columnconfigure(0, weight=1)
     if this.migration_failed:
@@ -220,6 +235,18 @@ def plugin_prefs(parent: ttk.Notebook, cmdr: str, is_beta: bool) -> tk.Frame:
     :return: Plugin settings tab TKinter frame
     """
 
+    color_button = None
+
+    def color_chooser() -> None:
+        (_, color) = tkColorChooser.askcolor(
+            this.overlay_color.get(), title='Overlay Color', parent=this.parent
+        )
+
+        if color:
+            this.overlay_color.set(color)
+            if color_button is not None:
+                color_button['foreground'] = color
+
     x_padding = 10
     x_button_padding = 12
     y_padding = 2
@@ -248,6 +275,7 @@ def plugin_prefs(parent: ttk.Notebook, cmdr: str, is_beta: bool) -> tk.Frame:
 
     ttk.Separator(frame).grid(row=5, columnspan=2, pady=y_padding * 2, sticky=tk.EW)
 
+    # Left column
     nb.Label(
         frame,
         text='Focus Body Signals:',
@@ -275,7 +303,7 @@ def plugin_prefs(parent: ttk.Notebook, cmdr: str, is_beta: bool) -> tk.Frame:
         .grid(row=13, column=0, padx=x_padding, sticky=tk.SW)
     nb.Entry(
         frame, text=this.focus_distance.get(), textvariable=this.focus_distance,
-        validate='all', validatecommand=(frame.register(is_num), '%P', '%d')
+        validate='all', validatecommand=(frame.register(is_digit), '%P', '%d')
     ).grid(row=14, column=0, padx=x_padding, sticky=tk.NW)
     nb.Checkbutton(
         frame,
@@ -283,6 +311,7 @@ def plugin_prefs(parent: ttk.Notebook, cmdr: str, is_beta: bool) -> tk.Frame:
         variable=this.focus_breakdown
     ).grid(row=16, column=0, padx=x_button_padding, sticky=tk.W)
 
+    # Right column
     nb.Label(
         frame,
         text='Display Signal Summary:'
@@ -306,7 +335,7 @@ def plugin_prefs(parent: ttk.Notebook, cmdr: str, is_beta: bool) -> tk.Frame:
         frame,
         text='Enable species waypoints with the comp. scanner',
         variable=this.waypoints_enabled
-    ).grid(row=13, column=1, sticky=tk.W)
+    ).grid(row=13, column=1, padx=x_button_padding, sticky=tk.W)
     nb.Label(
         frame,
         text='Completed Scan Display:'
@@ -329,6 +358,87 @@ def plugin_prefs(parent: ttk.Notebook, cmdr: str, is_beta: bool) -> tk.Frame:
              justify=tk.LEFT) \
         .grid(row=17, column=1, sticky=tk.NW)
 
+    # Overlay settings
+    ttk.Separator(frame).grid(row=18, columnspan=2, pady=y_padding * 2, sticky=tk.EW)
+
+    nb.Label(frame,
+             text='EDMC Overlay Integration',
+             justify=tk.LEFT) \
+        .grid(row=19, column=0, padx=x_padding, sticky=tk.NW)
+    nb.Checkbutton(
+        frame,
+        text='Enable overlay',
+        variable=this.use_overlay
+    ).grid(row=20, column=0, padx=x_button_padding, pady=0, sticky=tk.W)
+    color_button = nb.ColoredButton(
+        frame,
+        text='Text Color',
+        foreground=this.overlay_color.get(),
+        background='grey4',
+        command=lambda: color_chooser()
+    ).grid(row=21, column=0, padx=x_button_padding, pady=y_padding, sticky=tk.W)
+
+    anchor_frame = nb.Frame(frame)
+    anchor_frame.grid(row=20, column=1, sticky=tk.NSEW)
+    anchor_frame.columnconfigure(4, weight=1)
+    summary_frame = nb.Frame(frame)
+    summary_frame.grid(row=21, column=1, sticky=tk.NSEW)
+    summary_frame.columnconfigure(4, weight=1)
+    details_frame = nb.Frame(frame)
+    details_frame.grid(row=22, column=1, sticky=tk.NSEW)
+    details_frame.columnconfigure(4, weight=1)
+
+    nb.Label(anchor_frame, text='Prediction Details Anchor:') \
+        .grid(row=0, column=0, sticky=tk.W)
+    nb.Label(anchor_frame, text='X') \
+        .grid(row=0, column=1, sticky=tk.W)
+    nb.Entry(
+        anchor_frame, text=this.overlay_anchor_x.get(), textvariable=this.overlay_anchor_x,
+        width=8, validate='all', validatecommand=(frame.register(is_digit), '%P', '%d')
+    ).grid(row=0, column=2, sticky=tk.W)
+    nb.Label(anchor_frame, text='Y') \
+        .grid(row=0, column=3, sticky=tk.W)
+    nb.Entry(
+        anchor_frame, text=this.overlay_anchor_y.get(), textvariable=this.overlay_anchor_y,
+        width=8, validate='all', validatecommand=(frame.register(is_digit), '%P', '%d')
+    ).grid(row=0, column=4, sticky=tk.W)
+
+    nb.Label(summary_frame, text='Summary / Progress Anchor:') \
+        .grid(row=0, column=0, sticky=tk.W)
+    nb.Label(summary_frame, text='X') \
+        .grid(row=0, column=1, sticky=tk.W)
+    nb.Entry(
+        summary_frame, text=this.overlay_summary_x.get(), textvariable=this.overlay_summary_x,
+        width=8, validate='all', validatecommand=(frame.register(is_digit), '%P', '%d')
+    ).grid(row=0, column=2, sticky=tk.W)
+    nb.Label(summary_frame, text='Y') \
+        .grid(row=0, column=3, sticky=tk.W)
+    nb.Entry(
+        summary_frame, text=this.overlay_summary_y.get(), textvariable=this.overlay_summary_y,
+        width=8, validate='all', validatecommand=(frame.register(is_digit), '%P', '%d')
+    ).grid(row=0, column=4, sticky=tk.W)
+
+    nb.Checkbutton(
+        details_frame,
+        text='Scroll details',
+        variable=this.overlay_detail_scroll
+    ).grid(row=0, column=0, padx=x_padding, sticky=tk.NW)
+    nb.Label(details_frame, text='Maximum details length:') \
+        .grid(row=0, column=1, sticky=tk.W)
+    nb.Entry(
+        details_frame, text=this.overlay_detail_length.get(), textvariable=this.overlay_detail_length,
+        width=8, validate='all', validatecommand=(frame.register(is_digit), '%P', '%d')
+    ).grid(row=0, column=2, sticky=tk.W)
+    nb.Label(details_frame, text='Scroll delay (sec):') \
+        .grid(row=0, column=3, sticky=tk.W)
+    nb.Entry(
+        details_frame, text=this.overlay_detail_delay.get(), textvariable=this.overlay_detail_delay,
+        width=8, validate='all', validatecommand=(frame.register(is_double), '%P', '%d')
+    ).grid(row=0, column=4, sticky=tk.W)
+
+    # Footer
+    ttk.Separator(frame).grid(row=29, columnspan=2, pady=y_padding * 2, sticky=tk.EW)
+
     nb.Button(frame, text='Start / Stop Journal Parsing', command=parse_journals) \
         .grid(row=30, column=0, padx=x_padding, sticky=tk.SW)
 
@@ -340,7 +450,7 @@ def plugin_prefs(parent: ttk.Notebook, cmdr: str, is_beta: bool) -> tk.Frame:
     return frame
 
 
-def is_num(value: str, action: str) -> bool:
+def is_digit(value: str, action: str) -> bool:
     """
     Numeral validator for Entry input
 
@@ -351,6 +461,23 @@ def is_num(value: str, action: str) -> bool:
 
     if action == '1':
         if not value.isdigit():
+            return False
+    return True
+
+
+def is_double(value: str, action: str) -> bool:
+    """
+    Double validator for Entry input
+
+    :param value: Value for input event
+    :param action: Input event action type
+    :return: True or false if input is a numeral
+    """
+
+    if action == '1':
+        try:
+            float(value)
+        except ValueError:
             return False
     return True
 
@@ -371,6 +498,15 @@ def prefs_changed(cmdr: str, is_beta: bool) -> None:
     config.set('bioscan_signal', this.signal_setting.get())
     config.set('bioscan_waypoints', this.waypoints_enabled.get())
     config.set('bioscan_debugging', this.debug_logging_enabled.get())
+    config.set('bioscan_overlay', this.use_overlay.get())
+    config.set('bioscan_overlay_color', this.overlay_color.get())
+    config.set('bioscan_overlay_anchor_x', this.overlay_anchor_x.get())
+    config.set('bioscan_overlay_anchor_y', this.overlay_anchor_y.get())
+    config.set('bioscan_overlay_summary_x', this.overlay_summary_x.get())
+    config.set('bioscan_overlay_summary_y', this.overlay_summary_y.get())
+    config.set('bioscan_overlay_detail_scroll', this.overlay_detail_scroll.get())
+    config.set('bioscan_overlay_detail_length', this.overlay_detail_length.get())
+    config.set('bioscan_overlay_detail_delay', str(this.overlay_detail_delay.get()))
     update_display()
 
 
@@ -384,6 +520,16 @@ def parse_config() -> None:
     this.signal_setting = tk.StringVar(value=config.get_str(key='bioscan_signal', default='Always'))
     this.waypoints_enabled = tk.BooleanVar(value=config.get_bool(key='bioscan_waypoints', default=True))
     this.debug_logging_enabled = tk.BooleanVar(value=config.get_bool(key='bioscan_debugging', default=False))
+    this.use_overlay = tk.BooleanVar(value=config.get_bool(key='bioscan_overlay', default=False))
+    this.overlay_color = tk.StringVar(value=config.get_str(key='bioscan_overlay_color', default='#ffffff'))
+    this.overlay_anchor_x = tk.IntVar(value=config.get_int(key='bioscan_overlay_anchor_x', default=0))
+    this.overlay_anchor_y = tk.IntVar(value=config.get_int(key='bioscan_overlay_anchor_y', default=0))
+    this.overlay_summary_x = tk.IntVar(value=config.get_int(key='bioscan_overlay_summary_x', default=400))
+    this.overlay_summary_y = tk.IntVar(value=config.get_int(key='bioscan_overlay_summary_y', default=0))
+    this.overlay_detail_scroll = tk.BooleanVar(value=config.get_int(key='bioscan_overlay_detail_scroll', default=True))
+    this.overlay_detail_length = tk.IntVar(value=config.get_int(key='bioscan_overlay_detail_length', default=70))
+    this.overlay_detail_delay = tk.DoubleVar(
+        value=float(config.get_str(key='bioscan_overlay_detail_delay', default=10.0)))
 
 
 def version_check() -> str:
@@ -417,6 +563,9 @@ def plugin_stop() -> None:
         this.edsm_thread.join()
         this.journal_stop = True
 
+    if this.overlay.available():
+        this.overlay.disconnect()
+
 
 def journal_start(event: tk.Event) -> None:
     """
@@ -435,10 +584,12 @@ def journal_update(event: tk.Event) -> None:
 
     :param event: Required to process the event. Unused.
     """
-
-    progress = f'{ExploData.explo_data.journal_parse.get_progress():.1%}'
+    finished, total = ExploData.explo_data.journal_parse.get_progress()
+    progress = '0%'
+    if total > 0:
+        progress = f'{finished / total:.1%}'
     progress = progress.rstrip('0').rstrip('.')
-    this.journal_label['text'] = f'Parsing Journals: {progress}'
+    this.journal_label['text'] = f'Parsing Journals: {progress} [{finished}/{total}]'
 
 
 def journal_end(event: tk.Event) -> None:
@@ -527,7 +678,10 @@ def edsm_data(event: tk.Event) -> None:
                     .set_gravity(body['gravity'] * 9.80665) \
                     .set_temp(body['surfaceTemperature']) \
                     .set_mass(body['earthMasses']) \
-                    .set_terraform_state(terraformable)
+                    .set_terraform_state(terraformable) \
+                    .set_landable(body['isLandable']) \
+                    .set_orbital_period(body['orbitalPeriod'] * 86400 if body['orbitalPeriod'] else 0) \
+                    .set_rotation(body['rotationalPeriod'] * 86400)
                 if body['volcanismType'] == 'No volcanism':
                     volcanism = ''
                 else:
@@ -555,7 +709,6 @@ def edsm_data(event: tk.Event) -> None:
             except Exception as e:
                 logger.error('Error while parsing EDSM', exc_info=e)
 
-    filter_stars()
     main_star = get_main_star(this.system, this.sql_session)
     if main_star:
         this.main_star_type = main_star.type
@@ -587,6 +740,8 @@ def add_edsm_star(body: dict) -> None:
         star_data.set_luminosity(body['luminosity'])
         star_data.set_distance(body['distanceToArrival'])
         star_data.set_mass(body['solarMasses'])
+        star_data.set_orbital_period(body['orbitalPeriod'] * 86400 if body['orbitalPeriod'] else 0)
+        star_data.set_rotation(body['rotationalPeriod'] * 86400)
         this.stars[body_short_name] = star_data
     except Exception as e:
         logger.error('Error while parsing EDSM', exc_info=e)
@@ -643,6 +798,7 @@ def value_estimate(body: PlanetData, genus: str) -> tuple[str, int, int, list[tu
             eliminated = False
             for rule_type, value in ruleset.items():
                 stop = False
+                log(f'Processing {rule_type}')
                 match rule_type:
                     case 'atmosphere':
                         if value == 'Any' and body.get_atmosphere() in ['', 'None']:
@@ -771,30 +927,22 @@ def value_estimate(body: PlanetData, genus: str) -> tuple[str, int, int, list[tu
                             stop = True
                     case 'main_star':
                         if isinstance(value, list):
-                            if isinstance(value[0], tuple):
-                                match = False
-                                for star_info in value:
+                            match = False
+                            for star_info in value:
+                                if isinstance(star_info, tuple):
                                     if star_check(star_info[0], this.main_star_type):
-                                        for flag in ['', 'a', 'b', 'ab']:
+                                        for flag in ['', 'a', 'b', 'ab', 'z']:
                                             if star_info[1] + flag == this.main_star_luminosity:
                                                 match = True
                                                 break
-                                        if match:
-                                            break
-                                if not match:
-                                    log('Eliminated for star type')
-                                    eliminated = True
-                                    stop = True
-                            else:
-                                match = False
-                                for star_type in value:
-                                    if star_check(star_type, this.main_star_type):
+                                else:
+                                    if star_check(star_info, this.main_star_type):
                                         match = True
                                         break
-                                if not match:
-                                    log('Eliminated for star type')
-                                    eliminated = True
-                                    stop = True
+                            if not match:
+                                log('Eliminated for star type')
+                                eliminated = True
+                                stop = True
                         else:
                             if not star_check(value, this.main_star_type):
                                 log('Eliminated for star type')
@@ -818,10 +966,46 @@ def value_estimate(body: PlanetData, genus: str) -> tuple[str, int, int, list[tu
                             log('Eliminated for star type')
                             eliminated = True
                             stop = True
+                    case 'star':
+                        if isinstance(value, list):
+                            match = False
+                            for _, star in this.stars.items():
+                                for star_info in value:
+                                    if isinstance(star_info, tuple):
+                                        if star_check(star_info[0], star.get_type()):
+                                            log(f'Checking {star_info[0]} {star_info[1]} against {star.get_type()}' +
+                                                f' {star.get_luminosity()}')
+                                            for flag in ['', 'a', 'b', 'ab', 'z']:
+                                                if star_info[1] + flag == star.get_luminosity():
+                                                    match = True
+                                                    break
+                                    else:
+                                        log(f'Checking {star_info} against {star.get_type()}')
+                                        if star_check(star_info, star.get_type()):
+                                            match = True
+                                            break
+                                if match:
+                                    break
+                            if not match:
+                                log('Eliminated for star type')
+                                eliminated = True
+                                stop = True
+                        else:
+                            match = False
+                            for _, star in this.stars.items():
+                                if star_check(value, star.get_type()):
+                                    match = True
+                                    break
+                            if not match:
+                                log('Eliminated for star type')
+                                eliminated = True
+                                stop = True
                     case 'nebula':
                         if not this.system.x:
                             log('Missing system coordinates')
                             continue
+                        if value not in ['all', 'large']:
+                            log('Invalid nebula check type')
                         found = False
                         for sector in nebula_sectors:
                             if this.system.name.startswith(sector):
@@ -829,12 +1013,13 @@ def value_estimate(body: PlanetData, genus: str) -> tuple[str, int, int, list[tu
                                 stop = True
                         if not found:
                             current_location: tuple[float, float, float] = (this.system.x, this.system.y, this.system.z)
-                            for system, coordinates in get_nearest_nebula(current_location).items():
+                            all_nebulae = True if value == 'all' else False
+                            for system, coordinates in get_nearest_nebula(current_location, all_nebulae).items():
                                 distance = math.sqrt((coordinates[0] - this.system.x) ** 2
                                                      + (coordinates[1] - this.system.y) ** 2
                                                      + (coordinates[2] - this.system.z) ** 2)
                                 log(f'Distance to {system} from {this.system.name}: {distance:n} ly')
-                                if distance < 100.0:
+                                if distance < 120.0:
                                     found = True
                                     stop = True
                         if not found:
@@ -868,14 +1053,16 @@ def value_estimate(body: PlanetData, genus: str) -> tuple[str, int, int, list[tu
                                         bio_genus[genus]['colors']['species'][species]['star'][star_type])
                                     found = True
                                     break
-                        for star_name, star_data in filter(lambda item: item[1].get_distance() == 0, this.stars.items()):
+                        for star_name, star_data in this.stars.items():
                             if star_name in body.get_parent_stars():
                                 continue
-                            for star_type in bio_genus[genus]['colors']['species'][species]['star']:
-                                if star_check(star_type, star_data.get_type()):
-                                    possible_species[species].add(
-                                        bio_genus[genus]['colors']['species'][species]['star'][star_type])
-                                    break
+                            if star_data.get_distance() == 0 or parent_is_H(star_data, body):
+                                for star_type in bio_genus[genus]['colors']['species'][species]['star']:
+                                    log('Checking star type %s against %s' % (star_type, star_data.get_type()))
+                                    if star_check(star_type, star_data.get_type()):
+                                        possible_species[species].add(
+                                            bio_genus[genus]['colors']['species'][species]['star'][star_type])
+                                        break
                     except KeyError:
                         log('Parent star not in main stars')
                 elif 'element' in bio_genus[genus]['colors']['species'][species]:
@@ -900,13 +1087,15 @@ def value_estimate(body: PlanetData, genus: str) -> tuple[str, int, int, list[tu
                             found_colors.add(bio_genus[genus]['colors']['star'][star_type])
                             found = True
                             break
-                for star_name, star_data in filter(lambda item: item[1].get_distance() == 0, this.stars.items()):
+                for star_name, star_data in this.stars.items():
                     if star_name in body.get_parent_stars():
                         continue
-                    for star_type in bio_genus[genus]['colors']['star']:
-                        if star_check(star_type, star_data.get_type()):
-                            found_colors.add(bio_genus[genus]['colors']['star'][star_type])
-                            break
+                    if star_data.get_distance() == 0 or parent_is_H(star_data, body):
+                        for star_type in bio_genus[genus]['colors']['star']:
+                            log('Checking star type %s against %s' % (star_type, star_data.get_type()))
+                            if star_check(star_type, star_data.get_type()):
+                                found_colors.add(bio_genus[genus]['colors']['star'][star_type])
+                                break
             except KeyError:
                 log('Parent star not in main stars')
             if not found_colors:
@@ -1000,6 +1189,34 @@ def value_estimate(body: PlanetData, genus: str) -> tuple[str, int, int, list[tu
     return this.planet_cache[body.get_name()][genus][1]
 
 
+def parent_is_H(star: StarData, body: PlanetData) -> bool:
+    """
+    Checks for parent stars which are black holes. Bios nearly always base their color on the parent star, but
+    when the parent star is a black hole, the orbiting stars can provide color instead.
+
+    :param star: The star to check for a parent black hole
+    :param body: The planet data to ensure the star is a valid parent star
+    :return: True if the star has a parent black hole and the body is orbiting it
+    """
+
+    log(f'Checking for BH parent, star {star}, body {body.get_name()}')
+    possible = False
+    if star.get_name() != this.system:
+        if len(star.get_name().split(' ')) > 1:
+            parent_string = star.get_name().split(' ')[0]
+            for parent in parent_string:
+                log(f'Checking parent {parent}...')
+                if parent in this.stars and this.stars[parent].get_type() == 'H':
+                    log('IS a black hole!')
+                    possible = True
+        else:
+            if this.main_star_type == 'H':
+                possible = True
+    if possible and body.get_name().startswith(star.get_name()):
+        return True
+    return False
+
+
 def reset_cache(planet: str = '') -> None:
     """
     Resets the species calculation cache. If planet is passed, resets only that planet.
@@ -1089,14 +1306,6 @@ def add_star(entry: Mapping[str, any]) -> None:
     this.stars[body_short_name] = star_data
 
 
-def filter_stars():
-    stars = this.stars.copy().keys()
-    for star in stars:
-        match = re.match(r'^[A-Z]$', star)
-        if not match and star != this.system.name:
-            this.stars.pop(star)
-
-
 def journal_entry(
         cmdr: str, is_beta: bool, system: str, station: str, entry: Mapping[str, any], state: MutableMapping[str, any]
 ) -> str:
@@ -1139,7 +1348,6 @@ def journal_entry(
             this.system.region = sector[0] if sector is not None else None
         this.planets = load_planets(this.system, this.sql_session)
         this.stars = load_stars(this.system, this.sql_session)
-        filter_stars()
         main_star = get_main_star(this.system, this.sql_session)
         if main_star:
             this.main_star_type = main_star.type
@@ -1232,7 +1440,7 @@ def process_data_event(entry: Mapping[str, any]) -> None:
                     target_body = name
                     break
 
-            this.current_scan = entry['Genus']
+            this.current_scan = (entry['Genus'], entry['Species'])
             scan_level = 0
             match entry['ScanType']:
                 case 'Log':
@@ -1247,7 +1455,8 @@ def process_data_event(entry: Mapping[str, any]) -> None:
                     entry['Genus'], entry['Species'], scan_level, this.commander.id
                 )
                 if scan_level == 1 and this.current_scan:
-                    data: PlanetFlora = this.planets[target_body].get_flora(this.current_scan)
+                    data: PlanetFlora = this.planets[target_body].get_flora(this.current_scan[0],
+                                                                            this.current_scan[1])[0]
                     stmt = delete(Waypoint).where(Waypoint.commander_id == this.commander.id) \
                         .where(Waypoint.type == 'scan').where(Waypoint.flora_id != data.id)
                     this.sql_session.execute(stmt)
@@ -1261,6 +1470,7 @@ def process_data_event(entry: Mapping[str, any]) -> None:
                         if this.planet_latitude and this.planet_longitude and this.waypoints_enabled.get():
                             this.planets[target_body].add_flora_waypoint(
                                 entry['Genus'],
+                                entry['Species'],
                                 (this.planet_latitude, this.planet_longitude),
                                 this.commander.id,
                                 scan=True
@@ -1281,12 +1491,12 @@ def process_data_event(entry: Mapping[str, any]) -> None:
                         break
 
                 if target_body is not None:
-                    genus, _, _ = parse_variant(entry['Name'])
-                    if genus is not '':
+                    genus, species, _ = parse_variant(entry['Name'])
+                    if genus:
                         if this.location_id == entry['BodyID'] and this.planet_latitude \
                                 and this.planet_longitude and this.waypoints_enabled.get():
                             this.planets[target_body].add_flora_waypoint(
-                                genus, (this.planet_latitude, this.planet_longitude), this.commander.id
+                                genus, species, (this.planet_latitude, this.planet_longitude), this.commander.id
                             )
                     reset_cache()  # Required to clear found codex marks
 
@@ -1428,7 +1638,8 @@ def get_distance(lat_long: tuple[float, float] | None = None) -> float | None:
     distance_list = []
     if this.planet_latitude is not None and this.planet_longitude is not None:
         if this.location_name and this.current_scan:
-            waypoints: list[Waypoint] = this.planets[this.location_name].get_flora(this.current_scan).waypoints
+            waypoints: list[Waypoint] = (this.planets[this.location_name]
+                                         .get_flora(this.current_scan[0], this.current_scan[1])[0].waypoints)
             waypoints = list(
                 filter(lambda item: item.type == 'scan' and item.commander_id == this.commander.id, waypoints))
             for waypoint in waypoints:
@@ -1496,15 +1707,26 @@ def get_bodies_summary(bodies: dict[str, PlanetData], focused: bool = False) -> 
         if not focused:
             if not complete or this.scan_display_mode.get() not in ['Hide', 'Hide in System']:
                 if len(body.get_flora()) and num_complete:
-                    detail_text += f'{name} ({num_complete}/{len(body.get_flora())} Complete):\n'
-                else:
-                    detail_text += f'{name}:\n'
+                    detail_text += '{} -{}{} ({}/{} Complete):\n'.format(
+                        name,
+                        get_body_shorthand(body.get_type()),
+                        get_gravity_warning(body.get_gravity(), True),
+                        num_complete,
+                        len(body.get_flora())
+                    )
+                elif body.get_scan_state(this.commander.id) == 3 or body.get_bio_signals():
+                    detail_text += '{} -{}{}:\n'.format(
+                        name,
+                        get_body_shorthand(body.get_type()),
+                        get_gravity_warning(body.get_gravity(), True)
+                    )
             else:
                 detail_text += f'{name} - All Samples Complete\n'
         elif complete and this.scan_display_mode.get() == 'Hide':
             detail_text += 'All Scans Complete'
         if len(body.get_flora()) > 0:
             count = 0
+            genus_count: dict[str, int] = {}
             for flora in sorted(body.get_flora(), key=lambda item: bio_genus[item.genus]['name']):
                 count += 1
                 show = True
@@ -1526,10 +1748,15 @@ def get_bodies_summary(bodies: dict[str, PlanetData], focused: bool = False) -> 
                         show = False
 
                 if species != '':
+                    if bio_genus[genus]['multiple']:
+                        genus_count[genus] = genus_count.get(genus, 0) + 1
+                        if show and genus_count[genus] == 1:
+                            detail_text += f'{bio_genus[genus]["name"]} - Multiple Possible:\n'
                     if show:
                         waypoint = get_nearest(genus, waypoints) if (this.waypoints_enabled.get() and focused
                                                                      and this.current_scan == '' and waypoints) else ''
-                        detail_text += '{}{}{} ({}): {}{}{}\n'.format(
+                        detail_text += '{}{}{}{} ({}): {}{}{}\n'.format(
+                            '  ' if bio_genus[genus]['multiple'] else '',
                             '\N{memo} ' if not check_codex(this.commander.id, this.system.region,
                                                            genus, species, color) else '',
                             bio_types[genus][species]['name'],
@@ -1551,7 +1778,8 @@ def get_bodies_summary(bodies: dict[str, PlanetData], focused: bool = False) -> 
                                 for variant in species_details_final[1]:
                                     if not check_codex_from_name(this.commander.id, this.system.region,
                                                                  species_details_final[0], variant):
-                                        species_details_final[1][species_details_final[1].index(variant)] = f'\N{memo}{variant}'
+                                        species_details_final[1][
+                                            species_details_final[1].index(variant)] = f'\N{memo}{variant}'
                             else:
                                 variant = ''
                                 if species_details_final[1]:
@@ -1573,40 +1801,44 @@ def get_bodies_summary(bodies: dict[str, PlanetData], focused: bool = False) -> 
 
         else:
             types = get_possible_values(body)
-            detail_text += f'{body.get_bio_signals()} Signals - Possible Types:\n'
-            count = 0
-            for bio_name, values in types:
-                count += 1
-                detail_text += '{}: {}\n'.format(
-                    bio_name,
-                    this.formatter.format_credit_range(values[0], values[1])
-                )
-                if this.focus_breakdown.get():
-                    for species_details in values[2]:
-                        species_details_final = deepcopy(species_details)
-                        if species_details_final[1] and len(species_details_final[1]) > 1:
-                            for variant in species_details_final[1]:
+            if body.get_bio_signals():
+                detail_text += f'{body.get_bio_signals()} Signals - Possible Types:\n'
+                count = 0
+                for bio_name, values in types:
+                    count += 1
+                    detail_text += '{}: {}\n'.format(
+                        bio_name,
+                        this.formatter.format_credit_range(values[0], values[1])
+                    )
+                    if this.focus_breakdown.get():
+                        for species_details in values[2]:
+                            species_details_final = deepcopy(species_details)
+                            if species_details_final[1] and len(species_details_final[1]) > 1:
+                                for variant in species_details_final[1]:
+                                    if not check_codex_from_name(this.commander.id, this.system.region,
+                                                                 species_details_final[0], variant):
+                                        species_details_final[1][
+                                            species_details_final[1].index(variant)] = f'\N{memo}{variant}'
+                            else:
+                                variant = ''
+                                if species_details_final[1]:
+                                    variant = species_details_final[1][0]
                                 if not check_codex_from_name(this.commander.id, this.system.region,
                                                              species_details_final[0], variant):
-                                    species_details_final[1][species_details_final[1].index(variant)] = f'\N{memo}{variant}'
-                        else:
-                            variant = ''
-                            if species_details_final[1]:
-                                variant = species_details_final[1][0]
-                            if not check_codex_from_name(this.commander.id, this.system.region,
-                                                         species_details_final[0], variant):
-                                species_details_final = (
-                                    f'\N{memo}{species_details_final[0]}',
-                                    species_details_final[1],
-                                    species_details_final[2]
-                                )
-                        detail_text += '  {}{}: {}\n'.format(
-                            species_details_final[0],
-                            ' - {}'.format(', '.join(species_details_final[1])) if species_details_final[1] else '',
-                            this.formatter.format_credits(species_details_final[2])
-                        )
-                if len(types) == count:
-                    detail_text += '\n'
+                                    species_details_final = (
+                                        f'\N{memo}{species_details_final[0]}',
+                                        species_details_final[1],
+                                        species_details_final[2]
+                                    )
+                            detail_text += '  {}{}: {}\n'.format(
+                                species_details_final[0],
+                                ' - {}'.format(', '.join(species_details_final[1])) if species_details_final[1] else '',
+                                this.formatter.format_credits(species_details_final[2])
+                            )
+                    if len(types) == count:
+                        detail_text += '\n'
+            elif body.get_scan_state(this.commander.id) < 3 and len(types):
+                detail_text += f'{name}:\nAutoScanned Body, Bios Possible\nCheck FSS for Signals (or DSS)\n\n'
 
     return detail_text, value_sum
 
@@ -1624,8 +1856,9 @@ def update_display() -> None:
         sorted(
             dict(
                 filter(
-                    lambda item: int(item[1].get_bio_signals()) if item[1].get_bio_signals() else 0 > 0 or len(
-                        item[1].get_flora()) > 0,
+                    lambda item: int(item[1].get_bio_signals()) if item[1].get_bio_signals() else 0 > 0
+                        or len(item[1].get_flora()) > 0
+                        or (item[1].is_landable() and item[1].get_scan_state(this.commander.id) < 3),
                     this.planets.items()
                 )
             ).items(),
@@ -1637,7 +1870,7 @@ def update_display() -> None:
             body_name,
             get_body_shorthand(body_data.get_type()),
             get_gravity_warning(body_data.get_gravity()),
-            body_data.get_bio_signals()
+            body_data.get_bio_signals() if body_data.get_bio_signals() > 0 else '?'
         )
         for body_name, body_data
         in bio_bodies.items()
@@ -1656,24 +1889,26 @@ def update_display() -> None:
         this.scroll_canvas.grid()
         this.scrollbar.grid()
         this.total_label.grid()
-        text = 'BioScan Estimates:\n'
+        title = 'BioScan Estimates:\n'
+        text = ''
+        signal_summary = ''
 
         if this.signal_setting.get() == 'Always' or this.location_state != 'surface':
             while True:
                 exo_list = exobio_body_names[:5]
                 exobio_body_names = exobio_body_names[5:]
-                text += ' ⬦ '.join([b for b in exo_list])
+                signal_summary += ' ⬦ '.join([b for b in exo_list])
                 if len(exobio_body_names) == 0:
                     break
                 else:
-                    text += '\n'
+                    signal_summary += '\n'
 
         if (this.location_name != '' and this.location_name in bio_bodies) and this.focus_setting.get() != 'Never' and \
                 ((this.focus_setting.get() == 'On Approach' and this.location_state in ['approach', 'surface'])
                  or (this.focus_setting.get() == 'On Surface' and this.location_state == 'surface')
                  or (this.focus_setting.get() == 'Near Surface' and this.location_state in ['approach', 'surface']
                      and this.planet_altitude < this.focus_distance.get())):
-            if text[-1] != '\n':
+            if text and text[-1] != '\n':
                 text += '\n'
             complete = 0
             floras = bio_bodies[this.location_name].get_flora()
@@ -1728,18 +1963,34 @@ def update_display() -> None:
         this.scroll_canvas.grid_remove()
         this.scrollbar.grid_remove()
         this.total_label.grid_remove()
-        text = 'BioScan: No Signals Found'
+        title = 'BioScan: No Signals Found'
+        text = ''
+        signal_summary = ''
         this.total_label['text'] = ''
 
-    this.label['text'] = text
+    this.label['text'] = title + signal_summary + ('\n' if signal_summary else '') + text
+    redraw_overlay = True if this.values_label['text'] != detail_text.strip() else False
     this.values_label['text'] = detail_text.strip()
 
-    # if this.show_details.get():
-    #     this.scroll_canvas.grid()
-    #     this.scrollbar.grid()
-    # else:
-    #     this.scroll_canvas.grid_remove()
-    #     this.scrollbar.grid_remove()
+    if this.use_overlay.get() and this.overlay.available():
+        if detail_text:
+            this.overlay.display("bioscan_title", "BioScan Details",
+                                 x=this.overlay_anchor_x.get(), y=this.overlay_anchor_y.get(),
+                                 color=this.overlay_color.get())
+            if redraw_overlay:
+                this.overlay.display("bioscan_details", detail_text.strip(),
+                                     x=this.overlay_anchor_x.get(), y=this.overlay_anchor_y.get() + 20,
+                                     color=this.overlay_color.get(), scrolled=this.overlay_detail_scroll.get(),
+                                     limit=this.overlay_detail_length.get(), delay=this.overlay_detail_delay.get())
+            this.overlay.display("bioscan_summary", text,
+                                 x=this.overlay_summary_x.get(), y=this.overlay_summary_y.get(),
+                                 size="large", color=this.overlay_color.get())
+        else:
+            this.overlay.display("bioscan_title", "BioScan: No Signals",
+                                 x=this.overlay_anchor_x.get(), y=this.overlay_anchor_y.get(),
+                                 color=this.overlay_color.get())
+            this.overlay.clear("bioscan_details")
+            this.overlay.clear("bioscan_summary")
 
 
 def bind_mousewheel(event: tk.Event) -> None:

@@ -7,8 +7,6 @@ catalog: dict[str, dict[str, Mapping]] = {
             'value': 1593700,
             'rulesets': [
                 {
-                    'atmosphere': ['None'],
-                    'min_temperature': 200.0,
                     'max_temperature': 500.0,
                     'volcanism': 'Any',
                     'guardian': True
@@ -22,9 +20,11 @@ catalog: dict[str, dict[str, Mapping]] = {
                 {
                     'atmosphere': ['None'],
                     'body_type': ['Rocky body'],
-                    'min_temperature': 200.0,
+                    'min_temperature': 174.0,
                     'max_temperature': 330.0,
+                    'max_gravity': 0.42,
                     'volcanism': ['metallic', 'rocky', 'silicate', 'water'],
+                    'guardian': True,
                     'life': True
                 }
             ],
@@ -35,8 +35,7 @@ catalog: dict[str, dict[str, Mapping]] = {
             'rulesets': [
                 {
                     'atmosphere': ['None'],
-                    'body_type': ['Metal rich body', 'High metal content body'],
-                    'min_temperature': 125.0,
+                    'body_type': ['Metal rich body', 'Rocky body', 'High metal content body'],
                     'volcanism': ['metallic', 'rocky', 'silicate'],
                     'guardian': True,
                     'life': True
@@ -51,7 +50,8 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'atmosphere': ['None'],
                     'body_type': ['Rocky ice body'],
                     'min_temperature': 100.0,
-                    'max_temperature': 270.0,
+                    'max_temperature': 255.0,
+                    'max_gravity': 0.4,
                     'volcanism': ['metallic', 'rocky', 'silicate', 'carbon dioxide', 'water'],
                     'guardian': True,
                     'life': True
@@ -67,6 +67,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'body_type': ['Metal rich body', 'High metal content body'],
                     'min_temperature': 300.0,
                     'max_temperature': 500.0,
+                    'max_gravity': 2.9,
                     'volcanism': ['metallic', 'rocky', 'silicate'],
                     'guardian': True,
                     'life': True
@@ -78,9 +79,7 @@ catalog: dict[str, dict[str, Mapping]] = {
             'value': 1593700,
             'rulesets': [
                 {
-                    'atmosphere': ['None'],
                     'body_type': ['Metal rich body', 'High metal content body'],
-                    'min_temperature': 125.0,
                     'volcanism': 'Any',
                     'guardian': True,
                     'life': True
@@ -96,6 +95,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'body_type': ['Rocky body', 'High metal content body'],
                     'min_temperature': 300.0,
                     'max_temperature': 500.0,
+                    'max_gravity': 2.7,
                     'volcanism': ['rocky', 'silicate', 'metallic'],
                     'guardian': True,
                     'life': True
@@ -111,6 +111,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'body_type': ['Rocky body'],
                     'min_temperature': 300.0,
                     'max_temperature': 500.0,
+                    'max_gravity': 0.5,
                     'volcanism': ['metallic', 'rocky', 'silicate', 'water'],
                     'guardian': True,
                     'life': True

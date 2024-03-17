@@ -7,8 +7,8 @@ from typing import Self, Optional
 
 from sqlalchemy.orm import Session
 from sqlalchemy import select, delete
-from ..db import Planet, System, PlanetFlora, PlanetGas, Waypoint, FloraScans, Star, PlanetStatus, \
-    StarStatus, NonBody, NonBodyStatus
+from ..db import Planet, System, PlanetFlora, PlanetGas, PlanetRing, PlanetStatus, Waypoint, FloraScans, Star, \
+    StarRing, StarStatus, NonBody, NonBodyStatus
 
 
 class PlanetData:
@@ -115,6 +115,22 @@ class PlanetData:
         self.commit()
         return self
 
+    def get_rotation(self) -> Optional[float]:
+        return self._data.rotation
+
+    def set_rotation(self, value: float) -> Self:
+        self._data.rotation = value
+        self.commit()
+        return self
+
+    def get_orbital_period(self) -> Optional[float]:
+        return self._data.orbital_period
+
+    def set_orbital_period(self, value: float) -> Self:
+        self._data.orbital_period = value
+        self.commit()
+        return self
+
     def get_temp(self) -> Optional[float]:
         return self._data.temp
 
@@ -164,29 +180,40 @@ class PlanetData:
         self.commit()
         return self
 
-    def get_flora(self, genus: str = None, create: bool = False) -> list[PlanetFlora] | PlanetFlora | None:
+    def get_flora(self, genus: str = None, species: str = None, create: bool = False) -> list[PlanetFlora] | None:
         if genus:
+            flora_list: list[PlanetFlora] = []
             for flora in self._data.floras:  # type: PlanetFlora
                 if flora.genus == genus:
-                    return flora
-            else:
+                    if flora.species == '':
+                        return [flora]
+                    if species and species != '':
+                        if flora.species == species:
+                            return [flora]
+                    else:
+                        flora_list.append(flora)
+            if not len(flora_list):
                 if create:
                     new_flora = PlanetFlora(genus=genus)
+                    if species:
+                        new_flora.species = species
                     self._data.floras.append(new_flora)
                     self.commit()
-                    return new_flora
+                    return [new_flora]
                 return None
+            else:
+                return flora_list
         return self._data.floras
 
     def add_flora(self, genus: str, species: str = '', color: str = '') -> Self:
-        flora = self.get_flora(genus, create=True)
+        flora = self.get_flora(genus, species, create=True)[0]
         flora.species = species
         flora.color = color
         self.commit()
         return self
 
     def set_flora_species_scan(self, genus: str, species: str, scan: int, commander: int) -> Self:
-        flora = self.get_flora(genus, create=True)
+        flora = self.get_flora(genus, species, create=True)[0]
         flora.species = species
         stmt = select(FloraScans).where(FloraScans.flora_id == flora.id).where(FloraScans.commander_id == commander)
         scan_data: Optional[FloraScans] = self._session.scalar(stmt)
@@ -202,13 +229,13 @@ class PlanetData:
         return self
 
     def set_flora_color(self, genus: str, color: str) -> Self:
-        flora = self.get_flora(genus, create=True)
+        flora = self.get_flora(genus, create=True)[0]
         flora.color = color
         self.commit()
         return self
 
-    def add_flora_waypoint(self, genus: str, lat_long: tuple[float, float], commander: int, scan: bool = False) -> Self:
-        flora = self.get_flora(genus)
+    def add_flora_waypoint(self, genus: str, species: str, lat_long: tuple[float, float], commander: int, scan: bool = False) -> Self:
+        flora = self.get_flora(genus, species)[0]
         if flora:
             scans: FloraScans = self._session.scalar(
                 select(FloraScans).where(FloraScans.flora_id == flora.id).where(FloraScans.commander_id == commander)
@@ -247,8 +274,30 @@ class PlanetData:
         self.commit()
         return self
 
+    def get_rings(self) -> list[PlanetRing] | None:
+        return self._data.rings
+
+    def add_ring(self, name: str, ring_type: str = '') -> Self:
+        for ring in self._data.rings:  # type: PlanetRing
+            if ring.name == name:
+                ring.type = ring_type
+                self.commit()
+                return self
+        new_ring = PlanetRing(name=name, type=ring_type)
+        self._data.rings.append(new_ring)
+        self.commit()
+        return self
+
     def clear_flora(self) -> Self:
         self._session.execute(delete(PlanetFlora).where(PlanetFlora.planet_id == self._data.id))
+        self.commit()
+        return self
+
+    def is_landable(self) -> bool:
+        return self._data.landable
+
+    def set_landable(self, value: bool) -> Self:
+        self._data.landable = value
         self.commit()
         return self
 
@@ -264,6 +313,17 @@ class PlanetData:
         if self._data.terraform_state and self._data.terraform_state in ['Terraformable', 'Terraforming', 'Terraformed']:
             return True
         return False
+
+    def get_scan_state(self, commander_id: int) -> int:
+        status = self.get_status(commander_id)
+        return status.scan_state
+
+    def set_scan_state(self, value: int, commander_id: int) -> Self:
+        status = self.get_status(commander_id)
+        if value > status.scan_state:
+            status.scan_state = value
+        self.commit()
+        return self
 
     def is_discovered(self, commander_id: int) -> bool:
         status = self.get_status(commander_id)
@@ -483,6 +543,22 @@ class StarData:
         self.commit()
         return self
 
+    def get_rotation(self) -> Optional[float]:
+        return self._data.rotation
+
+    def set_rotation(self, value: float) -> Self:
+        self._data.rotation = value
+        self.commit()
+        return self
+
+    def get_orbital_period(self) -> Optional[float]:
+        return self._data.orbital_period
+
+    def set_orbital_period(self, value: float) -> Self:
+        self._data.orbital_period = value
+        self.commit()
+        return self
+
     def get_type(self) -> str:
         return self._data.type
 
@@ -504,6 +580,20 @@ class StarData:
 
     def set_luminosity(self, value: str) -> Self:
         self._data.luminosity = value
+        self.commit()
+        return self
+
+    def get_rings(self) -> list[StarRing] | None:
+        return self._data.rings
+
+    def add_ring(self, name: str, ring_type: str = '') -> Self:
+        for ring in self._data.rings:  # type: StarRing
+            if ring.name == name:
+                ring.type = ring_type
+                self.commit()
+                return self
+        new_ring = StarRing(name=name, type=ring_type)
+        self._data.rings.append(new_ring)
         self.commit()
         return self
 

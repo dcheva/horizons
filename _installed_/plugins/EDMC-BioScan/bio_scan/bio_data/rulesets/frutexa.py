@@ -10,7 +10,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'atmosphere': ['Ammonia'],
                     'body_type': ['Rocky body'],
                     'min_gravity': 0.04,
-                    'max_gravity': 0.275,
+                    'max_gravity': 0.276,
                     'min_temperature': 152.0,
                     'max_temperature': 177.0,
                     'max_pressure': 0.0135,
@@ -43,7 +43,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'atmosphere': ['Ammonia'],
                     'body_type': ['High metal content body'],
                     'min_gravity': 0.04,
-                    'max_gravity': 0.275,
+                    'max_gravity': 0.276,
                     'min_temperature': 152.0,
                     'max_temperature': 176.0,
                     'max_pressure': 0.01,
@@ -53,7 +53,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'atmosphere': ['CarbonDioxide'],
                     'body_type': ['High metal content body'],
                     'min_gravity': 0.04,
-                    'max_gravity': 0.275,
+                    'max_gravity': 0.276,
                     'min_temperature': 146.0,
                     'max_temperature': 196.0,
                     'min_pressure': 0.002,
@@ -62,11 +62,9 @@ catalog: dict[str, dict[str, Mapping]] = {
                 {
                     'atmosphere': ['Water'],
                     'body_type': ['High metal content body'],
-                    'min_gravity': 0.055,
+                    'min_gravity': 0.04,
                     'max_gravity': 0.07,
-                    'min_temperature': 395.0,
                     'max_temperature': 400.0,
-                    'min_pressure': 0.05,
                     'max_pressure': 0.07,
                     'volcanism': 'None',
                 }
@@ -80,7 +78,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'atmosphere': ['Ammonia'],
                     'body_type': ['Rocky body'],
                     'min_gravity': 0.04,
-                    'max_gravity': 0.275,
+                    'max_gravity': 0.276,
                     'min_temperature': 152.0,
                     'max_temperature': 177.0,
                     'max_pressure': 0.0135,
@@ -96,7 +94,7 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'atmosphere': ['CarbonDioxide'],
                     'body_type': ['Rocky body'],
                     'min_gravity': 0.04,
-                    'max_gravity': 0.275,
+                    'max_gravity': 0.276,
                     'min_temperature': 146.0,
                     'max_temperature': 196.0,
                     'min_pressure': 0.003,
@@ -114,9 +112,6 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'body_type': ['Rocky body'],
                     'min_gravity': 0.04,
                     'max_gravity': 0.056,
-                    'min_temperature': 392.0,
-                    'max_temperature': 452.0,
-                    'min_pressure': 0.05,
                     'volcanism': 'None'
                 },
                 {
@@ -124,9 +119,6 @@ catalog: dict[str, dict[str, Mapping]] = {
                     'body_type': ['Rocky body'],
                     'min_gravity': 0.04,
                     'max_gravity': 0.056,
-                    'min_temperature': 392.0,
-                    'max_temperature': 452.0,
-                    'min_pressure': 0.05,
                     'volcanism': ['water']
                 }
             ],
@@ -137,12 +129,22 @@ catalog: dict[str, dict[str, Mapping]] = {
             'rulesets': [
                 {
                     'atmosphere': ['SulphurDioxide'],
+                    'body_type': ['Rocky body'],
                     'min_gravity': 0.04,
-                    'max_gravity': 0.275,
+                    'max_gravity': 0.276,
                     'min_temperature': 132.0,
                     'max_temperature': 215.0,
+                    'max_pressure': 0.004
+                },
+                {
+                    'atmosphere': ['SulphurDioxide'],
+                    'body_type': ['High metal content body'],
+                    'min_gravity': 0.265,
+                    'max_gravity': 0.276,
+                    'min_temperature': 132.0,
+                    'max_temperature': 135.0,
                     'max_pressure': 0.004,
-                    'body_type': ['Rocky body']
+                    'volcanism': 'None'
                 }
             ],
         },
