@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-16"?>
 <DxDiag>
 	<SystemInformation>
-		<Time>3/17/2024, 02:32:29</Time>
+		<Time>3/17/2024, 02:52:31</Time>
 		<MachineName>DESKTOP-O5FJCVG</MachineName>
 		<MachineId>{4571D720-EA28-4E99-A342-50E4EE0FB519}</MachineId>
-		<OperatingSystem>Windows 10 Education 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
+		<OperatingSystem>Windows 10 для образовательных учреждений 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)</OperatingSystem>
 		<Language>Ukrainian (Regional Setting: Ukrainian)</Language>
 		<SystemManufacturer>System manufacturer</SystemManufacturer>
 		<SystemModel>System Product Name</SystemModel>
@@ -13,7 +13,7 @@
 		<Processor>Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz (6 CPUs), ~3.7GHz</Processor>
 		<Memory>16384MB RAM</Memory>
 		<AvaliableOSMem>16302MB RAM</AvaliableOSMem>
-		<PageFile>7538MB used, 14651MB available</PageFile>
+		<PageFile>9708MB used, 12481MB available</PageFile>
 		<WindowsDir>C:\Windows</WindowsDir>
 		<DirectXVersion>DirectX 12</DirectXVersion>
 		<DXSetupParameters>Not found</DXSetupParameters>
@@ -117,8 +117,8 @@
 			<DriverSize>0</DriverSize>
 			<DriverWHQLLogo>n/a</DriverWHQLLogo>
 			<WHQLDateStamp>n/a</WHQLDateStamp>
-			<VDD>unknown</VDD>
-			<MiniVDD>unknown</MiniVDD>
+			<VDD>Нет данных</VDD>
+			<MiniVDD>Нет данных</MiniVDD>
 			<MiniVDDDate>Unknown</MiniVDDDate>
 			<MiniVDDSize>0</MiniVDDSize>
 			<DeviceIdentifier>Unknown</DeviceIdentifier>
@@ -320,7 +320,7 @@
 	<DirectInput>
 		<DirectInputDevices>
 			<DirectInputDevice>
-				<DeviceName>Mouse</DeviceName>
+				<DeviceName>Мышь</DeviceName>
 				<Attached>1</Attached>
 				<JoystickID>0</JoystickID>
 				<VendorID>0</VendorID>
@@ -332,7 +332,7 @@
 				<FFDriverSize>0</FFDriverSize>
 			</DirectInputDevice>
 			<DirectInputDevice>
-				<DeviceName>Keyboard</DeviceName>
+				<DeviceName>Клавиатура</DeviceName>
 				<Attached>1</Attached>
 				<JoystickID>0</JoystickID>
 				<VendorID>0</VendorID>
@@ -394,7 +394,7 @@
 		</DirectInputDevices>
 		<USBRoot>
 			<InputRelatedDevice>
-				<Description>USB Root Hub (USB 3.0)</Description>
+				<Description>Корневой USB-концентратор (USB 3.0)</Description>
 				<VendorID>32902</VendorID>
 				<ProductID>41837</ProductID>
 				<Location></Location>
@@ -410,7 +410,7 @@
 						<Name>USBHUB3.SYS</Name>
 						<Path>C:\Windows\system32\DRIVERS\USBHUB3.SYS</Path>
 						<Version>10.00.19041.4046</Version>
-						<Language>English</Language>
+						<Language>Russian</Language>
 						<Beta>0</Beta>
 						<Debug>0</Debug>
 						<Date>2/14/2024 13:00:22</Date>
@@ -418,7 +418,7 @@
 					</Driver>
 				</Drivers>
 				<InputRelatedDevice>
-					<Description>USB Input Device</Description>
+					<Description>USB-устройство ввода</Description>
 					<VendorID>1133</VendorID>
 					<ProductID>49271</ProductID>
 					<Location>Port_#0003.Hub_#0002</Location>
@@ -444,7 +444,7 @@
 							<Name>hidclass.sys</Name>
 							<Path>C:\Windows\system32\DRIVERS\hidclass.sys</Path>
 							<Version>10.00.19041.3636</Version>
-							<Language>English</Language>
+							<Language>Russian</Language>
 							<Beta>0</Beta>
 							<Debug>0</Debug>
 							<Date>11/15/2023 13:47:54</Date>
@@ -462,7 +462,7 @@
 						</Driver>
 					</Drivers>
 					<InputRelatedDevice>
-						<Description>HID-compliant mouse</Description>
+						<Description>HID-совместимая мышь</Description>
 						<VendorID>1133</VendorID>
 						<ProductID>49271</ProductID>
 						<Location></Location>
@@ -478,7 +478,7 @@
 								<Name>mouhid.sys</Name>
 								<Path>C:\Windows\system32\DRIVERS\mouhid.sys</Path>
 								<Version>10.00.19041.0001</Version>
-								<Language>English</Language>
+								<Language>Russian</Language>
 								<Beta>0</Beta>
 								<Debug>0</Debug>
 								<Date>12/7/2019 11:07:56</Date>
@@ -488,7 +488,7 @@
 								<Name>mouclass.sys</Name>
 								<Path>C:\Windows\system32\DRIVERS\mouclass.sys</Path>
 								<Version>10.00.19041.0001</Version>
-								<Language>English</Language>
+								<Language>Russian</Language>
 								<Beta>0</Beta>
 								<Debug>0</Debug>
 								<Date>12/7/2019 11:07:56</Date>
@@ -498,7 +498,7 @@
 					</InputRelatedDevice>
 				</InputRelatedDevice>
 				<InputRelatedDevice>
-					<Description>USB Composite Device</Description>
+					<Description>Составное USB устройство</Description>
 					<VendorID>1133</VendorID>
 					<ProductID>49948</ProductID>
 					<Location>Port_#0004.Hub_#0002</Location>
@@ -522,7 +522,7 @@
 						</Driver>
 					</Drivers>
 					<InputRelatedDevice>
-						<Description>USB Input Device</Description>
+						<Description>USB-устройство ввода</Description>
 						<VendorID>1133</VendorID>
 						<ProductID>49948</ProductID>
 						<Location>0000.0014.0000.004.000.000.000.000.000</Location>
@@ -548,7 +548,7 @@
 								<Name>hidclass.sys</Name>
 								<Path>C:\Windows\system32\DRIVERS\hidclass.sys</Path>
 								<Version>10.00.19041.3636</Version>
-								<Language>English</Language>
+								<Language>Russian</Language>
 								<Beta>0</Beta>
 								<Debug>0</Debug>
 								<Date>11/15/2023 13:47:54</Date>
@@ -566,7 +566,7 @@
 							</Driver>
 						</Drivers>
 						<InputRelatedDevice>
-							<Description>HID Keyboard Device</Description>
+							<Description>Клавиатура HID</Description>
 							<VendorID>1133</VendorID>
 							<ProductID>49948</ProductID>
 							<Location></Location>
@@ -582,7 +582,7 @@
 									<Name>kbdhid.sys</Name>
 									<Path>C:\Windows\system32\DRIVERS\kbdhid.sys</Path>
 									<Version>10.00.19041.0001</Version>
-									<Language>English</Language>
+									<Language>Russian</Language>
 									<Beta>0</Beta>
 									<Debug>0</Debug>
 									<Date>12/7/2019 11:07:56</Date>
@@ -592,7 +592,7 @@
 									<Name>kbdclass.sys</Name>
 									<Path>C:\Windows\system32\DRIVERS\kbdclass.sys</Path>
 									<Version>10.00.19041.0001</Version>
-									<Language>English</Language>
+									<Language>Russian</Language>
 									<Beta>0</Beta>
 									<Debug>0</Debug>
 									<Date>12/7/2019 11:07:56</Date>
@@ -611,7 +611,7 @@
 	<LogicalDisks>
 		<LogicalDisk>
 			<DriveLetter>C:</DriveLetter>
-			<FreeSpace>76362235904</FreeSpace>
+			<FreeSpace>76944965632</FreeSpace>
 			<MaxSpace>465724788736</MaxSpace>
 			<FileSystem>NTFS</FileSystem>
 			<Model>Samsung SSD 870 EVO 500GB</Model>
@@ -639,7 +639,7 @@
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
 					<Version>10.00.19041.3996</Version>
-					<Language>English</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>2/14/2024 13:00:22</Date>
@@ -664,7 +664,7 @@
 			</Drivers>
 		</SystemDevice>
 		<SystemDevice>
-			<Name>Intel Chipset SATA RAID Controller</Name>
+			<Name>RAID-контроллер SATA для набора микросхем Intel</Name>
 			<DeviceKey>PCI\VEN_8086&amp;DEV_2822&amp;SUBSYS_86941043&amp;REV_10\3&amp;11583659&amp;0&amp;B8</DeviceKey>
 			<Drivers>
 				<Driver>
@@ -680,7 +680,7 @@
 			</Drivers>
 		</SystemDevice>
 		<SystemDevice>
-			<Name>High Definition Audio Controller</Name>
+			<Name>Контроллер High Definition Audio (Microsoft)</Name>
 			<DeviceKey>PCI\VEN_8086&amp;DEV_A348&amp;SUBSYS_86C71043&amp;REV_10\3&amp;11583659&amp;0&amp;FB</DeviceKey>
 			<Drivers>
 				<Driver>
@@ -716,14 +716,14 @@
 			</Drivers>
 		</SystemDevice>
 		<SystemDevice>
-			<Name>NVIDIA USB 3.10 eXtensible Host Controller - 1.10 (Microsoft)</Name>
+			<Name>Расширяемый хост-контроллер NVIDIA USB 3.10 — 1.10 (Майкрософт)</Name>
 			<DeviceKey>PCI\VEN_10DE&amp;DEV_1AEC&amp;SUBSYS_86BE1043&amp;REV_A1\4&amp;23B96B75&amp;0&amp;0208</DeviceKey>
 			<Drivers>
 				<Driver>
 					<Name>USBXHCI.SYS</Name>
 					<Path>C:\Windows\system32\DRIVERS\USBXHCI.SYS</Path>
 					<Version>10.00.19041.3996</Version>
-					<Language>English</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>2/14/2024 13:00:22</Date>
@@ -749,7 +749,7 @@
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
 					<Version>10.00.19041.3996</Version>
-					<Language>English</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>2/14/2024 13:00:22</Date>
@@ -765,7 +765,7 @@
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
 					<Version>10.00.19041.3996</Version>
-					<Language>English</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>2/14/2024 13:00:22</Date>
@@ -774,14 +774,14 @@
 			</Drivers>
 		</SystemDevice>
 		<SystemDevice>
-			<Name>PCI-to-PCI Bridge</Name>
+			<Name>Мост PCI–PCI</Name>
 			<DeviceKey>PCI\VEN_1B21&amp;DEV_1080&amp;SUBSYS_84891043&amp;REV_04\4&amp;2038E34A&amp;0&amp;00EA</DeviceKey>
 			<Drivers>
 				<Driver>
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
 					<Version>10.00.19041.3996</Version>
-					<Language>English</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>2/14/2024 13:00:22</Date>
@@ -797,7 +797,7 @@
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
 					<Version>10.00.19041.3996</Version>
-					<Language>English</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>2/14/2024 13:00:22</Date>
@@ -844,7 +844,7 @@
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
 					<Version>10.00.19041.3996</Version>
-					<Language>English</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>2/14/2024 13:00:22</Date>
@@ -892,7 +892,7 @@
 					<Name>pci.sys</Name>
 					<Path>C:\Windows\system32\DRIVERS\pci.sys</Path>
 					<Version>10.00.19041.3996</Version>
-					<Language>English</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>2/14/2024 13:00:22</Date>
@@ -906,7 +906,7 @@
 			<Drivers />
 		</SystemDevice>
 		<SystemDevice>
-			<Name>PCI standard RAM Controller</Name>
+			<Name>Стандартный контроллер PCI — ОЗУ</Name>
 			<DeviceKey>PCI\VEN_8086&amp;DEV_A36F&amp;SUBSYS_86941043&amp;REV_10\3&amp;11583659&amp;0&amp;A2</DeviceKey>
 			<Drivers />
 		</SystemDevice>
@@ -1188,7 +1188,7 @@
 					<Name>nv3dappshextr.dll</Name>
 					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_866484083fc526af\nv3dappshextr.dll</Path>
 					<Version>6.14.0015.4633</Version>
-					<Language>Ukrainian</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>12/8/2023 03:17:32</Date>
@@ -1228,7 +1228,7 @@
 					<Name>nvdevtoolsr.dll</Name>
 					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_866484083fc526af\nvdevtoolsr.dll</Path>
 					<Version>31.00.0015.4633</Version>
-					<Language>Ukrainian</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>12/8/2023 03:18:14</Date>
@@ -1248,7 +1248,7 @@
 					<Name>nvdispsr.dll</Name>
 					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_866484083fc526af\nvdispsr.dll</Path>
 					<Version>31.00.0015.4633</Version>
-					<Language>Ukrainian</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>12/8/2023 03:18:16</Date>
@@ -1268,7 +1268,7 @@
 					<Name>nvgamesr.dll</Name>
 					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_866484083fc526af\nvgamesr.dll</Path>
 					<Version>31.00.0015.4633</Version>
-					<Language>Ukrainian</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>12/8/2023 03:18:44</Date>
@@ -1288,7 +1288,7 @@
 					<Name>nvlicensingsr.dll</Name>
 					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_866484083fc526af\nvlicensingsr.dll</Path>
 					<Version>6.14.0015.4633</Version>
-					<Language>Ukrainian</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>12/8/2023 03:19:18</Date>
@@ -1398,7 +1398,7 @@
 					<Name>nvuir.dll</Name>
 					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_866484083fc526af\nvuir.dll</Path>
 					<Version>8.17.0015.4633</Version>
-					<Language>Ukrainian</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>12/8/2023 03:22:02</Date>
@@ -1418,7 +1418,7 @@
 					<Name>nvvitvsr.dll</Name>
 					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_866484083fc526af\nvvitvsr.dll</Path>
 					<Version>31.00.0015.4633</Version>
-					<Language>Ukrainian</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>12/8/2023 03:22:10</Date>
@@ -1438,7 +1438,7 @@
 					<Name>nvwssr.dll</Name>
 					<Path>C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_866484083fc526af\nvwssr.dll</Path>
 					<Version>31.00.0015.4633</Version>
-					<Language>Ukrainian</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>12/8/2023 03:23:14</Date>
@@ -2862,7 +2862,7 @@
 			<Drivers />
 		</SystemDevice>
 		<SystemDevice>
-			<Name>High Definition Audio Controller</Name>
+			<Name>Контроллер High Definition Audio (Microsoft)</Name>
 			<DeviceKey>PCI\VEN_10DE&amp;DEV_1AEB&amp;SUBSYS_86BE1043&amp;REV_A1\4&amp;23B96B75&amp;0&amp;0108</DeviceKey>
 			<Drivers>
 				<Driver>
@@ -2898,14 +2898,14 @@
 			</Drivers>
 		</SystemDevice>
 		<SystemDevice>
-			<Name>Intel(R) USB 3.1 eXtensible Host Controller - 1.10 (Microsoft)</Name>
+			<Name>Расширяемый хост-контроллер Intel(R) USB 3.1 — 1.10 (Майкрософт)</Name>
 			<DeviceKey>PCI\VEN_8086&amp;DEV_A36D&amp;SUBSYS_86941043&amp;REV_10\3&amp;11583659&amp;0&amp;A0</DeviceKey>
 			<Drivers>
 				<Driver>
 					<Name>USBXHCI.SYS</Name>
 					<Path>C:\Windows\system32\DRIVERS\USBXHCI.SYS</Path>
 					<Version>10.00.19041.3996</Version>
-					<Language>English</Language>
+					<Language>Russian</Language>
 					<Beta>0</Beta>
 					<Debug>0</Debug>
 					<Date>2/14/2024 13:00:22</Date>
