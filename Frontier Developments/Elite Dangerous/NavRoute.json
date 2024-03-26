@@ -1,31 +1,3 @@
-{ "timestamp":"2024-03-17T10:05:55Z", "event":"NavRoute", "Route":[ 
-{ "StarSystem":"Kappa-1 Volantis", "SystemAddress":211772499132, "StarPos":[396.90625,-142.56250,106.09375], "StarClass":"B" }, 
-{ "StarSystem":"Synuefe JX-J c25-7", "SystemAddress":2008668869338, "StarPos":[401.37500,-132.96875,37.53125], "StarClass":"K" }, 
-{ "StarSystem":"Synuefe GH-Z b47-8", "SystemAddress":18268777293209, "StarPos":[418.96875,-119.18750,-26.90625], "StarClass":"M" }, 
-{ "StarSystem":"Synuefe WJ-P c22-18", "SystemAddress":5032392987330, "StarPos":[417.87500,-103.59375,-94.43750], "StarClass":"K" }, 
-{ "StarSystem":"Synuefe GB-K b42-4", "SystemAddress":9472684336489, "StarPos":[422.90625,-86.56250,-161.06250], "StarClass":"M" }, 
-{ "StarSystem":"Synuefe QS-P b39-3", "SystemAddress":7273661211985, "StarPos":[429.46875,-57.87500,-224.21875], "StarClass":"M" }, 
-{ "StarSystem":"Synuefe BE-S a72-1", "SystemAddress":23005455207016, "StarPos":[426.59375,-37.15625,-291.00000], "StarClass":"TTS" }, 
-{ "StarSystem":"Synuefe WR-E a66-1", "SystemAddress":23004381596208, "StarPos":[421.62500,-30.59375,-360.56250], "StarClass":"TTS" }, 
-{ "StarSystem":"Synuefe VA-R a59-1", "SystemAddress":23005455337976, "StarPos":[425.65625,-26.21875,-430.18750], "StarClass":"TTS" }, 
-{ "StarSystem":"Wregoe FW-C b26-0", "SystemAddress":676860077281, "StarPos":[435.87500,-2.34375,-494.06250], "StarClass":"M" }, 
-{ "StarSystem":"Wregoe RI-I b23-0", "SystemAddress":676860142793, "StarPos":[435.56250,17.96875,-561.06250], "StarClass":"M" }, 
-{ "StarSystem":"Wregoe BK-P b19-2", "SystemAddress":5074906653865, "StarPos":[437.62500,28.71875,-628.59375], "StarClass":"M" }, 
-{ "StarSystem":"Wregoe NW-U b16-2", "SystemAddress":5074906719377, "StarPos":[444.71875,49.28125,-693.75000], "StarClass":"M" }, 
-{ "StarSystem":"Wregoe KB-O c6-9", "SystemAddress":2558491955770, "StarPos":[447.15625,64.50000,-761.96875], "StarClass":"K" }, 
-{ "StarSystem":"Wregoe MV-F b11-0", "SystemAddress":677128774753, "StarPos":[460.84375,77.28125,-824.93750], "StarClass":"M" }, 
-{ "StarSystem":"Wregoe EJ-J b9-1", "SystemAddress":2876152030289, "StarPos":[467.93750,80.87500,-851.06250], "StarClass":"M" }, 
-{ "StarSystem":"Wregoe TH-V c2-5", "SystemAddress":1459047469594, "StarPos":[461.81250,109.21875,-909.40625], "StarClass":"K" }, 
-{ "StarSystem":"Wregoe BI-U b3-1", "SystemAddress":2875883725857, "StarPos":[453.62500,125.81250,-972.28125], "StarClass":"M" }, 
-{ "StarSystem":"Wregoe FU-A c1", "SystemAddress":359535874562, "StarPos":[463.40625,141.93750,-1038.78125], "StarClass":"G" }, 
-{ "StarSystem":"Outotz UZ-X b56-0", "SystemAddress":677128971241, "StarPos":[457.90625,150.31250,-1106.12500], "StarClass":"M" }, 
-{ "StarSystem":"Outotz GM-D b54-0", "SystemAddress":677129036753, "StarPos":[462.84375,172.87500,-1168.12500], "StarClass":"TTS" }, 
-{ "StarSystem":"Outotz VT-I b51-0", "SystemAddress":677397472185, "StarPos":[487.62500,163.84375,-1229.03125], "StarClass":"M" }, 
-{ "StarSystem":"Outotz DM-D d12-3", "SystemAddress":113674062059, "StarPos":[495.78125,196.21875,-1289.09375], "StarClass":"A" }, 
-{ "StarSystem":"Outotz VN-T b45-0", "SystemAddress":677397537673, "StarPos":[486.53125,188.18750,-1357.00000], "StarClass":"M" }, 
-{ "StarSystem":"Outotz HA-Z b42-0", "SystemAddress":677397603185, "StarPos":[477.84375,203.37500,-1423.12500], "StarClass":"M" }, 
-{ "StarSystem":"Outotz KY-P c19-0", "SystemAddress":84725109162, "StarPos":[502.75000,200.12500,-1484.28125], "StarClass":"K" }, 
-{ "StarSystem":"Outotz EX-R c18-0", "SystemAddress":84725141922, "StarPos":[498.18750,243.09375,-1538.46875], "StarClass":"K" }, 
-{ "StarSystem":"Outotz LS-K d8-2", "SystemAddress":79314340043, "StarPos":[518.56250,233.18750,-1598.21875], "StarClass":"A" }, 
-{ "StarSystem":"Outotz LS-K d8-3", "SystemAddress":113674078411, "StarPos":[526.31250,238.46875,-1613.75000], "StarClass":"G" }
+{ "timestamp":"2024-03-25T12:59:27Z", "event":"NavRouteClear", "Route":[ 
+
  ] }
